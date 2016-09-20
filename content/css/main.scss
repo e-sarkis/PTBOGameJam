@@ -3,12 +3,19 @@
 ---
 @charset "utf-8";
 
+
+
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
 $base-font-weight: 400;
+$base-font-size:   14px;
+$base-line-height: 20px;
+$base-font-family: 'Raleway', Arial, Helvetica, sans-serif;
+
+
+
+
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+
 
 $spacing-unit:     30px;
 
@@ -25,6 +32,7 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
 
 
 // Use media queries like this:
@@ -45,12 +53,12 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "icons",
         "animation",
         "elements",
         "plugins",
+        "theme",
         "skin",
         "skeleton",
         "responsive"
-      //  "layout",
-      //  "syntax-highlighting"
 ;
