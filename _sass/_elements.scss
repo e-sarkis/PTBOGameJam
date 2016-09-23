@@ -78,7 +78,7 @@ margin-bottom: 5px;
   text-align: center
 }
 .jx-servicebox-1 .jx-service-item .service-icon i{
-  color:#ee163a;
+  color:$primary-color;
   font-size:60px;
 }
 .jx-servicebox-1 .jx-service-item .service-title{
@@ -91,10 +91,10 @@ margin-bottom: 5px;
   font-weight:600
 }
 .jx-servicebox-1 .jx-service-item .service-title a:hover{
-  color:#ee163a;
+  color:$primary-color;
 }
 .jx-servicebox-1 .jx-service-item .service-title-border{
-  background:#ee163a;
+  background:$primary-color;
   width:100px;
   height:3px;
   margin:0 auto;
@@ -125,7 +125,7 @@ margin-bottom: 5px;
 }
 
 .jx-servicebox-2 .service-icon i{
-  color:#EE163A !important;
+  color:$primary-color !important;
   padding:10px;
 
 }
@@ -138,7 +138,7 @@ margin-bottom: 5px;
   text-align: center
 }
 .jx-servicebox-2 .jx-service-item .service-icon i{
-  color:#ee163a;
+  color:$primary-color;
   font-size:60px;
 }
 .jx-servicebox-2 .jx-service-item .service-title{
@@ -151,10 +151,10 @@ margin-bottom: 5px;
   font-weight:600
 }
 .jx-servicebox-2 .jx-service-item .service-title a:hover{
-  color:#ee163a;
+  color:$primary-color;
 }
 .jx-servicebox-2 .jx-service-item .service-title-border{
-  background:#ee163a;
+  background:$primary-color;
   width:100px;
   height:3px;
   margin:0 auto;
@@ -234,12 +234,12 @@ margin-bottom: 5px;
 	.jx-speaker-item.jx-speaker-box-content .jx-title span{
 	  font-size:31px;
 	  font-weight:600;
-	  color:#EE163A
+	  color:$primary-color
 	}
 	.jx-hr-title{
 	  width:50px;
 	  height:2px;
-	  background:#EE163A;
+	  background:$primary-color;
 	  margin:8px 0
 	}
 
@@ -366,7 +366,7 @@ margin-bottom: 5px;
     cursor: pointer;
     color: #fff;
     text-transform: uppercase;
-    background: #ee163a ;
+    background: $primary-color ;
   border-radius:0;
   text-align: center;
   height:60px;
@@ -434,7 +434,7 @@ margin-bottom: 5px;
 .jx-btn-default {
 	padding: 0px 22px;
 	display: inline-block;
-	background: #EE163A none repeat scroll 0% 0%;
+	background: $primary-color none repeat scroll 0% 0%;
 	color: #FFF;
 	font-size: 16px;
 	border: 0px none;
@@ -462,13 +462,13 @@ margin-bottom: 5px;
 
 
 .jx-btn-default.jx-outline {
-    color: #EE163A;
-    border: 2px solid #EE163A;
+    color: $primary-color;
+    border: 2px solid $primary-color;
 	background:none;
 }
 
 .jx-btn-default.jx-outline i {
-    color: #EE163A;
+    color: $primary-color;
   	font-size:30px;
  	padding:0;
   	vertical-align: middle
@@ -578,7 +578,7 @@ margin-bottom: 5px;
 	position: absolute;
 	border-style: solid;
 	border-width: 9px 9px 0;
-	border-color: #EE163A transparent;
+	border-color: $primary-color transparent;
 	display: block;
 	width: 0;
 	z-index: 5;
@@ -588,7 +588,7 @@ margin-bottom: 5px;
 }
 .shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active {
   padding: 24px 52px 25px;
-  background-color: #EE163A;
+  background-color: $primary-color;
   color: #fff;
   width: 30%;
 }
@@ -635,7 +635,7 @@ margin-bottom: 5px;
 .resp-tab-item.childtab_2.resp-tab-active,
 .resp-tab-item.childtab_3.resp-tab-active,
 .resp-tab-item.childtab_4.resp-tab-active{
-  border-bottom:4px solid #EE163A  !important;
+  border-bottom:4px solid $primary-color  !important;
   padding-bottom:14px !important;;
 }
 
@@ -657,7 +657,7 @@ margin-bottom: 5px;
 [13.0 FAQ  ]
 ---------------------------------------------------------------*/
 .jx-faq .jx-faq-head .jx-faq-title{
-  background:#ee163a;
+  background:$primary-color;
   padding:20px 0;
   width:111px;
   height:88px;
@@ -677,7 +677,7 @@ margin-bottom: 5px;
   width: 0;
   border-width: 15px 15px 0;
   border-style: solid;
-  border-color: #ee163a transparent;
+  border-color: $primary-color transparent;
 }
 .jx-faq-description{
   background:#000;
@@ -743,7 +743,7 @@ margin-bottom: 5px;
 }
 .jx-contact-form input.jx-submit{
   width:100%;
-  background:#ee163a;
+  background:$primary-color;
   color:#fff !important;
   font-family:raleway;
   text-transform:uppercase;
@@ -850,14 +850,14 @@ line-height: 1.5;
 .jx-testimonial-item .jx-testimonial-content .jx-name i {
 	width: 35px;
 	height: 35px;
-	color: #EE163A;
+	color: $primary-color;
 	text-align: center;
 	line-height: 35px;
 	background: #fff;
 }
 
 .jx-testimonial-item .jx-testimonial-content .jx-name{
-  background:#EE163A;
+  background:$primary-color;
   color:#fff;
   font-size:19px;
   text-transform: uppercase;
@@ -894,14 +894,14 @@ line-height: 1.5;
   vertical-align: middle;
 }
 .jx-testimonial .flex-control-nav.flex-control-paging li a{
-  background:#ee163a;
+  background:$primary-color;
   width:15px;
   height:15px;
   line-height: 1;
   vertical-align: middle;
 }
 .jx-testimonial .flex-control-nav.flex-control-paging li a.flex-active{
-  border: 2px solid #ee163a;
+  border: 2px solid $primary-color;
   background:none;
   vertical-align: middle;
 }
@@ -909,7 +909,7 @@ line-height: 1.5;
 [10.0 Price Table ]
 ----------------------------------------------------------------*/
 .jx-price-table .jx-price-item{
-  background:#ee163a;
+  background:$primary-color;
   color:#fff;
 }
 .jx-price-table .jx-price-item .jx-price{
@@ -956,15 +956,15 @@ border-top: 1px solid rgba(255,255,255,0.3);
 }
 
 .jx-price-table .jx-price-item.jx-white .jx-price {
-    background-color: #EE163A;
+    background-color: $primary-color;
 }
 
 .jx-price-table .jx-price-item.jx-white .jx-package-name {
-    background-color: #EE163A;
+    background-color: $primary-color;
 }
 
 .jx-price-table .jx-price-item.jx-white .jx-price,.jx-price-item.jx-white .jx-package-name,.jx-price-item.jx-white .jx-package-feature{
-  color:#EE163A;
+  color:$primary-color;
 }
 
 
@@ -1063,7 +1063,7 @@ border-top: 1px solid rgba(255,255,255,0.3);
   opacity: 0.9;
 }
 .jx-countdown .counter-wrapper li{
-	background:#ee163a;
+	background:$primary-color;
 	color:#fff;
 	padding:10px;
 	width: 93px;
@@ -1096,12 +1096,12 @@ border-top: 1px solid rgba(255,255,255,0.3);
 
 .jx-btn-default.jx-outline.jx-white-btn {
     background: #fff;
-    color:#EE163A;
+    color:$primary-color;
 }
 
 .jx-btn-default.jx-outline.jx-white-btn:hover {
     background: #000;
-    color:#EE163A;
+    color:$primary-color;
 }
 
 .jx-countdown-box  p{
@@ -1142,7 +1142,7 @@ border-top: 1px solid rgba(255,255,255,0.3);
 }
 
 .jx-media-center .title a:hover{
-  color:#EE163A;
+  color:$primary-color;
 }
 
 .jx-media-center .date {
@@ -1152,7 +1152,7 @@ border-top: 1px solid rgba(255,255,255,0.3);
 }
 .jx-media-center .date i {
     font-size: 20px;
-	color:#EE163A;
+	color:$primary-color;
 	padding:0px;
 	padding-right:5px;
 	vertical-align: middle;
@@ -1287,11 +1287,11 @@ border-top: 1px solid rgba(255,255,255,0.3);
 .jx-event-schedule .date {
     font-size: 20px;
     font-weight: 600;
-	color:#EE163A;
+	color:$primary-color;
 }
 .jx-event-schedule .date i {
     font-size: 23px;
-	color:#EE163A;
+	color:$primary-color;
 	padding:0px;
 	padding-right:3px;
 }
@@ -1322,7 +1322,7 @@ border-top: 1px solid rgba(255,255,255,0.3);
     font-size: 30px;
     text-align: center;
     padding-top: 18px;
-    background: #EE163A;
+    background: $primary-color;
     border-radius: 50%;
 	margin-top:13px;
 }
@@ -1709,7 +1709,7 @@ border-top: 1px solid rgba(255,255,255,0.3);
 ----------------------------------------------------------------*/
 
 .jx-portfolio-grid {
-  background: #EE163A;
+  background: $primary-color;
   /*max-width: 100%;*/
 }
 
@@ -1737,7 +1737,7 @@ border-top: 1px solid rgba(255,255,255,0.3);
   float: left;
   width: 200px;
   height: 200px;
-  background: #EE163A;
+  background: $primary-color;
 }
 
 .grid-item-width2 { width: 400px; }
@@ -1929,7 +1929,7 @@ margin-bottom: 12px;
 
 }
 .jx-grid-item .jx-date-box{
-  background:#EE163A;
+  background:$primary-color;
   width:228px;
   height: 228px;
   display:block;
@@ -2017,7 +2017,7 @@ padding:0px;
   left: 2px;
   height: 40px;
   width: 90px;
-  background-color: #EE163A;
+  background-color: $primary-color;
   color:#FFFFFF;
   border-radius: 50em;
   -webkit-transition: -webkit-transform 0.5s;
@@ -2450,7 +2450,7 @@ xkeyframes
 -------------------------------- */
 
 .jx-summary-info{
-  background:#EE163A;
+  background:$primary-color;
   height:140px;
   position: relative
 }
@@ -2460,7 +2460,7 @@ xkeyframes
   position: absolute;
   border-style: solid;
   border-width: 0 25px 25px;
-  border-color: #EE163A transparent;
+  border-color: $primary-color transparent;
   display: block;
   width: 0;
   z-index: 99;

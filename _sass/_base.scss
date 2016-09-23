@@ -14,7 +14,7 @@ Text Domain: ievent
 
 /*------------------------------------------------------------------
 # [Color codes]
-# Main Theme (Yellow): #ee163a
+# Main Theme (Yellow): $primary-color
 # Main Theme (Black): #000
 # Body Text: #666
 [Table of contents]
@@ -71,7 +71,7 @@ ul.default li:before {
   content: '\f005';
   font-family: fontawesome;
   margin-right: 10px;
-  color:#ee163a;
+  color:$primary-color;
 }
 p {
   font-size: 13px;
@@ -158,11 +158,11 @@ blockquote.right {
 }
 ::selection {
   color: #ffffff;
-  background:#ee163a
+  background:$primary-color
 }
 ::-moz-selection {
   color: #ffffff;
-  background:#ee163a
+  background:$primary-color
 }
 
 
@@ -382,7 +382,7 @@ blockquote,blockquote p {
 blockquote {
 	margin: 0px 0px 20px;
 	padding: 0px 20px 0px 19px;
-	border-left: 4px solid #ee163a;
+	border-left: 4px solid $primary-color;
 }
 blockquote cite {
   display: block;
@@ -446,13 +446,13 @@ hr {
 a {
   text-decoration: none;
   outline: 0;
-  color:#ee163a;
+  color:$primary-color;
 }
 a:hover{
   color: #000000;
 }
 a:focus {
-  color: #EE163A;
+  color: $primary-color;
 }
 p a,p a:visited {
   line-height: inherit;
@@ -650,7 +650,7 @@ table th {
   font-size: 12px;
   padding: 10px;
   text-align: center;
-    background-color:#ee163a;
+    background-color:$primary-color;
 }
 table td {
   text-align: center;
@@ -814,7 +814,7 @@ dl dt {
   z-index: 0;
 }
 .jx-default-bg{
- background-color:#ee163a;
+ background-color:$primary-color;
 }
 .jx-grey-bg{
 	background-color:#f9f9f9;
@@ -1045,7 +1045,7 @@ dl dt {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #EE163A;
+  background-color: $primary-color;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -1093,7 +1093,7 @@ dl dt {
 }
 
 .jx-section-title-1 .jx-title-icon i{
-  color:#ee163a;
+  color:$primary-color;
   font-size:35px
 }
 
@@ -1353,7 +1353,7 @@ header .jx-logo{
 }
 
 .jx-menu .main-menu li:hover{
-  background:#EE163A
+  background:$primary-color
 }
 
 .jx-menu .main-menu li a{
@@ -1365,11 +1365,11 @@ header .jx-logo{
 }
 
 .jx-menu .main-menu li a.mPS2id-highlight{
-  background:#EE163A
+  background:$primary-color
 }
 
 .jx-menu .main-menu li a.mPS2id-highlight-first{
-    background: #EE163A
+    background: $primary-color
 }
 
 /* Sub Menu */
@@ -1441,7 +1441,7 @@ header .jx-logo{
 
 .jx-page-titlebar .jx-page-titlebar-items .jx-page-title{
   color:#fff;
-  background:#EE163A;
+  background:$primary-color;
   display:initial;
   padding:10px 30px;
   font-size:40px;
@@ -1465,12 +1465,12 @@ header .jx-logo{
   color:#ffffff !important;
 }
 .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb a:hover{
-  color:#EE163A;
+  color:$primary-color;
 }
 
 .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.current{
   color:#fff;
-  background:#EE163A;
+  background:$primary-color;
   display:initial;
   padding:10px 30px;
   font-size:30px;
@@ -1550,7 +1550,7 @@ font-size:32px;
 
 .jx-placeholder-head.title_style-1 a:hover h2{
   color:#fff;
-  background: #EE163A;
+  background: $primary-color;
 }
 
 /*---------------------------------------------------------------
@@ -1721,8 +1721,8 @@ select.valid, input.valid {
   margin-left:0px;
   left:0;
   padding:10px;
-  color:#EE163A;
-  border:1px solid #EE163A;
+  color:$primary-color;
+  border:1px solid $primary-color;
   width:100%;
   text-align: center
 }
@@ -1788,7 +1788,7 @@ select.valid, input.valid {
 
 .jx-event-box-register .jx-event-register .jx-btn-default{
   padding:0;
-  background:#EE163A;
+  background:$primary-color;
   border:none;
   color:#fff;
   border-radius:0;
@@ -1806,7 +1806,7 @@ select.valid, input.valid {
 }
 
 .jx-ticket-form .jx-btn-default {
-    background: #EE163A none repeat scroll 0% 0%;
+    background: $primary-color none repeat scroll 0% 0%;
     border:transparent solid 1px;
     color: #ffffff ;
     border-radius: 0px;
@@ -1819,7 +1819,7 @@ select.valid, input.valid {
 
 .jx-ticket-form .jx-btn-default:hover {
   background:#000000 !important;
-  border:#EE163A solid 1px;
+  border:$primary-color solid 1px;
   color:#ffffff;
 }
 
@@ -1891,7 +1891,7 @@ select.valid, input.valid {
 }
 
 .jx-info-content .info-title{
-  color:#EE163A;
+  color:$primary-color;
   font-size:16px;
   font-weight:500
 }
@@ -1973,7 +1973,7 @@ select.valid, input.valid {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background:#EE163A;
+  background:$primary-color;
   width:70px;
   height:70px;
   text-align:center;
@@ -2043,7 +2043,7 @@ select.valid, input.valid {
 }
 
 .jx-event-play i:hover{
-  color:#EE163A;
+  color:$primary-color;
   border:10px solid transparent;
   background:rgba(255,255,255,1);
   cursor:pointer;
@@ -2075,7 +2075,7 @@ select.valid, input.valid {
   margin-right:10px;
   text-align: center;
   line-height: 60px;
-  background:#EE163A;
+  background:$primary-color;
   color:#fff;
   font-size:30px;
 }
@@ -2156,7 +2156,7 @@ select.valid, input.valid {
 
 .jx-blog-meta div.jx-event-cat a:hover{
   font-size:25px;
-  color:#EE163A  !important;
+  color:$primary-color  !important;
 }
 
 .jx-blog-metabox.jx-single{
@@ -2183,7 +2183,7 @@ select.valid, input.valid {
 	top: -2px;
 	font-size: 15px;
 	font-weight: 500;
-	color: #ee163a;
+	color: $primary-color;
 }
 .jx-blog .description {
 	padding: 10px 0px 10px 0px;
@@ -2270,7 +2270,7 @@ select.valid, input.valid {
 }
 
 .jx-readmore a:hover{
-    background:#EE163A;
+    background:$primary-color;
     color:#fff !important;;
 }
 
@@ -2386,7 +2386,7 @@ select.valid, input.valid {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  border:2px solid #EE163A;
+  border:2px solid $primary-color;
   line-height: 11px;
   background: transparent none repeat scroll 0% 0%;
   box-shadow: none;
@@ -2399,7 +2399,7 @@ select.valid, input.valid {
 .jx-blog-item .flex-control-paging li a.flex-active {
   width: 14px;
   height: 14px;
-  background: #EE163A ;
+  background: $primary-color ;
   border: 1px solid;
   cursor: default;
  line-height: 1
@@ -2411,7 +2411,7 @@ select.valid, input.valid {
   width:40px;
   height:40px;
   display: inline-block;
-  border:2px solid #EE163A;
+  border:2px solid $primary-color;
   text-align: center;
   line-height: 36px;
   margin-right:7px;
@@ -2436,11 +2436,11 @@ select.valid, input.valid {
 }
 
 .jx-pagination span.current{
-  background: #EE163A;
+  background: $primary-color;
   width:40px;
   height:40px;
   display: inline-block;
-  border:2px solid #EE163A;
+  border:2px solid $primary-color;
   text-align: center;
   line-height: 36px;
   margin-right:7px;
@@ -2548,7 +2548,7 @@ select.valid, input.valid {
 	color:#999999;
 }
 .commentlist li .date a {
-	color:#EE163A;
+	color:$primary-color;
 }
 .commentlist li .date a:hover {
 	color:#000;
@@ -2605,7 +2605,7 @@ select.valid, input.valid {
 	border-radius: 0px;
 	-moz-user-select: none;
 	margin: 0px 3px 5px 0px;
-	background: #EE163A none repeat scroll 0% 0%;
+	background: $primary-color none repeat scroll 0% 0%;
 	color: #FFF;
 	border: medium none;
 	font-family: raleway;
@@ -2716,13 +2716,13 @@ select.valid, input.valid {
     font-weight: 600;
     font-size: 20px;
     position: relative;
-    background-color: #EE163A;
+    background-color: $primary-color;
     border-radius: 0px 3px 3px 0px;
     margin-top: 50px;
 }
 .page-title span::before {
     border-bottom: 22px solid transparent;
-    border-left: 22px solid #EE163A;
+    border-left: 22px solid $primary-color;
     border-top: 22px solid transparent;
     content: "";
     height: 0px;
@@ -2766,7 +2766,7 @@ select.valid, input.valid {
     font: bold 26px/40px "Oswald","trebuchet MS","Tahoma";
     color: #FFF;
     text-transform: uppercase;
-    background: #EE163A none repeat scroll 0% 0%;
+    background: $primary-color none repeat scroll 0% 0%;
     border-radius: 0px 3px 3px 0px;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
 }
@@ -2954,7 +2954,7 @@ li .fa-flickr:hover{
 }
 
 .jx-footer-copyright a {
-  color:#EE163A;
+  color:$primary-color;
 }
 
 .jx-footer-copyright a:hover {
@@ -2985,8 +2985,8 @@ li .fa-flickr:hover{
 
 .jx-sidebar-widget .widget_search input.search-submit{
 	line-height: 1.2;
-	background-color: #EE163A;
-	border: 1px solid #EE163A;
+	background-color: $primary-color;
+	border: 1px solid $primary-color;
 	color: #FFF;
 	font-size: 15px;
 	font-family: raleway;
@@ -3026,7 +3026,7 @@ li .fa-flickr:hover{
 .jx-sidebar-widget .jx-right-pattern{
   width:20px;
   height:2px;
-  background:#EE163A;
+  background:$primary-color;
   margin:2px 0 10px;
 }
 
@@ -3087,7 +3087,7 @@ html{
 .jx-footersection-widget .jx-right-pattern{
   width:20px;
   height:2px;
-  background:#EE163A;
+  background:$primary-color;
   margin:2px 0 10px;
 }
 

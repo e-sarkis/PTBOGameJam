@@ -92,12 +92,12 @@ body , .jx-accordion .description
 .jx-info-content .info-title , .jx-section-title-1 .jx-title-icon i , .jx-servicebox-1 .jx-service-item .service-icon i , .jx-event-schedule .date ,
 .jx-event-schedule .date i , .jx-media-center .date i , .jx-countdown-form .jx-countdown-box h1 , .jx-btn-default.jx-outline , .jx-testimonial-details .jx-testimonial-icon i , .jx-testimonial-content .jx-testimonial-name , a , .jx-price-item.jx-white .jx-price,.jx-price-item.jx-white .jx-package-name,.jx-price-item.jx-white .jx-package-feature , .jx-btn-default.jx-outline i , .jx-readmore a , .jx-blog .title a , .jx-speaker-details .jx-speaker-social ul li:hover i , .jx-speaker-item.jx-speaker-box-content .jx-title span
 {
-	color:#EE163A ;
+	color: $primary-color ;
 }
 
 
 .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb a:hover , .jx-section-title-1 .jx-title-icon i , .jx-info-content .info-title , .jx-servicebox-2 .service-icon i , .jx-testimonial-item .jx-testimonial-content .jx-name i{
-	color:#EE163A !important;
+	color:$primary-color !important;
 }
 
 a:hover {
@@ -112,7 +112,7 @@ a:hover {
 	color:#ffffff !important;
 }
 .jx-btn-default.jx-outline {
-	color:#EE163A !important;
+	color:$primary-color !important;
 }
 .jx-btn-default.jx-outline:hover {
 	color:#ffffff !important;
@@ -124,21 +124,21 @@ a:hover {
 /* ------------------------------------------------------------------------ */
 ::selection
 {
-	background:#EE163A !important;
+	background:$primary-color !important;
 }
 ::-moz-selection
 {
-	background:#EE163A !important;
+	background:$primary-color !important;
 }
 .jx-servicebox-1 .jx-service-item .service-title-border , .jx-event-schedule .image i , .jx-speaker-details , .grid-item ,
 .jx-newsletter .jx-form-wrapper button , .jx-single-point > a  , .jx-countdown .counter-wrapper li  , .jx-faq .jx-faq-head .jx-faq-title , .jx-contact-form input.jx-submit, .jx-menu .main-menu li:hover , .jx-main-slider .flex-direction-nav a  , .jx-menu .main-menu li a.mPS2id-highlight , .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.current , .jx-image-container .jx-post-format , .jx-sidebar-widget .jx-right-pattern , .jx-blog-item .flex-control-paging li a.flex-active , .jx-page-search.wide .jx-form-wrapper button , .jx-ticket-form .jx-btn-default , .jx-price-table .jx-price-item , .jx-pagination span.current , #comment-submit , .jx-event-box-register .jx-event-register .jx-btn-default , .jx-grid-item .jx-date-box , .jx-testimonial-item .jx-testimonial-content .jx-name , .jx-summary-info , .jx-footersection-widget .jx-right-pattern , .jx-hr-title , .jx-servicebox-2 .jx-service-item .service-title-border
 {
-	background:#EE163A !important;
+	background:$primary-color !important;
 }
 
 .jx-sponsor .flex-control-nav.flex-control-paging li a , .jx-testimonial .flex-control-nav.flex-control-paging li a , .jx-price-table .jx-price-item , .jx-btn-default
 {
-	background:#EE163A;
+	background:$primary-color;
 }
 .jx-price-item.jx-white{
   background:#fff !important;
@@ -150,7 +150,7 @@ a:hover {
 
 .jx-default-bg , .jx-pricing-switcher .jx-switch , table th , .page-title span , .jx-sidebar-widget .widget_search input.search-submit , .shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active , .jx-price-table .jx-price-item.jx-white .jx-price , .jx-price-table .jx-price-item.jx-white .jx-package-name
 {
-	background-color:#EE163A !important;
+	background-color:$primary-color !important;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -170,18 +170,18 @@ a:hover {
 
 .jx-btn-default.jx-outline , .jx-testimonial .flex-control-nav.flex-control-paging li a.flex-active , .jx-sponsor .flex-control-nav.flex-control-paging li a.flex-active , .jx-price-item.jx-white .jx-package-feature li , .jx-blog-item .flex-control-paging li a , .jx-ticket-form .jx-btn-default:hover , .jx-pagination span.current , .jx-pagination a.page-numbers
 	{
-		border-color:#EE163A !important;
+		border-color:$primary-color !important;
 	}
 .jx-faq .jx-faq-head .jx-faq-title::after
 	{
-	border-color: #EE163A transparent !important;
+	border-color: $primary-color transparent !important;
 	}
 .shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li.resp-tab-active::after , .jx-summary-info::after
 {
-	border-color: #EE163A transparent;
+	border-color: $primary-color transparent;
 }
 .jx-btn-default {
-	border-color:#EE163A;
+	border-color:$primary-color;
 }
 
 
@@ -190,7 +190,7 @@ a:hover {
 /* ------------------------------------------------------------------------ */
 
 .page-title span::before {
-	border-left-color:#EE163A !important;
+	border-left-color:$primary-color !important;
 }
 
 
@@ -205,7 +205,7 @@ a:hover {
 /* ------------------------------------------------------------------------ */
 .resp-tab-item.childtab_1.resp-tab-active , .resp-tab-item.childtab_2.resp-tab-active , .resp-tab-item.childtab_3.resp-tab-active
  {
-	border-bottom-color:#EE163A !important;
+	border-bottom-color:$primary-color !important;
  }
 /* ------------------------------------------------------------------------ */
 /* Variant Background Color
