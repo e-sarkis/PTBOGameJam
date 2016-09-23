@@ -34,7 +34,7 @@ Text Domain: ievent
 /* Basics */
 * {
   font-family: $base-font-family
-  -moz-box-sizing: border-box;
+  -moz-box-sizing;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
