@@ -15,9 +15,24 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://staging.ptbogamejam.com" # the base hostname & protocol for your site
+
 dotbunny_url: "http://dotbunny.com"
+dotbunny_api_url: "https://api.dotbunny.com"
 
 username: "PTBOGameJam"
 
 # Build settings
 markdown: kramdown
+
+google_api_key: "AIzaSyDtYuwLCEBRLorbWUdeCgHZjqOqM92Mjg4"
+
+
+# Next Event Details
+event_title: "PTBO Game Jam 02"
+
+map_latitude: "40.6700"
+map_longitude: "-73.9400"
+map_zoom: "11"
+
+venue_latitude: "40.6700"
+venue_longitude: "-73.8400"

@@ -36,11 +36,11 @@
 /* #Linecons Font ==========================================*/
 @font-face {
   font-family: 'linecons';
-  src: url('../fonts/linecons.eot?17392200');
-  src: url('../fonts/linecons.eot?17392200#iefix') format('embedded-opentype'),
-       url('../fonts/linecons.woff?17392200') format('woff'),
-       url('../fonts/linecons.ttf?17392200') format('truetype'),
-       url('../fonts/linecons.svg?17392200#linecons') format('svg');
+  src: url('/content/vendor/linecons/linecons.eot?17392200');
+  src: url('/content/vendor/linecons/linecons.eot?17392200#iefix') format('embedded-opentype'),
+       url('/content/vendor/linecons/linecons.woff?17392200') format('woff'),
+       url('/content/vendor/linecons/linecons.ttf?17392200') format('truetype'),
+       url('/content/vendor/linecons/linecons.svg?17392200#linecons') format('svg');
   font-weight: normal;
   font-style: normal;
 }

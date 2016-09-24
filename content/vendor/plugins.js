@@ -8,7 +8,7 @@
 
 
 /*!
-	Counter Up	
+	Counter Up
 */
 /*!
 * jquery.counterup.js 1.0
@@ -228,7 +228,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
         function closeAccordion($accordion, $content) {
             $accordion.trigger('accordion.close');
-            
+
             if(CSStransitions) {
                 if(accordionHasParent) {
                     var $parentAccordions = $accordion.parents('[data-accordion]');
@@ -311,12 +311,12 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
         function addEventListeners() {
             $controls.on('click', toggleAccordion);
-            
+
             $controls.on('accordion.toggle', function() {
                 if(opts.singleOpen && $controls.length > 1) {
                     return false;
                 }
-                
+
                 toggleAccordion();
             });
 
@@ -400,7 +400,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
             scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
 
         this.checkElements = function(){
-        
+
             // Set some vars to check with
 			if(!options.scrollHorizontal){
 				var viewportTop = $(scrollElem).scrollTop(),
@@ -410,7 +410,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 				var viewportTop = $(scrollElem).scrollLeft(),
 					viewportBottom = (viewportTop + windowSize);
 			}
-            
+
 
             $elem.each(function(){
                 var $obj = $(this),
@@ -445,7 +445,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
                     // Do the callback function. Callback wil send the jQuery object as parameter
                     objOptions.callbackFunction($obj, "add");
-                    
+
                 // Remove class if not in viewport and repeat is true
                 } else if ($obj.hasClass(objOptions.classToAdd) && (objOptions.repeat)){
                     $obj.removeClass(objOptions.classToAdd);
@@ -454,7 +454,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
                     objOptions.callbackFunction($obj, "remove");
                 }
             });
-        
+
         };
 
         // Run checkelements on load and scroll
@@ -464,17 +464,17 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
         $(window).resize(function(e){
             windowSize = (!options.scrollHorizontal) ? e.currentTarget.innerHeight : e.currentTarget.innerWidth;
         });
-        
+
         // trigger inital check if elements already visible
         this.checkElements();
-        
+
         return this;
     };
 })(jQuery);
 
 
 // Easy Responsive Tabs Plugin
-// Author: Samson.Onna <Email : samson3d@gmail.com> 
+// Author: Samson.Onna <Email : samson3d@gmail.com>
 (function ($) {
     $.fn.extend({
         easyResponsiveTabs: function (options) {
@@ -688,7 +688,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
                 });
 
-                //Window resize function                   
+                //Window resize function
                 $(window).resize(function () {
                     $respTabs.find('.resp-accordion-closed').removeAttr('style');
                 });
@@ -702,24 +702,24 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
 ( function( $ ) {
 	"use strict";
-	
+
 	// Define default settings
 	var defaults = {
 		action: function() {},
 		runOnLoad: false,
 		duration: 500
 	};
-	
+
 	// Define global variables
 	var settings = defaults,
 		running = false,
 		start;
-	
+
 	var methods = {};
-	
+
 	// Initial plugin configuration
 	methods.init = function() {
-		
+
 		// Allocate passed arguments to settings based on type
 		for( var i = 0; i <= arguments.length; i++ ) {
 			var arg = arguments[i];
@@ -735,26 +735,26 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 					break;
 			}
 		}
-	
+
 		// Process each matching jQuery object
 		return this.each(function() {
-		
+
 			if( settings.runOnLoad ) { settings.action(); }
-			
+
 			$(this).resize( function() {
-				
+
 				methods.timedAction.call( this );
-				
+
 			} );
-		
+
 		} );
 	};
-	
+
 	methods.timedAction = function( code, millisec ) {
-		
+
 		var doAction = function() {
 			var remaining = settings.duration;
-			
+
 			if( running ) {
 				var elapse = new Date() - start;
 				remaining = settings.duration - elapse;
@@ -764,40 +764,40 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 					running = false;
 					// Perform user defined function
 					settings.action();
-				
+
 					return;
 				}
 			}
 			wait( remaining );
 		};
-		
+
 		var wait = function( time ) {
 			running = setTimeout( doAction, time );
 		};
-		
+
 		// Define new action starting time
 		start = new Date();
-		
+
 		// Define runtime settings if function is run directly
 		if( typeof millisec === 'number' ) { settings.duration = millisec; }
 		if( typeof code === 'function' ) { settings.action = code; }
-		
+
 		// Only run timed loop if not already running
 		if( !running ) { doAction(); }
-		
+
 	};
 
-	
+
 	$.fn.afterResize = function( method ) {
-		
+
 		if( methods[method] ) {
 			return methods[method].apply( this, Array.prototype.slice.call( arguments, 1 ) );
 		} else {
 			return methods.init.apply( this, arguments );
 		}
-		
+
 	};
-	
+
 })(jQuery);
 
 /*!
@@ -919,7 +919,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 /*!
  * classie - class helper functions
  * from bonzo https://github.com/ded/bonzo
- * 
+ *
  * classie.has( elem, 'my-class' ) -> true/false
  * classie.add( elem, 'my-new-class' )
  * classie.remove( elem, 'my-unwanted-class' )
@@ -1005,7 +1005,7 @@ if ( typeof define === 'function' && define.amd ) {
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
@@ -1069,12 +1069,12 @@ if ( typeof define === 'function' && define.amd ) {
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2015, Codrops
  * http://www.codrops.com
  */
 ;(function(window) {
-	
+
 	'use strict';
 
 	/**
@@ -1082,7 +1082,7 @@ if ( typeof define === 'function' && define.amd ) {
 	 * utils
 	 * **************************************************************************
 	 */
-	
+
 	// from https://gist.github.com/desandro/1866474
 	var lastTime = 0;
 	var prefixes = 'webkit moz ms o'.split(' ');
@@ -1119,7 +1119,7 @@ if ( typeof define === 'function' && define.amd ) {
 	}
 
 	function extend( a, b ) {
-		for( var key in b ) { 
+		for( var key in b ) {
 			if( b.hasOwnProperty( key ) ) {
 				a[key] = b[key];
 			}
@@ -1188,7 +1188,7 @@ if ( typeof define === 'function' && define.amd ) {
 		movement : {
 			perspective : 1000, // perspective value
 			translateX : -10, // a relative movement of -10px to 10px on the x-axis (setting a negative value reverses the direction)
-			translateY : -10, // a relative movement of -10px to 10px on the y-axis 
+			translateY : -10, // a relative movement of -10px to 10px on the y-axis
 			translateZ : 20, // a relative movement of -20px to 20px on the z-axis (perspective value must be set). Also, this specific translation is done when the mouse moves vertically.
 			rotateX : 2, // a relative rotation of -2deg to 2deg on the x-axis (perspective value must be set)
 			rotateY : 2, // a relative rotation of -2deg to 2deg on the y-axis (perspective value must be set)
@@ -1289,9 +1289,9 @@ if ( typeof define === 'function' && define.amd ) {
 				var el = self.imgElems[i];
 				el.style.WebkitTransform = 'perspective(' + moveOpts.perspective + 'px) translate3d(0,0,0) rotate3d(1,1,1,0deg)';
 				el.style.transform = 'perspective(' + moveOpts.perspective + 'px) translate3d(0,0,0) rotate3d(1,1,1,0deg)';
-			}	
+			}
 			}, 60);
-			
+
 		});
 
 		// window resize
@@ -1464,7 +1464,7 @@ if ( typeof define === 'function' && define.amd ) {
                     quart = Math.PI / 0.996;
                 }
             }
-            
+
             if ($(this).data('type') != undefined) {
                 type = $(this).data('type');
 
@@ -1596,7 +1596,7 @@ if ( typeof define === 'function' && define.amd ) {
  *
  * Copyright 2011-2012, Dimitar Ivanov (http://www.bulgaria-web-developers.com/projects/javascript/selectbox/)
  * Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) license.
- * 
+ *
  * Date: Tue Jul 17 19:58:36 2012 +0300
  */
 (function($,undefined){var PROP_NAME="selectbox",FALSE=false,TRUE=true;function Selectbox(){this._state=[];this._defaults={classHolder:"sbHolder",classHolderDisabled:"sbHolderDisabled",classSelector:"sbSelector",classOptions:"sbOptions",classGroup:"sbGroup",classSub:"sbSub",classDisabled:"sbDisabled",classToggleOpen:"sbToggleOpen",classToggle:"sbToggle",classFocus:"sbFocus",speed:200,effect:"slide",onChange:null,onOpen:null,onClose:null}}$.extend(Selectbox.prototype,{_isOpenSelectbox:function(target){if(!target){return FALSE}var inst=this._getInst(target);return inst.isOpen},_isDisabledSelectbox:function(target){if(!target){return FALSE}var inst=this._getInst(target);return inst.isDisabled},_attachSelectbox:function(target,settings){if(this._getInst(target)){return FALSE}var $target=$(target),self=this,inst=self._newInst($target),sbHolder,sbSelector,sbToggle,sbOptions,s=FALSE,optGroup=$target.find("optgroup"),opts=$target.find("option"),olen=opts.length;$target.attr("sb",inst.uid);$.extend(inst.settings,self._defaults,settings);self._state[inst.uid]=FALSE;$target.hide();function closeOthers(){var key,sel,uid=this.attr("id").split("_")[1];for(key in self._state){if(key!==uid){if(self._state.hasOwnProperty(key)){sel=$("select[sb='"+key+"']")[0];if(sel){self._closeSelectbox(sel)}}}}}sbHolder=$("<div>",{id:"sbHolder_"+inst.uid,"class":inst.settings.classHolder,tabindex:$target.attr("tabindex")});sbSelector=$("<a>",{id:"sbSelector_"+inst.uid,href:"#","class":inst.settings.classSelector,click:function(e){e.preventDefault();closeOthers.apply($(this),[]);var uid=$(this).attr("id").split("_")[1];if(self._state[uid]){self._closeSelectbox(target)}else{self._openSelectbox(target)}}});sbToggle=$("<a>",{id:"sbToggle_"+inst.uid,href:"#","class":inst.settings.classToggle,click:function(e){e.preventDefault();closeOthers.apply($(this),[]);var uid=$(this).attr("id").split("_")[1];if(self._state[uid]){self._closeSelectbox(target)}else{self._openSelectbox(target)}}});sbToggle.appendTo(sbHolder);sbOptions=$("<ul>",{id:"sbOptions_"+inst.uid,"class":inst.settings.classOptions,css:{display:"none"}});$target.children().each(function(i){var that=$(this),li,config={};if(that.is("option")){getOptions(that)}else{if(that.is("optgroup")){li=$("<li>");$("<span>",{text:that.attr("label")}).addClass(inst.settings.classGroup).appendTo(li);li.appendTo(sbOptions);if(that.is(":disabled")){config.disabled=true}config.sub=true;getOptions(that.find("option"),config)}}});function getOptions(){var sub=arguments[1]&&arguments[1].sub?true:false,disabled=arguments[1]&&arguments[1].disabled?true:false;arguments[0].each(function(i){var that=$(this),li=$("<li>"),child;if(that.is(":selected")){sbSelector.text(that.text());s=TRUE}if(i===olen-1){li.addClass("last")}if(!that.is(":disabled")&&!disabled){child=$("<a>",{href:"#"+that.val(),rel:that.val()}).text(that.text()).bind("click.sb",function(e){if(e&&e.preventDefault){e.preventDefault()}var t=sbToggle,$this=$(this),uid=t.attr("id").split("_")[1];self._changeSelectbox(target,$this.attr("rel"),$this.text());self._closeSelectbox(target)}).bind("mouseover.sb",function(){var $this=$(this);$this.parent().siblings().find("a").removeClass(inst.settings.classFocus);$this.addClass(inst.settings.classFocus)}).bind("mouseout.sb",function(){$(this).removeClass(inst.settings.classFocus)});if(sub){child.addClass(inst.settings.classSub)}if(that.is(":selected")){child.addClass(inst.settings.classFocus)}child.appendTo(li)}else{child=$("<span>",{text:that.text()}).addClass(inst.settings.classDisabled);if(sub){child.addClass(inst.settings.classSub)}child.appendTo(li)}li.appendTo(sbOptions)})}if(!s){sbSelector.text(opts.first().text())}$.data(target,PROP_NAME,inst);sbHolder.data("uid",inst.uid).bind("keydown.sb",function(e){var key=e.charCode?e.charCode:e.keyCode?e.keyCode:0,$this=$(this),uid=$this.data("uid"),inst=$this.siblings("select[sb='"+uid+"']").data(PROP_NAME),trgt=$this.siblings(["select[sb='",uid,"']"].join("")).get(0),$f=$this.find("ul").find("a."+inst.settings.classFocus);switch(key){case 37:case 38:if($f.length>0){var $next;$("a",$this).removeClass(inst.settings.classFocus);$next=$f.parent().prevAll("li:has(a)").eq(0).find("a");if($next.length>0){$next.addClass(inst.settings.classFocus).focus();$("#sbSelector_"+uid).text($next.text())}}break;case 39:case 40:var $next;$("a",$this).removeClass(inst.settings.classFocus);if($f.length>0){$next=$f.parent().nextAll("li:has(a)").eq(0).find("a")}else{$next=$this.find("ul").find("a").eq(0)}if($next.length>0){$next.addClass(inst.settings.classFocus).focus();$("#sbSelector_"+uid).text($next.text())}break;case 13:if($f.length>0){self._changeSelectbox(trgt,$f.attr("rel"),$f.text())}self._closeSelectbox(trgt);break;case 9:if(trgt){var inst=self._getInst(trgt);if(inst){if($f.length>0){self._changeSelectbox(trgt,$f.attr("rel"),$f.text())}self._closeSelectbox(trgt)}}var i=parseInt($this.attr("tabindex"),10);if(!e.shiftKey){i++}else{i--}$("*[tabindex='"+i+"']").focus();break;case 27:self._closeSelectbox(trgt);break}e.stopPropagation();return false}).delegate("a","mouseover",function(e){$(this).addClass(inst.settings.classFocus)}).delegate("a","mouseout",function(e){$(this).removeClass(inst.settings.classFocus)});sbSelector.appendTo(sbHolder);sbOptions.appendTo(sbHolder);sbHolder.insertAfter($target);$("html").on("mousedown",function(e){e.stopPropagation();$("select").selectbox("close")});$([".",inst.settings.classHolder,", .",inst.settings.classSelector].join("")).mousedown(function(e){e.stopPropagation()})},_detachSelectbox:function(target){var inst=this._getInst(target);if(!inst){return FALSE}$("#sbHolder_"+inst.uid).remove();$.data(target,PROP_NAME,null);$(target).show()},_changeSelectbox:function(target,value,text){var onChange,inst=this._getInst(target);if(inst){onChange=this._get(inst,"onChange");$("#sbSelector_"+inst.uid).text(text)}value=value.replace(/\'/g,"\\'");$(target).find("option[value='"+value+"']").attr("selected",TRUE);if(inst&&onChange){onChange.apply((inst.input?inst.input[0]:null),[value,inst])}else{if(inst&&inst.input){inst.input.trigger("change")}}},_enableSelectbox:function(target){var inst=this._getInst(target);if(!inst||!inst.isDisabled){return FALSE}$("#sbHolder_"+inst.uid).removeClass(inst.settings.classHolderDisabled);inst.isDisabled=FALSE;$.data(target,PROP_NAME,inst)},_disableSelectbox:function(target){var inst=this._getInst(target);if(!inst||inst.isDisabled){return FALSE}$("#sbHolder_"+inst.uid).addClass(inst.settings.classHolderDisabled);inst.isDisabled=TRUE;$.data(target,PROP_NAME,inst)},_optionSelectbox:function(target,name,value){var inst=this._getInst(target);if(!inst){return FALSE}inst[name]=value;$.data(target,PROP_NAME,inst)},_openSelectbox:function(target){var inst=this._getInst(target);if(!inst||inst.isOpen||inst.isDisabled){return }var el=$("#sbOptions_"+inst.uid),viewportHeight=parseInt($(window).height(),10),offset=$("#sbHolder_"+inst.uid).offset(),scrollTop=$(window).scrollTop(),height=el.prev().height(),diff=viewportHeight-(offset.top-scrollTop)-height/2,onOpen=this._get(inst,"onOpen");el.css({top:height+"px",maxHeight:(diff-height)+"px"});inst.settings.effect==="fade"?el.fadeIn(inst.settings.speed):el.slideDown(inst.settings.speed);$("#sbToggle_"+inst.uid).addClass(inst.settings.classToggleOpen);this._state[inst.uid]=TRUE;inst.isOpen=TRUE;if(onOpen){onOpen.apply((inst.input?inst.input[0]:null),[inst])}$.data(target,PROP_NAME,inst)},_closeSelectbox:function(target){var inst=this._getInst(target);if(!inst||!inst.isOpen){return }var onClose=this._get(inst,"onClose");inst.settings.effect==="fade"?$("#sbOptions_"+inst.uid).fadeOut(inst.settings.speed):$("#sbOptions_"+inst.uid).slideUp(inst.settings.speed);$("#sbToggle_"+inst.uid).removeClass(inst.settings.classToggleOpen);this._state[inst.uid]=FALSE;inst.isOpen=FALSE;if(onClose){onClose.apply((inst.input?inst.input[0]:null),[inst])}$.data(target,PROP_NAME,inst)},_newInst:function(target){var id=target[0].id.replace(/([^A-Za-z0-9_-])/g,"\\\\$1");return{id:id,input:target,uid:Math.floor(Math.random()*99999999),isOpen:FALSE,isDisabled:FALSE,settings:{}}},_getInst:function(target){try{return $.data(target,PROP_NAME)}catch(err){throw"Missing instance data for this selectbox"}},_get:function(inst,name){return inst.settings[name]!==undefined?inst.settings[name]:this._defaults[name]}});$.fn.selectbox=function(options){var otherArgs=Array.prototype.slice.call(arguments,1);if(typeof options=="string"&&options=="isDisabled"){return $.selectbox["_"+options+"Selectbox"].apply($.selectbox,[this[0]].concat(otherArgs))}if(options=="option"&&arguments.length==2&&typeof arguments[1]=="string"){return $.selectbox["_"+options+"Selectbox"].apply($.selectbox,[this[0]].concat(otherArgs))}return this.each(function(){typeof options=="string"?$.selectbox["_"+options+"Selectbox"].apply($.selectbox,[this].concat(otherArgs)):$.selectbox._attachSelectbox(this,options)})};$.selectbox=new Selectbox();$.selectbox.version="0.2"})(jQuery);
@@ -1612,7 +1612,7 @@ if ( typeof define === 'function' && define.amd ) {
 	//once upon a time...
 	$.fn.jCounter = function(options,callback) {
 		var jCounterDirection = 'down'; // points out whether it should count down or up | handled via customRange setting
-		
+
 		var customRangeDownCount; //if true, it will tell countdown_proc() it's a down count and not an up count
 		var days,hours,minutes,seconds;
 		var endCounter = false; //stops jCounter if true
@@ -1635,7 +1635,7 @@ if ( typeof define === 'function' && define.amd ) {
 			customRange: null,
 			date: null,
 			debugLog: false,
-			serverDateSource: 'dateandtime.php', //path to dateandtime.php file (i.e. http://my-domain.com/dateandtime.php)
+			serverDateSource: 'https://api.dotbunny.com/timestamp/', // We have to use 
 			format: 'dd:hh:mm:ss',
 			timezone: 'Europe/London',
 			twoDigits: 'on'
@@ -1687,7 +1687,7 @@ if ( typeof define === 'function' && define.amd ) {
 				});
 			},
 			//start method: $.jCounter('start')
-			
+
 			start : function() {
 				if(consoleLog) { console.log("(jC) Activity: Counter started."); }
 				return thisEl.each(function(i,el) {
@@ -1698,7 +1698,7 @@ if ( typeof define === 'function' && define.amd ) {
 				});
 			}
 		}
-		
+
 		//checks whether customDuration is used
 		if(thisEl.data("userOptions").customDuration) {
 			if(!isNaN(thisEl.data("userOptions").customDuration)) {
@@ -1708,9 +1708,9 @@ if ( typeof define === 'function' && define.amd ) {
 				if(consoleLog) { console.log("(jC) Error: The customDuration value is not a number! NOTE: 'customDuration' accepts a number of seconds."); }
 			}
 		}
-		
+
 		//checks whether customRange is used
-		if(thisEl.data("userOptions").customRange) {	
+		if(thisEl.data("userOptions").customRange) {
 			var customRangeValues = thisEl.data("userOptions").customRange.split(":");
 			var rangeVal0 = parseInt(customRangeValues[0]);
 			var rangeVal1 = parseInt(customRangeValues[1]);
@@ -1729,12 +1729,12 @@ if ( typeof define === 'function' && define.amd ) {
 		}
 
 		//checks whether animation is set to slide
-		if(thisEl.data("userOptions").animation == 'slide') {	
+		if(thisEl.data("userOptions").animation == 'slide') {
 			thisEl.data("jCanimation","slide");
 		}
 
 		//FUNCTIONS
-		
+
 		//jCounter initializer
 		function initCounter(el) {
 			if(customDuration) {
@@ -1751,7 +1751,7 @@ if ( typeof define === 'function' && define.amd ) {
 					if(endCounter == false) {
 						currentTime = parseInt(currentTime) + 1;
 						countdown_proc(currentTime,el)
-					}				
+					}
 				},1000));
 			} else if(customRange) {
 				eventDate = Math.round(customRangeValues[1]);
@@ -1767,7 +1767,7 @@ if ( typeof define === 'function' && define.amd ) {
 					if(endCounter == false) {
 						var ifRangeDownCount = (customRangeDownCount) ? currentTime = parseInt(currentTime) - 1 : currentTime = parseInt(currentTime) + 1;
 						countdown_proc(currentTime,el);
-					}				
+					}
 				},1000));
 			} else {
 				eventDate = Date.parse($(el).data("userOptions").date) / 1000;
@@ -1796,7 +1796,7 @@ if ( typeof define === 'function' && define.amd ) {
 					if(endCounter == false) {
 						currentDate = parseInt(currentDate) + 1;
 						countdown_proc(currentDate,el)
-					}				
+					}
 				},1000));
 			} else {
 				resetHTMLCounter(el)
@@ -1808,9 +1808,9 @@ if ( typeof define === 'function' && define.amd ) {
 		function jCslider(el,unitClass,timeUnit,eventDate,duration) {
 			$(el).find(unitClass + " u").each(function(i,el) {
 				var twoDigits = (thisEl.data("userOptions").twoDigits == 'on') ? '0' : '';
-				var newIndex = (jCounterDirection == 'up') ? newIndex = -i : newIndex = i;		
+				var newIndex = (jCounterDirection == 'up') ? newIndex = -i : newIndex = i;
 				currNo = parseInt(timeUnit,10) + (newIndex);
-				if (String(parseInt(timeUnit,10)).length >= 2) { 
+				if (String(parseInt(timeUnit,10)).length >= 2) {
 					$(el).text(parseInt(timeUnit,10) + (newIndex))
 				} else if(String(parseInt(timeUnit,10)).length == 1 && currNo == 10) {
 					$(el).text(parseInt(timeUnit,10) + (newIndex))
@@ -1823,7 +1823,7 @@ if ( typeof define === 'function' && define.amd ) {
 			},200, function() {
 				$(el).find(unitClass + " u:eq(1)").remove();
 				$(el).find(unitClass).prepend('<u></u>');
-				$(el).find(unitClass).css({'top':'-1.24em'})					
+				$(el).find(unitClass).css({'top':'-1.24em'})
 			});
 		}
 
@@ -1858,12 +1858,12 @@ if ( typeof define === 'function' && define.amd ) {
 					}
 				}
 			}
-			
+
 			//if customRange is used, update the seconds variable
 			var seconds = (customRange) ? duration : eventDate - duration;
 
 			var thisInstanceFormat = thisEl.data("userOptions").format;
-			
+
 			//calculate seconds into days,hours,minutes,seconds
 			//if dd (days) is specified in the format setting (i.e. format: 'dd:hh:mm:ss')
 			if(thisInstanceFormat.indexOf('dd') != -1)  {
@@ -1891,7 +1891,7 @@ if ( typeof define === 'function' && define.amd ) {
 			if (hours == 1) { $(el).find(".textHours").text(singularLabels[1]); } else { $(el).find(".textHours").text(pluralLabels[1]); }
 			if (minutes == 1) { $(el).find(".textMinutes").text(singularLabels[2]); } else { $(el).find(".textMinutes").text(pluralLabels[2]); }
 			if (seconds == 1) { $(el).find(".textSeconds").text(singularLabels[3]); } else { $(el).find(".textSeconds").text(pluralLabels[3]); }
-			
+
 			//twoDigits ON setting
 			//if the twoDigits setting is set to ON, jCounter will always diplay a minimum number of 2 digits
 			if(thisEl.data("userOptions").twoDigits == 'on') {
@@ -1913,27 +1913,27 @@ if ( typeof define === 'function' && define.amd ) {
 					$(el).find(".hoursSlider u:eq(1)").text(hours);
 					$(el).find(".minutesSlider u:eq(1)").text(minutes);
 					$(el).find(".secondsSlider u:eq(1)").text(seconds);
-					jCslider(el,'.secondsSlider',seconds,eventDate,duration); 
-					if(parseInt(seconds,10) == 59) { 
-						jCslider(el,'.minutesSlider',minutes,eventDate,duration) 
-						if(parseInt(minutes,10) == 59) { 
-							jCslider(el,'.hoursSlider',hours,eventDate,duration) 
-							if(parseInt(hours,10) == 23) { 
-								jCslider(el,'.daysSlider',days,eventDate,duration) 
+					jCslider(el,'.secondsSlider',seconds,eventDate,duration);
+					if(parseInt(seconds,10) == 59) {
+						jCslider(el,'.minutesSlider',minutes,eventDate,duration)
+						if(parseInt(minutes,10) == 59) {
+							jCslider(el,'.hoursSlider',hours,eventDate,duration)
+							if(parseInt(hours,10) == 23) {
+								jCslider(el,'.daysSlider',days,eventDate,duration)
 							}
 						}
-					}	
+					}
 				}
-			} else { 
+			} else {
 				if(consoleLog) { console.log("(jC) Error: Invalid date! Here's an example: 01 January 1970 12:00:00"); }
 				clearInterval($(el).data("jC_interval"));
 			}
 			//stores the remaining time when pausing jCounter
 			$(el).data("jC_pausedTime", eventDate-duration);
 		}
-		
-		
-		
+
+
+
 		//method calling logic
 		if ( jC_methods[this.options] ) {
 			return jC_methods[ this.options ].apply( this, Array.prototype.slice.call( arguments, 1 ));
@@ -1941,7 +1941,7 @@ if ( typeof define === 'function' && define.amd ) {
 			return jC_methods.init.apply( this, arguments );
 		} else {
 			console.log('(jC) Error: Method >>> ' +  this.options + ' <<< does not exist.' );
-		} 
+		}
 
 	}
 	//the end;
