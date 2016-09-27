@@ -1162,6 +1162,17 @@ header .jx-logo{
 }
 
 
+.jx-logo img
+{
+  content: url("/content/img/shared/PTBOGameJam-Light.png");
+}
+.fixed .jx-logo img
+{
+  content: url("/content/img/shared/PTBOGameJam-Dark.png");
+}
+
+
+
 /* #Mobile Menu================================================== */
 .slicknav_menu {
   display: none;

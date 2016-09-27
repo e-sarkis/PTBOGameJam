@@ -3,7 +3,24 @@
 ---
 @charset "utf-8";
 
+// Define Base Colors
+$black: rgb(0,0,0);
+$white: rgb(255,255,255);
 
+// Define "Blue" Coloring
+$blue: rgb(0,204,255);
+$blue-transparent: rgba(0,204,255,0.9);
+$blue-transparent-more: rgba(0,204,255,0.8);
+
+// Define "Orange" Coloring (slightly modified from complimentary)
+$orange: rgb(255,102,0);
+$orange-transparent: rgba(255,102,0,0.9);
+$orange-transparent-more: rgba(255,102,0,0.8);
+
+// Define "Yellow" Coloring
+$yellow: rgb(255,204,0);
+$yellow-transparent: rgba(255,204,0,0.9);
+$yellow-transparent-more: rgba(255,204,0,0.8);
 
 // Our variables
 $base-font-weight: 400;
@@ -11,19 +28,11 @@ $base-font-size:   14px;
 $base-line-height: 1.2;
 $base-font-family: 'Raleway', Arial, Helvetica, sans-serif;
 
-// Winter
-// $primary-color: rgb(51,255, 255);
-// $primary-color-transparent: rgba(51, 255, 255, 0.9);
-// $primary-color-transparent-more: rgba(51, 255, 255, 0.8);
 
-// Summer
-$primary-color: rgb(255,102, 0);
-$primary-color-transparent: rgba(255,102, 0, 0.9);
-$primary-color-transparent-more: rgba(255,102, 0, 0.8);
+$primary-color: $blue;
+$primary-color-transparent: $blue-transparent;
+$primary-color-transparent-more: $blue-transparent-more;
 
-//$primary-color:    #31ffc9;
-//$primary-color-transparent: rgba(49, 255,201, 0.9);
-//$primary-color-transparent-more: rgba(49,255,201, 0.8);
 
 
 $small-font-size:  $base-font-size * 0.875;
