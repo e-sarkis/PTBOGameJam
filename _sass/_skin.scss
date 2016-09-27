@@ -158,7 +158,7 @@ a:hover {
 /* ------------------------------------------------------------------------ */
 
 .jx-event-box .jx-event-date , .jx-event-play {
-	background: rgba(238, 22, 58, 0.9) !important;
+	background: $primary-color-transparent !important;
 }
 .grid-item .jx-portfolio-hoverlayer  , .jx-media-center .jx-image-wrapper .jx-image-overlay , .jx-blog .jx-image-wrapper .jx-image-overlay , .jx-image-wrapper .jx-image-overlayer {
 	background: rgba(238, 22, 58, 0.8) !important;

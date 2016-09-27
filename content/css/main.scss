@@ -8,11 +8,22 @@
 // Our variables
 $base-font-weight: 400;
 $base-font-size:   14px;
-$base-line-height: 20px;
+$base-line-height: 1.2;
 $base-font-family: 'Raleway', Arial, Helvetica, sans-serif;
 
+// Winter
+// $primary-color: rgb(51,255, 255);
+// $primary-color-transparent: rgba(51, 255, 255, 0.9);
+// $primary-color-transparent-more: rgba(51, 255, 255, 0.8);
 
-$primary-color:    #31ffc9;
+// Summer
+$primary-color: rgb(255,102, 0);
+$primary-color-transparent: rgba(255,102, 0, 0.9);
+$primary-color-transparent-more: rgba(255,102, 0, 0.8);
+
+//$primary-color:    #31ffc9;
+//$primary-color-transparent: rgba(49, 255,201, 0.9);
+//$primary-color-transparent-more: rgba(49,255,201, 0.8);
 
 
 $small-font-size:  $base-font-size * 0.875;
@@ -64,5 +75,6 @@ $on-laptop:        800px;
         "plugins",
         "skin",
         "skeleton",
-        "responsive"
+        "responsive",
+        "hdpi"
 ;

@@ -1606,7 +1606,7 @@ font-size:32px;
 }
 
 .jx-event-box .jx-event-date{
-  background:rgba(238, 22, 58, 0.9);
+  background: $primary-color-transparent;
   width:250px;
   height:250px;
   color:#fff;
@@ -2021,7 +2021,7 @@ select.valid, input.valid {
 
 /* Video Play Button */
 .jx-event-play{
-    background: rgba(238, 22, 58, 0.9) none repeat scroll 0% 0%;
+    background: $primary-color-transparent none repeat scroll 0% 0%;
     width: 250px;
     height: 250px;
     color: #FFF;
@@ -2203,7 +2203,7 @@ select.valid, input.valid {
   height:100%;
   top:0;
   left:0;
-  background: rgba(238, 22, 58, 0.8) none repeat scroll 0% 0%;
+  background: $primary-color-transparent-more none repeat scroll 0% 0%;
   opacity:0;
   transition:all 0.3s ease-out
  }
