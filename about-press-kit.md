@@ -1,6 +1,6 @@
 ---
 layout: about-releases
-title: Media Releases
-permalink: /about/media-releases/
+title: Press Kit
+permalink: /about/press-kit/
 ---
 Text Content!
