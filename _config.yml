@@ -19,6 +19,9 @@ url: "http://staging.ptbogamejam.com" # the base hostname & protocol for your si
 dotbunny_url: "http://dotbunny.com"
 dotbunny_api_url: "https://api.dotbunny.com"
 
+meetup_url: "http://www.meetup.com/PTBOGameDev/"
+forum_url: "http://forum.dotbunny.com/forums/gamejam/"
+
 username: "PTBOGameJam"
 
 # Build settings
