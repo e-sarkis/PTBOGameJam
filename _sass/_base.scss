@@ -1162,15 +1162,20 @@ header .jx-logo{
 }
 
 
-.jx-logo img
+/* Header Logo Coloring */
+.jx-logo img.light
 {
   content: url("/content/img/shared/PTBOGameJam-Light.png");
 }
-.fixed .jx-logo img
+
+.jx-logo img.dark
 {
   content: url("/content/img/shared/PTBOGameJam-Dark.png");
 }
-
+/*.fixed .jx-logo img
+{
+  content: url("/content/img/shared/PTBOGameJam-Dark.png");
+}*/
 
 
 /* #Mobile Menu================================================== */

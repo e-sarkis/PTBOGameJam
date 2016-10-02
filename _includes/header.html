@@ -10,10 +10,10 @@
     <div class="jx-top-black"></div>
 
     <header>
-      <div class="jx-header jx-sticky">
+      <div id="header" class="jx-header jx-sticky">
         <div class="container">
           <div class="sixteen columns">
-            <div class="jx-logo left"><a href="{{ site.url }}" title="{{ site.title }}"><img src="{{ "/content/img/shared/PTBOGameJam-Light.png" | prepend: site.baseurl }}" alt="{{ site.title }}"></a></div>
+            <div class="jx-logo left"><a href="{{ site.url }}" title="{{ site.title }}"><img id="logo" src="{{ "/content/img/shared/PTBOGameJam-Light.png" | prepend: site.baseurl }}" alt="{{ site.title }}"></a></div>
               <nav class="jx-menu right">
                 <div id="jx-main-menu" class="main-menu">
                   <ul>
@@ -32,15 +32,14 @@
                             <li><a title="FAQ" href="{{ "/event/faq/" | prepend: site.baseurl }}">FAQ</a></li>
                       </ul>
                     </li>
+                    <li><a title="Jams" href="{{ "/games/" | prepend: site.baseurl }}">Games</a>
+                      <ul class="sub-menu">
+                        <li><a title="PTBO Game Jam 01" href="{{ "/games/01/" | prepend: site.baseurl }}">Cats With Leashes (01)</a></li>
+                      </ul>
+                    </li>
                     <li class="">
                       <a href="{{ "/community/" | prepend: site.baseurl }}">Community</a>
                       <ul class="sub-menu">
-                            <li><a title="Jams" href="{{ "/community/jams/" | prepend: site.baseurl }}">Jams</a>
-                              <ul class="sub-menu">
-                                    <li><a title="PTBO Game Jam 01" href="{{ "/community/jams/01" | prepend: site.baseurl }}">01</a></li>
-                                    <li><a title="PTBO Game Jam 02" href="{{ "/community/jams/02" | prepend: site.baseurl }}">02</a></li>
-                              </ul>
-                            </li>
                             <li><a title="Meetup" href="{{ site.meetup_url }}">Meetup</a></li>
                             <li><a title="Forums" href="{{ site.forum_url }}">Forum</a></li>
                       </ul>
