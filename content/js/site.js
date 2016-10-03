@@ -47,8 +47,21 @@ function onScroll()
     siteHeader.removeClass("fixed");
     setLogoStyle(savedHeroStyle);
   }
-  
+
 }
+
+$(window).resize(function() { onResize(); });
+function onResize()
+{
+    // Make all our fullwidth guys proper
+    $('.jx-parallax-fullwidth').css('height', window.innerHeight + 'px');
+
+//  jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
+  //jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
+}
+
+
+
 
 
 
