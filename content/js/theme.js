@@ -30,9 +30,6 @@ Version: 		1.0
 			//Items on load
 			this.onLoad();
 
-			// Nav Menu
-			this.stickyMenu();
-
 			//Mobile Menu
 			jQuery('#jx-main-menu,#jx-main-menu-2').slicknav();
 
@@ -225,7 +222,9 @@ Version: 		1.0
 					minItems: 1,
 					maxItems: 1,
 					prevText:'',
-					nextText:''
+					nextText:'',
+					start: function(slider) {checkHeroSlider(slider); },
+					after: function(slider) { checkHeroSlider(slider); }
 				});
 
 
@@ -311,42 +310,6 @@ Version: 		1.0
 					}
 
 				});
-
-		},
-
-		stickyMenu: function() {
-			//Menu
-			 var s = jQuery(".jx-sticky");
-    		 var pos = s.position();
-			 var top = s.css('top');
-
-			 //Page Header
-			 var nav_height = s.height();
-
-			 jQuery(window).on("scroll",function() {
-
-				var scroll = getCurrentScroll();
-
-
-				if ((s.length >0)){
-
-					if ( scroll >= pos.top+1){
-						s.addClass('fixed');
-
-					}else{
-						s.removeClass('fixed');
-
-					}
-
-				 }
-
-
-			});
-
-
-			function getCurrentScroll() {
-				return window.pageYOffset || document.documentElement.scrollTop;
-			}
 
 		},
 

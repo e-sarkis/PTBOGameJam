@@ -33,17 +33,35 @@ function setLogoStyle(style)
 $(window).scroll(function () { onScroll(); });
 function onScroll()
 {
+  var scroll = window.pageYOffset || document.documentElement.scrollTop;
+  var position = siteHeader.position();
+  var top = siteHeader.css('top');
 
-  // Handle our logo coloring
-  if ( siteHeader.hasClass("fixed") )
+  if ( scroll >= position.top+1)
   {
-    setLogoStyle("dark");
+      siteHeader.addClass("fixed");
+      setLogoStyle("dark");
   }
-  else if ( !siteHeader.hasClass("fixed") && siteLogo.hasClass("dark") )
+  else
   {
-    setLogoStyle("light");
+    siteHeader.removeClass("fixed");
+    setLogoStyle(savedHeroStyle);
   }
+  
+}
 
 
-  // Check if were 'fixed' logo, if so, make it light no matter what, if were not we look at the current loaded frame of hero?
+
+
+var savedHeroStyle = "";
+function checkHeroSlider(slider)
+{
+  // Save our color
+  savedHeroStyle = slider.slides[slider.currentSlide].getAttribute("logo");
+
+  // Leave because we dont actually care right now
+  if ( siteHeader.hasClass("fixed") ) return;
+
+  // Set it because if we dont, evil wins.
+  setLogoStyle(savedHeroStyle);
 }
