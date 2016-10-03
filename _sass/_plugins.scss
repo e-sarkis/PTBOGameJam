@@ -290,9 +290,24 @@ margin-bottom: 20px;
 	padding-left: 17px;
 }
 
-/* jQuery Countdown styles 2.0.0. */
 
+
+
+/* FIXES */
+
+// Fix for the full page hero
 .jx-parallax-fullwidth {
 	background-position: center;
 	background-size: cover;
+}
+
+// Fix the pagination on mobile for items
+.flex-control-paging li a {
+	height: 14px;
+	width: 14px;
+	border: 1px solid;
+	border-color: white;
+}
+.flex-control-paging li a.flex-active {
+	background-color: $primary-color;
 }
