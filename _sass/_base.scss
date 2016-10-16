@@ -1470,10 +1470,10 @@ header .jx-logo{
   color:#fff;
   background:rgba(0, 0, 0, 0.6);
   display:initial;
-  padding:10px 30px 10px 30px;
-  font-size:30px;
+  padding:10px 0px 10px 18px;
+  font-size:18px;
   text-transform: uppercase;
-  font-weight:600;
+  font-weight:500;
   float:none;
 }
 
@@ -1488,23 +1488,23 @@ header .jx-logo{
   color:#fff;
   background:$primary-color;
   display:initial;
-  padding:10px 30px;
-  font-size:30px;
+  padding:10px 18px;
+  font-size:18px;
   text-transform: uppercase;
-  font-weight:600;
+  font-weight:500;
   float:none;
-  margin-left:20px;
-  margin-right: 20px;
+  margin-left:18px;
+  //margin-right: 20px;
 }
 
 .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.pre-breadcrumb {
     display: initial;
     padding: 10px 5px;
-    font-size: 30px;
+    font-size: 18px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     float: none;
-    margin-left: 20px;
+    margin-left: 18px;
 }
 
 .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.pre-breadcrumb:before {
@@ -1512,7 +1512,7 @@ header .jx-logo{
    font-family: fontawesome;
   margin-right:15px;
   font-size:19px;
-  vertical-align: top;
+  //vertical-align: top;
   line-height: 2
 }
 

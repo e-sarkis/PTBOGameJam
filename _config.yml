@@ -30,7 +30,7 @@ markdown: kramdown
 
 google_api_key: "AIzaSyDtYuwLCEBRLorbWUdeCgHZjqOqM92Mjg4"
 
-
+titlebar: "title-001.jpg"
 # Next Event Details
 event_title: "PTBO Game Jam 02"
 
@@ -40,3 +40,7 @@ map_zoom: "11"
 
 venue_latitude: "40.6700"
 venue_longitude: "-73.8400"
+
+press_name: "Matthew Davey"
+press_email: "matthew.davey@dotbunny.com"
+press_phone: "+1 (888) 632-1993 x700"

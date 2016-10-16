@@ -7,14 +7,19 @@
 
 {% include loader.html %}
 {% include header.html %}
-
-{% include hero.html %}
+{% include page-titlebar.html %}
 
 
     <div role="main" class="main">
 
+
+      {% for post in site.posts %}
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="{{ post.url | prepend: site.baseurl }}"></a></small></p>
+      {% endfor %}
+
 {% include block-learnmore.html %}
-{% include block-speakers.html %}
+{% include block-team.html %}
 {% include block-ticker.html %}
 {% include block-schedule.html %}
 {% include block-venue-layout.html %}
