@@ -13,22 +13,97 @@
     <div role="main" class="main">
 
 
-      {% for post in site.posts %}
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="{{ post.url | prepend: site.baseurl }}"></a></small></p>
-      {% endfor %}
+<div class="jx-padding no-bottom-padding no">
+  <div class="container">
+    <div class="wpb_column vc_column_container vc_col-sm-12">
+      <div class="vc_column-inner ">
+        <div class="wpb_wrapper">
+          <div class="vc_row wpb_row vc_inner vc_row-fluid">
+            <div class="wpb_column vc_column_container vc_col-sm-6">
+              <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                  <div class="jx-ievent-title-2 jx-ievent-dark">
+                    <div class="jx-ievent-title jx-ievent-uppercase">Business Event<span> Information</span></div>
+                    <div class="jx-ievent-hr-title"></div>
+                  </div>
+                  <div class="wpb_text_column wpb_content_element ">
+                    <div class="wpb_wrapper">
+                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                      <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wpb_column vc_column_container vc_col-sm-6">
+              <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                  <div class="jx-placeholder-head Type Class">
+                    <div class="jx-image-placeholder "><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_14-1024x682@2x.jpg?65259c" alt="" width="525" height="350"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-{% include block-learnmore.html %}
-{% include block-team.html %}
-{% include block-ticker.html %}
-{% include block-schedule.html %}
-{% include block-venue-layout.html %}
-{% include block-media-center.html %}
-{% include block-registration.html %}
-{% include block-gallery.html %}
-{% include block-testimonials.html %}
-{% include block-sponsors.html %}
-{% include block-location.html %}
+
+
+
+      <div class="jx-container jx-padding jx-grey-bg">
+
+              	<div class="container">
+
+                      <div class="jx-section-title-1">
+                          <div class="jx-pre-title jx-short-border">
+                              <div class="jx-title-border left"></div>
+                              <div class="jx-title-icon"><i class="line-icon icon-note"></i></div>
+                              <div class="jx-title-border right"></div>
+                          </div>
+                          <div class="jx-title jx-uppercase">Media Center</div>
+                      </div>
+                      <!-- Section Title -->
+                      <div class="row"></div>
+                      <div class="row"></div>
+
+
+      <div class="jx-media-center">
+        {% for post in site.posts %}
+          <div class="one-third columns">
+              <div class="image jx-image-wrapper">
+                <img src="{{ "/content/img/post/" | prepend: site.baseurl }}{{ post.code }}.jpg" hdpi="true" alt="{{ post.title }}">
+                <div class="jx-image-overlay"></div>
+                  <div class="jx-image-hover">
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
+                  </div>
+                  <!-- Image Hover -->
+              </div>
+              <!-- Image -->
+              <div class="title">{{ post.title }}</div>
+              <!-- Title -->
+              <div class="date"><i class="line-icon icon-calendar"></i> <span>{{ post.date | date: "%B %e, %Y" }}</span></div>
+              <!-- Date -->
+              <div class="description">{{ post.excerpt }}</div>
+              <!-- Description -->
+          </div>
+        {% endfor %}
+
+      </div>
+
+
+                      <div class="row"></div>
+                      <div class="row"></div>
+
+
+                      <!-- Read More Button -->
+
+                  </div>
+              </div>
+
 
 
     </div>
