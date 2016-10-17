@@ -8,14 +8,11 @@ function setBaseURL(path)
 
 // References
 var siteHeader;
-var siteLogo;
-
 $( document ).ready(function() {
   siteHeader = $('div#header');
-  siteLogo = $('img#logo');
 });
 
-// Handle Scrolling
+// Handle Scrolling Events
 $(window).scroll(function () { onScroll(); });
 function onScroll()
 {
@@ -25,21 +22,18 @@ function onScroll()
 
   if ( scroll >= position.top+1)
   {
-      siteHeader.addClass("fixed");
+    siteHeader.addClass("fixed");
   }
   else
   {
     siteHeader.removeClass("fixed");
   }
-
 }
 
+// Handle Resize Events
 $(window).resize(function() { onResize(); });
 function onResize()
 {
     // Make all our fullwidth guys proper
     $('.jx-parallax-fullwidth').css('height', window.innerHeight + 'px');
-
-//  jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
-  //jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
 }
