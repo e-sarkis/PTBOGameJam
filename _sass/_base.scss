@@ -1442,7 +1442,7 @@ header .jx-logo{
 [5.0 Page title ]
 ----------------------------------------------------------------*/
 .jx-page-titlebar .page-titlebar-bg{
- min-height:250px !important;
+ min-height:320px !important;
  position: relative !important;
  z-index:1;
 }
@@ -1584,7 +1584,7 @@ font-size:32px;
 }
 
 .jx-top-black{
-	background-image:url(../images/top-black.png);
+	background-image:url(/content/img/shared/top-black.png);
 	position:absolute;
 	top:0;
 	left:0;

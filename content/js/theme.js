@@ -223,8 +223,6 @@ Version: 		1.0
 					maxItems: 1,
 					prevText:'',
 					nextText:'',
-					start: function(slider) {checkHeroSlider(slider); },
-					after: function(slider) { checkHeroSlider(slider); }
 				});
 
 
