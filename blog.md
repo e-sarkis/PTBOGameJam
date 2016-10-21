@@ -1,8 +1,8 @@
 ---
 layout: about
-title: About
-permalink: /about/
+title: Blog
+permalink: /blog/
 titlebar: title-000.jpg
-about: current
+blog: current
 ---
 Text Content!

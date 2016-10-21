@@ -8,6 +8,10 @@ code: 2016-08-10-inaugural-event
 excerpt: "The PTBO Game Jam is a gathering of industry professionals, students, hobbyists and those eager to learn with the common goal of creating video games in a short period of time."
 location: "Peterborough, Ontario, Canada"
 pdf: 2016-08-10-inaugural-event.pdf
+tags:
+  - 01
+  - media-release
+  - announcement
 ---
 _Peterborough, Ontario – August 13-14, 2016_ - The # PTBO Game Jam # is a gathering of industry professionals, students, hobbyists and those eager to learn with the common goal of creating video games in a short period of time.
 

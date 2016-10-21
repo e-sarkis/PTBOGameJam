@@ -1161,6 +1161,11 @@ header .jx-logo{
   padding-top:15px;
 }
 
+/*
+div#header li.current {
+  background: $primary-color !important;
+}
+*/
 
 /* Header Logo Coloring */
 .jx-logo img.light
@@ -2897,7 +2902,13 @@ select.valid, input.valid {
  /* Safari 1.x */;
 }
 
-
+.jx-footer-logo img {
+  max-height: 52px;
+}
+.jx-footersection-widget strong
+{
+  color: #fff !important;
+}
 .jx-footer-social{
   text-align: center;
   padding:30px 60px 0px;

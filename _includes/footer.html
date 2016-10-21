@@ -4,7 +4,7 @@
 
           <!-- START Widgets -->
           <div class="four columns">
-            <div class="jx-footer-logo"><img src="{{ "/content/img/footer/logo.png" | prepend: site.baseurl }}" alt="iEvent" class="logo" hdpi="true" /></div>
+            <div class="jx-footer-logo"><img src="{{ "/content/img/shared/PTBOGameJam-Dark.png" | prepend: site.baseurl }}" alt="PTBO Game Jam" class="logo" hdpi="true" /></div>
             <div class="jx-footersection-widget">
               <div id="text-3" class="widget widget_text">
                 <div class="textwidget">The <strong>PTBO Game Jam</strong> is a not-for-profit event with the directive of engaging the local community with the video game industry to form long term relationships.</div>
@@ -22,17 +22,15 @@
                   </header>
                 </div>
                 <ul>
-                  <li><a href="http://ievent.janxcode.com/2015/09/01/this-is-a-new-post/">Vulputate eleifend tellus</a></li>
-                  <li><a href="http://ievent.janxcode.com/2015/08/26/amet-consectetuer-adipiscing-elit/">Amet consectetuer adipiscing elit</a></li>
-					        <li><a href="http://ievent.janxcode.com/2015/08/26/fringilla-vel-aliquet-nec-vulputate/">Fringilla vel aliquet nec vulputate</a></li>
-                  <li><a href="http://ievent.janxcode.com/2015/08/26/aenean-vulputate-eleifend-tellus/">Aenean vulputate eleifend tellus</a></li>
+                  {% for post in site.posts limit:4 %}
+                    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                  {% endfor %}
                 </ul>
               </div>
             </div>
           </div>
 
-
-          <div class="four columns">
+          <div class="two columns">
             <div class="jx-footersection-widget">
               <div id="tag_cloud-3" class="widget widget_tag_cloud">
                 <div class="sub">
@@ -42,11 +40,15 @@
                   </header>
                 </div>
                 <div class="tagcloud">
-                  <a href='http://ievent.janxcode.com/tag/conference/' class='tag-link-11' title='11 topics' style='font-size: 8pt;'>Conference</a>
-                  <a href='http://ievent.janxcode.com/tag/exhibition/' class='tag-link-15' title='11 topics' style='font-size: 8pt;'>Exhibition</a>
-                  <a href='http://ievent.janxcode.com/tag/international/' class='tag-link-13' title='11 topics' style='font-size: 8pt;'>International</a>
-                  <a href='http://ievent.janxcode.com/tag/seminar/' class='tag-link-12' title='11 topics' style='font-size: 8pt;'>Seminar</a>
-                  <a href='http://ievent.janxcode.com/tag/workshop/' class='tag-link-14' title='11 topics' style='font-size: 8pt;'>Workshop</a>
+                  {% for post in site.posts %}
+                    {% for tag in post.tags %}
+                      {% if tag == page.tag %}
+                        {% for tag in post.tags %}
+                          <a href='http://ievent.janxcode.com/tag/{{ tag }}/' class='tag-link-11' title='11 topics' style='font-size: 8pt;'>{{ tag }}</a>
+                        {% endfor %}
+                      {% endif %}
+                    {% endfor %}
+                  {% endfor %}
                 </div>
               </div>
             </div>
