@@ -1635,7 +1635,7 @@ if ( typeof define === 'function' && define.amd ) {
 			customRange: null,
 			date: null,
 			debugLog: false,
-			serverDateSource: 'https://api.dotbunny.com/timestamp/', // We have to use 
+			serverDateSource: 'https://api.dotbunny.com/timestamp/', // We have to use
 			format: 'dd:hh:mm:ss',
 			timezone: 'Europe/London',
 			twoDigits: 'on'
