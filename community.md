@@ -1,5 +1,5 @@
 ---
-layout: community
+layout: default
 title: Community
 permalink: /community/
 community: current

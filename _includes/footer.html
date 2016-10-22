@@ -39,17 +39,7 @@
                     <div class="jx-right-pattern"></div>
                   </header>
                 </div>
-                <div class="tagcloud">
-                  {% for post in site.posts %}
-                    {% for tag in post.tags %}
-                      {% if tag == page.tag %}
-                        {% for tag in post.tags %}
-                          <a href='http://ievent.janxcode.com/tag/{{ tag }}/' class='tag-link-11' title='11 topics' style='font-size: 8pt;'>{{ tag }}</a>
-                        {% endfor %}
-                      {% endif %}
-                    {% endfor %}
-                  {% endfor %}
-                </div>
+                {% include block-tagcloud.html %}
               </div>
             </div>
           </div>

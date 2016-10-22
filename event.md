@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: default
 title: Event
 permalink: /event/
 event: current

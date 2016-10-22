@@ -35,23 +35,14 @@
 	  <![endif]-->
 
     <!-- Site Icon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ "/content/icon/apple-icon-57x57.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ "/content/icon/apple-icon-60x60.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ "/content/icon/apple-icon-72x72.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ "/content/icon/apple-icon-76x76.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ "/content/icon/apple-icon-114x114.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ "/content/icon/apple-icon-120x120.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ "/content/icon/apple-icon-144x144.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ "/content/icon/apple-icon-152x152.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/content/icon/apple-icon-180x180.png" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" sizes="192x192"  href="{{ "/content/icon/android-icon-192x192.png" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/content/icon/favicon-32x32.png" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ "/content/icon/favicon-96x96.png" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/content/icon/favicon-16x16.png" | prepend: site.baseurl }}">
-    <link rel="manifest" href="{{ "/content/icon/manifest.json" | prepend: site.baseurl }}">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{ "/content/icon/ms-icon-144x144.png" | prepend: site.baseurl }}">
-    <meta name="theme-color" content="#00aeef">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/contents/icon/apple-touch-icon.png" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{ "/contents/icon/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ "/contents/icon/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16">
+    <link rel="manifest" href="{{ "/contents/icon/manifest.json" | prepend: site.baseurl }}">
+    <link rel="mask-icon" href="{{ "/contents/icon/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#00ccff">
+    <link rel="shortcut icon" href="{{ "/contents/icon/favicon.ico" | prepend: site.baseurl }}">
+    <meta name="msapplication-config" content="{{ "/contents/icon/browserconfig.xml" | prepend: site.baseurl }}">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Social Media -->
     <meta property="og:site_name" content="{{ site.title }}">
@@ -68,7 +59,7 @@
     	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    	  ga('create', 'UA-11332795-6', 'auto');
+    	  ga('create', '{{ site.google_analytics }}', 'auto');
     	  ga('send', 'pageview');
     </script>
   </head>
