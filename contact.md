@@ -2,6 +2,6 @@
 layout: default
 title: Contact
 permalink: /contact/
-contact: current
+highlight: contact
 ---
 Text Content!

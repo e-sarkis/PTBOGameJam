@@ -2,6 +2,6 @@
 layout: default
 title: Event
 permalink: /event/
-event: current
+highlight: event
 ---
 Text Content!

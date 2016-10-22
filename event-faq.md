@@ -2,6 +2,6 @@
 layout: default
 title: FAQ
 permalink: /event/faq/
-event: current
+highlight: event
 ---
 Text Content!

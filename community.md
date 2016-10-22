@@ -2,6 +2,6 @@
 layout: default
 title: Community
 permalink: /community/
-community: current
+highlight: community
 ---
 Text Content!
