@@ -44,7 +44,7 @@ titlebar: "title-001.jpg"
 # Next Event Details
 event_title: "PTBO Game Jam 02"
 event_ics: "/content/ics/PTBOGameJam02.ics"
-event_data_long: "February 17-19, 2017"
+event_date_long: "February 17-19, 2017"
 
 map_latitude: "40.6700"
 map_longitude: "-73.9400"
