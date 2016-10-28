@@ -1,0 +1,31 @@
+    <div class="jx-summary-info">
+      <div class="container">
+				<ul class="jx-summary-box">
+					<li class="two-thirds columns">
+						<div class="jx-location-event">
+							<i class="line-icon icon-calendar"></i>
+							<div class="jx-info">
+                <a href="{{ site.event_ics || prepend: site.baseurl }}">
+								<div class="jx-bar-head">{{ site.event_title }}</div>
+								<div class="jx-bar-title">{{ site.event_date_long }}</div>
+              </a>
+							</div>
+						</div>
+					</li>
+					<li class="one-third columns">
+						<div class="jx-subscribe-event">
+							<h2>Subscribe To Mail List</h2>
+							<form action="#" class="has-validation-callback" id="mailinglist">
+								<div class="jx-newsletter-box">
+								<input type="text" name="jx-newsltter-email" id="EMAIL" placeholder="Type Your Email" value="">
+								</div>
+
+								<div class="jx-newsletter-submit">
+								<input type="submit" name="jx-newsltter-submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>

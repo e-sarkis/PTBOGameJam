@@ -58,17 +58,17 @@ body , .jx-accordion .description
     background-color: #000000 !important;
 }
 .jx-grey-bg {
-    background-color: #222222 !important;
+    background-color: $grey-color-dark-more !important;
 }
 
 
 
-.jx-speaker-item.jx-speaker-box-content .jx-title {
+.jx-team-item.jx-team-box-content .jx-title {
 	color:#FFFFFF !important;
 }
 
 .jx-footer-widget {
-	background:#000000 !important;
+	background: $grey-color-dark-more !important;
 }
 
 
@@ -89,7 +89,7 @@ body , .jx-accordion .description
 /* Color
 /* ------------------------------------------------------------------------ */
 .jx-info-content .info-title , .jx-section-title-1 .jx-title-icon i , .jx-servicebox-1 .jx-service-item .service-icon i , .jx-event-schedule .date ,
-.jx-event-schedule .date i , .jx-media-center .date i , .jx-countdown-form .jx-countdown-box h1 , .jx-btn-default.jx-outline , .jx-testimonial-details .jx-testimonial-icon i , .jx-testimonial-content .jx-testimonial-name , a , .jx-price-item.jx-white .jx-price,.jx-price-item.jx-white .jx-package-name,.jx-price-item.jx-white .jx-package-feature , .jx-btn-default.jx-outline i , .jx-readmore a , .jx-blog .title a , .jx-speaker-details .jx-speaker-social ul li:hover i , .jx-speaker-item.jx-speaker-box-content .jx-title span
+.jx-event-schedule .date i , .jx-media-center .date i , .jx-countdown-form .jx-countdown-box h1 , .jx-btn-default.jx-outline , .jx-testimonial-details .jx-testimonial-icon i , .jx-testimonial-content .jx-testimonial-name , a , .jx-price-item.jx-white .jx-price,.jx-price-item.jx-white .jx-package-name,.jx-price-item.jx-white .jx-package-feature , .jx-btn-default.jx-outline i , .jx-readmore a , .jx-blog .title a , .jx-team-details .jx-team-social ul li:hover i , .jx-team-item.jx-team-box-content .jx-title span
 {
 	color: $primary-color ;
 }
@@ -129,7 +129,7 @@ a:hover {
 {
 	background:$primary-color !important;
 }
-.jx-servicebox-1 .jx-service-item .service-title-border , .jx-event-schedule .image i , .jx-speaker-details , .grid-item ,
+.jx-servicebox-1 .jx-service-item .service-title-border , .jx-event-schedule .image i , .jx-team-details , .grid-item ,
 .jx-newsletter .jx-form-wrapper button , .jx-single-point > a  , .jx-countdown .counter-wrapper li  , .jx-faq .jx-faq-head .jx-faq-title , .jx-contact-form input.jx-submit, .jx-menu .main-menu li:hover , .jx-main-slider .flex-direction-nav a  , .jx-menu .main-menu li a.mPS2id-highlight , .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.current , .jx-image-container .jx-post-format , .jx-sidebar-widget .jx-right-pattern , .jx-blog-item .flex-control-paging li a.flex-active , .jx-page-search.wide .jx-form-wrapper button , .jx-ticket-form .jx-btn-default , .jx-price-table .jx-price-item , .jx-pagination span.current , #comment-submit , .jx-event-box-register .jx-event-register .jx-btn-default , .jx-grid-item .jx-date-box , .jx-testimonial-item .jx-testimonial-content .jx-name , .jx-summary-info , .jx-footersection-widget .jx-right-pattern , .jx-hr-title , .jx-servicebox-2 .jx-service-item .service-title-border
 {
 	background:$primary-color !important;

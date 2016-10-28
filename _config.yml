@@ -11,7 +11,7 @@ version: 1.0.0
 
 # Site settings
 title: PTBO Game Jam
-email: hello@ptbogamejam.com
+email: "hello@ptbogamejam.com"
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -40,8 +40,11 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 titlebar: "title-001.jpg"
+
 # Next Event Details
 event_title: "PTBO Game Jam 02"
+event_ics: "/content/ics/PTBOGameJam02.ics"
+event_data_long: "February 17-19, 2017"
 
 map_latitude: "40.6700"
 map_longitude: "-73.9400"
@@ -54,3 +57,8 @@ press_name: "Matthew Davey"
 press_email: "matthew.davey@dotbunny.com"
 press_phone: "+1 (888) 632-1993 x700"
 press_kit: "/press/PTBOGameJam_PressKit.zip"
+
+stats_prizes: "4"
+stats_games: "11"
+stats_pizza: "78"
+stats_sleep: "0"

@@ -190,6 +190,7 @@ margin-bottom: 5px;
   width:80px;
   height:80px;
   line-height:80px;
+  color: #ffffff;
 }
 
 .jx-counter-item .jx-counter-info{
@@ -220,18 +221,18 @@ margin-bottom: 5px;
 }
 
 /*---------------------------------------------------------------
-[5.0 Speakers ]
+[5.0 Team ]
 ---------------------------------------------------------------*/
-.jx-speaker-item.jx-speaker-box-content{
+.jx-team-item.jx-team-box-content{
 	  width: 39.5%;
 	}
 
-	.jx-speaker-item.jx-speaker-box-content .jx-title{
+	.jx-team-item.jx-team-box-content .jx-title{
 	  font-size:31px;
 	  color:#000;
 	}
 
-	.jx-speaker-item.jx-speaker-box-content .jx-title span{
+	.jx-team-item.jx-team-box-content .jx-title span{
 	  font-size:31px;
 	  font-weight:600;
 	  color:$primary-color
@@ -243,32 +244,32 @@ margin-bottom: 5px;
 	  margin:8px 0
 	}
 
-	.jx-speaker-item.jx-speaker-box-content p{
+	.jx-team-item.jx-team-box-content p{
 	  line-height: 1.5;
 	  margin-top:10px;
 	  padding: 0 10px 0 0;
 	}
 
-	.jx-speaker-item img {
+	.jx-team-item img {
 		width: 100%;
 		height: auto;
 	}
 
-	.jx-speaker .jx-speaker-item{
+	.jx-team .jx-team-item{
 		float: left;
 		margin-bottom: 5px;
 		margin-left: 6px;
 	}
 
-	.jx-speaker .jx-speaker-item:last-child {
+	.jx-team .jx-team-item:last-child {
 	  margin-right:0;
 	}
 
-    .jx-speaker-item{
+    .jx-team-item{
 	  height: auto;
 	  width: 19.5%;
 	}
-	.jx-image-wrapper .jx-speaker-overlayer{
+	.jx-image-wrapper .jx-team-overlayer{
 	  position:absolute;
 	  top:0;
 	  left:0;
@@ -279,7 +280,7 @@ margin-bottom: 5px;
 	  transition:all 0.3s ease-out;
 	}
 
-	.jx-image-wrapper .jx-speaker-overlayer:after{
+	.jx-image-wrapper .jx-team-overlayer:after{
 	  content:'';
 	  border:1px solid #ccc;
 	  position:absolute;
@@ -291,7 +292,7 @@ margin-bottom: 5px;
 	  transition:all 0.3s ease-out;
 	}
 
-	.jx-image-wrapper:hover .jx-speaker-overlayer:after{
+	.jx-image-wrapper:hover .jx-team-overlayer:after{
 	  content:'';
 	  border:1px solid #ccc;
 	  position:absolute;
@@ -313,7 +314,7 @@ margin-bottom: 5px;
 	  transition:all 0.3s ease-out;
 	}
 
-	.jx-image-wrapper:hover .jx-speaker-overlayer{
+	.jx-image-wrapper:hover .jx-team-overlayer{
 	  opacity:1;
 	  cursor:pointer;
 	}
@@ -323,13 +324,13 @@ margin-bottom: 5px;
 		opacity:1;
 	}
 
-	.jx-image-wrapper .jx-speaker-name{
+	.jx-image-wrapper .jx-team-name{
 	  font-size:20px;
 	  color:#fff;
 	  margin-bottom:0px;
 	}
 
-	.jx-image-wrapper .jx-speaker-pos{
+	.jx-image-wrapper .jx-team-pos{
 	  text-align:left;
 	  font-size:15px;
 	  color:#aaa;
@@ -2455,18 +2456,18 @@ xkeyframes
   position: relative
 }
 
-.jx-summary-info:after{
-  content: '';
-  position: absolute;
-  border-style: solid;
-  border-width: 0 25px 25px;
-  border-color: $primary-color transparent;
-  display: block;
-  width: 0;
-  z-index: 99;
-  top: -20px;
-  left: 27%;
-}
+// .jx-summary-info:after{
+//   content: '';
+//   position: absolute;
+//   border-style: solid;
+//   border-width: 0 25px 25px;
+//   border-color: $primary-color transparent;
+//   display: block;
+//   width: 0;
+//   z-index: 99;
+//   top: -20px;
+//   left: 27%;
+// }
 
 .jx-summary-info ul{
   margin-bottom:0;

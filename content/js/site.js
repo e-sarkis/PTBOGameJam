@@ -37,3 +37,9 @@ function onResize()
     // Make all our fullwidth guys proper
     $('.jx-parallax-fullwidth').css('height', window.innerHeight + 'px');
 }
+
+// Handle Subscriber link
+$('#mailinglist').submit(function() {
+	document.location.href = "http://dotbunny.us7.list-manage.com/subscribe?u=862e4c930cb0704921c2b54e3&id=78848640c0&EMAIL=" + $('#EMAIL').val();
+	return false;
+});

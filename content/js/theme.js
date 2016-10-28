@@ -287,7 +287,7 @@ Version: 		1.0
 				});
 
 				jQuery(window).resize(function(){ // On resize
-					//jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
+					jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
 
 					getWidthAndHeight();
 
