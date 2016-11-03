@@ -127,6 +127,8 @@ margin-bottom: 5px;
 .jx-servicebox-2 .service-icon i{
   color:$primary-color !important;
   padding:10px;
+  min-height: 70px;
+  padding-top: 5px;
 
 }
 
@@ -2483,11 +2485,14 @@ xkeyframes
 .jx-summary-info li i{
  float:left;
  font-size:60px;
- line-height:1
+ line-height:1;
+ color: #fff;
+ margin-right: 20px;
+ margin-top: 10px;
 }
 
 .jx-summary-info li .jx-info{
-  padding-top:6px
+  padding-top:12px
 }
 .jx-summary-info li .jx-info .jx-bar-head{
   font-size:40px;
