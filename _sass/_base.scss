@@ -3169,3 +3169,42 @@ html{
   border:1px Solid #333;
   color:#666
 }
+
+.half-padding
+{
+  padding: 50px !important;
+}
+
+
+
+.title-light {
+  font-size: 31px;
+  color: $grey-color-dark-more;
+}
+
+.section-content {
+  color: $grey-color-dark;
+  padding-bottom:50px;
+  font-size: 18px;
+}
+.section-content p {
+  padding-bottom: 25px;
+}
+.section-content p:last-child {
+    padding-bottom: 0px;
+}
+
+.title-light  span {
+    color: $primary-color;
+}
+
+.title-light  span {
+    font-size: 31px;
+    font-weight: 600;
+    color: $primary-color;
+}
+
+//
+// .jx-section-title {
+//   font-size: 31px;
+// }
