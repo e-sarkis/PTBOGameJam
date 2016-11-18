@@ -425,6 +425,17 @@ Author:	Janxcode
 
 	}
 
+
+
+@media only screen and (max-width: 768px)
+{
+	.content-spacer
+	{
+		padding-top: 25px;
+	}
+}
+
+
 /* #Tablet (Portrait)
 ================================================== */
 
@@ -513,7 +524,7 @@ Author:	Janxcode
 		 }
 
 		 .jx-team .jx-team-item {
-		 	padding-bottom:40px;
+		 	//padding-bottom:40px;
 		 }
 
 		 .jx-team .jx-team-item {
@@ -957,9 +968,14 @@ Author:	Janxcode
 ================================================== */
 
     /* Note: Design for a width of 320px */
-    @media only screen and (max-width: 767px) {
-
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+			.jx-team div:nth-child(2)
+			{
+				padding-left: 0px;
+				margin-left: 0px;
+			}
 	}
+
 
 
     /* Note: Design for a width of 480px */
@@ -1030,7 +1046,7 @@ Author:	Janxcode
 
 		 .jx-team .jx-team-item {
 		 	padding-bottom: 0;
-			width: 48%;
+			width: 100%;
 			margin-right: 8px;
 		 }
 
@@ -1041,7 +1057,7 @@ Author:	Janxcode
 
 		.jx-team-item {
 			height: auto;
-			width: 48%;
+			width: 100%;
 		}
 
 	/*---------------------------------------------------------------
@@ -1741,7 +1757,7 @@ Author:	Janxcode
 		 }
 
 		 .jx-team .jx-team-item {
-		 	padding-bottom:40px;
+		 	//padding-bottom:40px;
 			width:100%;
 		 }
 
@@ -3054,7 +3070,7 @@ Author:	Janxcode
 		 }
 
 		 .jx-team .jx-team-item {
-		 	padding-bottom:40px;
+		 	//padding-bottom:40px;
 		 }
 
 		 .jx-team .jx-team-item {
@@ -3492,4 +3508,12 @@ Author:	Janxcode
 		}
 
 
+	}
+
+	@media only screen and (max-width: 767px)
+	{
+		.jx-team .jx-team-box-content
+		{
+			padding-bottom: 25px;
+		}
 	}
