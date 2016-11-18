@@ -14,7 +14,7 @@ title: PTBO Game Jam
 email: "hello@ptbogamejam.com"
 description: > # this means to ignore newlines until "baseurl:"
   The PTBO Game Jam is a gathering of industry professionals, students, hobbyists and those eager to learn creating video games in a short fixed period of time.
-  
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://staging.ptbogamejam.com" # the base hostname & protocol for your site
 
@@ -55,6 +55,7 @@ press_name: "Matthew Davey"
 press_email: "matthew.davey@dotbunny.com"
 press_phone: "+1 (888) 632-1993 x700"
 press_kit: "/press/PTBOGameJam_PressKit.zip"
+brand_guidelines: "/press/brand-guidelines/"
 
 stats_prizes: "4"
 stats_games: "11"
