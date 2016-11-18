@@ -1159,8 +1159,7 @@ header{
   border-bottom:1px solid rgba(255,255,255,0.5)
 }
 header .jx-logo{
-  padding-top:15px;
-  padding-bottom: 15px;
+  padding-top:12px;
 }
 
 //
@@ -1398,8 +1397,9 @@ header .jx-logo{
 /* Sub Menu */
 .jx-menu .main-menu li .sub-menu {
     position: absolute;
-    margin-top:31px;
-   background:rgba(0,0,0,0.95);
+    margin-top:30px;
+    padding-top: 1px;
+   //background:rgba(0,0,0,0.95);
    display: none;
 }
 
@@ -1411,6 +1411,7 @@ header .jx-logo{
     display:block;
     margin-left: 0px;
     padding: 0px;
+    background-color: #000;
 }
 
 // .jx-menu .main-menu li .sub-menu li a:before {

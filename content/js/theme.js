@@ -96,8 +96,10 @@ Version: 		1.0
 				jQuery('#jx-counter-4').circliful();
 
 
+
 				//Count Go up
 				jQuery('.jx-counter-number').animate({marginTop:0},1000,'swing');
+
 				jQuery('#count-go-up-1 span').counterUp({
 					delay: 10,
 					time: 1000
@@ -112,6 +114,8 @@ Version: 		1.0
 					delay: 30,
 					time: 1000
 				});
+
+
 
 
 				//Count Down
