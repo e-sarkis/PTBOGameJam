@@ -968,6 +968,7 @@ dl dt {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+
 }
 
 .parallax-no-slider {
@@ -1452,7 +1453,10 @@ header .jx-logo{
  position: relative !important;
  z-index:1;
 }
-
+.page-titlebar-bg
+{
+  background-position: bottom;
+}
 .jx-page-titlebar .jx-page-titlebar-items{
   position: absolute;
   top:0;
@@ -2944,8 +2948,8 @@ li .fa-twitter:hover{
   color:#fff;
 }
 
-li .fa-youtube:hover{
-  background:#bb0000;
+li .fa-github:hover{
+  background:#ac5c51;
   color:#fff;
 }
 
@@ -2954,23 +2958,10 @@ li .fa-google-plus:hover{
   color:#fff;
 }
 
-li .fa-dribbble:hover{
-  background:#ea4c89;
-  color:#fff;
-}
+
 
 li .fa-instagram:hover{
   background:#125688;
-  color:#fff;
-}
-
-li .fa-pinterest:hover{
-  background:#cb2027;
-  color:#fff;
-}
-
-li .fa-flickr:hover{
-  background:#ff0084;
   color:#fff;
 }
 
