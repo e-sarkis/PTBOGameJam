@@ -32,7 +32,7 @@ markdown: kramdown
 
 google_analytics: "UA-11332795-6"
 google_api_key: "AIzaSyDtYuwLCEBRLorbWUdeCgHZjqOqM92Mjg4"
-
+volunteer_email: "mailto:ptbogamejam@gmail.com?subject=I%20want%20to%20Volunteer!"
 
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
