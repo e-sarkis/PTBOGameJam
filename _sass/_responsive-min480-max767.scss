@@ -1,0 +1,694 @@
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/*---------------------------------------------------------------
+		[1.0 Footer ]
+	---------------------------------------------------------------*/
+
+	.jx-footer-social li i {
+		width: 45px !important;
+		height: 45px !important;
+		line-height: 45px !important;
+		font-size: 26px !important;
+	}
+
+	.jx-footer-social li {
+		margin-right: 2px !important;
+	}
+
+	.jx-footer-social {
+	    padding: 30px 0px 0px !important;
+	}
+
+
+
+	/*---------------------------------------------------------------
+		[2.0 Services ]
+	---------------------------------------------------------------*/
+
+		.jx-servicebox-1 .jx-service-item {
+			padding-bottom:20px;
+			margin-bottom:20px;
+		}
+
+		/*--------Services style #1-------*/
+
+
+	/*---------------------------------------------------------------
+		[2.0 Services ]
+	---------------------------------------------------------------*/
+
+		.jx-servicebox-1 .jx-service-item .service-description p {
+			padding: 0px 0px;
+		}
+
+		/*--------Services style #1-------*/
+
+
+	/*---------------------------------------------------------------
+		[3.0 Media Center ]
+	---------------------------------------------------------------*/
+
+
+		.jx-media-center .one-third.columns {
+			margin-bottom: 40px;
+		}
+
+	/*---------------------------------------------------------------
+		[4.0 Team ]
+	---------------------------------------------------------------*/
+
+
+
+		 .jx-team img {
+			width:100%;
+		 }
+
+		 .jx-team .jx-team-item {
+		 	padding-bottom: 0;
+			width: 100%;
+			margin-right: 8px;
+		 }
+
+
+		.jx-team-item.jx-team-box-content {
+			width: 100%;
+		}
+
+		.jx-team-item {
+			height: auto;
+			width: 100%;
+		}
+
+	/*---------------------------------------------------------------
+		[5.0  Countup ]
+	---------------------------------------------------------------*/
+
+		.jx-countup .count-item {
+			padding-bottom:20px;
+			margin-bottom:20px;
+		}
+
+		.jx-countup .count-item .count-text {
+			font-size: 20px;
+		}
+
+		.jx-countup .count-item .count-number {
+			font-size: 40px;
+		}
+
+		.jx-countup .four.columns {
+			width: 360px;
+		}
+
+
+
+
+
+	/*---------------------------------------------------------------
+		[6.0  Section Title ]
+	---------------------------------------------------------------*/
+
+
+		.jx-section-title-1 .jx-title {
+		    font-size: 30px !important;
+		}
+
+		.jx-section-title-1 .jx-title-border {
+			width: 180px;
+		}
+
+
+	/*---------------------------------------------------------------
+		[7.0  Header ]
+	---------------------------------------------------------------*/
+
+		.jx-menu {
+			display:none;
+		}
+
+		.slicknav_menu {
+			display: block !important;
+		}
+
+
+		.jx-event-title-box .jx-event-pretitle {
+			font-size: 18px !important;
+		}
+
+		.jx-event-title-box .jx-event-title {
+			font-size: 25px !important;
+		}
+
+		.jx-event-title-box .jx-event-location {
+			font-size: 16px !important;
+		}
+
+		.jx-event-box .jx-event-date .jx-event-day {
+			font-size: 40px !important;
+		}
+
+		.jx-event-box .jx-event-date .jx-event-day span {
+			font-size: 20px !important;
+		}
+
+		.jx-event-box .jx-event-date .jx-event-month {
+			font-size: 20px !important;
+		}
+
+		.jx-event-box-register.jx-register-box-2 .jx-event-date .jx-event-day {
+			font-size: 30px !important;
+		}
+
+		.jx-event-box-register .jx-event-register {
+			display:none;
+		}
+
+		.jx-event-box {
+			top: 130px !important;
+		}
+
+		.jx-event-box-counter .jx-event-date {
+			height: 120px !important;
+			width: 120px !important;
+			padding-top: 10px !important;
+		}
+
+		.jx-event-play i {
+			width: 80px !important;
+			height: 80px !important;
+			line-height: 60px !important;
+			font-size: 30px !important;
+		}
+
+		.jx-event-box-register.jx-register-box-2 .jx-event-date {
+			width: 300px !important;
+			height: 70px !important;
+		}
+
+		.jx-event-box-register .jx-event-title-box {
+			height: 120px !important;
+		}
+
+		.jx-event-title-box {
+			width: 300px !important;
+			height: 120px !important;
+		}
+
+
+		.jx-event-box .jx-event-date {
+			width: 120px !important;
+			height: 120px !important;
+		}
+
+		.jx-event-play {
+			width: 120px !important;
+			height: 120px !important;
+			padding-top: 20px !important;
+		}
+
+		.jx-event-box-register .jx-event-date {
+			height: 120px !important;
+		}
+
+		.jx-event-countdown {
+			display:none !important;
+		}
+
+		.jx-event-box-counter .jx-event-title-box {
+			width: 300px !important;
+			height: 120px !important;
+		}
+
+		.jx-event-box.jx-event-box-register {
+			top: 120px !important;
+		}
+
+		.jx-right-vertical-border .jx-date .jx-slider-day {
+			font-size: 35px !important;
+		}
+
+		.jx-right-vertical-border .jx-date .jx-slider-month {
+			font-size: 30px !important;
+		}
+
+		.jx-right-vertical-border {
+			right: 110px;
+			border-left:none !important;
+		}
+
+		.jx-right-vertical-border .jx-date{
+			display:none;
+		}
+
+
+	/*---------------------------------------------------------------
+		[8.0  Slider ]
+	---------------------------------------------------------------*/
+
+		.jx-slider-bottom-info {
+			display:none;
+		}
+
+		.jx-main-slider .flexslider {
+			position:inherit !important;
+		}
+
+		.jx-event-box .jx-event-date {
+			padding: 28px 0px 0px 0px !important;
+		}
+
+		.jx-event-box-counter .jx-event-date {
+			padding-top: 28px !important;
+		}
+
+		.jx-event-box-counter .jx-event-date {
+			padding-top: 30px !important;
+		}
+
+	/*---------------------------------------------------------------
+		[9.0  According ]
+	---------------------------------------------------------------*/
+
+
+		.jx-accordion .title {
+			font-size:18px;
+		}
+
+		/*--------------- Normal According --------------*/
+
+
+		.jx-event-schedule .item {
+		    display: inline;
+		}
+
+		.jx-event-schedule .left-position {
+    		width: 100%;
+			float:none;
+		}
+
+		.jx-event-schedule .right-position {
+			width: 100%;
+			float: none;
+			display: inherit;
+			margin-right: 0px;
+			border-left: none;
+			margin-left: 0px;
+			padding-left: 0px;
+			padding-bottom: 0px;
+		}
+
+		.jx-event-schedule .head {
+			text-align: center;
+			padding-bottom: 20px;
+		}
+
+		.jx-event-schedule .date span {
+			padding-right: 0px;
+		}
+
+		.jx-event-schedule .date i {
+ 		    padding: 0px 3px 0px 15px;
+		}
+
+		.jx-event-schedule p {
+			text-align:left;
+		}
+
+
+		/*------------- Cercle According-------------*/
+
+
+	/*---------------------------------------------------------------
+		[10.0  Tabs ]
+	---------------------------------------------------------------*/
+
+
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+			width:31%;
+		    padding: 24px 0px 25px;
+			margin-right: 14.5px;
+		}
+
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active {
+			width:31%;
+		    padding: 24px 0px 25px;
+		}
+
+		.jx-tab-date {
+		    font-size: 30px;
+		}
+
+		.jx-tab-day {
+		    font-size: 20px;
+		}
+
+		.shortcode_tab_e li {
+			min-width: 120px;
+		}
+
+		/*----------- Tabs ------------*/
+
+
+
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+			width:100%;
+			padding-bottom: 15px;
+		}
+
+		/*-------- Sub Tabs -------*/
+
+
+
+	/*---------------------------------------------------------------
+		[11.0  Ticket Form  ]
+	---------------------------------------------------------------*/
+
+		.jx-countdown-form .jx-half-width {
+			width: 100% !important;
+		}
+
+		.jx-ticket-form h1 {
+ 		 	font-size: 32px;
+		}
+
+		.jx-ticket-form .jx-ticket-type, .jx-ticket-form .jx-ticket-valid {
+			width:100%;
+		}
+
+		.jx-ticket-form .jx-ticket-type {
+			float: none;
+			margin-right: 0px;
+		}
+
+		.jx-countdown-form .jx-ticket-form {
+			height: 480px;
+		}
+
+		.jx-ticket-form, .jx-countdown-box {
+ 		 	padding: 40px 40px 0px 40px;
+		}
+
+
+		/*------------- Form ---------------*/
+
+		.jx-countdown-form .jx-countdown-box h1 {
+ 		   font-size: 32px;
+		}
+		.jx-countdown .counter-wrapper ul {
+			margin:0px;
+			padding:0px;
+			padding-top:20px;
+		}
+		.jx-countdown .counter-wrapper li {
+			margin-right: 4px;
+			margin-top: 0px;
+			margin-left: 4px;
+			height:75px;
+			width:75px;
+			padding:0px;
+		}
+
+		.jx-countdown-form .jx-countdown-box {
+			height:440px;
+		}
+
+		.jx-countdown .counter-wrapper li .count {
+			font-size: 25px;
+		}
+
+		.jx-countdown .counter-wrapper li .count-text {
+    		font-size: 18px;
+		}
+
+
+		/*------------- Count Down---------------*/
+
+
+
+
+	/*---------------------------------------------------------------
+		[ 11.0  Sponsor  ]
+	---------------------------------------------------------------*/
+
+	.jx-sponsors li {
+		width: 202px;
+		}
+
+	/*---------------------------------------------------------------
+		[ 12.0  Portfolio  ]
+	---------------------------------------------------------------*/
+
+		.jx-custom-flex .flex-custom-control-nav li {
+			padding: 10px 10px !important;
+			width: 32%;
+		}
+
+		.grid-item-width2 {
+			width: 50%;
+			height: 50%;
+		}
+
+		.jx-grid-item.grid-item-width2-only{
+			width: 50%;
+			height: 50%;
+		}
+
+		.jx-grid-item{
+			width:50%;
+			height: 50%;
+			margin: 0;
+		}
+
+		.jx-grid-item .jx-date-box{
+			width: 210px;
+			height: 210px;
+			padding-top: 60px;
+		}
+
+		.jx-grid-item .jx-date-box .jx-date{
+			font-size:40px;
+		}
+
+
+	/*---------------------------------------------------------------
+		[13.0  Testimonial  ]
+	---------------------------------------------------------------*/
+		.jx-testimonial {
+			min-height: 450px;
+			padding-top: 20px;
+		}
+
+		.jx-testimonial-item .jx-testimonial-image {
+			float:none;
+			margin-right: 0px;
+		}
+
+		.jx-testimonial-details .jx-testimonial-icon {
+			height:auto;
+		}
+
+		.container-bg-icon i {
+    		font-size: 290px;
+		}
+
+		.jx-testimonial-item .jx-photo {
+			width: 90px;
+			height: 90px;
+			float: none;
+			margin: 20px auto;
+		}
+
+		.jx-testimonial-item .jx-testimonial-content {
+			width: 100%;
+			height: auto;
+			float: none;
+			margin-left: 0;
+		}
+
+		.jx-testimonial-item .jx-testimonial-content .jx-name {
+			width: 100%;
+		}
+
+		.jx-testimonial-item .jx-testimonial-content .jx-content p {
+			color: #fff;
+			padding: 10px 20px;
+			line-height: 1.2;
+			width: 100%;
+			text-align: center;
+		}
+	/*---------------------------------------------------------------
+		[13.0  Price Table  ]
+	---------------------------------------------------------------*/
+
+
+		.jx-price-table .jx-price-item {
+			margin-bottom:40px;
+		}
+
+
+	/*---------------------------------------------------------------
+		[14.0  Google Map  ]
+	---------------------------------------------------------------*/
+
+
+		.jx-venue-box {
+			width: 320px;
+			height: 320px;
+			padding: 90px 0px 0px 0px;
+		}
+
+		.jx-hotel-name {
+			font-size: 16px;
+			font-weight: 600;
+		}
+
+
+
+	/*---------------------------------------------------------------
+		[16.0  FAQ BOX  ]
+	---------------------------------------------------------------*/
+
+
+		.jx-faq .jx-faq-head .jx-faq-title {
+			width: 100%;
+			float:none;
+		}
+
+		.jx-faq-description {
+			height:auto;
+			padding:30px 20px 20px 20px;
+		}
+
+		.jx-faq .jx-faq-head .jx-faq-title::after {
+			left:45%;
+		}
+
+
+
+	/*---------------------------------------------------------------
+		[17.0  Interactive Map  ]
+	---------------------------------------------------------------*/
+
+
+		.jx-map-company > ul > li {
+			width: 50%;
+		}
+
+		.jx-single-point:nth-of-type(3) {
+			top: 24%;
+			left:16%;
+		}
+
+		.jx-single-point:nth-of-type(1) {
+ 		   bottom: 63%;
+		   right:28%;
+		 }
+
+		 .jx-single-point:nth-of-type(2) {
+			bottom: 59%;
+		}
+
+		.jx-single-point:nth-of-type(4) {
+    		top: 21%;
+			right:16%;
+		}
+
+	/*---------------------------------------------------------------
+		[18.0  Contact Form  ]
+	---------------------------------------------------------------*/
+
+
+		.jx-contact-form .contact-full-name, .jx-contact-form .contact-email {
+			width: 100%;
+		}
+
+		.jx-contact-form .contact-full-name {
+			float:  none;
+			margin-right: 0px;
+		}
+
+
+	/*---------------------------------------------------------------
+		[20.0  Summary Info  ]
+	---------------------------------------------------------------*/
+
+		.jx-summary-info {
+			height:auto;
+		}
+
+		.jx-summary-info ul > li {
+			border-right: none;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		}
+
+		.jx-summary-info::after {
+			left:46%;
+		}
+
+	/*---------------------------------------------------------------
+		[21.0  Blog  ]
+	---------------------------------------------------------------*/
+
+
+	.jx-blog-head .jx-event-date {
+		font-size: 14px !important;
+	}
+	.jx-blog .title {
+		padding: 0px 0px 20px !important;
+	}
+	.jx-blog-head .title a {
+		font-size: 18px !important;
+	}
+
+	.jx-blog .image img {
+		height: 200px !important;
+	}
+
+	.full-widthvideo {
+		height: 200px !important;
+	}
+
+
+	.nav-links a {
+		font-size: 12px !important;
+	}
+
+	.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.current {
+		margin-top:20px !important;
+		font-size:14px !important;
+		// float:left !important;
+	}
+
+	.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb a {
+		font-size: 14px !important;
+	}
+
+	.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb {
+		font-size:14px !important;
+	}
+
+	.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.pre-breadcrumb::before {
+		line-height: 25px !important;
+	}
+
+
+	/*---------------------------------------------------------------
+		[22.0  PAGE 404  ]
+	---------------------------------------------------------------*/
+
+
+		.jx-error .jx-error-msg {
+			font-size: 25px !important;
+		}
+
+		.jx-error .jx-error-code {
+			font-size: 150px !important;
+			padding: 20px 0px 0px 0px;
+		}
+
+	}

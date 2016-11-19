@@ -1,0 +1,418 @@
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+
+
+/*---------------------------------------------------------------
+  [4.0 Team ]
+---------------------------------------------------------------*/
+
+.jx-team-details .jx-team-social ul li i {
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+ }
+
+ .jx-team .jx-team-item {
+    width: 31.9%;
+  }
+
+.jx-team .jx-team-item img {
+    width: 100%;
+  }
+
+.jx-team-item {
+  width: 19.2%;
+}
+
+
+.jx-image-wrapper .jx-image-hover-info {
+  margin-left: -60px;
+}
+
+/*---------------------------------------------------------------
+  [7.0  Header ]
+---------------------------------------------------------------*/
+
+  .jx-menu {
+    display:none;
+  }
+
+  .slicknav_menu {
+    display: block !important;
+  }
+
+
+
+
+/*---------------------------------------------------------------
+  [8.0  Slider ]
+---------------------------------------------------------------*/
+
+  .jx-info-icon .line-icon {
+    font-size: 35px !important;
+    padding:3px;
+  }
+
+  .jx-info-content .info-title {
+    font-size: 16px !important;
+    line-height:18px;
+    text-transform: uppercase;
+  }
+
+  .jx-info-content .info-description {
+    font-size: 14px !important;
+  }
+
+  .jx-event-box {
+    left: 0px;
+  }
+  .jx-event-box-counter .jx-event-date {
+    height: 200px;
+    width: 200px;
+  }
+  .jx-event-box-counter .jx-event-title-box {
+    width: 560px;
+    height: 290px;
+  }
+  .jx-event-box .jx-event-date .jx-event-day {
+    font-size: 95px;
+  }
+  .jx-event-box .jx-event-date .jx-event-month {
+    font-size: 45px;
+  }
+
+  .jx-event-title-box .jx-event-title {
+    font-size: 30px;
+  }
+  .jx-event-title-box .jx-event-location {
+    font-size: 18px;
+  }
+  .jx-event-title-box .jx-event-pretitle {
+    font-size: 20px;
+  }
+  .jx-event-box-counter .jx-event-title-box {
+    width: 560px;
+    height: 200px;
+  }
+
+  .jx-countdown .counter-wrapper li {
+    margin-top:15px;
+  }
+
+  .jx-event-box-counter .jx-event-date {
+    padding-top: 25px !important;
+  }
+
+  .jx-event-play {
+    height: 200px;
+    width: 200px;
+    padding-top:30px;
+  }
+  .jx-event-title-box {
+    width: 560px;
+    height: 200px;
+  }
+  .jx-event-play i {
+    width: 145px;
+    height: 145px;
+    line-height: 125px;
+    font-size: 70px;
+  }
+
+  .jx-event-box-register .jx-event-date {
+      height: 390px !important;
+  }
+
+  .jx-event-box .jx-event-date {
+    height:200px;
+  }
+  .jx-event-box .jx-event-date {
+    width:200px;
+  }
+
+  .jx-event-box-register.jx-register-box-2 .jx-event-date {
+    width:560px;
+    height:130px !important;
+  }
+
+  .jx-event-box-register.jx-register-box-2 {
+      margin: auto 13% !important;
+  }
+
+  .jx-event-box-register .jx-event-register input {
+    float: left;
+    display: inline;
+  }
+
+  .jx-event-box-register .jx-event-register .jx-ticket-email {
+    float: left;
+    display: inline;
+  }
+
+  .jx-event-register .jx-ticket-type {
+    float: left;
+  }
+
+/*---------------------------------------------------------------
+  [9.0  According ]
+---------------------------------------------------------------*/
+
+
+  .jx-event-schedule .right-position {
+    width: 830px;
+  }
+
+
+/*---------------------------------------------------------------
+  [10.0  Tabs ]
+---------------------------------------------------------------*/
+
+
+  .shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+    width:32.5%;
+  }
+
+  .shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+
+/*---------------------------------------------------------------
+  [11.0  Ticket Form  ]
+---------------------------------------------------------------*/
+
+
+
+  .jx-ticket-form h1 {
+    font-size: 32px;
+  }
+
+  .jx-ticket-form .jx-ticket-type {
+    width:46%;
+  }
+
+  .jx-countdown-form .jx-ticket-form {
+    height: 410px;
+  }
+
+  .jx-ticket-form, .jx-countdown-box {
+    padding: 40px 40px 0px 40px;
+  }
+
+
+  /*------------- Form ---------------*/
+
+  .jx-countdown-form .jx-countdown-box h1 {
+     font-size: 32px;
+  }
+  .jx-countdown .counter-wrapper ul {
+    margin:0px;
+    padding:0px;
+    padding-top:20px;
+  }
+  .jx-countdown .counter-wrapper li {
+    margin-right: 4px;
+    margin-top: 0px;
+    margin-left: 4px;
+    height:80px;
+    width:80px;
+    padding:0px;
+  }
+
+  .jx-countdown .counter-wrapper li .count {
+    font-size:25px;
+  }
+
+  .jx-countdown .counter-wrapper li .count-text {
+    font-size:18px;
+  }
+
+  .jx-countdown-form .jx-countdown-box {
+    height:408px;
+  }
+
+
+
+  .jx-ticket-form .jx-ticket-type, .jx-ticket-form .jx-ticket-valid {
+    width: 46.8%;
+    float:left;
+  }
+
+
+
+  /*------------- Count Down---------------*/
+
+
+/*---------------------------------------------------------------
+  [13.0 Count Up  ]
+---------------------------------------------------------------*/
+.jx-counter-item .jx-counter-info .jx-counter-text {
+  font-size: 17px;
+}
+
+.jx-counter-item .jx-counter-info .jx-counter-number {
+  font-size: 44px;
+}
+
+/*---------------------------------------------------------------
+  [13.0  Price Table  ]
+---------------------------------------------------------------*/
+
+
+  .jx-price-table .jx-price-item .jx-price {
+    font-size: 75px;
+    padding: 20px 20px 0px;
+    line-height: 95px;
+  }
+
+  .jx-price-table .jx-price-item .jx-package-name {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+
+/*---------------------------------------------------------------
+  [16.0  FAQ BOX  ]
+---------------------------------------------------------------*/
+
+  .jx-faq-description p {
+    font-size: 15px;
+  }
+
+
+/*---------------------------------------------------------------
+  [17.0  Interactive Map  ]
+---------------------------------------------------------------*/
+
+
+  .jx-map-company > ul > li {
+    width: 24.9%;
+  }
+
+  .jx-single-point:nth-of-type(3) {
+    top: 25%;
+  }
+
+  .jx-single-point:nth-of-type(1) {
+     bottom: 50%;
+   }
+
+   .jx-single-point:nth-of-type(2) {
+    bottom: 38%;
+  }
+
+/*---------------------------------------------------------------
+  [18.0  Sponsor Logo  ]
+---------------------------------------------------------------*/
+  .jx-sponsor{
+      overflow: hidden
+    }
+
+/*---------------------------------------------------------------
+  [19.0  Portfolio ]
+---------------------------------------------------------------*/
+.jx-grid-item .jx-date-box {
+  width: 180px;
+  height: 180px;
+  padding-top: 35px;
+}
+
+.grid-item-width2 {
+  width: 38.6% !important;
+  height: 38.6%;
+}
+.jx-grid-item {
+     width: 18.7%;
+}
+
+.jx-grid-item.grid-item-width2-only {
+  height: 182px;
+  width:38.7%;
+}
+
+.jx-grid-item .jx-date-box .jx-date {
+    font-size: 45px;
+}
+
+
+
+/*---------------------------------------------------------------
+  [18.0  Contact Form  ]
+---------------------------------------------------------------*/
+
+
+  .jx-contact-form .contact-full-name, .jx-contact-form .contact-email {
+    width: 49.4%;
+    float:left;
+  }
+
+
+
+/*---------------------------------------------------------------
+  [20.0  Summary Info  ]
+---------------------------------------------------------------*/
+
+
+  .jx-summary-info li .jx-info .jx-bar-head {
+    font-size:30px;
+  }
+
+  .jx-summary-info li .jx-info .jx-bar-title {
+    font-size:16px;
+  }
+
+  .jx-summary-info li i {
+    font-size:47px;
+  }
+
+  .jx-summary-info li .jx-subscribe-event .jx-newsletter-box {
+    width: 180px;
+  }
+
+  .jx-summary-info li .jx-subscribe-event h2 {
+    font-size:14px;
+  }
+
+
+/*---------------------------------------------------------------
+  [21.0  Blog  ]
+---------------------------------------------------------------*/
+
+
+.jx-blog-head .jx-event-date {
+  font-size: 20px !important;
+}
+.jx-blog .title {
+  padding: 0px 0px 20px !important;
+}
+.jx-blog-head .title a {
+  font-size: 25px !important;
+}
+
+.jx-blog .jx-image-wrapper .jx-blog-more i {
+  font-size: 30px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  margin-left: -10px;
+}
+
+
+/*---------------------------------------------------------------
+  [22.0  PAGE 404  ]
+---------------------------------------------------------------*/
+
+
+  .jx-error .jx-error-msg {
+    font-size: 45px !important;
+  }
+
+  .jx-error .jx-error-code {
+    font-size: 250px !important;
+  }
+
+
+}

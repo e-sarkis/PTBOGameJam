@@ -1093,9 +1093,14 @@ dl dt {
  top:20px
 }
 
+.jx-pre-title
+{
+  padding-bottom: 10px;
+}
+
 .jx-section-title-1 .jx-title-icon i{
   color:$primary-color;
-  font-size:35px
+  font-size:35px;
 }
 
 .jx-section-title-1 .jx-title-border{
@@ -2939,29 +2944,29 @@ select.valid, input.valid {
   font-size:30px;
 }
 
-li .fa-facebook:hover{
+li .icon-facebook:hover{
   background:#3b5998;
   color:#fff;
 }
 
-li .fa-twitter:hover{
+li .icon-twitter:hover{
   background:#00aced;
   color:#fff;
 }
 
-li .fa-github:hover{
+li .icon-github-circled:hover{
   background:#ac5c51;
   color:#fff;
 }
 
-li .fa-google-plus:hover{
+li .icon-gplus:hover{
   background:#dd4b39;
   color:#fff;
 }
 
 
 
-li .fa-instagram:hover{
+li .icon-instagram:hover{
   background:#125688;
   color:#fff;
 }
@@ -3137,8 +3142,8 @@ html{
 
 /* Recent Post */
 .jx-footersection-widget .widget_recent_entries li:before{
-  content:'\f105';
-  font-family:fontawesome;
+  content:'\e807';
+  font-family:"fontello";
   color:#fff;
   margin-right:5px;
 }
