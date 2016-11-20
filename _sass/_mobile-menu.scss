@@ -44,7 +44,7 @@ html, body, .perspective {
 }
 
 /* Modal view */
-.perspective-perspective.modalview {
+.perspective.modalview {
 	position: fixed;
 	-webkit-perspective: 1500px;
 	perspective: 1500px;
@@ -156,19 +156,19 @@ html, body, .perspective {
 	background: #b8b6b4;
 }
 
-.effect-airbnb .container {
+.effect-airbnb .perspective-container {
 	-webkit-transition: -webkit-transform 0.4s;
 	transition: transform 0.4s;
 	-webkit-transform-origin: 50% 50%;
 	transform-origin: 50% 50%;
 }
 
-.effect-airbnb.animate .container {
+.effect-airbnb.animate .perspective-container {
 	-webkit-transform: translateZ(-1500px) translateX(100%) rotateY(-45deg);
 	transform: translateZ(-1500px) translateX(100%) rotateY(-45deg);
 }
 
-.no-csstransforms3d .effect-airbnb.animate .container {
+.no-csstransforms3d .effect-airbnb.animate .perspective-container {
 	left: 75%;
 }
 
@@ -215,6 +215,9 @@ html, body, .perspective {
 	-webkit-transition-delay: 0.24s;
 	transition-delay: 0.24s;
 }
+
+
+
 
 /* Effect Move Left */
 .effect-moveleft {

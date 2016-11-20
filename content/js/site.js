@@ -61,7 +61,6 @@ var pageTransitionEndEvents = {
 };
 var pageTransitionEnd = pageTransitionEndEvents[ Modernizr.prefixed( 'transition' ) ];
 
-
 // Menu Setup
 var showMenu = document.getElementById( 'showMenu' );
 
@@ -76,7 +75,7 @@ if (container != null) {
 }
 
 // Smart Check For Components
-if ( showMenu != null && perspectiveWrapper != null && container != null && containerWrapper != null ) {
+if ( showMenu != null && perspectiveWrapper != null && container != null && contentWrapper != null ) {
 
     showMenu.addEventListener( pageClickEvent, function( ev ) {
     	ev.stopPropagation();
@@ -94,21 +93,26 @@ if ( showMenu != null && perspectiveWrapper != null && container != null && cont
 
     container.addEventListener( pageClickEvent, function( ev ) {
     	if( classie.has( perspectiveWrapper, 'animate') ) {
+
     		var onEndTransFn = function( ev ) {
-    			if( pageSupportedTransitions && ( ev.target.className !== 'container' || ev.propertyName.indexOf( 'transform' ) == -1 ) ) return;
+    			if( pageSupportedTransitions && ( ev.target.className !== 'perspective-container' || ev.propertyName.indexOf( 'transform' ) == -1 ) ) return;
     			this.removeEventListener( pageTransitionEnd, onEndTransFn );
     			classie.remove( perspectiveWrapper, 'modalview' );
-    			// mac chrome issue:
+
+          // mac chrome issue:
     			document.body.scrollTop = document.documentElement.scrollTop = pageScrollAmount;
     			// change top of contentWrapper
     			contentWrapper.style.top = '0px';
+
     		};
+
     		if( pageSupportedTransitions ) {
     			perspectiveWrapper.addEventListener( pageTransitionEnd, onEndTransFn );
     		}
     		else {
     			onEndTransFn.call();
     		}
+
     		classie.remove( perspectiveWrapper, 'animate' );
     	}
     });
