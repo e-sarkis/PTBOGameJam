@@ -1200,7 +1200,7 @@ div#showMenu
   top: 0px;
 }
 
-div#showMenu a
+div#showMenu i
 {
   margin: 16px;
 
@@ -1222,7 +1222,7 @@ div#showMenu a
   line-height: 1.125em;
   cursor: pointer;
 }
-div#showMenu a:hover
+div#showMenu i:hover
 {
   color: $primary-color !important;
 }
