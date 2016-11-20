@@ -12,6 +12,21 @@ $( document ).ready(function() {
   siteHeader = $('div#header');
 });
 
+// HDPI Support
+if ( window.devicePixelRatio > 1 ) {
+	var hdpiImages = $('img[hdpi="true"]').each(function(){
+	    var source = $(this).attr("src");
+	    var period = source.lastIndexOf(".");
+	    $(this).attr("src", source.substr(0, period) + "@2x" + source.substr(period));
+	});
+}
+
+function isHDPI()
+{
+    if ( window.devicePixelRatio > 1 ) { return true; }
+    return false;
+}
+
 // Handle Scrolling Events
 $(window).scroll(function () { onScroll(); });
 function onScroll()
