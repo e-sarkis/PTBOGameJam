@@ -338,6 +338,57 @@ margin-bottom: 5px;
 	  color:#aaa;
 	  margin-bottom:20px;
 	}
+
+  .jx-team-item .team-social li
+  {
+    text-align: center;
+  }
+
+  .team-social li
+  {
+    display: inline-block;
+    margin-right: 6px;
+  }
+
+
+
+  .jx-team-item .team-social ul
+  {
+    margin-top: -10px;
+  }
+
+  .jx-team-item .team-social li
+  {
+    color: #666;
+  }
+  .jx-team-item .team-social  li i {
+    background: #111;
+    border: 1px Solid #333;
+    padding: 5px;
+    color: #fff;
+  }
+
+  .jx-team-item .team-social li .icon-twitter:hover {
+    background: #00aced;
+    //color: #fff;
+  }
+
+  .jx-team-item .team-social li .icon-linkedin:hover {
+    background: #0077b5;
+    //color: #fff;
+  }
+
+  .jx-team-item .team-social li .icon-home:hover {
+    background: #32c24d;
+    //color: #fff;
+  }
+
+  // .icon-twitter:hover {
+  //     background: #00aced;
+  //     color: #fff;
+  // }
+
+
 /*---------------------------------------------------------------
 [8.0 Newsletter ]
 ---------------------------------------------------------------*/

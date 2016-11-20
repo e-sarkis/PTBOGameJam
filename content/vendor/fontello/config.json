@@ -757,6 +757,18 @@
       "css": "podcast",
       "code": 62158,
       "src": "fontawesome"
+    },
+    {
+      "uid": "e9107949dd6c9e8ab2b29ae07156e38c",
+      "css": "linkedin",
+      "code": 61665,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "d7271d490b71df4311e32cdacae8b331",
+      "css": "home",
+      "code": 59416,
+      "src": "fontawesome"
     }
   ]
 }
