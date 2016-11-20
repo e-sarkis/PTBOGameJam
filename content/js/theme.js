@@ -30,9 +30,6 @@ Version: 		1.0
 			//Items on load
 			this.onLoad();
 
-			//Mobile Menu
-			jQuery('#jx-main-menu,#jx-main-menu-2').slicknav();
-
 			// Animation
 			this.animation();
 
@@ -130,14 +127,8 @@ Version: 		1.0
 					jQuery(".select-box").selectbox();
 				}
 
-				//Mobile Menu
-				jQuery('.slicknav_nav li.col > ul').children().unwrap();
-				jQuery('.slicknav_nav li.col').children().unwrap();
-				jQuery('.slicknav_nav li.clear').remove();
-				jQuery('.slicknav_nav ul.submenu a.slicknav_item').remove();
-
-				if( IsMobile() ) {
-				   jQuery('.jx-header').removeClass('jx-sticky');
+				if( isMobile() ) {
+			//	   jQuery('.jx-header').removeClass('jx-sticky');
 				}
 			});
 
