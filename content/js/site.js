@@ -65,49 +65,55 @@ var pageTransitionEnd = pageTransitionEndEvents[ Modernizr.prefixed( 'transition
 // Menu Setup
 var showMenu = document.getElementById( 'showMenu' );
 
-showMenu = false;
 if ( showMenu ) {
-
   var perspectiveWrapper = document.getElementById( 'perspective' );
+}
+if ( perspectiveWrapper != null ) {
   var container = perspectiveWrapper.querySelector( '.perspective-container' );
+}
+if (container != null) {
   var contentWrapper = container.querySelector( '.perspective-wrapper' );
+}
 
-  showMenu.addEventListener( pageClickEvent, function( ev ) {
-  	ev.stopPropagation();
-  	ev.preventDefault();
-  	pageScrollAmount = isScrolled();
-  	// change top of contentWrapper
-  	contentWrapper.style.top = pageScrollAmount * -1 + 'px';
-  	// mac chrome issue:
-  	document.body.scrollTop = document.documentElement.scrollTop = 0;
-  	// add modalview class
-  	classie.add( perspectiveWrapper, 'modalview' );
-  	// animate..
-  	setTimeout( function() { classie.add( perspectiveWrapper, 'animate' ); }, 25 );
-  });
+// Smart Check For Components
+if ( showMenu != null && perspectiveWrapper != null && container != null && containerWrapper != null ) {
 
-  container.addEventListener( pageClickEvent, function( ev ) {
-  	if( classie.has( perspectiveWrapper, 'animate') ) {
-  		var onEndTransFn = function( ev ) {
-  			if( pageSupportedTransitions && ( ev.target.className !== 'container' || ev.propertyName.indexOf( 'transform' ) == -1 ) ) return;
-  			this.removeEventListener( pageTransitionEnd, onEndTransFn );
-  			classie.remove( perspectiveWrapper, 'modalview' );
-  			// mac chrome issue:
-  			document.body.scrollTop = document.documentElement.scrollTop = pageScrollAmount;
-  			// change top of contentWrapper
-  			contentWrapper.style.top = '0px';
-  		};
-  		if( pageSupportedTransitions ) {
-  			perspectiveWrapper.addEventListener( pageTransitionEnd, onEndTransFn );
-  		}
-  		else {
-  			onEndTransFn.call();
-  		}
-  		classie.remove( perspectiveWrapper, 'animate' );
-  	}
-  });
+    showMenu.addEventListener( pageClickEvent, function( ev ) {
+    	ev.stopPropagation();
+    	ev.preventDefault();
+    	pageScrollAmount = isScrolled();
+    	// change top of contentWrapper
+    	contentWrapper.style.top = pageScrollAmount * -1 + 'px';
+    	// mac chrome issue:
+    	document.body.scrollTop = document.documentElement.scrollTop = 0;
+    	// add modalview class
+    	classie.add( perspectiveWrapper, 'modalview' );
+    	// animate..
+    	setTimeout( function() { classie.add( perspectiveWrapper, 'animate' ); }, 25 );
+    });
 
-  perspectiveWrapper.addEventListener( pageClickEvent, function( ev ) { return false; } );
+    container.addEventListener( pageClickEvent, function( ev ) {
+    	if( classie.has( perspectiveWrapper, 'animate') ) {
+    		var onEndTransFn = function( ev ) {
+    			if( pageSupportedTransitions && ( ev.target.className !== 'container' || ev.propertyName.indexOf( 'transform' ) == -1 ) ) return;
+    			this.removeEventListener( pageTransitionEnd, onEndTransFn );
+    			classie.remove( perspectiveWrapper, 'modalview' );
+    			// mac chrome issue:
+    			document.body.scrollTop = document.documentElement.scrollTop = pageScrollAmount;
+    			// change top of contentWrapper
+    			contentWrapper.style.top = '0px';
+    		};
+    		if( pageSupportedTransitions ) {
+    			perspectiveWrapper.addEventListener( pageTransitionEnd, onEndTransFn );
+    		}
+    		else {
+    			onEndTransFn.call();
+    		}
+    		classie.remove( perspectiveWrapper, 'animate' );
+    	}
+    });
+
+    perspectiveWrapper.addEventListener( pageClickEvent, function( ev ) { return false; } );
 }
 
 
