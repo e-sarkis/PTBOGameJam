@@ -94,8 +94,10 @@ if ( showMenu != null && perspectiveWrapper != null && container != null && cont
     container.addEventListener( pageClickEvent, function( ev ) {
     	if( classie.has( perspectiveWrapper, 'animate') ) {
 
-    		var onEndTransFn = function( ev ) {
+    		var onEndTransFn = function( ev )
+        {
     			if( pageSupportedTransitions && ( ev.target.className !== 'perspective-container' || ev.propertyName.indexOf( 'transform' ) == -1 ) ) return;
+
     			this.removeEventListener( pageTransitionEnd, onEndTransFn );
     			classie.remove( perspectiveWrapper, 'modalview' );
 
