@@ -27,6 +27,22 @@ function isHDPI()
     return false;
 }
 
+
+// Mobile Check
+var siteMobile = (
+  navigator.userAgent.match(/Android/i) ||
+  navigator.userAgent.match(/BlackBerry/i) ||
+  navigator.userAgent.match(/iPhone|iPad|iPod/i) ||
+  navigator.userAgent.match(/Opera Mini/i) || navigator.userAgent.match(/IEMobile/i)
+);
+
+function IsMobile()
+{
+  return siteMobile;
+}
+
+
+
 // Handle Scrolling Events
 $(window).scroll(function () { onScroll(); });
 function onScroll()
