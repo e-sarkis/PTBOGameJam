@@ -1446,12 +1446,12 @@ font-size:32px;
 /*---------------------------------------------------------------
 [6.0 Slider ]
 ----------------------------------------------------------------*/
-.jx-slider  {
-	position:relative;
-	z-index: 999;
-}
+// .jx-slider  {
+// 	position:relative;
+// 	z-index: 999;
+// }
 
-.jx-slider header{
+header#menu{
   position: absolute;
   z-index: 9999;
   width: 100%;
