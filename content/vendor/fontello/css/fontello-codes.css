@@ -30,6 +30,7 @@
 .icon-off:before { content: '\e81c'; } /* '' */
 .icon-zoom-in:before { content: '\e81d'; } /* '' */
 .icon-zoom-out:before { content: '\e81e'; } /* '' */
+.icon-cancel:before { content: '\e81f'; } /* '' */
 .icon-trash-empty:before { content: '\e821'; } /* '' */
 .icon-megaphone:before { content: '\e822'; } /* '' */
 .icon-play:before { content: '\e823'; } /* '' */
