@@ -64,6 +64,7 @@ var pageTransitionEnd = pageTransitionEndEvents[ Modernizr.prefixed( 'transition
 // Menu Setup
 var showMenu = document.getElementById( 'showMenu' );
 var showMenuIcon = document.getElementById('showMenuIcon');
+var headerBar = document.getElementById('menu');
 
 if ( showMenu ) {
   var perspectiveWrapper = document.getElementById( 'perspective' );
@@ -91,6 +92,7 @@ function ShowMobileMenu(ev)
   showingMobileMenu = true;
   classie.remove(showMenuIcon, 'icon-menu');
   classie.add(showMenuIcon, 'icon-resize-full-alt');
+  classie.add(headerBar, 'no-border');
 }
 function HideMobileMenu(ev)
 {
@@ -121,6 +123,7 @@ function HideMobileMenu(ev)
   showingMobileMenu = false;
   classie.remove(showMenuIcon, 'icon-resize-full-alt');
   classie.add(showMenuIcon, 'icon-menu');
+  classie.remove(headerBar, 'no-border');
 }
 
 // Smart Check For Components
