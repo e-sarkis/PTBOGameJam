@@ -50,7 +50,7 @@ html, body, .perspective {
 	perspective: 1500px;
 }
 
-.modalview .container {
+.modalview .perspective-container {
 	position: absolute;
 	overflow: hidden;
 	width: 100%;
@@ -60,11 +60,11 @@ html, body, .perspective {
 	backface-visibility: hidden;
 }
 
-.modalview .wrapper {
+.modalview .perspective-wrapper {
 	-webkit-transform: translateZ(-1px); /* solves a rendering bug in Chrome on Windows */
 }
 
-.animate .container::after {
+.animate .perspective-container::after {
 	opacity: 1;
 	height: 101%;
 	-webkit-transition: opacity 0.3s;
