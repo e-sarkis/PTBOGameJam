@@ -92,7 +92,6 @@ function ShowMobileMenu(ev)
   showingMobileMenu = true;
   classie.remove(showMenuIcon, 'icon-menu');
   classie.add(showMenuIcon, 'icon-resize-full-alt');
-  classie.add(headerBar, 'no-border');
 }
 function HideMobileMenu(ev)
 {
@@ -123,7 +122,6 @@ function HideMobileMenu(ev)
   showingMobileMenu = false;
   classie.remove(showMenuIcon, 'icon-resize-full-alt');
   classie.add(showMenuIcon, 'icon-menu');
-  classie.remove(headerBar, 'no-border');
 }
 
 // Smart Check For Components
