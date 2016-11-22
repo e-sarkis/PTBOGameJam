@@ -79,6 +79,9 @@ html, body, .perspective {
 .outer-nav {
 	position: absolute;
 	height: auto;
+}
+
+.effect-airbnb.animate .outer-nav li {
 	font-size: 2em;
 }
 
@@ -141,7 +144,7 @@ html, body, .perspective {
 
 .outer-nav a::before {
 	display: inline-block;
-	font-family: 'typicons';
+	font-family: 'fontello';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -249,7 +252,8 @@ html, body, .perspective {
 		bottom: 5%;
 	}
 
-	.outer-nav.horizontal {
+	.outer-nav.horizontal,
+	.effect-airbnb.animate .outer-nav li {
 		font-size: 1.7em;
 		width: 6.2em;
 	}
@@ -262,10 +266,14 @@ html, body, .perspective {
 
 @media screen and (max-width: 31em), screen and (max-height: 36.2em) {
 	.outer-nav.horizontal,
-	.outer-nav.vertical {
+	.outer-nav.vertical,
+	.effect-airbnb.animate .outer-nav li
+	 {
 		font-size: 1.2em;
 		width: 6.8em;
 	}
+
+
 
 	.outer-nav.right {
 		right: auto;
