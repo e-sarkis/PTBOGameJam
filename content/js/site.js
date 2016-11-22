@@ -109,6 +109,8 @@ function HideMobileMenu(ev)
       // change top of contentWrapper
       contentWrapper.style.top = '0px';
 
+      classie.remove(showMenuIcon, 'icon-resize-full-alt');
+      classie.add(showMenuIcon, 'icon-menu');
     };
 
     if( pageSupportedTransitions ) {
@@ -120,8 +122,7 @@ function HideMobileMenu(ev)
     classie.remove( perspectiveWrapper, 'animate' );
   }
   showingMobileMenu = false;
-  classie.remove(showMenuIcon, 'icon-resize-full-alt');
-  classie.add(showMenuIcon, 'icon-menu');
+
 }
 
 // Smart Check For Components
