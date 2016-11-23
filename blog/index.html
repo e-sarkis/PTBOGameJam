@@ -42,14 +42,14 @@ blog: current
       {% for i in (1..paginator.total_pages) reversed %}
         {% if i == 1 %}
           {% if paginator.page == 1 %}
-            <span clas="current">1</span>
+            <span class="current">1</span>
           {% else %}
-            <span class="page"><a href="{{ site.baseurl }}/blog/">1</a>
+            <a class="page" href="{{ site.baseurl }}/blog/">1</a>
           {% endif %}
         {% elsif i == paginator.page %}
-        <span clas="current">{{ paginator.page }}</span>
+          <span class="current">{{ paginator.page }}</span>
         {% else %}
-        <span class="page"><a href="{{ site.baseurl }}/blog/page/{{ i }}">{{ i }}</a>
+          <a class="page" href="{{ site.baseurl }}/blog/page/{{ i }}">{{ i }}</a>
         {% endif %}
       {% endfor %}
     </div>
