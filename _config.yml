@@ -2,13 +2,18 @@
 gems:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
+  
 kramdown:
   input: GFM
 excerpt_separator: "<!-- more -->"
-paginate: 5
+paginate: 1
 paginate_path: '/blog/page:num'
 permalink: pretty
 version: 1.0.0
+
+# Show Future Posts
+future: true
 
 # Site settings
 title: PTBO Game Jam

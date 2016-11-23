@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title:  "Website 02"
 date:   2016-11-27 20:00:00 -0400
 categories: ["operations"]
