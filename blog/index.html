@@ -40,7 +40,7 @@ blog: current
 
     <div class="jx-pagination">
 
-      {% for i in (1..paginator.total_pages) %}
+      {% for i in (1..paginator.total_pages) reversed %}
         {% if i == 1 %}
           {% if paginator.page == 1 %}
             <span clas="current">1</span>
