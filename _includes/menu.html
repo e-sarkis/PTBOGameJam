@@ -3,24 +3,30 @@
   <li class="{% if page.highlight == "blog" %}current{% endif %}"><a {% if include.icons == "true" %}class="icon-newspaper" {% endif %} title="Blog" href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a>
   <li class="{% if page.highlight == "event" %}current{% endif %}">
     <a {% if include.icons == "true" %}class="icon-calendar" {% endif %}href="{{ "/event/" | prepend: site.baseurl }}">Event</a>
+    {% if include.icons != "true" %}
     <ul class="sub-menu">
           <li><a title="Schedule" href="{{ "/event/schedule/" | prepend: site.baseurl }}">Schedule</a></li>
           <li><a title="Registration" href="{{ site.registration_url }}">Registration</a></li>
           <li><a title="FAQ" href="{{ "/event/faq/" | prepend: site.baseurl }}">FAQ</a></li>
     </ul>
+    {% endif %}
   </li>
   <li class="{% if page.highlight == "games" %}current{% endif %}"><a {% if include.icons == "true" %}class="icon-gamepad" {% endif %}title="Games" href="{{ "/games/" | prepend: site.baseurl }}">Games</a>
+    {% if include.icons != "true" %}
     <ul class="sub-menu">
       <li><a title="PTBO Game Jam 01" href="{{ "/games/01/" | prepend: site.baseurl }}">August 2016</a></li>
     </ul>
+    {% endif %}
   </li>
   <li class="{% if page.highlight == "community" %}current{% endif %}">
     <a {% if include.icons == "true" %}class="icon-users" {% endif %}href="{{ "/community/" | prepend: site.baseurl }}">Community</a>
+    {% if include.icons != "true" %}
     <ul class="sub-menu">
           <li><a title="Meetup" href="{{ site.meetup_url }}">Meetup</a></li>
           <li><a title="Forums" href="{{ site.forum_url }}">Forum</a></li>
           <li><a title="Friends" href="{{ "/community/friends/" | prepend: site.baseurl }}">Friends</a></li>
     </ul>
+    {% endif %}
   </li>
   <li class="{% if page.highlight == "contact" %}current{% endif %}"><a {% if include.icons == "true" %}class="icon-mail" {% endif %}href="{{ "/contact/" | prepend: site.baseurl }}">Contact</a></li>
 </ul>
