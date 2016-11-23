@@ -8,58 +8,40 @@ blog: current
   <div class="posts sixteen columns jx-padding alpha jx-blog">
     {% for post in paginator.posts %}
 
+    <div id="post-{{ post.code }}" class="jx-blog post type-post format-video has-post-thumbnail hentry category-business tag-conference tag-exhibition tag-international tag-seminar tag-workshop post_format-post-format-video">
+      <div class="jx-blog-item">
 
+        <div class="jx-image-container">
 
-
-
-
-
-
-
-
-
-
-
-
-    <div class="jx-blog-item">
-      <div class="image jx-image-wrapper">
-        <img src="/content/img/post/{{ post.code }}.jpg" alt="">
-        <div class="jx-image-overlay"></div>
-
-        <div class="jx-image-hover">
-          <a href="#" class="jx-blog-more"><i class="icon-doc-text"></i></a>
-        </div>
-      </div>
-
-      <div class="jx-blog-content">
-        <div class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
-        <div class="jx-metabox">
-          <div class="date">
-            <i class="icon-calendar"></i><span>{{ post.date | date_to_string }}</span><i class="icon-tags"></i><span>
-              {% if post.tags %}
-                {% for tag in post.tags %}
-                  <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-                {% endfor %}
-            {% endif %}</span>
+          <div class="jx-blog-image">
+              <div class="image jx-image-wrapper">
+                <img width="0" height="0" src="/content/img/post/{{post.code}}.jpg" class="attachment-blog size-blog " draggable="false">
+                <div class="jx-image-overlay"></div>
+                <div class="jx-image-hover">
+                  <a href="{{ site.baseurl }}{{ post.url }}" class="jx-blog-more"><i class="icon-doc-text"></i></a>
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="description"><article><p>{{ post.excerpt | markdownify }}</p></article></div>
-        <div class="jx-readmore">
-          {% if site.disqus_short_name %}
-          <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a>&nbsp;
-          {% endif %}
-          <a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-plus-circle" aria-hidden="true"></i>Read more</a>
+          <div class="jx-blog-content clearfix">
+            <div class="jx-blog-head">
+                <div class="jx-post-format"><i class="icon-{{post.icon}}"></i></div>
+                <div class="jx-blog-meta">
+                    <div class="jx-event-date">{{ post.date | date_to_string }}</div>
+                </div>
+                <div class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+            </div>
+            <article>{{ post.excerpt | markdownify }}</article>
+          </div>
         </div>
       </div>
     </div>
-
     {% endfor %}
 
     <div class="pagination">
       {% if paginator.next_page %}
         <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">Older</a>
       {% else %}
-        <span class="pagination-item older">Older</span>
+
       {% endif %}
       {% if paginator.previous_page %}
         {% if paginator.page == 2 %}
@@ -68,10 +50,57 @@ blog: current
           <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">Newer</a>
         {% endif %}
       {% else %}
-        <span class="pagination-item newer">Newer</span>
+
       {% endif %}
     </div>
+
+
   </div>
 
+  <div id="sidebar" class="four columns right jx-padding omega">
+
+
+    <div class="jx-sidebar-widget">
+      <div id="search-3" class="widget widget_search">
+        <form role="search" class="search-form" action="#" id="site-search">
+          <label>
+            <span class="screen-reader-text">Search for:</span>
+            <input id="QUERY" type="search" class="search-field" placeholder="Search …" value="" name="QUERY">
+          </label>
+          <input type="submit" class="search-submit" value="Search">
+        </form>
+      </div>
+    </div>
+
+
+    <div class="jx-sidebar-widget">
+      <div id="recent-posts-4" class="widget widget_recent_entries">
+        <div class="sub">
+          <h4>Recent Posts</h4>
+          <div class="jx-right-pattern"></div>
+        </div>
+        <ul>
+          {% for post in site.posts limit:4 %}
+            <li>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <span class="post-date">{{ post.date | date_to_string }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="jx-sidebar-widget">
+      <div id="tag_cloud-2" class="widget widget_tag_cloud">
+        <div class="sub">
+          <h4>Tags</h4>
+          <div class="jx-right-pattern"></div>
+        </div>
+        <div class="tagcloud">
+          {% include block-tagcloud.html %}
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>

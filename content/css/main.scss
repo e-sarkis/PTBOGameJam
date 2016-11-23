@@ -55,6 +55,7 @@ $brand-color:      #2a7ae2;
 
 // $primary-color:   #
 $grey-color:       #828282;
+$grey-color-light-more: lighten($grey-color, 50%);
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $grey-color-dark-more:  darken($grey-color, 40%);
@@ -93,7 +94,7 @@ $on-laptop:        800px;
         "skeleton",
 
         "mobile-menu",
-        
+
         "responsive-min480-max767",
         "responsive-min768-max959",
 
