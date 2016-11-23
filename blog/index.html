@@ -38,21 +38,40 @@ blog: current
     </div>
     {% endfor %}
 
-    <div class="pagination">
-      {% if paginator.next_page %}
-        <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">Previous</a>
-      {% else %}
+    <div class="jx-pagination">
 
-      {% endif %}
-      {% if paginator.previous_page %}
-        {% if paginator.page == 2 %}
-          <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">Next</a>
+      {% for i in (1..paginator.total_pages) %}
+        {% if i == 1 %}
+          {% if paginator.page == 1 %}
+            <span clas="current">1</span>
+          {% else %}
+            <span class="page"><a href="{{ site.baseurl }}/blog/">1</a>
+          {% endif %}
+        {% elsif i == paginator.page %}
+        <span clas="current">{{ paginator.page }}</span>
         {% else %}
-          <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">Next</a>
+        <span class="page"><a href="{{ site.baseurl }}/blog/page/{{ i }}">{{ i }}</a>
         {% endif %}
-      {% else %}
 
+      {% endfor %}
+<!--
+      total_pages
+      {% if paginator.next_page %}
+        <a class="prev page-numbers pagination-item older" href="{{ site.baseurl }}/blog/page/{{paginator.next_page}}">{{ paginator.next_page }}</a>
       {% endif %}
+
+
+
+      {% if paginator.previous_page %}
+        <a class="page-numbers pagination-item newer" href="{{ site.baseurl }}/blog/page/{{paginator.previous_page}}">{{paginator.previous_page}}</a>
+      {% endif %} -->
+
+
+
+
+
+
+
     </div>
 
 
