@@ -39,7 +39,6 @@ blog: current
     {% endfor %}
 
     <div class="jx-pagination">
-
       {% for i in (1..paginator.total_pages) reversed %}
         {% if i == 1 %}
           {% if paginator.page == 1 %}
@@ -52,29 +51,8 @@ blog: current
         {% else %}
         <span class="page"><a href="{{ site.baseurl }}/blog/page/{{ i }}">{{ i }}</a>
         {% endif %}
-
       {% endfor %}
-<!--
-      total_pages
-      {% if paginator.next_page %}
-        <a class="prev page-numbers pagination-item older" href="{{ site.baseurl }}/blog/page/{{paginator.next_page}}">{{ paginator.next_page }}</a>
-      {% endif %}
-
-
-
-      {% if paginator.previous_page %}
-        <a class="page-numbers pagination-item newer" href="{{ site.baseurl }}/blog/page/{{paginator.previous_page}}">{{paginator.previous_page}}</a>
-      {% endif %} -->
-
-
-
-
-
-
-
     </div>
-
-
   </div>
 
   <div id="sidebar" class="four columns right jx-padding omega">
