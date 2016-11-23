@@ -1,6 +1,7 @@
 # Jekyll settings
 gems:
   - jekyll-paginate
+  - jekyll-sitemap
 kramdown:
   input: GFM
 excerpt_separator: "<!-- more -->"
