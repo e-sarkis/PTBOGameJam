@@ -1402,20 +1402,21 @@ div#showMenu i:hover
     margin-left: 18px;
 }
 
-.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.pre-breadcrumb:before {
+.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.pre-breadcrumb:before
+{
     content:'\f105';
-   font-family: fontawesome;
+   font-family: fontello;
   margin-right:15px;
   font-size:19px;
   //vertical-align: top;
-  line-height: 2
+  line-height: 2;
 }
 
 /* Intro Page */
 
 .jx-image-placeholder {
   margin:0 auto;
-  text-align: center
+  text-align: center;
 }
 
 .jx-text-intro{

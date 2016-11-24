@@ -4,7 +4,7 @@
   <div class="container">
     <div class="jx-page-titlebar-items">
       <div class="sixteen columns left">
-        <div class="jx-breadcrumb"><a href="{{site.url }}" rel="v:url" property="v:title">Home</a>{% if page.breadcrumb %}<span class="pre-breadcrumb" typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="{{ site.url }}/{{ page.breadcrumb }}">{{ page.breadcrumb }}</a></span>{% endif %}<span class="current">{{ page.title }}</span></div>
+        {% include breadcrumb.html %}
       </div>
     </div>
   </div>
