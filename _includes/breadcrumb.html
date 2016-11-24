@@ -2,7 +2,7 @@
   <a href="{{site.url }}" rel="v:url" property="v:title">Home</a>
   {% if page.breadcrumb %}
     <span class="pre-breadcrumb" typeof="v:Breadcrumb">
-      <a rel="v:url" property="v:title" href="{{ site.url }}/{{ page.breadcrumb }}/">{{ page.breadcrumb }}</a>
+      <a rel="v:url" property="v:title" href="{{ site.baseurl }}/{{ page.breadcrumb }}/">{{ page.breadcrumb }}</a>
     </span>
   {% endif %}
   <span class="current">{{ page.title }}</span></div>

@@ -54,63 +54,6 @@ blog: current
       {% endfor %}
     </div>
   </div>
-
-  <div id="sidebar" class="four columns left jx-padding omega">
-
-
-    <div class="jx-sidebar-widget">
-      <div id="search-3" class="widget widget_search">
-        <form role="search" class="search-form" action="#" id="site-search">
-          <label>
-            <span class="screen-reader-text">Search for:</span>
-            <input id="QUERY" type="search" class="search-field" placeholder="Search …" value="" name="QUERY">
-          </label>
-          <input type="submit" class="search-submit" value="Search">
-        </form>
-      </div>
-    </div>
-
-
-    <div class="jx-sidebar-widget">
-      <div id="recent-posts-4" class="widget widget_recent_entries">
-        <div class="sub">
-          <h4>Recent Posts</h4>
-          <div class="jx-right-pattern"></div>
-        </div>
-        <ul>
-          {% for post in site.posts limit:4 %}
-            <li>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              <span class="post-date">{{ post.date | date_to_string }}</span>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-
-    <div class="jx-sidebar-widget">
-      <div id="tag_cloud-2" class="widget widget_tag_cloud">
-        <div class="sub">
-          <h4>Tags</h4>
-          <div class="jx-right-pattern"></div>
-        </div>
-        <div class="tagcloud">
-          {% include block-tagcloud.html %}
-        </div>
-      </div>
-    </div>
-
-    <div class="jx-sidebar-widget">
-      <div id="tag_cloud-2" class="widget widget_tag_cloud">
-        <div class="sub">
-          <h4>Categories</h4>
-          <div class="jx-right-pattern"></div>
-        </div>
-        <ul>
-          {% include list-categories.html %}
-        </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+  {% include page-sidebar.html %}
+</div>
 {% include block-summary.html %}
