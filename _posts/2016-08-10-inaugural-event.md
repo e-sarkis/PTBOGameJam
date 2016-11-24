@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: post-release
 title:  "Inaugural PTBO Game Jam Event"
 date:   2016-08-10 08:00:00 -0400
 categories: ["media-releases"]
