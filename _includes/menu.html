@@ -29,4 +29,7 @@
     {% endif %}
   </li>
   <li class="{% if page.highlight == "contact" %}current{% endif %}"><a {% if include.icons == "true" %}class="icon-mail" {% endif %}href="{{ "/contact/" | prepend: site.baseurl }}">Contact</a></li>
+  {% if include.icons != "true" %}
+  <a class="register-button" title="Register" href="{{ site.registration_url }}">Register</a>
+  {% endif %}
 </ul>

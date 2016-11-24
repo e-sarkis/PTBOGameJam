@@ -501,6 +501,26 @@ li p {
 	clear:both;
 }
 
+a.register-button
+{
+  display: inline-block;
+  background: $primary-color;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+a.register-button:hover
+{
+  color: #fff;
+  background: #000;
+}
+
+
 /* #Images================================================== */
 img.scale-with-grid {
   max-width: 100%;
