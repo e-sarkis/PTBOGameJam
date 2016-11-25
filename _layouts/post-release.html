@@ -14,7 +14,7 @@ layout: default
           {% endif %}
           <div class="jx-blog-content clearfix">
             <div class="jx-blog-head">
-              <div class="jx-post-format"><i class="icon-{{ page.icon }}"></i></div>
+              <div class="jx-post-format"><a href="{{ site.media_releases | prepend: site.baseurl }}{{page.code}}.pdf"><i class="icon-{{ page.icon }}"></i></a></div>
               <div class="jx-blog-meta">
                 <div class="jx-event-date">{{ page.date | date_to_string }}</div>
               </div>
