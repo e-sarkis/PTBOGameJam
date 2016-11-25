@@ -1968,6 +1968,19 @@ select.valid, input.valid {
 	position:relative
 }
 
+.jx-blog article {
+  color: $grey-color-dark;
+}
+
+.jx-blog article p {
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+.jx-blog article p:last-child {
+  margin-bottom: 0px;
+}
+
 .jx-blog-item{
   margin-bottom:49px;
   background: #fff;
@@ -2079,6 +2092,10 @@ select.valid, input.valid {
 
 .jx-blog-metabox.jx-single{
   padding: 10px;
+  padding-left: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 20px;
 }
 
 .jx-blog .date {
