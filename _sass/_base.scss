@@ -1981,6 +1981,32 @@ select.valid, input.valid {
   margin-bottom: 0px;
 }
 
+.jx-blog article p.release-header {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.jx-blog article p.release-contact {
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+.jx-blog article p.release-info{
+  margin: 0px;
+}
+
+.jx-blog article p.release-footer{
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+span.meta_release {
+  float: right;
+  display: inline;
+}
+
+
 .jx-blog-item{
   margin-bottom:49px;
   background: #fff;

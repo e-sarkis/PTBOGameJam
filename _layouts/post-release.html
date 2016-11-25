@@ -30,18 +30,15 @@ layout: default
                   {% endif %}
                 {% endfor %}
               </span>
-              LINK TO PDF
+              <span class="meta_release"><a href="{{ site.media_releases | prepend: site.baseurl }}{{page.code}}.pdf"><i class="icon-file-pdf"></i>{{page.code}}.pdf</a>
             </div>
             <article>
               <p class="release-header">## FOR IMMEIDATE RELEASE ##</p>
-
               {{ content }}
-
-              <p class="release-contact">### Contact Information ###</p>
-              <p class="release-contact">{{ site.press_name }}</p>
-              <p class="release-contact">{{ site.press_email }}</p>
-              <p class="release-contact">{{ site.press_phone }}</p>
-
+              <p class="release-contact">Contact Information</p>
+              <p class="release-info">{{ site.press_name }}</p>
+              <p class="release-info">{{ site.press_email }}</p>
+              <p class="release-info">{{ site.press_phone }}</p>
               <p class="release-footer">###</a>
             </article>
           </div>

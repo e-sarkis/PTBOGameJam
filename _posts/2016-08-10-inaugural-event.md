@@ -23,4 +23,4 @@ Sponsors include [dotBunny](http://dotbunny.com), [Epic Games](http://epicgames.
 
 The inaugural # PTBO Game Jam # runs Saturday August 13th to Sunday August 14th at the Holiday Inn Peterborough-Waterfront. Kicking off Saturday morning at 9:30 AM with a 1-hour seminar about making video games, with the 30-hour Game Jam starting at 11:00AM.
 
-For more information visit http://ptbogamejam.com.
+For more information visit [http://ptbogamejam.com](http://ptbogamejam.com).
