@@ -1,6 +1,13 @@
 <div class="jx-breadcrumb">
-  <a href="{{site.url }}" rel="v:url" property="v:title">Home</a>
-  {% if page.breadcrumb %}
+  <a href="{{ site.url }}" rel="v:url" property="v:title">Home</a>
+  {% if page.breadcrumb and page.breadcrumb2 %}
+  <span class="pre-breadcrumb" typeof="v:Breadcrumb">
+    <a rel="v:url" property="v:title" href="{{ site.baseurl }}/{{ page.breadcrumb }}/">{{ page.breadcrumb }}</a>
+  </span>
+  <span class="pre-breadcrumb" typeof="v:Breadcrumb">
+    <a rel="v:url" property="v:title" href="{{ site.baseurl }}/{{ page.breadcrumb }}/{{ page.breadcrumb2 }}/">{{ page.breadcrumb2 }}</a>
+  </span>
+  {% elsif page.breadcrumb %}
     <span class="pre-breadcrumb" typeof="v:Breadcrumb">
       <a rel="v:url" property="v:title" href="{{ site.baseurl }}/{{ page.breadcrumb }}/">{{ page.breadcrumb }}</a>
     </span>

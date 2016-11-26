@@ -41,7 +41,7 @@ google_api_key: "AIzaSyDtYuwLCEBRLorbWUdeCgHZjqOqM92Mjg4"
 volunteer_email: "mailto:ptbogamejam@gmail.com?subject=I%20want%20to%20Volunteer!"
 
 tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
+category_page: '/blog/category/'
 
 titlebar: "title-001.jpg"
 

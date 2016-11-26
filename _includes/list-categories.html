@@ -3,7 +3,7 @@
 		{% if category[0] == "media-releases" %}
 			<a href="{{ site.media_releases | prepend: site.baseurl }}">Media Releases</a>
 		{% else %}
-			<a href="{{ site.category_page | prepend: site.baseurl }}#{{ category[0] | slugify }}">{{ category[0] | capitalize }}</a>
+			<a href="{{ site.category_page | prepend: site.baseurl }}{{ category[0] | slugify }}/">{{ category[0] | capitalize }}</a>
 		{% endif %}
 	</li>
 {% endfor %}

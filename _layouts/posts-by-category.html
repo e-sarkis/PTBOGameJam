@@ -1,12 +1,9 @@
 ---
 layout: default
-title: Blog
-titlebar: title-000.jpg
-blog: current
 ---
 <div class="container with-sidebar">
   <div class="posts sixteen columns jx-padding alpha jx-blog">
-    {% for post in paginator.posts %}
+    {% for post in site.categories[page.category] %}
 
     <div id="post-{{ post.code }}" class="jx-blog post type-post hentry">
       <div class="jx-blog-item">
@@ -25,7 +22,7 @@ blog: current
           {% endif %}
           <div class="jx-blog-content clearfix">
             <div class="jx-blog-head">
-                <div class="jx-post-format"><i class="icon-{{post.icon}}"></i></div>
+                <div class="jx-post-format"><i class="icon-{{ post.icon }}"></i></div>
                 <div class="jx-blog-meta">
                     <div class="jx-event-date">{{ post.date | date_to_string }}</div>
                 </div>
@@ -37,22 +34,6 @@ blog: current
       </div>
     </div>
     {% endfor %}
-
-    <div class="jx-pagination">
-      {% for i in (1..paginator.total_pages) reversed %}
-        {% if i == 1 %}
-          {% if paginator.page == 1 %}
-            <span class="current">1</span>
-          {% else %}
-            <a class="page" href="{{ site.baseurl }}/blog/">1</a>
-          {% endif %}
-        {% elsif i == paginator.page %}
-          <span class="current">{{ paginator.page }}</span>
-        {% else %}
-          <a class="page" href="{{ site.baseurl }}/blog/page/{{ i }}">{{ i }}</a>
-        {% endif %}
-      {% endfor %}
-    </div>
   </div>
   {% include page-sidebar.html %}
 </div>
