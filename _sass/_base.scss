@@ -2618,14 +2618,14 @@ select.valid, input.valid {
 
 .jx-error{
   text-align: center;
-  padding:80px;
+  padding: 0px;
 }
 
 .jx-error .jx-error-msg{
   font-size:50px;
-  font-weight:600;
-  color:#000;
-  margin-bottom:20px;
+  font-weight:800;
+  color:$grey-color;
+  text-transform: uppercase;
 }
 
 .jx-error .jx-error-code{
@@ -2635,9 +2635,8 @@ select.valid, input.valid {
   text-align: center;
   font-family:oswald;
   padding:20px;
-  color:#000;
+  color:$grey-color-dark;
 }
-
 /*---------------------------------------------------------------
 [10.0 SEARCH Page ]
 ----------------------------------------------------------------*/
@@ -2683,7 +2682,7 @@ select.valid, input.valid {
     background: #F1F1F1 none repeat scroll 0% 0%;
     padding: 20px;
     min-height: 100px;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
 }
 .jx-page-search.wide {
     height: 60px;
@@ -2700,6 +2699,7 @@ select.valid, input.valid {
     font-size: 17px;
     border: 0px none;
     background: #FFF none repeat scroll 0% 0%;
+    height: 60px;
 }
 .jx-page-search.wide .jx-form-wrapper button {
     overflow: visible;
@@ -2730,6 +2730,9 @@ select.valid, input.valid {
     background: #000000 !important;
 }
 
+.sixteen.small-width .jx-page-search{
+  max-width:800px;
+}
 
 
 /*---------------------------------------------------------------
@@ -3140,9 +3143,30 @@ html{
 }
 
 
-.section-contact
+.background-001
+{
+    background-image: url("/content/img/backgrounds/background-001.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.background-002
 {
     background-image: url("/content/img/backgrounds/background-002.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.background-003
+{
+    background-image: url("/content/img/backgrounds/background-003.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.background-004
+{
+    background-image: url("/content/img/backgrounds/background-004.jpg") !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
