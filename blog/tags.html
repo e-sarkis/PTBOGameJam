@@ -4,12 +4,31 @@ title: Tags
 breadcrumb: blog
 ---
 
-<div class="tags-expo">
-  <div class="tags-expo-list">
+
+<div id="about" class="jx-container jx-padding">
+  <div class="container jx-dark">
+    <div class="jx-section-title-1">
+      <div class="jx-pre-title">
+        <div class="jx-title-border left"></div>
+        <div class="jx-title-icon"><i class="icon-tags icon-3x"></i></div>
+        <div class="jx-title-border right"></div>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/Game_jam"><div class="jx-title">Tags</div></a>
+      <div class="jx-subtitle"><p>GitHub Pages doesnt currently support anything amazing when it comes to tagging posts, so we automatically make this page to give you a bit of an index.</p></div>
+    </div>
+  </div>
+  <div class="tags">
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+    <a href="#{{ tag[0] | slugify }}" class="post-tag"><i class="icon-tag"></i>{{ tag[0] }} ({{site.tags[tag[0]].size}})</a>
     {% endfor %}
   </div>
+</div>
+
+
+
+
+<div class="tags-expo">
+
   <hr/>
   <div class="tags-expo-section">
     {% for tag in site.tags %}
