@@ -10,7 +10,6 @@
           {% for slide in site.data.slides %}
 
             {% if slide.type == "countdown" %}
-
             <li id="{{slide.name}}" class="jx-parallax-fullwidth" style="background-image:url('{{slide.background}}');">
                 <div class="jx-event-slide">
                       <div class="jx-slider-content">
@@ -57,14 +56,12 @@
 
                               </div>
                           </div>
-
                           <div class="jx-right-vertical-border">
                               <div class="jx-date">
-                                  <div class="jx-slider-day">25</div>
-                                  <div class="jx-slider-month jx-uppercase">jan</div>
+                                  <div class="jx-slider-day">{{ slide.post_date | date: '%d' }}</div>
+                                  <div class="jx-slider-month jx-uppercase">{{slide.post_date | date: '%b' }}</div>
                               </div>
                           </div>
-
                       </div>
                 </div>
               </li>
@@ -75,22 +72,23 @@
               <div class="jx-event-slide">
                     <div class="jx-slider-content">
                       <div class="container">
-                            <div class="jx-event-box">
-                                <div class="jx-event-play">
-                                    {% if slide.icon %}<a href="" data-rel="prettyPhoto"><i class="icon-{{slide.icon}}"></i></a>{% endif %}
-                                </div>
-                                <div class="jx-event-title-box">
-                                    <div class="jx-event-pretitle">{{slide.pretitle}}</div>
-                                    <div class="jx-event-title">{{slide.title}}</div>
-                                    {% if slide.location %}<div class="jx-event-location">{{slide.location}}</div>{% endif %}
-                                </div>
-
-                            </div>
+                            <a href="{{slide.link}}">
+                              <div class="jx-event-box">
+                                  <div class="jx-event-play">
+                                      {% if slide.icon %}<i class="icon-{{slide.icon}}"></i>{% endif %}
+                                  </div>
+                                  <div class="jx-event-title-box">
+                                      <div class="jx-event-pretitle">{{slide.pretitle}}</div>
+                                      <div class="jx-event-title">{{slide.title}}</div>
+                                      {% if slide.location %}<div class="jx-event-location">{{slide.location}}</div>{% endif %}
+                                  </div>
+                              </div>
+                            </a>
                         </div>
                             <div class="jx-right-vertical-border">
                                 <div class="jx-date">
-                                    <div class="jx-slider-day">25</div>
-                                    <div class="jx-slider-month jx-uppercase">jan</div>
+                                    <div class="jx-slider-day">{{ slide.post_date | date: '%d' }}</div>
+                                    <div class="jx-slider-month jx-uppercase">{{slide.post_date | date: '%b' }}</div>
                                 </div>
                             </div>
 

@@ -11,6 +11,7 @@
 - name:       "event01-wrap"
   pretitle:   "PTBO Game Jam 01"
   title:      "That's A Wrap"
+  location:   "Media Release"
   background: "content/img/hero/slide-003.jpg"
   post_date:  "August 16, 2016"
   icon:       "play"
