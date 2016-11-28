@@ -805,6 +805,12 @@
       "css": "list-bullet",
       "code": 61642,
       "src": "fontawesome"
+    },
+    {
+      "uid": "acf41aa4018e58d49525665469e35665",
+      "css": "thumbs-up",
+      "code": 59442,
+      "src": "fontawesome"
     }
   ]
 }
