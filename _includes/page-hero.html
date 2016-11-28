@@ -227,7 +227,7 @@
                         <div class="jx-info-icon"><i class="line-icon icon-calendar"></i></div>
                         <div class="jx-info-content">
                             <div class="info-title">DATE</div>
-                            <div class="info-description">17-19 Feb 2017</div>
+                            <div class="info-description">{{ site.data.latest.date_short }}</div>
                         </div>
                     </li>
                     <!-- Item 01 -->
@@ -236,7 +236,7 @@
                         <div class="jx-info-icon"><i class="line-icon icon-location"></i></div>
                         <div class="jx-info-content">
                             <div class="info-title">LOCATION</div>
-                            <div class="info-description">Kawartha Trades &amp; Technology Centre</div>
+                            <div class="info-description">{{site.data.latest.location}}</div>
                         </div>
                     </li>
                     <!-- Item 02 -->
@@ -245,7 +245,7 @@
                         <div class="jx-info-icon"><i class="line-icon icon-tag"></i></div>
                         <div class="jx-info-content">
                             <div class="info-title">TICKETS</div>
-                            <div class="info-description">150 Tickets</div>
+                            <div class="info-description">{{site.data.latest.spots}} Spots</div>
                         </div>
                     </li>
                     <!-- Item 03 -->
@@ -253,8 +253,8 @@
                     <li class="four columns">
                         <div class="jx-info-icon"><i class="line-icon icon-megaphone"></i></div>
                         <div class="jx-info-content">
-                            <div class="info-title">teamS</div>
-                            <div class="info-description">130 teams</div>
+                            <div class="info-title">SPONSORS</div>
+                            <div class="info-description">{{ site.data.latest-sponsors | size }} Supporters</div>
                         </div>
                     </li>
                     <!-- Item 04 -->

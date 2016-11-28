@@ -1,0 +1,49 @@
+# {{ site.data.latest-sponsors | size }}
+
+- name:   "dotBunny"
+  tier:   "gold"
+  url:    "http://dotbunny.com"
+
+- name:   "Fleming College - School of Trades and Technology"
+  tier:   "gold"
+  url:    "https://flemingcollege.ca/school/trades-and-technology"
+
+- name:   "Funky Rustic"
+  tier:   "silver"
+  url:    "http://www.funkyrustic.net/"
+
+- name:   "GitHub"
+  tier:   "silver"
+  url:    "https://github.com"
+
+- name:   "IBM"
+  tier:   "silver"
+  url:    "http://www.ibm.com/ca-en/"
+
+- name:   "Kawartha Lakes CFDC"
+  tier:   "silver"
+  url:    "http://www.klcfdc.com/"
+
+- name:   "Aramark"
+  tier:   "bronze"
+  url:    "http://aramark.com"
+
+- name:   "Audio Kinetic"
+  tier:   "bronze"
+  url:    "https://www.audiokinetic.com/"
+
+- name:   "Community Futures Peterborough"
+  tier:   "bronze"
+  url:    "http://communityfuturespeterborough.ca/"
+
+- name:   "Liftlock Studios"
+  tier:   "bronze"
+  url:    "http://liftlockstudios.com/"
+
+- name:   "Tromley Computer Services"
+  tier:   "bronze"
+  url:    "http://tromley.ca/"
+
+- name:   "Unity"
+  tier:   "bronze"
+  url:    "http://unity3d.com"

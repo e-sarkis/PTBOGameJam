@@ -14,7 +14,7 @@ layout: default
           {% endif %}
           <div class="jx-blog-content clearfix">
             <div class="jx-blog-head">
-              <div class="jx-post-format"><a href="{{ site.media_releases | prepend: site.baseurl }}{{page.code}}.pdf"><i class="icon-{{ page.icon }}"></i></a></div>
+              <div class="jx-post-format"><a href="{{ site.data.links-relative.media-releases | prepend: site.baseurl }}{{page.code}}.pdf"><i class="icon-{{ page.icon }}"></i></a></div>
               <div class="jx-blog-meta">
                 <div class="jx-event-date">{{ page.date | date_to_string }}</div>
               </div>
@@ -24,13 +24,13 @@ layout: default
               <span class="meta_categories"><i class="icon-tags"></i>
                 {% for tag in page.tags %}
                   {% if forloop.last %}
-                    <a href="{{ site.tag_page | prepend: site.baseurl }}#{{ tag | slugify }}">{{ tag }}</a>
+                    <a href="{{ site.data.links-relative.tags | prepend: site.baseurl }}#{{ tag | slugify }}">{{ tag }}</a>
                   {% else %}
-                    <a href="{{ site.tag_page | prepend: site.baseurl }}#{{ tag | slugify }}">{{ tag }}</a>,
+                    <a href="{{ site.data.links-relative.tags | prepend: site.baseurl }}#{{ tag | slugify }}">{{ tag }}</a>,
                   {% endif %}
                 {% endfor %}
               </span>
-              <span class="meta_release"><a href="{{ site.media_releases | prepend: site.baseurl }}{{page.code}}.pdf"><i class="icon-file-pdf"></i>{{page.code}}.pdf</a>
+              <span class="meta_release"><a href="{{ site.data.links-relative.media-releases | prepend: site.baseurl }}{{page.code}}.pdf"><i class="icon-file-pdf"></i>{{page.code}}.pdf</a>
             </div>
             <article>
               <p class="release-header">## FOR IMMEIDATE RELEASE ##</p>

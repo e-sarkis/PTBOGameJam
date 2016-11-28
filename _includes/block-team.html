@@ -9,84 +9,27 @@
               <p>Putting on a <em>world class event</em> takes a dedicated team of individuals in-and-around the industry volunteering their time, collaborating on ideas and innovations, and just "getting it done"; it is the hard work of these individuals that continue to make the PTBO Game Jam a success.</p>
             </div>
 
+          {% for member in site.data.staff  %}
+
             <div class="jx-team-item">
-              <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ "/content/img/team/dave-bowen.jpg" || prepend: site.baseurl }}" class="attachment-team-image" alt="Dave Bowen" />
+              <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ member.picture || prepend: site.baseurl }}" class="attachment-team-image" alt="{{ member.name }}" />
                 <div class="jx-team-overlayer"></div>
                 <div class="jx-image-hover-info">
-                  <div class="jx-team-name">Dave Bowen</div>
-                  <div class="jx-team-pos">Volunteer Lead</div>
+                  <div class="jx-team-name">{{ member.name }}</div>
+                  <div class="jx-team-pos">{{ member.position }}</div>
                   <div class="team-social">
-                    <ul>
-                      <li><a href="http://twitter.com/Canadave41"><i class="icon-twitter"></i></a></li>
+                		<ul>
+                      {% if member.webpage %}<li><a href="{{ member.webpage }}"><i class="icon-home"></i></a></li>{% endif %}
+                      {% if member.twitter %}<li><a href="{{ member.twitter }}"><i class="icon-twitter"></i></a></li>{% endif %}
+                      {% if member.linkedin  %}<li><a href="{{ member.linkedin }}"><i class="icon-linkedin"></i></a></li>{% endif %}
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="jx-team-item">
-              <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ "/content/img/team/matthew-davey.jpg" || prepend: site.baseurl }}" class="attachment-team-image" alt="Matthew Davey" />
-                <div class="jx-team-overlayer"></div>
-                <div class="jx-image-hover-info">
-                  <div class="jx-team-name">Matthew Davey</div>
-                  <div class="jx-team-pos">Founder &amp; Organizer</div>
-                  <div class="team-social">
-                		<ul>
-                      <li><a href="http://reapazor.com"><i class="icon-home"></i></a></li>
-                      <li><a href="http://www.twitter.com/reapazor"><i class="icon-twitter"></i></a></li>
-                      <li><a href="http://www.linkedin.com/in/matthewdavey"><i class="icon-linkedin"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {% endfor %}
 
-            <div class="jx-team-item">
-              <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ "/content/img/team/robert-french.jpg" || prepend: site.baseurl }}" class="attachment-team-image" alt="Robert French" />
-                <div class="jx-team-overlayer"></div>
-                <div class="jx-image-hover-info">
-                  <div class="jx-team-name">Robert French</div>
-                  <div class="jx-team-pos">Educational Advisor</div>
-                  <div class="team-social">
-                		<ul>
-                      <li><a href="http://robertfrench.ca"><i class="icon-home"></i></a></li>
-                      <li><a href="http://twitter.com/qcha0s"><i class="icon-twitter"></i></a></li>
-                      <li><a href="http://www.linkedin.com/in/robertjfrench"><i class="icon-linkedin"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="jx-team-item">
-              <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ "/content/img/team/phil-laliberte.jpg" || prepend: site.baseurl }}" class="attachment-team-image" alt="Phil Laliberte" />
-                <div class="jx-team-overlayer"></div>
-                <div class="jx-image-hover-info">
-                  <div class="jx-team-name">Phil Laliberte</div>
-                  <div class="jx-team-pos">Data Advisor</div>
-                  <div class="team-social">
-                		<ul>
-                      <li><a href="http://www.linkedin.com/in/laliberte"><i class="icon-linkedin"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="jx-team-item">
-              <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ "/content/img/team/amanda-rochon.jpg" || prepend: site.baseurl }}" class="attachment-team-image" alt="Amanda Rochon" />
-                <div class="jx-team-overlayer"></div>
-                <div class="jx-image-hover-info">
-                  <div class="jx-team-name">Amanda Rochon</div>
-                  <div class="jx-team-pos">Event Lead</div>
-                  <div class="team-social">
-                		<ul>
-                      <li><a href="http://www.linkedin.com/in/amanda-rochon-ph-d-59344848"><i class="icon-linkedin"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div class="jx-team-item">
               <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ "/content/img/team/volunteer.jpg" || prepend: site.baseurl }}" class="attachment-team-image" alt="Volunteer Now!" />

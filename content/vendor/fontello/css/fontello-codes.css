@@ -55,6 +55,7 @@
 .icon-volume-down:before { content: '\e837'; } /* '' */
 .icon-arrows-cw:before { content: '\e838'; } /* '' */
 .icon-gift:before { content: '\e839'; } /* '' */
+.icon-link-ext:before { content: '\f08e'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
@@ -62,6 +63,7 @@
 .icon-resize-full-alt:before { content: '\f0b2'; } /* '' */
 .icon-docs:before { content: '\f0c5'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-list-bullet:before { content: '\f0ca'; } /* '' */
 .icon-gplus:before { content: '\f0d5'; } /* '' */
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
 .icon-paste:before { content: '\f0ea'; } /* '' */
@@ -113,6 +115,7 @@
 .icon-street-view:before { content: '\f21d'; } /* '' */
 .icon-heartbeat:before { content: '\f21e'; } /* '' */
 .icon-bed:before { content: '\f236'; } /* '' */
+.icon-clone:before { content: '\f24d'; } /* '' */
 .icon-television:before { content: '\f26c'; } /* '' */
 .icon-industry:before { content: '\f275'; } /* '' */
 .icon-map-pin:before { content: '\f276'; } /* '' */

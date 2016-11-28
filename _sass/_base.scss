@@ -69,7 +69,7 @@ ol, ol ol,  ul, ul ul {
 }
 ul.default li:before {
   content: '\f005';
-  font-family: fontawesome;
+  font-family: "fontello";
   margin-right: 10px;
   color:$primary-color;
 }
@@ -1405,7 +1405,7 @@ div#showMenu i:hover
 .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.pre-breadcrumb:before
 {
     content:'\f105';
-   font-family: fontello;
+   font-family: "fontello";
   margin-right:15px;
   font-size:19px;
   //vertical-align: top;
@@ -1811,7 +1811,8 @@ select.valid, input.valid {
 .jx-info-content .info-description{
   color:#fff;
   font-size:16px;
-  font-weight:500
+  font-weight:500;
+  padding-left: 20px;
 }
 
 /* Slider Border Date Box */
@@ -1863,9 +1864,13 @@ select.valid, input.valid {
   font-size:45px;
   line-height: 1.2
 }
-
-
 /* Flexslider Nav */
+
+.jx-main-slider ul.flex-direction-nav {
+  margin-top: -12px;
+}
+
+
 .jx-main-slider .flex-direction-nav a {
   text-decoration: none;
   display: block;
@@ -1892,15 +1897,15 @@ select.valid, input.valid {
   padding-top:15px;
 }
 .jx-main-slider .flex-direction-nav a:before {
-  font-family: "fontawesome";
+  font-family: "fontello";
   font-size: 40px;
   display: inline-block;
-  content: '\f053';
+  content: '\e808';
   color: #fff;
   text-shadow: none;
 }
 .jx-main-slider .flex-direction-nav a.flex-next:before {
-  content: '\f054';
+  content: '\e807';
 }
 .jx-main-slider .flex-direction-nav .flex-prev {
   left: 0px;
@@ -2591,7 +2596,7 @@ select.valid, input.valid {
 
 .nav-links div.nav-previous:before{
   content:'\f053';
-  font-family:fontawesome;
+  font-family:"fontello";
   color:#000;
   font-size:13px;
   margin-right:10px;
@@ -2605,7 +2610,7 @@ select.valid, input.valid {
 
 .nav-links div.nav-next:after{
   content:'\f054';
-  font-family:fontawesome;
+  font-family:"fontello";
   color:#000;
   font-size:13px;
   margin-left:10px;

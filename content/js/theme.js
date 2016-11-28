@@ -184,7 +184,7 @@ Version: 		1.0
 				//Main Slider
 				jQuery('.jx-main-slider .flexslider').flexslider({
 					animation: "slide",
-					controlNav: true,
+					controlNav: false,
 					directionNav:true,
 					slideshowSpeed:"8000",
 					minItems: 1,

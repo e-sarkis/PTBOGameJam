@@ -1,6 +1,67 @@
 ---
 layout: default
 title: Media Releases
+breadcrumb: media
 titlebar: title-000.jpg
 ---
-{% include block-media-center.html %}
+
+
+
+  <div id="section" class="jx-container jx-padding container-no-margin">
+    <div class="container">
+        <div class="eight columns">
+          <div class="jx-section-title title-light jx-dark">
+            <div class="jx-title jx-uppercase">Media <span>Contact</span></div>
+            <div class="jx-hr-title"></div>
+          </div>
+          <div class="section-content">
+              <p>We try hard to get information about the event out through as many channels as possible. We are still but a small team with a big goal, so sometimes wires will get crossed. To streamline our process and help make sure information finds itself to the right person, we invite all media inquiries to be sent directly to <a href="mailto:{{site.press_email}}">{{ site.press_name }}</a>. Responses to media inquiries will be prioritized over general inquiries; our typical response time is within 12 hours.</p>
+              <p>If you are reporting on anything to do with the PTBO Game Jam, it is suggested that you have a look at our <a href="{{ site.data.links-relative.guidelines | prepend: site.baseurl }}">Brand Guidelines</a> for specific assets and terminology.</p>
+          </div>
+        </div>
+        <div class="eight columns">
+          <div class="content-spacer"><iframe src="{{ site.latest_video }}" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+        </div>
+    </div>
+  </div>
+
+  <div class="jx-container jx-padding jx-grey-bg">
+        	<div class="container">
+                <div class="jx-section-title-1">
+                    <div class="jx-pre-title jx-short-border">
+                        <div class="jx-title-border left"></div>
+                        <div class="jx-title-icon"><i class="icon-docs"></i></div>
+                        <div class="jx-title-border right"></div>
+                    </div>
+                    <div class="jx-title jx-uppercase">Media Releases</div>
+                </div>
+
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="jx-media-center">
+                  {% for post in site.categories.media-releases %}
+                    <div class="one-third columns">
+                        <div class="image jx-image-wrapper">
+                          <img src="{{ "/content/img/post/" | prepend: site.baseurl }}{{ post.code }}.jpg" hdpi="true" alt="{{ post.title }}">
+                          <div class="jx-image-overlay"></div>
+                            <div class="jx-image-hover">
+                              <a href="{{ post.url | prepend: site.baseurl }}" class="jx-blog-more"><i class="icon-doc"></i></a>
+                            </div>
+                            <!-- Image Hover -->
+                        </div>
+                        <!-- Image -->
+                        <div class="title">{{ post.title }}</div>
+                        <!-- Title -->
+                        <div class="date"><i class="line-icon icon-calendar"></i> <span>{{ post.date | date: "%B %e, %Y" }}</span></div>
+                        <!-- Date -->
+                        <div class="description">{{ post.excerpt }}</div>
+                        <!-- Description -->
+                    </div>
+                  {% endfor %}
+
+                </div>
+            </div>
+        </div>
+{% include block-testimonials.html %}
+{% include block-ticker.html %}
+{% include block-summary.html %}

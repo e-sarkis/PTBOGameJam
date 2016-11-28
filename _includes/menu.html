@@ -6,7 +6,7 @@
     {% if include.icons != "true" %}
     <ul class="sub-menu">
           <li><a title="Schedule" href="{{ "/event/schedule/" | prepend: site.baseurl }}">Schedule</a></li>
-          <li><a title="Registration" href="{{ site.registration_url }}">Registration</a></li>
+          <li><a title="Registration" href="{{ site.data.latest.registration }}">Registration</a></li>
           <li><a title="FAQ" href="{{ "/event/faq/" | prepend: site.baseurl }}">FAQ</a></li>
     </ul>
     {% endif %}
@@ -22,14 +22,14 @@
     <a {% if include.icons == "true" %}class="icon-users" {% endif %}href="{{ "/community/" | prepend: site.baseurl }}">Community</a>
     {% if include.icons != "true" %}
     <ul class="sub-menu">
-          <li><a title="Meetup" href="{{ site.meetup_url }}">Meetup</a></li>
-          <li><a title="Forums" href="{{ site.forum_url }}">Forum</a></li>
+          <li><a title="Meetup" href="{{ site.data.links.meetup }}">Meetup</a></li>
+          <li><a title="Forums" href="{{ site.data.links.forum }}">Forum</a></li>
           <li><a title="Friends" href="{{ "/community/friends/" | prepend: site.baseurl }}">Friends</a></li>
     </ul>
     {% endif %}
   </li>
   <li class="{% if page.highlight == "contact" %}current{% endif %}"><a {% if include.icons == "true" %}class="icon-mail" {% endif %}href="{{ "/contact/" | prepend: site.baseurl }}">Contact</a></li>
   {% if include.icons != "true" %}
-  <a class="register-button" title="Register" href="{{ site.registration_url }}">Register</a>
+  <a class="register-button" title="Register" href="{{ site.data.latest.registration }}">Register</a>
   {% endif %}
 </ul>

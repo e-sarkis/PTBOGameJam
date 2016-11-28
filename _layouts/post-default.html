@@ -24,9 +24,9 @@ layout: default
               <span class="meta_categories"><i class="icon-tags"></i>
                 {% for tag in page.tags %}
                   {% if forloop.last %}
-                    <a href="{{ site.tag_page | prepend: site.baseurl }}#{{ tag | slugify }}">{{ tag }}</a>
+                    <a href="{{ site.data.links-relative.tags | prepend: site.baseurl }}#{{ tag | slugify }}">{{ tag }}</a>
                   {% else %}
-                    <a href="{{ site.tag_page | prepend: site.baseurl }}#{{ tag | slugify }}">{{ tag }}</a>,
+                    <a href="{{ site.data.links-relative.tags | prepend: site.baseurl }}#{{ tag | slugify }}">{{ tag }}</a>,
                   {% endif %}
                 {% endfor %}
               </span>

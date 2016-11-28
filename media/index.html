@@ -1,0 +1,27 @@
+---
+layout: default
+title: Media
+titlebar: title-000.jpg
+---
+
+<div id="section" class="jx-container jx-padding container-no-margin">
+  <div class="container">
+      <div class="eight columns">
+        <div class="jx-section-title title-light jx-dark">
+          <div class="jx-title jx-uppercase">Media <span>Contact</span></div>
+          <div class="jx-hr-title"></div>
+        </div>
+        <div class="section-content">
+            <p>We try hard to get information about the event out through as many channels as possible. We are still but a small team with a big goal, so sometimes wires will get crossed. To streamline our process and help make sure information finds itself to the right person, we invite all media inquiries to be sent directly to <a href="mailto:{{site.press_email}}">{{ site.press_name }}</a>. Responses to media inquiries will be prioritized over general inquiries; our typical response time is within 12 hours.</p>
+            <p>If you are reporting on anything to do with the PTBO Game Jam, it is suggested that you have a look at our <a href="{{ site.data.links-relative.guidelines | prepend: site.baseurl }}">Brand Guidelines</a> for specific assets and terminology.</p>
+        </div>
+      </div>
+      <div class="eight columns">
+        <div class="content-spacer"><iframe src="{{ site.latest_video }}" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+      </div>
+  </div>
+</div>
+
+
+{% include block-media-releases.html %}
+{% include block-ticker.html %}

@@ -56,8 +56,8 @@
                 </div>
                 <ul>
                   <li><a href="{{ site.press_kit | prepend: site.baseurl }}">Press Kit</a></li>
-                  <li><a href="{{ site.brand_guidelines | prepend: site.baseurl }}">Brand Guidelines</a></li>
-                  <li><a href="{{ site.media_releases | prepend: site.baseurl }}">Media Releases</a></li>
+                  <li><a href="{{ site.data.links-relative.media-guidelines | prepend: site.baseurl }}">Brand Guidelines</a></li>
+                  <li><a href="{{ site.data.links-relative.media-releases | prepend: site.baseurl }}">Media Releases</a></li>
                   <li><a href="{{ "/legal/" | prepend: site.baseurl }}">Legal Notices</a></li>
                 </ul>
               </div>
@@ -72,12 +72,12 @@
         <div class="container">
           <div class="jx-footer-social">
             <ul>
-              <li><a href="http://www.facebook.com/{{ site.username }}"><i class="icon-facebook"></i></a></li>
-              <li><a href="http://www.twitter.com/{{ site.username }}"><i class="icon-twitter"></i></a></li>
-              <li><a href="http://www.github.com/{{ site.username }}"><i class="icon-github-circled"></i></a></li>
-              <li><a href="http://plus.google.com/+{{ site.username }}"><i class="icon-gplus"></i></a></li>
-              <li><a href="https://www.instagram.com/{{ site.username }}"><i class="icon-instagram"></i></a></li>
-              <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="icon-rss"></i></a></li>
+              <li><a href="http://www.facebook.com/{{ site.data.social.username }}"><i class="icon-facebook"></i></a></li>
+              <li><a href="http://www.twitter.com/{{ site.data.social.username }}"><i class="icon-twitter"></i></a></li>
+              <li><a href="http://www.github.com/{{ site.data.social.username }}"><i class="icon-github-circled"></i></a></li>
+              <li><a href="http://plus.google.com/+{{ site.data.social.username }}"><i class="icon-gplus"></i></a></li>
+              <li><a href="https://www.instagram.com/{{ site.data.social.username }}"><i class="icon-instagram"></i></a></li>
+              <li><a href="{{ site.data.links-relative.rss | prepend: site.baseurl }}"><i class="icon-rss"></i></a></li>
             </ul>
           </div>
           <div class="jx-footer-copyright">&copy;2016 <a href="http://dotbunny.com/" target="_blank">dotBunny Inc.</a> All Rights Reserved.</div>

@@ -1,0 +1,11 @@
+rss:                "/feed.xml"
+
+
+tags:               "/blog/tags/"
+media-releases:     "/media/releases/"
+media-guidelines:   "/media/guidelines/"
+level:              "/legal/"
+
+
+
+category:         "/blog/category/"
