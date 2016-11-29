@@ -14,7 +14,7 @@ layout: default
           {% endif %}
           <div class="jx-blog-content clearfix">
             <div class="jx-blog-head">
-              <div class="jx-post-format"><a href="{{ site.data.links-relative.media-releases | prepend: site.baseurl }}{{page.code}}.pdf"><i class="icon-{{ page.icon }}"></i></a></div>
+              <div class="jx-post-format"><a href="{{ site.data.links-relative.media-releases | prepend: site.baseurl }}{{page.pdf}}"><i class="icon-{{ page.icon }}"></i></a></div>
               <div class="jx-blog-meta">
                 <div class="jx-event-date">{{ page.date | date_to_string }}</div>
               </div>
@@ -30,7 +30,7 @@ layout: default
                   {% endif %}
                 {% endfor %}
               </span>
-              <span class="meta_release"><a href="{{ site.data.links-relative.media-releases | prepend: site.baseurl }}{{page.code}}.pdf"><i class="icon-file-pdf"></i>{{page.code}}.pdf</a>
+              <span class="meta_release"><a href="{{ site.data.links-relative.media-releases | prepend: site.baseurl }}{{page.pdf}}"><i class="icon-file-pdf"></i>{{page.pdf}}</a>
             </div>
             <article>
               <p class="release-header">## FOR IMMEIDATE RELEASE ##</p>

@@ -1909,30 +1909,32 @@ select.valid, input.valid {
   transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-  line-height: 104px;
+  line-height: 125px;
+  text-indent: 80px;
 }
 .jx-main-slider .flex-direction-nav a.flex-next:before {
   content: '\e807';
+  text-indent: -74px;
 }
 .jx-main-slider .flex-direction-nav .flex-prev {
-  left: 0px;
+  left: -81px;
   line-height: 1
 }
 .jx-main-slider .flex-direction-nav .flex-next {
-  right: 0px;
+  right: -81px;
   text-align: center;
   line-height: 1
 }
 .jx-main-slider .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
-  left: 0px;
+  left: -81px;
 }
 .jx-main-slider .flexslider:hover .flex-direction-nav .flex-prev:hover {
   opacity: 1;
 }
 .jx-main-slider .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 0.7;
-  right: 0px;
+  right: -81px;
 }
 .jx-main-slider .flexslider:hover .flex-direction-nav .flex-next:hover {
   opacity: 1;
@@ -1963,7 +1965,7 @@ select.valid, input.valid {
   text-align: center;
   border-radius:50%;
   font-size:90px;
-  text-indent:12px
+  text-indent:6px
 }
 
 .jx-event-play i:hover{

@@ -103,47 +103,49 @@
 
 
         <!-- BOF Bottom Info Bar -->
-        <div class="jx-slider-bottom-info">
-            <div class="container">
-                <ul>
-                    <li class="three columns">
-                        <div class="jx-info-icon"><i class="icon-calendar"></i></div>
-                        <div class="jx-info-content">
-                            <div class="info-title">DATE</div>
-                            <div class="info-description">{{ site.data.latest.date_short }}</div>
-                        </div>
-                    </li>
-                    <!-- Item 01 -->
+        <a href="{{ site.data.latest.link | prepend: site.baseurl }}" title="{{ site.data.latest.title }}">
+          <div class="jx-slider-bottom-info">
+              <div class="container">
+                  <ul>
+                      <li class="three columns">
+                          <div class="jx-info-icon"><i class="icon-calendar"></i></div>
+                          <div class="jx-info-content">
+                              <div class="info-title">DATE</div>
+                              <div class="info-description">{{ site.data.latest.date_short }}</div>
+                          </div>
+                      </li>
+                      <!-- Item 01 -->
 
-                    <li class="six columns">
-                        <div class="jx-info-icon"><i class="icon-location"></i></div>
-                        <div class="jx-info-content">
-                            <div class="info-title">LOCATION</div>
-                            <div class="info-description">{{site.data.latest.location}}</div>
-                        </div>
-                    </li>
-                    <!-- Item 02 -->
+                      <li class="six columns">
+                          <div class="jx-info-icon"><i class="icon-location"></i></div>
+                          <div class="jx-info-content">
+                              <div class="info-title">LOCATION</div>
+                              <div class="info-description">{{site.data.latest.location}}</div>
+                          </div>
+                      </li>
+                      <!-- Item 02 -->
 
-                    <li class="three columns">
-                        <div class="jx-info-icon"><i class="icon-ticket"></i></div>
-                        <div class="jx-info-content">
-                            <div class="info-title">TICKETS</div>
-                            <div class="info-description">{{site.data.latest.spots}} Spots</div>
-                        </div>
-                    </li>
-                    <!-- Item 03 -->
+                      <li class="three columns">
+                          <div class="jx-info-icon"><i class="icon-ticket"></i></div>
+                          <div class="jx-info-content">
+                              <div class="info-title">TICKETS</div>
+                              <div class="info-description">{{site.data.latest.spots}} Spots</div>
+                          </div>
+                      </li>
+                      <!-- Item 03 -->
 
-                    <li class="four columns">
-                        <div class="jx-info-icon"><i class="icon-thumbs-up"></i></div>
-                        <div class="jx-info-content">
-                            <div class="info-title">SPONSORS</div>
-                            <div class="info-description">{{ site.data.latest-sponsors | size }} Supporters</div>
-                        </div>
-                    </li>
-                    <!-- Item 04 -->
-                </ul>
-            </div>
-        </div>
+                      <li class="four columns">
+                          <div class="jx-info-icon"><i class="icon-thumbs-up"></i></div>
+                          <div class="jx-info-content">
+                              <div class="info-title">SPONSORS</div>
+                              <div class="info-description">{{ site.data.latest-sponsors | size }} Supporters</div>
+                          </div>
+                      </li>
+                      <!-- Item 04 -->
+                  </ul>
+              </div>
+          </div>
+        </a>
         <!-- EOF Bottom Info Bar -->
     </div>
     <!-- EOF Slexslider -->

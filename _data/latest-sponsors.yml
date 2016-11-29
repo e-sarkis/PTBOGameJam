@@ -24,6 +24,10 @@
   tier:   "silver"
   url:    "http://www.klcfdc.com/"
 
+- name:   "Ricky's All Day Grill"
+  tier:   "silver"
+  url:    "https://twitter.com/RickysPtbo"
+
 - name:   "Aramark"
   tier:   "bronze"
   url:    "http://aramark.com"
