@@ -1,18 +1,23 @@
 - name:       "event02-announce"
   type:       "countdown"
-  pretitle:   "PTBO Game Jam 02"
-  title:      "Bigger and Better"
-  background: "content/img/hero/slide-001.jpg"
-  day:        "17<span>-19</span>"
-  month:      "Feb 2017"
+
   post_date:  "December 1, 2016"
+  background: "content/img/hero/slide-001.jpg"
   link:       "/event/"
 
+  pretitle:   "PTBO Game Jam 02"
+  title:      "Bigger and Better"
+  day:        "17<span>-19</span>"
+  month:      "Feb 2017"
+
 - name:       "event01-wrap"
+  type:       "default"
+
+  background: "content/img/hero/slide-003.jpg"
+  post_date:  "August 16, 2016"
+  link:       "/blog/2016/08/13/wrap-up/"
+
+  icon:       "play"
   pretitle:   "PTBO Game Jam 01"
   title:      "That's A Wrap"
   location:   "Media Release"
-  background: "content/img/hero/slide-003.jpg"
-  post_date:  "August 16, 2016"
-  icon:       "play"
-  link:       "http://localhost:4000/blog/2016/08/13/wrap-up/"
