@@ -8,99 +8,83 @@
   <div class="flexslider">
       <ul class="slides">
           {% for slide in site.data.slides %}
-
-            {% if slide.type == "countdown" %}
-            <li id="{{slide.name}}" class="jx-parallax-fullwidth" style="background-image:url('{{slide.background}}');">
-                <div class="jx-event-slide">
-                      <div class="jx-slider-content">
-                        <div class="container">
+            {% if slide.video %}
+            <li id="{{slide.name}}" class="jx-parallax-fullwidth">
+              <div class="lander-video-container">
+              <iframe class="lander-video" id="{{slide.name}}-video" src="https://player.vimeo.com/video/{{slide.video}}?api=1&player_id={{slide.name}}-video&background=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+            {% elsif slide.image %}
+            <li id="{{slide.name}}" class="jx-parallax-fullwidth" style="background-image:url('{{slide.image}}');">
+            {% endif %}
+              <div class="jx-event-slide">
+                  <div class="jx-slider-content">
+                    <div class="container">
                           <a href="{{slide.link}}">
-                              <div class="jx-event-box">
-                                  <div class="jx-event-date">
-                                      <div class="jx-event-day">{{slide.day}}</div>
-                                      <div class="jx-event-month jx-uppercase">{{slide.month}}</div>
-                                  </div>
-                                  <div class="jx-event-title-box">
-                                      <div class="jx-event-pretitle">{{slide.pretitle}}</div>
-                                      <div class="jx-event-title">{{slide.title}}</div>
-                                      <div class="jx-event-countdown">
-                                      <div class="jx-countdown">
-                                          <div class="dsb-theme-wrapper countdown">
-                                          <div class="dsb-theme">
-                                              <div class="counter-wrapper">
-                                                  <ul>
-                                                      <li>
-                                                          <div class="days count">00</div>
-                                                          <div class="textDays count-text">Days</div>
-                                                      </li>
-                                                      <li>
-                                                          <div class="hours count">00</div>
-                                                          <div class="textHours count-text">Hours</div>
-                                                      </li>
-                                                      <li>
-                                                          <div class="minutes count">00</div>
-                                                          <div class="textmins count-text">Mins</div>
-                                                      </li>
-                                                      <li>
-                                                          <div class="seconds count">00</div>
-                                                          <div class="textSecs count-text">Secs</div>
-                                                      </li>
-                                                  </ul>
-                                                  <div class="jC-clear"></div>
-                                              </div>
+                            {% if slide.type == "countdown" %}
+                            <div class="jx-event-box">
+                                <div class="jx-event-date">
+                                    <div class="jx-event-day">{{slide.day}}</div>
+                                    <div class="jx-event-month jx-uppercase">{{slide.month}}</div>
+                                </div>
+                                <div class="jx-event-title-box">
+                                    <div class="jx-event-pretitle">{{slide.pretitle}}</div>
+                                    <div class="jx-event-title">{{slide.title}}</div>
+                                    <div class="jx-event-countdown">
+                                    <div class="jx-countdown">
+                                        <div class="dsb-theme-wrapper countdown">
+                                        <div class="dsb-theme">
+                                            <div class="counter-wrapper">
+                                                <ul>
+                                                    <li>
+                                                        <div class="days count">00</div>
+                                                        <div class="textDays count-text">Days</div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="hours count">00</div>
+                                                        <div class="textHours count-text">Hours</div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="minutes count">00</div>
+                                                        <div class="textmins count-text">Mins</div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="seconds count">00</div>
+                                                        <div class="textSecs count-text">Secs</div>
+                                                    </li>
+                                                </ul>
+                                                <div class="jC-clear"></div>
+                                            </div>
 
-                                          </div>
-                                      </div>
-                                      </div>
-                                  </div>
+                                        </div>
+                                    </div>
+                                    </div>
                                 </div>
                               </div>
-                            </a>
-                          </div>
-                          <div class="jx-right-vertical-border">
-                              <div class="jx-date">
-                                  <div class="jx-slider-day">{{ slide.post_date | date: '%d' }}</div>
-                                  <div class="jx-slider-month jx-uppercase">{{slide.post_date | date: '%b' }}</div>
-                              </div>
-                          </div>
-                      </div>
-                </div>
-              </li>
-
-            {% else %}
-
-            <li class="jx-parallax-fullwidth" style="background-image:url('{{slide.background}}');">
-              <div class="jx-event-slide">
-                    <div class="jx-slider-content">
-                      <div class="container">
-                            <a href="{{slide.link}}">
-                              <div class="jx-event-box">
-                                  <div class="jx-event-play">
-                                      {% if slide.icon %}<i class="icon-{{slide.icon}}"></i>{% endif %}
-                                  </div>
-                                  <div class="jx-event-title-box">
-                                      <div class="jx-event-pretitle">{{slide.pretitle}}</div>
-                                      <div class="jx-event-title">{{slide.title}}</div>
-                                      {% if slide.location %}<div class="jx-event-location">{{slide.location}}</div>{% endif %}
-                                  </div>
-                              </div>
-                            </a>
-                        </div>
-                            <div class="jx-right-vertical-border">
-                                <div class="jx-date">
-                                    <div class="jx-slider-day">{{ slide.post_date | date: '%d' }}</div>
-                                    <div class="jx-slider-month jx-uppercase">{{slide.post_date | date: '%b' }}</div>
+                            </div>
+                          {% else %}
+                            <div class="jx-event-box">
+                                <div class="jx-event-play">
+                                    {% if slide.icon %}<i class="icon-{{slide.icon}}"></i>{% endif %}
+                                </div>
+                                <div class="jx-event-title-box">
+                                    <div class="jx-event-pretitle">{{slide.pretitle}}</div>
+                                    <div class="jx-event-title">{{slide.title}}</div>
+                                    {% if slide.location %}<div class="jx-event-location">{{slide.location}}</div>{% endif %}
                                 </div>
                             </div>
-
+                          {% endif %}
+                          </a>
+                        </div>
+                      <div class="jx-right-vertical-border">
+                          <div class="jx-date">
+                              <div class="jx-slider-day">{{ slide.post_date | date: '%d' }}</div>
+                              <div class="jx-slider-month jx-uppercase">{{slide.post_date | date: '%b' }}</div>
+                          </div>
+                      </div>
                     </div>
-              </div>
-            </li>
-            {% endif %}
+                </div>
+              </li>
           {% endfor %}
         </ul>
-
-
 
         <!-- BOF Bottom Info Bar -->
         <a href="{{ site.data.latest.link | prepend: site.baseurl }}" title="{{ site.data.latest.title }}">

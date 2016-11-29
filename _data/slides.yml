@@ -1,8 +1,7 @@
 - name:       "event02-announce"
   type:       "countdown"
-
   post_date:  "December 1, 2016"
-  background: "content/img/hero/slide-001.jpg"
+  video:      "193577058"
   link:       "/event/"
 
   pretitle:   "PTBO Game Jam 02"
@@ -10,11 +9,11 @@
   day:        "17<span>-19</span>"
   month:      "Feb 2017"
 
+
 - name:       "event01-wrap"
   type:       "default"
-
-  background: "content/img/hero/slide-003.jpg"
   post_date:  "August 16, 2016"
+  image:      "content/img/hero/slide-003.jpg"
   link:       "/blog/2016/08/13/wrap-up/"
 
   icon:       "play"
