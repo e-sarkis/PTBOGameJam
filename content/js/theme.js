@@ -186,7 +186,7 @@ Version: 		1.0
 					animation: "slide",
 					controlNav: false,
 					directionNav:true,
-					slideshowSpeed:"8000",
+					slideshowSpeed:"11000",
 					minItems: 1,
 					maxItems: 1,
 					prevText:'',
