@@ -70,11 +70,7 @@ $(window).load(function()
   //   });
   // }
 
-  //console.log($(currentSlide).find("div.video-event-box"));
-//  var frooga = for each landervideos[0];
-//var vimeo = $f(frooga);
 });
-//jx-event-box video-event-box
 
 function checkVisibleVideos()
 {
