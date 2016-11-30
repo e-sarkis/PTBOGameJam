@@ -131,8 +131,8 @@ html, body, .perspective {
 }
 
 .outer-nav a:hover {
-	color: #000;
-	font-weight: 700;
+	color: $grey-color-dark;
+	//font-weight: 700;
 }
 
 .outer-nav.vertical a {
