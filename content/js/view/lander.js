@@ -63,8 +63,8 @@ $(window).load(function()
 
   // Mobile fixes - Makes user hit play
   if ( isMobile() ) {
-    $(landerVideos).each(function(frame) {
-        frame.attr('src', frame.attr('mobile-src'));
+    $(landerVideos).each(function(index, frame) {
+        $(frame).attr('src', $(frame).attr('mobile-src'));
     });
   }
   //console.log($(currentSlide).find("div.video-event-box"));
