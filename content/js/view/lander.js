@@ -58,21 +58,37 @@ $(window).load(function()
     maxItems: 1,
     prevText:'',
     nextText:'',
-  });
+    after: function() { checkVisibleVideos(); }
+    });
 
 
   // Mobile fixes - Makes user hit play
-  if ( isMobile() ) {
-    $(landerVideos).each(function(index, frame) {
-        $(frame).attr('src', $(frame).attr('mobile-src'));
-    });
-  }
+  // DISABLE MOBILE MOVIE SUPPORT
+  // if ( isMobile() ) {
+  //   $(landerVideos).each(function(index, frame) {
+  //       $(frame).attr('src', $(frame).attr('mobile-src'));
+  //   });
+  // }
+
   //console.log($(currentSlide).find("div.video-event-box"));
 //  var frooga = for each landervideos[0];
 //var vimeo = $f(frooga);
 });
 //jx-event-box video-event-box
 
+function checkVisibleVideos()
+{
+  $(landerVideosContainers).each(function(index, container){
+    var frooga = container[0];
+    var vimeo = $f(frooga);
+
+    if ( $(container).visible(true) ) {
+      vimeo.api("play");
+    } else {
+      vimeo.api("pause");
+    }
+  });
+}
 
 // Handle Video Event Boxes (So Annoying)
 function fixVideoEventBox()
