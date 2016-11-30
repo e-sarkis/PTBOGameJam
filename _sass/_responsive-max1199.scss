@@ -2,11 +2,38 @@
 {
   header .jx-logo
   {
+    position: fixed;
+    left: 15px;
     padding-bottom: 12px;
   }
   header {
     border-bottom: none;
   }
 
+  .jx-main-slider .flex-direction-nav  {
+    display: none;
+  }
 
+// }
+  // .jx-main-slider .flex-direction-nav a {
+  //   width:75px;
+  //   height:75px;
+  // }
+  //
+  // .jx-main-slider .flex-direction-nav .flex-prev {
+  //   left: -45px;
+  //   line-height: 1
+  // }
+  // .jx-main-slider .flex-direction-nav .flex-next {
+  //   right: -45px;
+  //   text-align: center;
+  //   line-height: 1
+  // }
+  //
+  // .jx-main-slider .flexslider:hover .flex-direction-nav .flex-next {
+  //   right: -41px;
+  // }
+  // .jx-main-slider .flexslider:hover .flex-direction-nav .flex-prev {
+  //   left: -41px;
+  // }
 }

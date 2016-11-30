@@ -186,17 +186,17 @@ div#showMenu
 }
 
 .jx-event-title-box .jx-event-title {
-  font-size: 30px;
+  font-size: 60px;
 }
 .jx-event-title-box .jx-event-location {
-  font-size: 18px;
+  font-size: 30px;
 }
 .jx-event-title-box .jx-event-pretitle {
-  font-size: 20px;
+  font-size: 40px;
 }
 .jx-event-box-counter .jx-event-title-box {
   width: 560px;
-  height: 200px;
+  height: 210px;
 }
 
 .jx-countdown .counter-wrapper li {
@@ -208,13 +208,16 @@ div#showMenu
 }
 
 .jx-event-play {
-  height: 200px;
-  width: 200px;
-  padding-top:30px;
+  // height: 200px;
+  // width: 200px;
+  // padding-top:30px;
+  display: none;
 }
 .jx-event-title-box {
   width: 560px;
-  height: 200px;
+  height: 210px;
+  // this counters the annoying rendering issue
+  margin-left: 100px;
 }
 .jx-event-play i {
   width: 145px;
@@ -228,10 +231,11 @@ div#showMenu
 }
 
 .jx-event-box .jx-event-date {
-  height:200px;
-}
-.jx-event-box .jx-event-date {
-  width:200px;
+  height:0px;
+  width:0px;
+  display: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 .jx-event-box-register.jx-register-box-2 .jx-event-date {

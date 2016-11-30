@@ -181,17 +181,7 @@ Version: 		1.0
 
 				});
 
-				//Main Slider
-				jQuery('.jx-main-slider .flexslider').flexslider({
-					animation: "slide",
-					controlNav: false,
-					directionNav:true,
-					slideshowSpeed:"11000",
-					minItems: 1,
-					maxItems: 1,
-					prevText:'',
-					nextText:'',
-				});
+
 
 
 				//Portfolio Slider

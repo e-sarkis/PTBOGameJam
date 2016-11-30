@@ -1785,8 +1785,14 @@ select.valid, input.valid {
 
 .lander-video-container
 {
-  height: 0px;
+  overflow: hidden;
 }
+
+.video-event-box
+{
+  position: relative;
+}
+
 .jx-main-slider{
 	position:relative;
 	overflow: hidden;

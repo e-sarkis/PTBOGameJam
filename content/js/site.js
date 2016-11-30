@@ -38,6 +38,19 @@ function isScrolled()
   return window.pageYOffset || page.scrollTop;
 }
 
+function addEvent(element, eventName, callback)
+{
+  if (element.addEventListener) {
+    element.addEventListener(eventName, callback, false)
+  } else {
+    element.attachEvent(eventName, callback, false);
+  }
+}
+
+
+
+
+
 // More References
 var pageClickEvent = isMobile() ? 'touchstart' : 'click';
 var showingMobileMenu = false;
