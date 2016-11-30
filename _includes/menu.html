@@ -31,5 +31,7 @@
   <li class="{% if page.highlight == "contact" %}current{% endif %}"><a {% if include.icons == "true" %}class="icon-mail" {% endif %}href="{{ "/contact/" | prepend: site.baseurl }}">Contact</a></li>
   {% if include.icons != "true" %}
   <a class="register-button" title="Register" href="{{ site.data.latest.registration }}">Register</a>
+  {% else %}
+  <li class="register-button"><a class="icon-ticket" title="Register" href="{{ site.data.latest.registration }}">Register</a></li>
   {% endif %}
 </ul>
