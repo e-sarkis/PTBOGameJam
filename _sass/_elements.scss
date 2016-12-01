@@ -2602,3 +2602,49 @@ div#categories-list
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
+
+
+.jx-light
+{
+  color: $grey-color-dark;
+}
+.jx-light .jx-title-icon
+{
+  color: $grey-color-dark !important;
+}
+.tags-list-item
+{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 100px;
+  min-width: 290px;
+}
+div#tags {
+  padding-bottom: 0px !important;
+}
+.tags-list-item:first
+{
+  padding-left:0px;
+}
+.tags-list-item:last
+{
+  padding-right: 0px;
+}
+.tags-list-item li
+{
+  margin-bottom: 14px;
+  border-bottom: 1px dotted #eee;
+  padding-bottom: 10px;
+}
+
+.tags-list-item i {
+  color: $grey-color !important;
+  padding-right: 5px;
+}
+.tags-list-item .post-date
+{
+  padding-left: 25px;
+  color: $grey-color;
+}

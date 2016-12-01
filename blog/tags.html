@@ -3,156 +3,42 @@ layout: default
 title: Tags
 breadcrumb: blog
 ---
-
-
-<div id="about" class="jx-container jx-padding">
-  <div class="container jx-dark">
+{% assign sortedtags = site.tags | sort %}
+<div id="tags" class="jx-container jx-padding jx-light">
+  <div class="container">
     <div class="jx-section-title-1">
-      <div class="jx-pre-title">
-        <div class="jx-title-border left"></div>
-        <div class="jx-title-icon"><i class="icon-tags icon-3x"></i></div>
-        <div class="jx-title-border right"></div>
+      <div class="jx-pre-title jx-short-border">
+        <div class="jx-title-border jx-title-border-light left"></div>
+        <div class="jx-title-icon-light"><i class="icon-tags icon-3x"></i></div>
+        <div class="jx-title-border jx-title-border-light right"></div>
       </div>
-      <a href="https://en.wikipedia.org/wiki/Game_jam"><div class="jx-title">Tags</div></a>
-      <div class="jx-subtitle"><p>GitHub Pages doesnt currently support anything amazing when it comes to tagging posts, so we automatically make this page to give you a bit of an index.</p></div>
+      <div class="jx-title jx-title-light jx-uppercase">POST TAG LIST</div>
+      <div class="jx-subtitle"><p>While it would be nice to have individual pages listing the contents of every single tag, GitHub Pages currently doesn't make this an easy task without a lot of manual work. We decided to just make a pretty list with anchors to navigate; a throwback to the old pre CSS days of web design and development. Are we ever glad that we are game developers right now.</p></div>
+      <div class="tagcloud">
+        {% for tag in sortedtags %}
+        <a href="{{ site.data.links-relative.tags | prepend: site.baseurl }}#{{ tag[0] | slugify }}" class="tag-link-{{ forloop.index }}" title='{{ tag[0] }}'>{{ tag[0] }}</a>
+        {% endfor %}
+      </div>
     </div>
   </div>
-  <div class="tags">
-    {% for tag in site.tags %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag"><i class="icon-tag"></i>{{ tag[0] }} ({{site.tags[tag[0]].size}})</a>
-    {% endfor %}
-  </div>
 </div>
-
-
-
-
-<div class="tags-expo">
-
-  <hr/>
-  <div class="tags-expo-section">
-    {% for tag in site.tags %}
-    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
-    <ul class="tags-expo-posts">
-      {% for post in tag[1] %}
-        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-      <li>
-        {{ post.title }}
-      <small class="post-date">{{ post.date | date_to_string }}</small>
-      </li>
-      </a>
-      {% endfor %}
-    </ul>
-    {% endfor %}
-  </div>
-</div>
-
-
-
-<!-- http://ievent.janxcode.com/home-7-title-box-2/ -->
-  <div id="categories-list" class="jx-padding no">
-    <div class="container">
-      <div class="wpb_column vc_column_container vc_col-sm-12">
-        <div class="vc_column-inner ">
-          <div class="wpb_wrapper">
-
-            <div class="vc_row wpb_row vc_inner vc_row-fluid">
-              <div class="wpb_column vc_column_container vc_col-sm-12">
-                <div class="vc_column-inner ">
-                  <div class="wpb_wrapper">
-                  	<div class="jx-section-title-1 jx-dark">
-            					<div class="jx-pre-title jx-short-border">
-              					<div class="jx-title-border left"></div>
-              					<div class="jx-title-icon"><i class="icon-rss"></i></div>
-              					<div class="jx-title-border right"></div>
-            				  </div>
-                      <div class="jx-title jx-uppercase">CATEGORIES</div>
-                      <div class="jx-subtitle"><p>Well we never really expected someone to see this page, but we made it anyways. Here is a list of all of the post categories for your viewing pleasure.</p></div>
-            				</div>
-                  </div>
-              </div>
-            </div>
+<div id="tags-actual" class="jx-container jx-padding jx-light background-002">
+  <div class="container">
+    {% for tag in sortedtags %}
+      <div id="{{ tag[0] | slugify }}" class="jx-sidebar-widget tags-list-item">
+        <div class="widget widget_recent_entries">
+          <div class="sub">
+            <h4>{{ tag[0] }}</h4>
+            <div class="jx-right-pattern"></div>
           </div>
-
-          <div class="vc_row wpb_row vc_inner vc_row-fluid">
-            <div class="wpb_column vc_column_container vc_col-sm-4">
-              <div class="vc_column-inner ">
-                <div class="wpb_wrapper">
-                  <div class="jx-servicebox-2 ">
-                    <div class="jx-service-item">
-                      <div class="service-icon"><i class="line-icon vc_li vc_li-paperplane"></i></div>
-						          <div class="service-title jx-uppercase"><a href="">Service Network</a></div>
-                      <div class="service-title-border"></div>
-                      <div class="service-description">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="vc_row wpb_row vc_inner vc_row-fluid">
-            <div class="wpb_column vc_column_container vc_col-sm-4">
-              <div class="vc_column-inner ">
-                <div class="wpb_wrapper">
-                  <div class="jx-servicebox-2 ">
-                    <div class="jx-service-item">
-                      <div class="service-icon"><i class="line-icon vc_li vc_li-paperplane"></i></div>
-						          <div class="service-title jx-uppercase"><a href="">Service Network</a></div>
-                      <div class="service-title-border"></div>
-                      <div class="service-description">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
+          <ul>
+            {% for post in tag[1] %}
+            <a href="{{ site.baseurl }}{{ post.url }}"><li><i class="icon-{{ post.icon }}"></i>{{ post.title }}<span class="post-date">{{ post.date | date_to_string }}</span></li></a>
+            {% endfor %}
+      		</ul>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="container with-sidebar">
-  <div class="posts sixteen columns jx-padding alpha jx-blog">
-    {% for category in site.categories  %}
-    <div id="post-{{ category[0] | slugify }}" class="jx-blog post type-post has-post-thumbnail hentry">
-      <div class="jx-blog-item">
-        <div class="jx-image-container">
-          <div class="jx-blog-content clearfix">
-            <div class="jx-blog-head">
-              <div class="jx-post-format"><i class="icon-code"></i></div>
-              <div class="title">{{ category[0] }}</div>
-            </div>
-            <article>
-              <ul>
-              {% for post in category[1] %}
-              <a class="post-title" href="{{ site.baseurl }}{{ post.url }}"><li><small class="post-date">{{ post.date | date_to_string }}</small>{{ post.title }}</li></a>
-              {% endfor %}
-              </ul>
-            </article>
-          </div>
-        </div>
-      </div>
-    </div>
     {% endfor %}
   </div>
-  {% include page-sidebar.html %}
 </div>
 {% include block-summary.html %}

@@ -20,10 +20,18 @@ body , .jx-accordion .description
 }
 
 
+
 .jx-section-title-1 .jx-title-border , .jx-countdown-box.jx-white-bg{
 	background:#ffffff !important;
 }
 
+.jx-section-title-1 .jx-title-border-light {
+	background:$grey-color-dark !important;
+}
+
+.jx-section-title-1 .jx-title-light {
+	color:$grey-color-dark !important;
+}
 
 .jx-faq-description{
     background: #ffffff !important;
