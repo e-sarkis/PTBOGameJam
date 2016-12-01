@@ -157,7 +157,6 @@ var Froogaloop = (function(){
         var value = data.value,
             eventData = data.data,
             target_id = target_id === '' ? null : data.player_id,
-
             callback = getCallback(method, target_id),
             params = [];
 
@@ -208,12 +207,19 @@ var Froogaloop = (function(){
      * Retrieves stored callbacks.
      */
     function getCallback(eventName, target_id) {
+      try {
+
         if (target_id) {
             return eventCallbacks[target_id][eventName];
         }
         else {
             return eventCallbacks[eventName];
         }
+      }
+      catch(e)
+      {
+        return null;
+      }
     }
 
     function removeCallback(eventName, target_id) {
