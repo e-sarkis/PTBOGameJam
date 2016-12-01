@@ -504,6 +504,7 @@ li p {
 a.register-button
 {
   display: inline-block;
+  // background: #f6682f;
   background: $primary-color;
   color: #fff;
   padding: 10px;
@@ -514,7 +515,17 @@ a.register-button
   // text-transform: uppercase;
 }
 
-a.register-button:hover
+a.media-button
+{
+  display: inline-block;
+  background: $primary-color;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+a.register-button:hover, a.media-button:hover
 {
   color: #fff;
   background: #000;
