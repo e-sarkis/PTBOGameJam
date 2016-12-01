@@ -70,17 +70,8 @@
 
       <div class="jx-post-footer">
         <div class="container">
-          <div class="jx-footer-social">
-            <ul>
-              <li><a href="http://www.facebook.com/{{ site.data.social.username }}"><i class="icon-facebook"></i></a></li>
-              <li><a href="http://www.twitter.com/{{ site.data.social.username }}"><i class="icon-twitter"></i></a></li>
-              <li><a href="http://www.github.com/{{ site.data.social.username }}"><i class="icon-github-circled"></i></a></li>
-              <li><a href="http://plus.google.com/+{{ site.data.social.username }}"><i class="icon-gplus"></i></a></li>
-              <li><a href="https://www.instagram.com/{{ site.data.social.username }}"><i class="icon-instagram"></i></a></li>
-              <li><a href="{{ site.data.links-relative.rss | prepend: site.baseurl }}"><i class="icon-rss"></i></a></li>
-            </ul>
-          </div>
-          <div class="jx-footer-copyright">&copy;2016 <a href="http://dotbunny.com/" target="_blank">dotBunny Inc.</a> All Rights Reserved.</div>
+          {% include menu-social.html %}
+          {% include block-copyright.html %}
         </div>
       </div>
 
@@ -91,9 +82,10 @@
 
     <nav class="outer-nav left vertical">
         {% include menu.html  icons="true" %}
-        <div class="outer-social">
-          <a href="http://www.facebook.com/{{ site.data.social.username }}"><i class="icon-facebook"></i></a>
-        </div>
     </nav>
+    <div class="outer-social">
+    {% include menu-social.html %}
+    {% include block-copyright.html %}
+    </div>
 
   </div><!-- /perspective -->

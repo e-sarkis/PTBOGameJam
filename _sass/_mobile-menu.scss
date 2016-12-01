@@ -234,11 +234,31 @@ html, body, .perspective {
 	margin-top: 50px;
 }
 
-.outer-nav div.outer-social
+div.outer-social
 {
-	position: absolute;
-	height: auto;
+	display: none;
 }
+
+
+.outer-social .jx-footer-copyright a {
+    color: #777 !important;
+}
+.outer-social li i {
+
+    border: none;
+    color: #b8b6b4;
+}
+
+
+.modalview div.outer-social
+{
+	display: block;
+	position: fixed;
+	bottom: 0%;
+	left: 25%;
+
+}
+
 
 /* Media Queries */
 @media screen and (max-width: 77em) {
