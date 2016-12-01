@@ -165,15 +165,6 @@ function onScrollSite()
   var scroll = window.pageYOffset || document.documentElement.scrollTop;
   var position = siteHeader.position();
   var top = siteHeader.css('top');
-
-  if ( scroll >= position.top+1)
-  {
-    siteHeader.addClass("fixed");
-  }
-  else
-  {
-    siteHeader.removeClass("fixed");
-  }
 }
 
 // Handle Site Wide Resize Events
