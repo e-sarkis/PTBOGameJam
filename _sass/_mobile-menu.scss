@@ -259,6 +259,20 @@ div.outer-social
 
 }
 
+.effect-airbnb .outer-social {
+	opacity: 0;
+	-webkit-transform: translateY(150px);
+	transform: translateY(150px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+	transition: transform 0.4s, opacity 0.4s;
+}
+
+.effect-airbnb.animate .outer-social{
+	opacity: 1;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+}
+
 
 /* Media Queries */
 @media screen and (max-width: 77em) {
