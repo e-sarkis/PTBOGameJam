@@ -1,11 +1,11 @@
 ---
 layout: post-default
 title:  "Website 02"
-date:   2016-11-27 20:00:00 -0400
+date:   2016-12-05 20:00:00 -0400
 categories: ["operations"]
 tags: ["github", "jeykll"]
 author: PTBO Game Jam
-code: 2016-11-27-website-udpate
+code: 2016-12-05-website-udpate
 excerpt: "It is coming up on three months since we changed the video game development space in Peterborough, Ontario with the first ever PTBO Game Jam. Our work has never stopped since that eventful day. We have been hard at work day in and day out, trying to further our goal of bringing the game development industry to town."
 image: 2016-11-27-website-udpate.jpg
 icon: code
