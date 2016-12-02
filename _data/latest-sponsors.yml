@@ -24,6 +24,10 @@
   tier:   "silver"
   url:    "http://www.klcfdc.com/"
 
+- name:   "Peterborough Tech Advisory Council"
+  tier:   "silver"
+  url:    "http://ptbotac.org"
+
 - name:   "Ricky's All Day Grill"
   tier:   "silver"
   url:    "https://twitter.com/RickysPtbo"
@@ -43,6 +47,11 @@
 - name:   "Liftlock Studios"
   tier:   "bronze"
   url:    "http://liftlockstudios.com/"
+
+- name:   "Pagefolio"
+  tier:   "bronze"
+  url:    "http://pagefolio.com"
+
 
 - name:   "Tromley Computer Services"
   tier:   "bronze"
