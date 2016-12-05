@@ -441,9 +441,7 @@
     padding-top:20px;
   }
   .jx-countdown .counter-wrapper li {
-    margin-right: 4px;
     margin-top: 0px;
-    margin-left: 4px;
   }
 
   .jx-countdown-form .jx-countdown-box {
@@ -892,5 +890,15 @@
     padding-top: 8px;
 		font-size: 20px;
 	}
+
+
+  div#latest-countdown .hidden-break {
+    display: block;
+  }
+
+  // WIP
+  #latest-countdown  ul > li:nth-child(2) {
+    margin-right: 0px;
+  }
 
 }

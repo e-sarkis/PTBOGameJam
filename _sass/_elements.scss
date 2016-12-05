@@ -2659,3 +2659,36 @@ div#tags {
   padding-left: 25px;
   color: $grey-color;
 }
+
+div#latest-countdown {
+  background-color: $grey-color-dark-more;
+  width: 100%;
+}
+
+div#latest-countdown li {
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+}
+
+div#latest-countdown li .count {
+  font-weight: 400;
+}
+
+div#latest-countdown .counter-wrapper {
+  float: right;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: $primary-color;
+}
+
+.hidden-break {
+  display: none;
+}
+div#latest-countdown .jx-countdown .counter-wrapper li {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+div#latest-countdown ul {
+  margin-bottom: 0px;
+}
