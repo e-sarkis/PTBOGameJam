@@ -897,7 +897,8 @@
   }
 
   // WIP
-  #latest-countdown  ul > li:nth-child(2) {
+  div#latest-countdown .jx-countdown .counter-wrapper li:nth-child(2)
+  {
     margin-right: 0px;
   }
 
