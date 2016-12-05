@@ -4,7 +4,10 @@
   <div class="container">
     <div class="jx-page-titlebar-items">
       <div class="sixteen columns left">
+        {% if page.hide-breadcrumb %}
+        {% else %}
         {% include breadcrumb.html %}
+        {% endif %}
       </div>
     </div>
   </div>
