@@ -807,6 +807,7 @@ margin-bottom: 5px;
   border-radius: 0;
 }
 /* Location Map */
+
 .jx-venue-box{
 	position: absolute;
 	z-index: 999;
@@ -1388,9 +1389,19 @@ border-top: 1px solid rgba(255,255,255,0.3);
 /*---------------------------------------------------------------
 [13.0 Exhibition Floor Plan ]
 ----------------------------------------------------------------*/
-.jx-interactive-map{
-  max-width:800px;
+.jx-interactive-map {
+  max-width:1050px;
   margin:0 auto
+}
+.jx-map-info
+{
+  width: 50%;
+  float: left;
+}
+.jx-inter-map {
+  width: 50%;
+  float: right;
+  padding-left: 25px;
 }
 
 .jx-map-company  ul {
