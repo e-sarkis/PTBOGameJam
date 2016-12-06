@@ -111,12 +111,15 @@
 .icon-file-pdf:before { content: '\f1c1'; } /* '' */
 .icon-twitch:before { content: '\f1e8'; } /* '' */
 .icon-newspaper:before { content: '\f1ea'; } /* '' */
+.icon-copyright:before { content: '\f1f9'; } /* '' */
 .icon-birthday:before { content: '\f1fd'; } /* '' */
 .icon-forumbee:before { content: '\f211'; } /* '' */
 .icon-street-view:before { content: '\f21d'; } /* '' */
 .icon-heartbeat:before { content: '\f21e'; } /* '' */
 .icon-bed:before { content: '\f236'; } /* '' */
 .icon-clone:before { content: '\f24d'; } /* '' */
+.icon-trademark:before { content: '\f25c'; } /* '' */
+.icon-registered:before { content: '\f25d'; } /* '' */
 .icon-television:before { content: '\f26c'; } /* '' */
 .icon-industry:before { content: '\f275'; } /* '' */
 .icon-map-pin:before { content: '\f276'; } /* '' */
