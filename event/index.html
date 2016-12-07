@@ -10,6 +10,29 @@ hide-breadcrumb: true
 
 {% include block-countdown.html %}
 
+<div id="event-header" class="jx-container jx-padding container-no-margin background-001">
+  <div class="container">
+      <div class="eight columns pad-right">
+        <div class="content-spacer"><iframe src="{{ site.latest_video }}" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+      </div>
+      <div class="eight columns pad-left">
+        <div class="jx-section-title title-light jx-dark">
+          <div class="jx-title jx-uppercase">Are You <span>Ready?</span></div>
+          <div class="jx-hr-title"></div>
+        </div>
+        <div class="section-content">
+            <p>We are back bigger and <em>more badass</em> then before. We learned from our first event and listened to your feedback, grew our team and refactored our formula to bring the next iteration to the <a href="#">Kawartha Trades &amp; Technology Centre</a> on February 17th-19th 2017.</p>
+            <p>With more than double the sponsors the first event, we continue to engage with the local community in developing lasting relationships supporting the development of a games industry in Peterborough, Ontario. With an expanded educational block and more actual development time we’re all super excited to see what gets made at the event.</p>
+            <a href="{{ site.data.latest.registration }}" title="Register Now" class="jx-btn-default">Register Now</a>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+
+{% include block-event-gallery.html %}
+{% include block-event-schedule.html %}
 {% include block-event-ticker.html %}
 {% include block-venue-layout.html %}
 

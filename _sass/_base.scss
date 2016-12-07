@@ -3153,6 +3153,7 @@ html{
   font-size: 18px;
 }
 .section-content p {
+  font-size: 14px;
   padding-bottom: 25px;
 }
 .section-content p:last-child {
@@ -3169,7 +3170,13 @@ html{
     color: $primary-color;
 }
 
-
+.background-000
+{
+    background-image: url("/content/img/backgrounds/background-000.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
 .background-001
 {
     background-image: url("/content/img/backgrounds/background-001.jpg") !important;
@@ -3198,8 +3205,43 @@ html{
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
+.background-005
+{
+    background-image: url("/content/img/backgrounds/background-005.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
 
 //
 // .jx-section-title {
 //   font-size: 31px;
 // }
+.v-bottom {
+  vertical-align: bottom;
+}
+.v-top {
+  vertical-align: top;
+}
+
+position-relative {
+  position: relative;
+}
+.p-bottom {
+  padding-bottom: 94px;
+}
+
+.p-top {
+  padding-top: 94px;
+}
+
+.pad-left {
+  padding-left: 20px;
+}
+.pad-right {
+  padding-right: 20px;
+}
+
+.color-white {
+  color: #fff !important;
+}
