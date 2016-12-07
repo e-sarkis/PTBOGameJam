@@ -1,4 +1,4 @@
-<div id='sponsors' class="jx-container container-no-margin jx-padding jx-white-bg ">
+<div id='sponsors' class="jx-container container-no-margin jx-padding background-006">
 
           <!-- Background Image -->
 
@@ -18,19 +18,33 @@
               </div>
 
 {% assign gold = site.data.latest-sponsors | where: 'tier', 'gold' %}
+
+
 {% assign silver = site.data.latest-sponsors | where: 'tier', 'silver' %}
 {% assign bronze = site.data.latest-sponsors | where: 'tier', 'bronze' %}
 
+<div class="jx-sponsors gold-sponsors">
+  <ul>
+{% for sponsor in gold %}
+    <li><a href="{{ sponsor.url }}"><div class="slide-contents"><img src="{{ sponsor.img | prepend: site.baseurl }}" alt="{{ sponsor.name }}"></div></a></li>
+{% endfor %}
+  </ul>
+</div>
 
-              <div class="jx-sponsors">
-                  <ul>
-                      <li><a href=""><div class="slide-contents"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/logo-1.png" alt=""></div></a></li>
-                      <li><a href=""><div class="slide-contents"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/logo-2.png" alt=""></div></a></li>
-                      <li><a href=""><div class="slide-contents"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/logo-3.png" alt=""></div></a></li>
-                      <li><a href=""><div class="slide-contents"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/logo-6.png" alt=""></div></a></li>
-                      <li><a href=""><div class="slide-contents"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/logo-5.png" alt=""></div></a></li>
-                  </ul>
-              </div>
+<div class="jx-sponsors silver-sponsors">
+  <ul>
+{% for sponsor in silver %}
+    <li><a href="{{ sponsor.url }}"><div class="slide-contents"><img src="{{ sponsor.img | prepend: site.baseurl }}" alt="{{ sponsor.name }}"></div></a></li>
+{% endfor %}
+  </ul>
+</div>
 
+<div class="jx-sponsors bronze-sponsors">
+  <ul>
+{% for sponsor in bronze %}
+    <li><a href="{{ sponsor.url }}"><div class="slide-contents"><img src="{{ sponsor.img | prepend: site.baseurl }}" alt="{{ sponsor.name }}"></div></a></li>
+{% endfor %}
+  </ul>
+</div>
           </div>
       </div>

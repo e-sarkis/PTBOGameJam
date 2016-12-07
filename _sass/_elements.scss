@@ -49,8 +49,8 @@ Author:	Janxcode
 }
 
 .jx-sponsors ul li{
-  margin-bottom:0;
-  border: 4px solid #eee;
+  margin-bottom:5px;
+  //border: 4px solid #eee;
 }
 .jx-sponsors li{
   display: inline-block;
@@ -63,10 +63,11 @@ margin-bottom: 5px;
 
 .jx-sponsors li img{
   transition:all 0.3s ease-out;
+  opacity:0.90;
 }
 
 .jx-sponsors li img:hover{
-  opacity:0.8;
+  opacity:1;
 }
 /*---------------------------------------------------------------
 [2.0 Call Action Box - Content ]
