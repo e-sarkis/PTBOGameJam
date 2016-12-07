@@ -3,60 +3,64 @@
 - name:   "dotBunny"
   tier:   "gold"
   url:    "http://dotbunny.com"
+  img:    "/content/img/event/02/sponsors/dotbunny.jpg"
 
 - name:   "Fleming College - School of Trades and Technology"
   tier:   "gold"
   url:    "https://flemingcollege.ca/school/trades-and-technology"
+  img:    "/content/img/event/02/sponsors/fleming.jpg"
 
 - name:   "Funky Rustic"
   tier:   "silver"
   url:    "http://www.funkyrustic.net/"
+  img:    "/content/img/event/02/sponsors/funkyrustic.jpg"
 
 - name:   "GitHub"
   tier:   "silver"
   url:    "https://github.com"
+  img:    "/content/img/event/02/sponsors/github.jpg"
 
 - name:   "IBM"
   tier:   "silver"
   url:    "http://www.ibm.com/ca-en/"
-
-- name:   "Kawartha Lakes CFDC"
-  tier:   "silver"
-  url:    "http://www.klcfdc.com/"
+  img:    "/content/img/event/02/sponsors/ibm.jpg"
 
 - name:   "Peterborough Tech Advisory Council"
   tier:   "silver"
   url:    "http://ptbotac.org"
+  img:    "/content/img/event/02/sponsors/ptac.jpg"
 
 - name:   "Ricky's All Day Grill"
   tier:   "silver"
   url:    "https://twitter.com/RickysPtbo"
+  img:    "/content/img/event/02/sponsors/rickys.jpg"
 
 - name:   "Aramark"
   tier:   "bronze"
   url:    "http://aramark.com"
+  img:    "/content/img/event/02/sponsors/aramark.jpg"
 
 - name:   "Audio Kinetic"
   tier:   "bronze"
   url:    "https://www.audiokinetic.com/"
+  img:    "/content/img/event/02/sponsors/audiokinetic.jpg"
 
 - name:   "Community Futures Peterborough"
   tier:   "bronze"
   url:    "http://communityfuturespeterborough.ca/"
+  img:    "/content/img/event/02/sponsors/cfpeterborough.jpg"
 
 - name:   "Liftlock Studios"
   tier:   "bronze"
   url:    "http://liftlockstudios.com/"
+  img:    "/content/img/event/02/sponsors/liftlock.jpg"
 
 - name:   "Pagefolio"
   tier:   "bronze"
   url:    "http://pagefolio.com"
-
-
-- name:   "Tromley Computer Services"
-  tier:   "bronze"
-  url:    "http://tromley.ca/"
+  img:    "/content/img/event/02/sponsors/pagefolio.jpg"
 
 - name:   "Unity"
   tier:   "bronze"
   url:    "http://unity3d.com"
+  img:    "/content/img/event/02/sponsors/unity.jpg"
