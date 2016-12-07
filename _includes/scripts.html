@@ -21,9 +21,9 @@
     <script src="{{ "/content/js/view/" | append: include.script | prepend: site.baseurl }}"></script>
     {% endif %}
 
-
+    {%if page.map %}
     <!-- Google Map -->
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
 
       function init() {
 
@@ -56,4 +56,5 @@
         google.maps.event.addDomListener(window, 'load', init);
       }
 
-    </script> -->
+    </script>
+    {% endif %}
