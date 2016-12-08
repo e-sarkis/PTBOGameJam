@@ -202,6 +202,35 @@ function onReadySite()
       fallback: function() { console.log("Counter finished!") }
     });
   }
+
+
+
+
+  //Count Go up
+  $('.jx-counter-number').animate({marginTop:0},1000,'swing');
+
+  $('.count-1').counterUp({
+    delay: 10,
+    time: 1000
+  });
+
+  $('.count-2').counterUp({
+    delay: 20,
+    time: 1000
+  });
+
+  $('.count-3').counterUp({
+    delay: 30,
+    time: 1000
+  });
+
+  $('.count-4').counterUp({
+    delay: 30,
+    time: 1000
+  });
+
+
+
 }
 
 

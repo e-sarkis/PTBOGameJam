@@ -91,27 +91,6 @@ Version: 		1.0
 
 
 
-				//Count Go up
-				jQuery('.jx-counter-number').animate({marginTop:0},1000,'swing');
-
-				jQuery('#count-go-up-1 span').counterUp({
-					delay: 10,
-					time: 1000
-				});
-
-				jQuery('#count-go-up-2 span').counterUp({
-					delay: 20,
-					time: 1000
-				});
-
-				jQuery('#count-go-up-3 span').counterUp({
-					delay: 30,
-					time: 1000
-				});
-
-
-
-
 
 
 				if (jQuery(".select-box").length > 0){
