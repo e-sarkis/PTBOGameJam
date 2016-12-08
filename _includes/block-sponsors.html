@@ -1,48 +1,51 @@
 <div id='sponsors' class="jx-container container-no-margin jx-padding background-006">
-
-          <!-- Background Image -->
-
-          <!-- Background Icon -->
-          <div class="container ">
-              <div class="jx-section-title-1 jx-dark">
-
-                  <div class="jx-pre-title jx-short-border">
-                  <div class="jx-title-icon"><i class="icon-thumbs-up"></i></div>
-                  </div>
-                  <div class="jx-title jx-uppercase">Sponsors</div>
-                  <div class="jx-subtitle"><p>Viverra dignissim elit. Maecenas in orci nisl. Cras et nisl aliquet, mollis purus ac, vestibulum metus. Suspendisse arcu ex, condimentum vehicula tempus eget, varius ut tortor</p></div>
-                  <!-- Section Title -->
-
-              </div>
-
-{% assign gold = site.data.latest-sponsors | where: 'tier', 'gold' %}
-
-
-{% assign silver = site.data.latest-sponsors | where: 'tier', 'silver' %}
-{% assign bronze = site.data.latest-sponsors | where: 'tier', 'bronze' %}
-
-<div class="jx-sponsors gold-sponsors">
-  <ul>
-{% for sponsor in gold %}
-    <li><a href="{{ sponsor.url }}"><div class="slide-contents"><img src="{{ sponsor.img | prepend: site.baseurl }}" alt="{{ sponsor.name }}"></div></a></li>
-{% endfor %}
-  </ul>
-</div>
-
-<div class="jx-sponsors silver-sponsors">
-  <ul>
-{% for sponsor in silver %}
-    <li><a href="{{ sponsor.url }}"><div class="slide-contents"><img src="{{ sponsor.img | prepend: site.baseurl }}" alt="{{ sponsor.name }}"></div></a></li>
-{% endfor %}
-  </ul>
-</div>
-
-<div class="jx-sponsors bronze-sponsors">
-  <ul>
-{% for sponsor in bronze %}
-    <li><a href="{{ sponsor.url }}"><div class="slide-contents"><img src="{{ sponsor.img | prepend: site.baseurl }}" alt="{{ sponsor.name }}"></div></a></li>
-{% endfor %}
-  </ul>
-</div>
-          </div>
+  <div class="container ">
+    <div class="jx-section-title-1 jx-dark">
+      <div class="jx-pre-title jx-short-border">
+        <div class="jx-title-icon"><i class="icon-thumbs-up"></i></div>
+        </div>
+        <div class="jx-title jx-uppercase">Sponsors</div>
+        <div class="jx-subtitle"><p>This event would not have been possible without the contributions of our sponsors. We would like to extended our sincere thanks and appreciation to them for putting their faith in our noble cause.</p></div>
       </div>
+      <div id="sponsors-list">
+  {% assign gold = site.data.latest-sponsors | where: 'tier', 'gold' %}
+  {% assign silver = site.data.latest-sponsors | where: 'tier', 'silver' %}
+  {% assign bronze = site.data.latest-sponsors | where: 'tier', 'bronze' %}
+        <div class="jx-sponsors gold-sponsors">
+          <div class="jx-team-item jx-team-box-content sponsors-title">
+            <a name="team"><div class="jx-title jx-uppercase">Gold <span>Tier</span></div></a>
+            <div class="jx-hr-title"></div>
+          </div>
+          <ul>
+        {% for sponsor in gold %}
+            <li><a href="{{ sponsor.url }}"><div class="slide-contents"><img src="{{ sponsor.img | prepend: site.baseurl }}" alt="{{ sponsor.name }}"></div></a></li>
+        {% endfor %}
+          </ul>
+        </div>
+
+        <div class="jx-sponsors silver-sponsors">
+          <div class="jx-team-item jx-team-box-content sponsors-title">
+            <a name="team"><div class="jx-title jx-uppercase">Silver <span>Tier</span></div></a>
+            <div class="jx-hr-title"></div>
+          </div>
+          <ul>
+        {% for sponsor in silver %}
+            <li><a href="{{ sponsor.url }}"><div class="slide-contents"><img src="{{ sponsor.img | prepend: site.baseurl }}" alt="{{ sponsor.name }}"></div></a></li>
+        {% endfor %}
+          </ul>
+        </div>
+
+        <div class="jx-sponsors bronze-sponsors">
+          <div class="jx-team-item jx-team-box-content sponsors-title">
+            <a name="team"><div class="jx-title jx-uppercase">Bronze <span>Tier</span></div></a>
+            <div class="jx-hr-title"></div>
+          </div>
+          <ul class="no-bottom-margin">
+        {% for sponsor in bronze %}
+            <li><a href="{{ sponsor.url }}"><div class="slide-contents"><img src="{{ sponsor.img | prepend: site.baseurl }}" alt="{{ sponsor.name }}"></div></a></li>
+        {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>

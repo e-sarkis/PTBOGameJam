@@ -385,28 +385,25 @@ Version: 		1.0
 		},
 		prettyPhoto: function(){
 
-		var prettyPhoto_parameters = {
+			var prettyPhoto_parameters = {
 					animation_speed: 'fast',
 					slideshow: true, /* false OR interval time in ms */
-					theme:'facebook',
+					theme:'dark_square',
 					opacity: 1,
 					show_title:true, /* true/false */
 					allow_resize: true, /* Resize the photos bigger than viewport. true/false */
 					default_width: 920,
 					default_height: 540,
-				   counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
+				  counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
 					hideflash: false, /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
 					wmode: 'opaque', /* Set the flash wmode attribute */
 					autoplay: true, /* Automatically start videos: True/False */
 					modal: false, /* If set to true, only the close button will close the window */
-					overlay_gallery: true
+					overlay_gallery: true,
+					social_tools: ''
 				};
 
-
-					jQuery('a[href$=jpg], a[href$=JPG], a[href$=jpeg], a[href$=JPEG], a[href$=png], a[href$=gif], a[href$=bmp]:has(img),a[class^="prettyPhoto"],a[data-rel^="prettyPhoto"]').prettyPhoto(prettyPhoto_parameters);
-
-
-				jQuery('a[class^="prettyPhoto"],a[data-rel^="prettyPhoto"]').prettyPhoto(prettyPhoto_parameters); //prettyPhoto_parameters
+				jQuery('a[data-rel^="prettyPhoto"]').prettyPhoto(prettyPhoto_parameters); //prettyPhoto_parameters
 
 		},
 

@@ -4,7 +4,7 @@
     <script type="text/javascript" src="{{ "/content/vendor/respond.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "/content/vendor/classie.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "/content/vendor/jquery.appear.js" | prepend: site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ "/content/vendor/PrettyPhoto/jquery.prettyPhoto.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/content/vendor/prettyPhoto/jquery.prettyPhoto.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "/content/vendor/flexslider/jquery.flexslider.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "/content/vendor/jquery.visible.min.js" | prepend: site.baseurl }}"></script>
     <script type='text/javascript' src="{{ "/content/vendor/form-validator/jquery.form-validator.min.js" | prepend: site.baseurl }}"></script>
@@ -20,6 +20,7 @@
     {% if include.script %}
     <script src="{{ "/content/js/view/" | append: include.script | prepend: site.baseurl }}"></script>
     {% endif %}
+
 
     {%if page.map %}
     <!-- Google Map -->

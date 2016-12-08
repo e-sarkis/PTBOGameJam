@@ -45,13 +45,20 @@ Author:	Janxcode
 [1.0 Sponsor Logo ]
 ----------------------------------------------------------------*/
 .jx-sponsors ul{
-  margin-bottom:0
+  margin-bottom:40px;
+}
+.no-bottom-margin {
+  margin-bottom: 0px !important;
 }
 
 .jx-sponsors ul li{
   margin-bottom:5px;
   //border: 4px solid #eee;
 }
+.sponsors-title{
+  margin-bottom: 20px;
+}
+
 .jx-sponsors li{
   display: inline-block;
   width:230px;
@@ -2736,4 +2743,9 @@ div#event-header div {
 }
 .jx-logo a:hover {
   color: #fff;
+}
+
+div#sponsors-list {
+  padding-left: 10%;
+  padding-right: 10%;
 }
