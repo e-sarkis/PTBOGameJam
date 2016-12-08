@@ -6,6 +6,18 @@ function setBaseURL(path)
   baseURL = path;
 }
 
+var currentTime = "";
+function setCurrentTime(time)
+{
+  currentTime = time;
+}
+
+var eventTime = "";
+function setEventTime(time)
+{
+  eventTime = time;
+}
+
 // References
 var siteHeader;
 $( document ).ready(function() {
@@ -175,6 +187,24 @@ function onResizeSite()
     $('.jx-parallax-fullwidth').css('height', window.innerHeight + 'px');
 }
 onResizeSite();
+
+$(document).ready(function(){ onReadySite(); });
+function onReadySite()
+{
+  // Find all countdowns and setup
+  if ($(".countdown").length > 0)
+  {
+    $(".countdown").jCounter({
+      date: eventTime,
+      timezone: "America/Toronto",
+      format: "dd:hh:mm:ss",
+      twoDigits: 'on',
+      fallback: function() { console.log("Counter finished!") }
+    });
+  }
+}
+
+
 
 
 // Handle Subscriber Button

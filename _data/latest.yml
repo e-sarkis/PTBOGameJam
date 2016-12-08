@@ -4,6 +4,9 @@ ics:              "/content/ics/PTBOGameJam02.ics"
 date_long:        "February 17-19 2017"
 date_short:       "17-19 Feb 2017"
 date_countdown:   "17 Feb 2017 18:00"
+
+countdown:        "17 february 2017 18:00:00"
+
 hours_work:       "45"
 hours_edu:        "3"
 prizes:           "3"

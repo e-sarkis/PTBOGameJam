@@ -112,16 +112,7 @@ Version: 		1.0
 
 
 
-				//Count Down
-				if (jQuery(".countdown").length > 0){
-					jQuery(".countdown").jCounter({
-						date: "17 february 2017 18:00:00",
-						timezone: "America/Toronto",
-						format: "dd:hh:mm:ss",
-						twoDigits: 'on',
-						fallback: function() { console.log("Counter finished!") }
-					});
-				}
+
 
 				if (jQuery(".select-box").length > 0){
 					jQuery(".select-box").selectbox();
