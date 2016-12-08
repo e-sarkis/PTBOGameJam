@@ -47,4 +47,20 @@
 		display: none;
 	}
 
+	div#event-header .jx-section-title
+	{
+		padding-top: 25px;
+	}
+	.pad-right {
+		padding-right: 0px;
+	}
+	.pad-left {
+		padding-left: 0px;
+	}
+
+	.jx-venue-box
+	{
+		left: inherit;
+		width: 100%;
+	}
 }
