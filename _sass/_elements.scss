@@ -753,6 +753,8 @@ margin-bottom: 5px;
 }
 /* Accordion */
 .jx-accordion .title{
+  text-transform: uppercase;
+  font-weight: 600;
   font-size:19px;
   color: $grey-color-dark-more;
   font-weight:500;
@@ -770,9 +772,25 @@ margin-bottom: 5px;
 
 }
 .jx-accordion .description{
-  margin: 20px 0 !important;
+  margin-top: 5px;
+  margin-left: 34px;
+  padding: 0px 0px 0px 57px;
   font-size:17px;
   color: $grey-color-dark;
+  border-left: 4px dotted $primary-color;
+}
+
+.faq-item-block
+{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 24px;
+  background-color: $primary-color;
+  color: #fff;
+  margin-right: 20px;
 }
 /*---------------------------------------------------------------
 [13.0 Contact Form   ]
