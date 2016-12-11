@@ -1,0 +1,41 @@
+- title:        What is a Game Jam?
+  description:  A game jam is an event where people gather to make relatively small games in short fixed duration. Some game jams can last a week, others are much shorter, often 24-48 hours straight to produce something playable. It presents a great opportunity for individuals to test new ideas and develop themselves professionally.
+
+- title:        Can I just watch?
+  description:  Absolutely, you will be required to fill out some paperwork on-site for liability reasons. Please understand that all swag and other forms of donations are there for the participants not observers. If you become a distraction to the participants, you will be forced to leave.
+
+- title:        When should I show up?
+  description:  On the <a href="/event/schedule/">schedule</a> there is a dedicated sign-in block of time; but showing up at the start of that would be perfect. Don't forget you can show up early during the Game Development Seminar block as well to get settled. If you are going to be late, please <a href="/contact/">contact us</a> ahead of time so that we can make arrangements for you.
+
+- title:        What should I know ahead of time?
+  description:  This is always a point of contention, nothing, but <strong>something</strong>.<br /<br />While we are going to be providing a prep session before starting in order to be as inclusive as possible, it isn’t going to be easy. Participants should preinstall a game engine of their choice on their hardware and at least have played around with it prior to the event.
+
+- title:        I'm new to game development, should I use Unity or Unreal?
+  description:  This is a personal choice of what you feel most comfortable with. Both <a href="http://unity3d.com/learn">Unity</a> and <a href="https://docs.unrealengine.com/latest/INT/Videos/">Unreal</a> provide fantastic introductory examples, videos and documentation that can assist you on your journey.<br /><br />A suggestion is to take a look at both engines, watch a few of the tutorial videos and see which makes the most sense to you. Try experimenting with both and see which one you can be the most productive with. Remember, there are a lot of passionate developers out there who preach one engine over the other. An engine is a means to an end, it's what you can do with it that matters.
+
+- title:        Why are we not allowed alcohol at these events?
+  description:  While some of the venues may have their own liquor licenses, due to insurance and liability concerns we enforce a strict <strong>zero tolerance</strong> of alcohol.
+
+- title:        What should I bring?
+  description:  You are responsible for bringing your own hardware to work on, which also means that you should have all the software you are going to need installed as well. Laptops seem to be your best bet here due to their portability, however if you want to lug a desktop, we're not going to stop you. Please limit the number of monitors that you bring as space is limited. You will be provided with one guaranteed power port (outlet), what you do with it is up to you. Our suggestion is to bring your own power bar to attach to said outlet. If you require additional networking/routing equipment, that is all on you. The venue will be providing WIFI for the event. We will not be providing any sleeping accommodations; this is an overnight event which runs the entire duration of it. If you want to sleep, we would suggest you either bring a pillow or make other arrangements. The venue itself has some comfortable couches but no guarantees there.
+
+- title:        Do I need a team?
+  description:  That's entirely up to you, you can register on your own, as part of a team. Typically, people go solo on these sorts of things, but there are times where it also makes sense to go in with someone else.
+
+- title:        Can I use a game I'm already working on?
+  description:  No. The idea behind this event is that you are creating something on the spot under pressure. You would be amazed at what you can do in a short period of time when you put your mind to it. We are not going to limit the inclusion of helper libraries, packages, etc. so long as they do not provide an unfair advantage when creating gameplay mechanics.
+
+- title:        Who owns the rights to the games I created?
+  description:  You do! Anything you create is yours. If you want to give us the source code to make available publicly that would be cool, but that is entirely up to you. Teams of course share ownership of the game that they create together. This isn't rocket science when it comes to IP ownership, don't cause problems.
+
+- title:        Deliverables?
+  description:  At the end of the game jam block, games will be shown to other participants and observers. So, whatever platform / technology you built your game on needs to be demonstrated to others. So, if you want to bring a full VR rig that is perfectly OK!
+
+- title:        Final Submission? What?
+  description:  At the end of the game jam work block, attendees will be given the opportunity to polish their game for 5 days afterwards. Submissions of the final game will be done on <a href="https://itch.io/">itch.io</a>, with a link provided to participants at the end of the game jam. Once all submissions are completed an email will be sent out across the established mailing list with instructions on how to play each game. Images and a brief write up will also be requested of participants allowing for an archive of games to be created for future posterity.
+
+- title:        Who is dotBunny?
+  description:  <a href="http://dotbunny.com">dotBunny</a> is an independent game studio based out of Peterborough. It has been running under the radar for 10+ years now and has worked on many well-known titles and created numerous industry tools. It is using financial backing and its connections in the industry to get this event bootstrapped, with the hopes that it eventually the community can run the event independent of its support.
+
+- title:        What is this “legalese” thing I’m being asked to sign?
+  description:  During the registration process, participants are required to agree to what essentially equates to a liability waiver with an extra little bit about the PTBO Game Jam being able to use pictures we take at the event for promotional purposes. This agreement is quite standard and is there to protect everyone involved. Observers on site will be required to sign a similar agreement. 
