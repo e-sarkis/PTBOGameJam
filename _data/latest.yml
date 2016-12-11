@@ -11,11 +11,11 @@ hours_work:       "45"
 hours_edu:        "3"
 prizes:           "3"
 message:          "Kawartha Trades &amp; Technology Centre"
-map-lat:          "44.2705304"
-map-long:         "-78.3667822"
+map-lat:          44.266836466143516
+map-long:         -78.36875650256349
 map-zoom:         "14"
-marker-lat:       "44.26708218665308"
-marker-long:      "-78.37287617888181"
+marker-lat:       44.266836466143516
+marker-long:      -78.36875650256349
 
 
 location:         "Kawartha Trades &amp; Technology Centre"
