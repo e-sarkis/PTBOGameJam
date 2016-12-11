@@ -17,8 +17,11 @@
         </div>
 
 {% include footer.html %}
-{% include scripts.html %}
-
+{% if page.script %}
+  {% include scripts.html script=page.script %}
+{% else %}
+  {% include scripts.html %}
+{% endif %}
   </body>
 
 </html>
