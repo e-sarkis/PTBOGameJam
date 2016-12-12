@@ -160,6 +160,7 @@ function HideMobileMenu(ev)
 
 function ShowMobileSubMenu(ev)
 {
+  if ( showSubMenuIcon == null ) return;
   showingMobileSubMenu = true;
   classie.remove(showSubMenu, 'display-none');
 
@@ -169,6 +170,8 @@ function ShowMobileSubMenu(ev)
 }
 function HideMobileSubMenu(ev)
 {
+  if ( showSubMenuIcon == null ) return;
+  
   classie.add(showSubMenu, 'display-none');
 
   classie.remove(showSubMenuIcon, 'icon-angle-double-down');
