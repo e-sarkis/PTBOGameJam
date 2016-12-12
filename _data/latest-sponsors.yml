@@ -25,6 +25,12 @@
   url:    "http://www.ibm.com/ca-en/"
   img:    "/content/img/event/02/sponsors/ibm.jpg"
 
+- name:   "Kawartha Lakes Community Futures Development Corporation"
+  tier:   "silver"
+  url:    "http://klcfdc.com/"
+  img:    "/content/img/event/02/sponsors/cfkawarthalakes.jpg"
+
+
 - name:   "Peterborough Tech Advisory Council"
   tier:   "silver"
   url:    "http://ptbotac.org"
