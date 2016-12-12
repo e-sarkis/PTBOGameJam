@@ -91,6 +91,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /* #Misc */
 .remove-bottom {
   margin-bottom: 0 !important;
@@ -1247,7 +1248,7 @@ div#showMenu i
 
   z-index: 999999;
 
-  display: block;
+  display: inline-block;
   vertical-align: middle;
 
   padding-left: 5px;
@@ -1259,9 +1260,14 @@ div#showMenu i
   line-height: 1.125em;
   cursor: pointer;
 }
+
 div#showMenu i:hover
 {
   color: $primary-color !important;
+}
+
+div#showMenu i#showSubMenuIcon {
+  margin-right: 0px;
 }
 
 .jx-menu .main-menu ul,.jx-menu .main-menu li{
@@ -1310,6 +1316,7 @@ div#showMenu i:hover
 .jx-menu .main-menu li .sub-menu li {
     display:block;
     margin-left: 0px;
+    margin-bottom: 1px;
     padding: 0px;
     background-color: rgba(0,0,0,0.75);
 }

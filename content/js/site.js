@@ -89,6 +89,7 @@ var pageTransitionEnd = pageTransitionEndEvents[ Modernizr.prefixed( 'transition
 // Menu Setup
 var showMenu = document.getElementById( 'showMenu' );
 var showMenuIcon = document.getElementById('showMenuIcon');
+var showSubMenuIcon = document.getElementById('showSubMenuIcon');
 var headerBar = document.getElementById('menu');
 
 if ( showMenu ) {
@@ -151,9 +152,9 @@ function HideMobileMenu(ev)
 }
 
 // Smart Check For Components
-if ( showMenu != null && perspectiveWrapper != null && container != null && contentWrapper != null ) {
+if ( showMenuIcon != null && perspectiveWrapper != null && container != null && contentWrapper != null ) {
 
-    showMenu.addEventListener( pageClickEvent, function( ev ) {
+    showMenuIcon.addEventListener( pageClickEvent, function( ev ) {
       if ( !showingMobileMenu ) {
         ShowMobileMenu(ev);
       } else {

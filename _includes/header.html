@@ -14,7 +14,22 @@
             </div>
           </div>
         </div>
-        <div id="showMenu"><i id="showMenuIcon" class="icon-menu"></i></div>
+        {% if page.highlight == "event" %}
+        <div id="mobile-sub-menu">
+          {% include menu-sub-event.html %}
+        </div>
+        {% endif %}
+        {% if page.highlight == "community" %}
+        <div id="mobile-sub-menu">
+          {% include menu-sub-community.html %}
+        </div>
+        {% endif %}
+        {% if page.highlight == "games" %}
+        <div id="mobile-sub-menu">
+          {% include menu-sub-games.html %}
+        </div>
+        {% endif %}
+        <div id="showMenu">{% if page.highlight == "event" || page.highlight == "games" || page.highlight == "community" %}<i id="showSubMenuIcon" class="icon-angle-down"></i>{% endif %}<i id="showMenuIcon" class="icon-menu"></i></div>
       </header>
       <div id="perspective" class="perspective effect-airbnb">
         <div class="perspective-container">
