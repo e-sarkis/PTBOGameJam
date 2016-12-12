@@ -819,7 +819,8 @@ margin-bottom: 5px;
   margin-right:10px;
 }
 .jx-contact-form .contact-full-name,.jx-contact-form .contact-email{
-  width:49.5%;
+  width:49%;
+  display: inline-block;
 }
 .jx-contact-form input.jx-submit{
   width:100%;
