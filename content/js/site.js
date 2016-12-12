@@ -165,16 +165,16 @@ function ShowMobileSubMenu(ev)
   classie.remove(showSubMenu, 'display-none');
 
 
-  classie.add(showSubMenuIcon, 'icon-angle-double-down');
+  classie.add(showSubMenuIcon, 'icon-angle-up');
   classie.remove(showSubMenuIcon, 'icon-angle-down');
 }
 function HideMobileSubMenu(ev)
 {
   if ( showSubMenuIcon == null ) return;
-  
+
   classie.add(showSubMenu, 'display-none');
 
-  classie.remove(showSubMenuIcon, 'icon-angle-double-down');
+  classie.remove(showSubMenuIcon, 'icon-angle-up');
   classie.add(showSubMenuIcon, 'icon-angle-down');
   showingMobileSubMenu = false;
 }
