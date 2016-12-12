@@ -66,6 +66,7 @@ function addEvent(element, eventName, callback)
 // More References
 var pageClickEvent = isMobile() ? 'touchstart' : 'click';
 var showingMobileMenu = false;
+var showingMobileSubMenu = false;
 
 // HDPI Image Replacement
 if ( window.devicePixelRatio > 1 ) {
@@ -88,6 +89,7 @@ var pageTransitionEnd = pageTransitionEndEvents[ Modernizr.prefixed( 'transition
 
 // Menu Setup
 var showMenu = document.getElementById( 'showMenu' );
+var showSubMenu = document.getElementById('mobile-sub-menu');
 var showMenuIcon = document.getElementById('showMenuIcon');
 var showSubMenuIcon = document.getElementById('showSubMenuIcon');
 var headerBar = document.getElementById('menu');
@@ -104,6 +106,9 @@ if (container != null) {
 
 function ShowMobileMenu(ev)
 {
+  // Hide Drop Down
+  HideMobileSubMenu(ev);
+
   ev.stopPropagation();
   ev.preventDefault();
   pageScrollAmount = isScrolled();
@@ -121,6 +126,9 @@ function ShowMobileMenu(ev)
 }
 function HideMobileMenu(ev)
 {
+  // Hide Drop Down
+  HideMobileSubMenu(ev);
+
   if( classie.has( perspectiveWrapper, 'animate') ) {
 
     var onEndTransFn = function( ev )
@@ -148,7 +156,24 @@ function HideMobileMenu(ev)
     classie.remove( perspectiveWrapper, 'animate' );
   }
   showingMobileMenu = false;
+}
 
+function ShowMobileSubMenu(ev)
+{
+  showingMobileSubMenu = true;
+  classie.remove(showSubMenu, 'display-none');
+
+
+  classie.add(showSubMenuIcon, 'icon-angle-double-down');
+  classie.remove(showSubMenuIcon, 'icon-angle-down');
+}
+function HideMobileSubMenu(ev)
+{
+  classie.add(showSubMenu, 'display-none');
+
+  classie.remove(showSubMenuIcon, 'icon-angle-double-down');
+  classie.add(showSubMenuIcon, 'icon-angle-down');
+  showingMobileSubMenu = false;
 }
 
 // Smart Check For Components
@@ -164,9 +189,20 @@ if ( showMenuIcon != null && perspectiveWrapper != null && container != null && 
 
     container.addEventListener( pageClickEvent, function( ev ) {
       HideMobileMenu(ev);
+      HideMobileSubMenu(ev);
     });
 
     perspectiveWrapper.addEventListener( pageClickEvent, function( ev ) { return false; } );
+}
+
+if ( showSubMenuIcon != null ) {
+  showSubMenuIcon.addEventListener( pageClickEvent, function( ev ) {
+    if ( !showingMobileSubMenu ) {
+      ShowMobileSubMenu(ev);
+    } else {
+      HideMobileSubMenu(ev);
+    }
+  });
 }
 
 
