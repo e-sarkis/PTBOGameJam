@@ -1,0 +1,19 @@
+- name:   "dotBunny"
+  url:    "http://dotbunny.com"
+  img:    "/content/img/friends/dotbunny.jpg"
+
+- name:   "Funky Rustic"
+  url:    "http://www.funkyrustic.net"
+  img:    "/content/img/friends/funkyrustic.jpg"
+
+- name:   "Liftlock Studios"
+  url:    "http://liftlockstudios.com"
+  img:    "/content/img/friends/liftlock.jpg"
+
+# - name:   "The Indie Game Scene"
+#   url:    "http://theindiegamescene.com/"
+#   img:    "/content/img/friends/tigs.jpg"
+
+- name:   "TOJam"
+  url:    "http://tojam.ca"
+  img:    "/content/img/friends/tojam.jpg"
