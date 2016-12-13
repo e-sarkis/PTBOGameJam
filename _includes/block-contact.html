@@ -9,11 +9,11 @@
     <div class="row"></div>
     <div class="row"></div>
     <div class="jx-contact-form">
-      <div class="jx-result"></div>
+      <div id="form-result" class="jx-result"></div>
       <form id="contactForm" class="has-validation-callback">
         <div class="row-1">
           <div class="contact-full-name">
-            <input type="text" id="full-name-contact" name="full_name" placeholder="Full Name" class="jx-form-text">
+            <input type="text" id="full-name-contact" name="name" placeholder="Full Name" class="jx-form-text">
           </div>
           <div class="contact-email">
             <input type="text" id="email-contact" name="email" placeholder="Email Address" data-validation="email" class="jx-form-text">
@@ -29,6 +29,7 @@
             <textarea id="message-contact" name="message" class="jx-form-textarea" rows="5" cols="30" placeholder="Enter Your Message Here..."></textarea>
           </div>
           <div class="contact-submit">
+            <input type="hidden" id="serverKey" name="serverKey" value="{{site.data.api.key}}">
             <input type="submit" id="submit-contact" name="submit" class="jx-submit" value="Send">
           </div>
         </div>

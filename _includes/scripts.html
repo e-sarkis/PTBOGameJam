@@ -14,6 +14,9 @@
     <script type="text/javascript" src="{{ "/content/js/site.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">setBaseURL("{{ site.url }}");</script>
     <script type="text/javascript">setEventTime("{{ site.data.latest.countdown }}");</script>
+    <script type="text/javascript">setAPIBase("{{ site.data.api.base }}");</script>
+    <script type="text/javascript">setAPIMailer("{{ site.data.api.mailer }}");</script>
+
 
     <!-- Legacy Base Script -->
     <script src="{{ "/content/js/theme.js" | prepend: site.baseurl }}"></script>

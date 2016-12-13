@@ -25,12 +25,6 @@
   url:    "http://www.ibm.com/ca-en/"
   img:    "/content/img/event/02/sponsors/ibm.jpg"
 
-- name:   "Kawartha Lakes Community Futures Development Corporation"
-  tier:   "silver"
-  url:    "http://klcfdc.com/"
-  img:    "/content/img/event/02/sponsors/cfkawarthalakes.jpg"
-
-
 - name:   "Peterborough Tech Advisory Council"
   tier:   "silver"
   url:    "http://ptbotac.org"
@@ -55,6 +49,16 @@
   tier:   "bronze"
   url:    "http://communityfuturespeterborough.ca/"
   img:    "/content/img/event/02/sponsors/cfpeterborough.jpg"
+
+- name:   "Gotta Havva Pizza"
+  tier:   "bronze"
+  url:    "http://gottahavvapizza.com/"
+  img:    "/content/img/event/02/sponsors/gottahavvapizza.jpg"
+
+- name:   "Kawartha Lakes Community Futures Development Corporation"
+  tier:   "bronze"
+  url:    "http://klcfdc.com/"
+  img:    "/content/img/event/02/sponsors/cfkawarthalakes.jpg"
 
 - name:   "Liftlock Studios"
   tier:   "bronze"

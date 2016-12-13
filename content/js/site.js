@@ -17,6 +17,21 @@ function setEventTime(time)
 {
   eventTime = time;
 }
+var apiKey = "";
+function setAPIKey(key)
+{
+  apiKey = key;
+}
+var apiBase = "";
+function setAPIBase(base)
+{
+  apiBase = base;
+}
+var apiMailer = "";
+function setAPIMailer(mailer)
+{
+  apiMailer = mailer;
+}
 
 // References
 var siteHeader;

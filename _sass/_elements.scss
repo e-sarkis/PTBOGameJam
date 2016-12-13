@@ -816,7 +816,7 @@ margin-bottom: 5px;
 }
 .jx-contact-form .contact-full-name{
   float:left;
-  margin-right:10px;
+  margin-right: 2%;
 }
 .jx-contact-form .contact-full-name,.jx-contact-form .contact-email{
   width:49%;
@@ -2772,4 +2772,18 @@ div#sponsors-list {
   border-left: 0px !important;
   border: none;
   padding-bottom: 0px !important;
+}
+
+.jx-result.success, .jx-result.fail
+{
+    bottom: -60px;
+    font-size: 19px;
+    margin-left: 0px;
+    left: 0;
+    padding: 10px;
+    color: #00ccff;
+    border: 1px solid #00ccff;
+    width: 100%;
+    text-align: center;
+    margin-bottom:20px;
 }

@@ -1,0 +1,3 @@
+base:     "https://api.dotbunny.com"
+key:      "01813cdb29f72e141ec88355f1de6780e6dbf78a"
+mailer:   "/v1/PTBOGameJam/SendMail"

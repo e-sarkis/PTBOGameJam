@@ -66,22 +66,6 @@ Version: 		1.0
 
 			jQuery(document).ready(function(){
 
-				/*Point of interest */
-				//open interest point description
-				jQuery('.jx-single-point').children('a').on('click', function(){
-					var selectedPoint = jQuery(this).parent('li');
-					if( selectedPoint.hasClass('is-open') ) {
-						selectedPoint.removeClass('is-open').addClass('visited');
-					} else {
-						selectedPoint.addClass('is-open').siblings('.jx-single-point.is-open').removeClass('is-open').addClass('visited');
-					}
-				});
-				//close interest point description
-				jQuery('.jx-close-info').on('click', function(event){
-					event.preventDefault();
-					jQuery(this).parents('.jx-single-point').eq(0).removeClass('is-open').addClass('visited');
-				});
-
 
 
 				jQuery('#jx-counter-1').circliful();
@@ -95,10 +79,6 @@ Version: 		1.0
 
 				if (jQuery(".select-box").length > 0){
 					jQuery(".select-box").selectbox();
-				}
-
-				if( isMobile() ) {
-			//	   jQuery('.jx-header').removeClass('jx-sticky');
 				}
 			});
 
@@ -116,40 +96,12 @@ Version: 		1.0
 
 			jQuery(window).on("load",function(){
 
-				"use strict";
-				jQuery('.spinner').fadeOut(); // will first fade out the loading animation
-				jQuery('.loader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-				jQuery('body').delay(350).css({'overflow':'visible'});
-
-
-				[].slice.call(document.querySelectorAll('img.tilt-effect')).forEach(function(img) {
-					new TiltFx(img, JSON.parse(img.getAttribute('data-tilt-options')));
-				});
-
 				//Form validator
 				jQuery.validate({
 					modules : 'date, security'
 				});
 
-				/* Contact Form Submit */
-				$(document).on('submit', '#contactForm', function()
-				 {
-				  $.post('/ievent/php/contact-process.php', $(this).serialize(), function(data)
-				  {
-					alert(data);
-				   $(".jx-result").html(data);
-				  });
-
-				  return false;
-
-				 });
-
 				getWidthAndHeight();
-
-				/* Page Scroll to id fn call */
-				jQuery("a[href='#top'],.main-menu li a").mPageScroll2id({
-
-				});
 
 
 
@@ -163,21 +115,6 @@ Version: 		1.0
 					manualControls: ".flex-custom-control-nav li"
 				});
 
-
-				//Sponsors Logo
-				jQuery('.jx-sponsor.flexslider').flexslider({
-					animation: "slide",
-					controlNav: true,
-					directionNav:false,
-					slideshowSpeed:"8000",
-					useCSS: false,
-					itemWidth: 191,
-					minItems: 2,
-					maxItems: 5,
-					prevText:'',
-					nextText:''
-
-				});
 
 
 				//Testimonial #1
