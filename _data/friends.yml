@@ -6,10 +6,9 @@
   url:    "http://www.funkyrustic.net"
   img:    "/content/img/friends/funkyrustic.jpg"
 
-# Checking for auth to put this
-# - name:   "inXile Entertainment"
-#   url:    "http://inxile-entertainment.com/"
-#   img:    "/content/img/friends/inxile.jpg"
+- name:   "inXile Entertainment"
+  url:    "http://inxile-entertainment.com/"
+  img:    "/content/img/friends/inxile.jpg"
 
 - name:   "Liftlock Studios"
   url:    "http://liftlockstudios.com"
