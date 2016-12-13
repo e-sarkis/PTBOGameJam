@@ -85,10 +85,19 @@ var showingMobileSubMenu = false;
 
 // HDPI Image Replacement
 if ( window.devicePixelRatio > 1 ) {
+
+  // Handle Images
 	var hdpiImages = $('img[hdpi="true"]').each(function(){
-	    var source = $(this).attr("src");
-	    var period = source.lastIndexOf(".");
-	    $(this).attr("src", source.substr(0, period) + "@2x" + source.substr(period));
+      var source = $(this).attr("src");
+      var period = source.lastIndexOf(".");
+      $(this).attr("src", source.substr(0, period) + "@2x" + source.substr(period));
+	});
+
+  // Handle Div Backgrounds - This counts on it being the first "."
+  var hdpiImages = $('div[hdpi="true"]').each(function(){
+    var source = $(this).attr("style");
+    var period = source.lastIndexOf(".");
+    $(this).attr("style", source.substr(0, period) + "@2x" + source.substr(period));
 	});
 }
 
