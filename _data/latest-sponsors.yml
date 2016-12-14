@@ -55,6 +55,11 @@
   url:    "http://gottahavvapizza.com/"
   img:    "/content/img/event/02/sponsors/gottahavvapizza.jpg"
 
+- name:   "inXile Entertainment"
+  tier:   "bronze"
+  url:    "http://inxile.net/"
+  img:    "/content/img/event/02/sponsors/inxile.jpg"
+
 - name:   "Kawartha Lakes Community Futures Development Corporation"
   tier:   "bronze"
   url:    "http://klcfdc.com/"
