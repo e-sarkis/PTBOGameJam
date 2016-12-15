@@ -6,4 +6,23 @@ highlight: friends
 breadcrumb: community
 titlebar: title-008.jpg
 ---
-Text Content!
+<div id='sponsors' class="jx-container container-no-margin jx-padding background-006">
+  <div class="container ">
+    <div class="jx-section-title-1 jx-dark">
+      <div class="jx-pre-title jx-short-border">
+        <div class="jx-title-icon"><i class="icon-thumbs-up"></i></div>
+        </div>
+        <div class="jx-title jx-uppercase">Friends</div>
+        <div class="jx-subtitle"><p>We have some pretty awesome friends in the industry and this is just a little shout out to all those awesome teams, companies and people that make our industry so great.</p></div>
+      </div>
+      <div id="sponsors-list">
+        <div class="friends">
+          <ul>
+        {% for friend in site.data.friends %}
+            <li><a href="{{ friend.url }}"><div class="slide-contents"><img src="{{ friend.img | prepend: site.baseurl }}" alt="{{ friend.name }}"></div></a></li>
+        {% endfor %}
+          </ul>
+        </div>
+      </div>
+  </div>
+</div>

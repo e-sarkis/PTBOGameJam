@@ -76,6 +76,43 @@ margin-bottom: 5px;
 .jx-sponsors li img:hover{
   opacity:1;
 }
+
+
+/*---
+FRIENDS
+*/
+
+.friends ul{
+  margin-bottom:40px;
+}
+
+.friends ul li{
+  margin-bottom:5px;
+  //border: 4px solid #eee;
+}
+
+.friends li{
+  display: inline-block;
+  width:230px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+
+}
+
+.friends li img{
+  transition:all 0.3s ease-out;
+  opacity:0.90;
+}
+
+.friends li img:hover{
+  opacity:1;
+}
+
+.friends strong {
+  color: #fff;
+}
+
 /*---------------------------------------------------------------
 [2.0 Call Action Box - Content ]
 ---------------------------------------------------------------*/

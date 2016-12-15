@@ -1,6 +1,14 @@
+- name:   "AudioKinetic"
+  url:    "http://audiokinetic.com"
+  img:    "/content/img/friends/audiokinetic.jpg"
+
 - name:   "dotBunny"
   url:    "http://dotbunny.com"
   img:    "/content/img/friends/dotbunny.jpg"
+
+- name:   "Epic Games"
+  url:    "http://epicgames.com/"
+  img:    "/content/img/friends/epic.jpg"
 
 - name:   "Funky Rustic"
   url:    "http://www.funkyrustic.net"
@@ -22,3 +30,7 @@
 - name:   "TOJam"
   url:    "http://tojam.ca"
   img:    "/content/img/friends/tojam.jpg"
+
+- name:   "Unity"
+  url:    "http://unity3d.com"
+  img:    "/content/img/friends/unity.jpg"
