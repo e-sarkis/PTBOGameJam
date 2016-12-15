@@ -35,6 +35,11 @@
   url:    "https://twitter.com/RickysPtbo"
   img:    "/content/img/event/02/sponsors/rickys.jpg"
 
+- name:   "acorn30"
+  tier:   "bronze"
+  url:    "http://acorn30.com"
+  img:    "/content/img/event/02/sponsors/acorn30.jpg"
+
 - name:   "Aramark"
   tier:   "bronze"
   url:    "http://aramark.com"
