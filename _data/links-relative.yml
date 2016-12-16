@@ -6,6 +6,6 @@ media-releases:     "/media/releases/"
 media-guidelines:   "/media/guidelines/"
 level:              "/legal/"
 
-
+files-releases:     "/files/releases/"
 
 category:         "/blog/category/"

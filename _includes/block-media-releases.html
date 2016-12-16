@@ -29,7 +29,7 @@
                         <!-- Image -->
                         <div class="title">{{ post.title }}</div>
                         <!-- Title -->
-                        <div class="date"><i class="line-icon icon-calendar"></i> <span>{{ post.date | date: "%B %e, %Y" }}</span><a class="release-pdf" href="{{ post.pdf | prepend: "/media/releases/" | prepend: site.baseurl }}"><i class="icon-file-pdf"></i><span>PDF</span></a></div>
+                        <div class="date"><i class="line-icon icon-calendar"></i> <span>{{ post.date | date: "%B %e, %Y" }}</span><a class="release-pdf" href="{{ site.data.links-relative.files-releases | prepend: site.baseurl }}{{post.pdf}}""><i class="icon-file-pdf"></i><span>PDF</span></a></div>
                         <!-- Date -->
                         <div class="description">{{ post.excerpt }}</div>
                         <!-- Description -->
