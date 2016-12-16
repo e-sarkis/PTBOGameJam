@@ -2,10 +2,10 @@ rss:                "/feed.xml"
 
 friends:            "/community/friends/"
 tags:               "/blog/tags/"
-media-releases:     "/media/releases/"
-media-guidelines:   "/media/guidelines/"
+media:              "/media/"
+brand:              "/brand/"
 level:              "/legal/"
 
 files-releases:     "/files/releases/"
 
-category:         "/blog/category/"
+category:           "/blog/category/"
