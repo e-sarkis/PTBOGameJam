@@ -4,7 +4,7 @@ friends:            "/community/friends/"
 tags:               "/blog/tags/"
 media:              "/media/"
 brand:              "/brand/"
-level:              "/legal/"
+legal:              "/legal/"
 
 files-releases:     "/files/releases/"
 
