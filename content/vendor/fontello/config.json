@@ -829,6 +829,18 @@
       "css": "copyright",
       "code": 61945,
       "src": "fontawesome"
+    },
+    {
+      "uid": "d73eceadda1f594cec0536087539afbf",
+      "css": "heart",
+      "code": 59443,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f3dc2d6d8fe9cf9ebff84dc260888cdf",
+      "css": "heart-empty",
+      "code": 59450,
+      "src": "fontawesome"
     }
   ]
 }

@@ -50,12 +50,14 @@
 .icon-lock:before { content: '\e830'; } /* '' */
 .icon-lock-open:before { content: '\e831'; } /* '' */
 .icon-thumbs-up:before { content: '\e832'; } /* '' */
+.icon-heart:before { content: '\e833'; } /* '' */
 .icon-phone:before { content: '\e834'; } /* '' */
 .icon-volume-off:before { content: '\e835'; } /* '' */
 .icon-volume-up:before { content: '\e836'; } /* '' */
 .icon-volume-down:before { content: '\e837'; } /* '' */
 .icon-arrows-cw:before { content: '\e838'; } /* '' */
 .icon-gift:before { content: '\e839'; } /* '' */
+.icon-heart-empty:before { content: '\e83a'; } /* '' */
 .icon-link-ext:before { content: '\f08e'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */

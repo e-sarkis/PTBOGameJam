@@ -1,6 +1,6 @@
 rss:                "/feed.xml"
 
-
+friends:            "/community/friends/"
 tags:               "/blog/tags/"
 media-releases:     "/media/releases/"
 media-guidelines:   "/media/guidelines/"

@@ -2833,3 +2833,26 @@ div#sponsors-list {
 {
   float: right;
 }
+
+.jx-venue .jx-venue-item .image-hover {
+    position: relative;
+}
+.jx-venue-item .details {
+  padding: 20px;
+}
+.jx-venue-item .details, .jx-venue-item .details a, .jx-venue-item .details a:hover {
+  color: $grey-color-dark;
+}
+
+.jx-venue .jx-venue-item {
+    background-color: #f2f2f2;
+}
+.jx-venue .jx-venue-item .title {
+    background-color: rgba(0, 0, 0, 0.76);
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    width: 100%;
+    padding: 17px 20px;
+    color: #ffffff;
+}
