@@ -13,7 +13,7 @@
 
                 {% for video in site.data.media-videos %}
 
-                <div class="jx-grid-item">
+                <div class="jx-grid-item jx-grid-item-full">
                   <iframe class="release-video" id="{{video.vimeo}}" src="https://player.vimeo.com/video/{{video.vimeo}}?api=1&player_id={{video.vimeo}}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen width="100%"></iframe>
                   <div class="media-video-download"><a href="{{ video.url }}">{{ video.title }}</a></div>
                 </div>
