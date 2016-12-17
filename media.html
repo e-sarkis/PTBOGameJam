@@ -13,7 +13,8 @@ permalink: /media/
           </div>
           <div class="section-content">
               <p>We try hard to get information about the event out through as many channels as possible. We are still but a small team with a big goal, so sometimes wires will get crossed. To streamline our process and help make sure information finds itself to the right person, we invite all media inquiries to be sent directly to <a href="mailto:{{site.press_email}}">{{ site.press_name }}</a>. Responses to media inquiries will be prioritized over general inquiries; our typical response time is within 12 hours.</p>
-              <p>If you are reporting on anything to do with the PTBO Game Jam, it is suggested that you have a look at our <a href="{{ site.data.links-relative.brand | prepend: site.baseurl }}">Brand Guidelines</a> for specific assets and terminology.</p>
+              <p>If you are doing anything with our branding, the PTBO Game Jam, we would strongly suggest that you have a peek at our <a href="{{ site.data.links-relative.brand | prepend: site.baseurl }}" title="Brand Guidelines">Brand Guidelines</a> for specific assets and terminology.</p>
+              <p><a href="{{ site.data.links-relative.brand | prepend: site.baseurl }}" title="Brand Guidelines" class="jx-btn-default">Brand Guidelines</a></p>
           </div>
         </div>
         <div class="eight columns">
@@ -26,9 +27,7 @@ permalink: /media/
         	<div class="container">
                 <div class="jx-section-title-1">
                     <div class="jx-pre-title jx-short-border">
-                        <div class="jx-title-border left"></div>
                         <div class="jx-title-icon"><i class="icon-docs"></i></div>
-                        <div class="jx-title-border right"></div>
                     </div>
                     <div class="jx-title jx-uppercase">Media Releases</div>
                 </div>
@@ -49,7 +48,7 @@ permalink: /media/
                         <!-- Image -->
                         <div class="title">{{ post.title }}</div>
                         <!-- Title -->
-                        <div class="date"><i class="icon-calendar"></i> <span>{{ post.date | date: "%B %e, %Y" }}</span><a class="release-pdf" href="{{ site.data.links-relative.files-releases | prepend: site.baseurl }}{{post.pdf}}""><i class="icon-file-pdf"></i><span>PDF</span></a></div>
+                        <div class="date"><i class="icon-calendar"></i> <span>{{ post.date | date: "%B %e, %Y" }}</span><a class="release-pdf" href="{{ site.data.links-relative.files-releases | prepend: site.baseurl }}{{post.pdf}}"><i class="icon-file-pdf"></i><span>PDF</span></a></div>
                         <!-- Date -->
                         <div class="description">{{ post.excerpt }}</div>
                         <!-- Description -->
@@ -59,5 +58,6 @@ permalink: /media/
                 </div>
             </div>
         </div>
+{% include block-media-assets.html %}
 {% include block-ticker.html %}
 {% include block-summary.html %}
