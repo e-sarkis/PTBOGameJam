@@ -18,7 +18,7 @@
                 </div>
                 {% for image in site.data.01-gallery %}
                 <div class="jx-grid-item">
-                    <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+                    <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
                       <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}">
                         <div class="jx-image-overlayer"></div>
                         <div class="jx-image-hover"><i class="icon-link"></i></div>
