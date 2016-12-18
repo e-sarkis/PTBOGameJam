@@ -2909,7 +2909,14 @@ img.brand-logo-padded
 .brand-description
 {
   padding: 0 20px;
-  margin: 20px 0 20px;
+  margin-top:20px;
   line-height: 1.5;
   color: $grey-color;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  padding-bottom: 20px;
+}
+ .brand-download{
+  padding:0;
+  transition:all 0.3s ease-out
 }
