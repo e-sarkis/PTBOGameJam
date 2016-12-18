@@ -23,5 +23,5 @@ The # PTBO Game Jam # seeks to engage the local community with the video game in
 Sponsors include [dotBunny](http://dotbunny.com), [Epic Games](http://epicgames.com), [Unity](http://unity3d.com), [Igniter Tickets](http://ignitertickets.com), [GitHub](http://github.com), [Funky Rustic](http://funkyrustic.net), and local VR startup [ardeeXYZ](http://ardee.xyz).
 
 The inaugural # PTBO Game Jam # runs Saturday August 13th to Sunday August 14th at the Holiday Inn Peterborough-Waterfront. Kicking off Saturday morning at 9:30 AM with a 1-hour seminar about making video games, with the 30-hour Game Jam starting at 11:00AM.
-
+  
 For more information visit [http://ptbogamejam.com](http://ptbogamejam.com).
