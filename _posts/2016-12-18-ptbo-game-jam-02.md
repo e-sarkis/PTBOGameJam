@@ -23,5 +23,5 @@ Hosted at the Kawartha Trades & Technology Centre, graciously donated by Fleming
 The PTBO Game Jam seeks to engage the local community with the video game industry to form long term relationships. The impact of a Game Jam grows far beyond Peterborough’s borders with participants coming from all over Ontario. Currently sitting at $84 billion dollars, the video game market is expected to grow to $100 billion dollars by 2019. Over 19 million Canadians identified themselves as gamers in 2015 which is approximately 54% of the population of Canada.
 
 PTBO Game Jam 02 runs Friday February 17th to Sunday February 19th 2017 at the Kawartha Trades & Technology Centre. Kicking off Friday evening at 6:00 PM with a 2½ hour seminar about making video games, with the 45-hour Game Jam starting at 9:00PM.
-  
+
 For more information visit [http://ptbogamejam.com](http://ptbogamejam.com).
