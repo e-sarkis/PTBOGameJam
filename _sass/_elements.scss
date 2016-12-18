@@ -2873,3 +2873,43 @@ ul.brand-terms
   list-style: square;
   padding-left: 30px;
 }
+
+.brand-image-padding
+{
+  padding: 50px;
+}
+.brand-icon-padding
+{
+  padding: 40px;
+}
+
+img.brand-icon
+{
+  max-height: 199px;
+  max-width: 199px;
+  left: 50%;
+  margin-left: -100px;
+}
+
+
+
+
+img.brand-logo-padded
+{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+.title-dark {
+  color: $grey-color-dark;
+  font-weight: 800;
+  display: block;
+}
+
+.brand-description
+{
+  padding: 0 20px;
+  margin: 20px 0 20px;
+  line-height: 1.5;
+  color: $grey-color;
+}

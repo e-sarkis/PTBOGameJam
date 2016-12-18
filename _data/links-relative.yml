@@ -9,3 +9,14 @@ legal:              "/legal/"
 files-releases:     "/files/releases/"
 
 category:           "/blog/category/"
+
+
+logo-light-ai:      "/files/branding/PTBOGameJam-Light.ai"
+logo-light-eps:     "/files/branding/PTBOGameJam-Light.eps"
+logo-light-png:     "/files/branding/PTBOGameJam-Light.png"
+
+logo-dark-ai:      "/files/branding/PTBOGameJam-Dark.ai"
+logo-dark-eps:     "/files/branding/PTBOGameJam-Dark.eps"
+logo-dark-png:     "/files/branding/PTBOGameJam-Dark.png"
+
+logo-icon-png:     "/files/branding/PTBOGameJam-Icon.png"
