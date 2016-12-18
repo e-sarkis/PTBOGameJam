@@ -35,6 +35,7 @@ function setAPIMailer(mailer)
 
 // References
 var siteHeader;
+siteHeader = $('div#header');
 $( document ).ready(function() {
   siteHeader = $('div#header');
 });
