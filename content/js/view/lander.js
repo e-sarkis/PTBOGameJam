@@ -1,53 +1,13 @@
 // Lander Specific Video
 var landerVideos = $('.lander-video');
+var landerVideosCover = $('.lander-video-cover');
 var landerVideosContainers = $('.lander-video-container');
 
-
-// // Get Frame Reference
-
-//
-
-
-/*
-   * Supporting Functions
-   */
-  //  function checkVimeo()
-  //  {
-  //      // Pause Video When Not Visible
-  //      var isVideoVisible = videoContainer.visible(true);
-  //      if ( !isVimeoReady ) return;
-  //      if ( isVideoVisible && !isVideoPlaying) {
-  //          vimeo.api("play");
-  //          isVideoPlaying = true;
-  //      } else if ( !isVideoVisible && isVideoPlaying ) {
-  //          vimeo.api("pause");
-  //          isVideoPlaying = false;
-  //      }
-  //  }
-
-// TODO have it hide the container when its not the active slide
-
-  //$(".flexslider")
-  //     .fitVids()
-  //     .flexslider({
-  //       animation: "slide",
-  //       useCSS: false,
-  //       animationLoop: false,
-  //       smoothHeight: true,
-  //       before: function(slider){
-  //         $f(player).api('pause');
-  //       }
-  //   });
 
 
 // Handle OnLoad Events
 $(window).load(function()
 {
-  landerVideos.each(function( index ) {
-    //$(this)
-  });
-
-
   // Handle Slider
   $('.jx-main-slider .flexslider').flexslider({
     animation: "slide",
@@ -59,17 +19,7 @@ $(window).load(function()
     prevText:'',
     nextText:'',
     after: function() { checkVisibleVideos(); }
-    });
-
-
-  // Mobile fixes - Makes user hit play
-  // DISABLE MOBILE MOVIE SUPPORT
-  // if ( isMobile() ) {
-  //   $(landerVideos).each(function(index, frame) {
-  //       $(frame).attr('src', $(frame).attr('mobile-src'));
-  //   });
-  // }
-
+  });
 });
 
 function checkVisibleVideos()
@@ -80,6 +30,7 @@ function checkVisibleVideos()
 
     if ( $(container).visible(true) ) {
       vimeo.api("play");
+
     } else {
       vimeo.api("pause");
     }
@@ -143,26 +94,33 @@ function fixVideoEventBox()
 // Handle Resize Events
 $(window).resize(function() { onResizeLander(); });
 
+var widthOfMovie;
+var heightOfMovie;
+var marginLeft;
+var marginRight;
+
 function onResizeLander()
 {
+  widthOfMovie = (window.innerHeight * 1.77);
+  heightOfMovie = window.innerHeight;
+
+  // Check for special case
+  if ( widthOfMovie < window.innerWidth )
+  {
+      widthOfMovie = window.innerWidth;
+      heightOfMovie =  ((widthOfMovie/ 100) * 56.25);
+  }
+
+  // Calculate the offset to center it horizontally
+  marginLeft = (((widthOfMovie - window.innerWidth) / 2) * -1);
+  marginTop = (((heightOfMovie - window.innerHeight) / 2) * -1);
+
+
   // Handle Video Resizes
   landerVideos.each(function( index ) {
+
     // Make sure the base container is a fullscreen height
     $(this).css('height', window.innerHeight + 'px');
-
-    var widthOfMovie = (window.innerHeight * 1.77);
-    var heightOfMovie = window.innerHeight;
-
-    // Check for special case
-    if ( widthOfMovie < window.innerWidth )
-    {
-        widthOfMovie = window.innerWidth;
-        heightOfMovie =  ((widthOfMovie/ 100) * 56.25);
-    }
-
-    // Calculate the offset to center it horizontally
-    var marginLeft = (((widthOfMovie - window.innerWidth) / 2) * -1);
-    var marginTop = (((heightOfMovie - window.innerHeight) / 2) * -1);
 
     // Update CSS for the iFrame
     $(this).css({

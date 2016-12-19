@@ -293,13 +293,7 @@ function onReadySite()
     delay: 30,
     time: 1000
   });
-
-
-
 }
-
-
-
 
 // Handle Subscriber Button
 $('#mailinglist').submit(function() {
