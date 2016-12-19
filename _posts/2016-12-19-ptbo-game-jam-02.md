@@ -1,7 +1,7 @@
 ---
 layout: post-release
 title:  "PTBO Game Jam 02"
-date:   2016-12-18 08:00:00 -0400
+date:   2016-12-19 13:00:00 -0400
 categories: ["media-releases"]
 tags: ["02", "dotbunny", "fleming college", "funky rustic", "github", "ibm", "ptac", "rickys", "acorn30", "aramark", "audiokinetic", "peterborough cfdc", "gotta havva pizza", "inxile entertainment", "kawartha lakes cfdc", "liftlock studios", "pagefolio", "unity"]
 author: PTBO Game Jam
@@ -9,7 +9,7 @@ code: 2016-12-18-ptbo-game-jam-02
 excerpt: "We’re back! Bigger and better than ever before."
 location: "Peterborough, Ontario, Canada"
 image: 2016-12-18-ptbo-game-jam-02.jpg
-pdf: 2016-12-18-ptbo-game-jam-02.pdf
+pdf: 2016-12-19-ptbo-game-jam-02.pdf
 icon: wpforms
 breadcrumb: blog
 titlebar: title-009.jpg
