@@ -2892,6 +2892,11 @@ img.brand-icon
 }
 
 
+.file-type img {
+  max-height:  40px;
+}
+
+
 
 
 img.brand-logo-padded
@@ -2905,7 +2910,10 @@ img.brand-logo-padded
   font-weight: 800;
   display: block;
 }
-
+.brand-links
+{
+  padding: 15px;
+}
 .brand-description
 {
   padding: 0 20px;
@@ -2915,8 +2923,4 @@ img.brand-logo-padded
   border-bottom-style: dashed;
   border-bottom-width: 1px;
   padding-bottom: 20px;
-}
- .brand-download{
-  padding:0;
-  transition:all 0.3s ease-out
 }
