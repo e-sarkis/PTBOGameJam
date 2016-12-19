@@ -9,6 +9,16 @@ kramdown:
 
 excerpt_separator: "<!-- more -->"
 
+
+# Exclude Files
+exclude:
+  - google4535fa0e277ccf45.html
+  - content/vendor/fontello/demo.html
+  - content/vendor/fontello/README.txt
+  - content/vendor/form-validator/form-test.html
+  - content/vendor/form-validator/qunit.html
+
+
 # Number of blog posts per page
 paginate: 5
 
