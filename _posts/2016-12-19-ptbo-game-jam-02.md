@@ -9,7 +9,7 @@ code: 2016-12-18-ptbo-game-jam-02
 excerpt: "We’re back! Bigger and better than ever before."
 location: "Peterborough, Ontario, Canada"
 image: 2016-12-18-ptbo-game-jam-02.jpg
-pdf: 2016-12-19-ptbo-game-jam-02.pdf
+pdf: 2016-12-19-PTBO-Game-Jam-02.pdf
 icon: wpforms
 breadcrumb: blog
 titlebar: title-009.jpg
