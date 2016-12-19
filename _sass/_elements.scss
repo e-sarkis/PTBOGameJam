@@ -92,6 +92,7 @@ FRIENDS
 }
 
 .friends li{
+  vertical-align: top;
   display: inline-block;
   width:230px;
   margin-left: 5px;
@@ -112,6 +113,28 @@ FRIENDS
 .friends strong {
   color: #fff;
 }
+
+
+
+.incorrect-branding ul{
+  margin-bottom:40px;
+}
+
+.incorrect-branding ul li{
+  margin-bottom:5px;
+  //border: 4px solid #eee;
+}
+
+.incorrect-branding li{
+  vertical-align: top;
+  display: inline-block;
+  width:260px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  overflow: hidden;
+
+}
+
 
 /*---------------------------------------------------------------
 [2.0 Call Action Box - Content ]
@@ -2923,4 +2946,25 @@ img.brand-logo-padded
   border-bottom-style: dashed;
   border-bottom-width: 1px;
   padding-bottom: 20px;
+}
+
+.brand-color {
+  width: 100%;
+  height: 75px;
+}
+
+.brand-color-description .color-title {
+  float: left;
+  font-weight: 600;
+  width: 100px;
+  color: $grey-color-dark !important;
+}
+.color-spacer {
+  margin-bottom: 25px;
+}
+.brand-color-block {
+  margin:10px;
+}
+ul.brand-color-description {
+  margin: 25px;
 }
