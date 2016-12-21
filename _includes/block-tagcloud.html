@@ -1,5 +1,12 @@
+{% capture site_tags %}{% for tag in site.tags %}{{ tag[1].size }}#{{ tag[0] | slugify }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_hashes = site_tags | split:',' | sort %}
+{% capture full_hash_reversed %}{% for tag in tag_hashes reversed %}{{ tag }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_hashes_reversed  = full_hash_reversed | split:',' %}
+
 			<div class="tagcloud">
-				{% for tag in site.tags limit: 11 %}
-		    <a href="{{ site.data.links-relative.tags | prepend: site.baseurl }}#{{ tag[0] | slugify }}" class="tag-link-{{ forloop.index }}" title='{{ tag[0] }}'>{{ tag[0] }}</a>
-		    {% endfor %}
+			{% for hash in tag_hashes_reversed limit: 11 %}
+  			{% assign keyValue = hash | split: '#' %}
+  			{% capture tag_word %}{{ keyValue[1] | strip_newlines }}{% endcapture %}
+				<a href="{{ site.data.links-relative.tags | prepend: site.baseurl }}#{{ tag_word }}" class="tag-link-{{ forloop.index }}" title=' {{ tag_word }}'>{{ tag_word }}</a>
+		  {% endfor %}
 			</div>
