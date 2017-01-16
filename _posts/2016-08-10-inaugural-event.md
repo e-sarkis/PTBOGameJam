@@ -14,7 +14,7 @@ icon: wpforms
 breadcrumb: blog
 titlebar: title-009.jpg
 ---
-_Peterborough, Ontario – August 13-14, 2016_ - The # PTBO Game Jam # is a gathering of industry professionals, students, hobbyists and those eager to learn with the common goal of creating video games in a short period of time.
+_Peterborough, Ontario – August 13-14, 2016_ - The **PTBO Game Jam** is a gathering of industry professionals, students, hobbyists and those eager to learn with the common goal of creating video games in a short period of time.
 
 Hosted by local game development studio [dotBunny](http://dotbunny.com), founder Matthew Davey explains the reasoning behind the event as a desire to foster a local game development community, benefiting future generations of game developers. The event went from concept to securing a venue and signing up sponsors in a matter of weeks, illustrating the agility, speed, and entrepreneurial action associated with successful startups and the video game industry.
 
@@ -22,6 +22,6 @@ The # PTBO Game Jam # seeks to engage the local community with the video game in
 
 Sponsors include [dotBunny](http://dotbunny.com), [Epic Games](http://epicgames.com), [Unity](http://unity3d.com), [Igniter Tickets](http://ignitertickets.com), [GitHub](http://github.com), [Funky Rustic](http://funkyrustic.net), and local VR startup [ardeeXYZ](http://ardee.xyz).
 
-The inaugural # PTBO Game Jam # runs Saturday August 13th to Sunday August 14th at the Holiday Inn Peterborough-Waterfront. Kicking off Saturday morning at 9:30 AM with a 1-hour seminar about making video games, with the 30-hour Game Jam starting at 11:00AM.
+The inaugural **PTBO Game Jam** runs Saturday August 13th to Sunday August 14th at the Holiday Inn Peterborough-Waterfront. Kicking off Saturday morning at 9:30 AM with a 1-hour seminar about making video games, with the 30-hour Game Jam starting at 11:00AM.
 
 For more information visit [http://ptbogamejam.com](http://ptbogamejam.com).
