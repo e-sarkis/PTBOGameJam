@@ -17,6 +17,23 @@
   <div class="jx-sidebar-widget">
     <div id="recent-posts-4" class="widget widget_recent_entries">
       <div class="sub">
+        <h4>Recent Press</h4>
+        <div class="jx-right-pattern"></div>
+      </div>
+      <ul>
+        {% for article in site.data.press limit:5 %}
+          <li>
+            <a href="{{ article.url }}">{{ article.title }}</a>
+            <span class="post-date">{{ article.date | date_to_string }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="jx-sidebar-widget">
+    <div id="recent-posts-4" class="widget widget_recent_entries">
+      <div class="sub">
         <h4>Recent Posts</h4>
         <div class="jx-right-pattern"></div>
       </div>
