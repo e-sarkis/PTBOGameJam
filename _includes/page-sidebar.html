@@ -23,8 +23,8 @@
       <ul>
         {% for article in site.data.press limit:5 %}
           <li>
-            <a href="{{ article.url }}">{{ article.title }}</a>
-            <span class="post-date">{{ article.date | date_to_string }}</span>
+            <a href="{{ article.url }}">{{ article.title }}
+            <span class="post-date">{{ article.date | date_to_string }}</span></a>
           </li>
         {% endfor %}
       </ul>
@@ -40,8 +40,8 @@
       <ul>
         {% for post in site.posts limit:4 %}
           <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <span class="post-date">{{ post.date | date_to_string }}</span>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+            <span class="post-date">{{ post.date | date_to_string }}</span></a>
           </li>
         {% endfor %}
       </ul>
