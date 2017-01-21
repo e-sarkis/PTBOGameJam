@@ -20,7 +20,7 @@ exclude:
 
 
 # Number of blog posts per page
-paginate: 10
+paginate: 5
 
 # Blog Paginiation Setup
 paginate_path: "/blog/page/:num/"
