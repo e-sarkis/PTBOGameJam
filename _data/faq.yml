@@ -22,6 +22,9 @@
 - title:        Do I need a team?
   description:  That's entirely up to you, you can register on your own, as part of a team. Typically, people go solo on these sorts of things, but there are times where it also makes sense to go in with someone else.
 
+- title:        What is the maximum team size?
+  description:  In the spirit of fairness, we are capping team sizes at 6.
+
 - title:        Can I use a game I'm already working on?
   description:  No. The idea behind this event is that you are creating something on the spot under pressure. You would be amazed at what you can do in a short period of time when you put your mind to it. We are not going to limit the inclusion of helper libraries, packages, etc. so long as they do not provide an unfair advantage when creating gameplay mechanics.
 
@@ -34,11 +37,14 @@
 - title:        What's this about cash prizes?
   description:  We’ve received some cash prize money from the government’s FastStart program. However, the government likes to limit that to people under 29. In the spirit of not supporting ageism, dotBunny has decided to match all cash prizes in that category, by creating a 30 and over prize bracket.
 
+- title:        When and how will the prizes be awarded?
+  description:  On the Sunday at 6:00 PM, games will be evaluated by a panel including sponsors, organizers and a select few. The games will be judged on their ingenuity, creativity, use of the theme, and over all fun factor. By 7:30 PM prizes will be awarded to those select individuals and teams.
+
 - title:        Final Submission? What?
   description:  At the end of the game jam work block, attendees will be given the opportunity to polish their game for 5 days afterwards. Submissions of the final game will be done on <a href="https://itch.io/">itch.io</a>, with a link provided to participants at the end of the game jam. Once all submissions are completed an email will be sent out across the established mailing list with instructions on how to play each game. Images and a brief write up will also be requested of participants allowing for an archive of games to be created for future posterity.
 
 - title:        Who is dotBunny?
-  description:  <a href="http://dotbunny.com">dotBunny</a> is an independent game studio based out of Peterborough. It has been running under the radar for 10+ years now and has worked on many well-known titles and created numerous industry tools. It is using financial backing and its connections in the industry to get this event bootstrapped, with the hopes that it eventually the community can run the event independent of its support.
+  description:  <a href="http://dotbunny.com">dotBunny</a> is an independent game studio based out of Peterborough. It has been running under the radar for 10+ years now and has worked on many well-known titles and created numerous industry tools. It is using financial backing and its connections in the industry to get this event bootstrapped, with the hopes that eventually the community can run the event independent of its support.
 
 - title:        What is this “legalese” thing I’m being asked to sign?
   description:  During the registration process, participants are required to agree to what essentially equates to a liability waiver with an extra little bit about the PTBO Game Jam being able to use pictures we take at the event for promotional purposes. This agreement is quite standard and is there to protect everyone involved. Observers on site will be required to sign a similar agreement.
