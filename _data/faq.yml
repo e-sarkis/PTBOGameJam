@@ -25,6 +25,9 @@
 - title:        What is the maximum team size?
   description:  In the spirit of fairness, we are capping team sizes at 6.
 
+- title:        Can I participate remotely?
+  description:  As it stands currently, the answer is No. All participants must be on-site unless given specific permission from organizers. Those with special permission are disqualified from being considered for prizes. In the event of inclement weather during the event, we will assess cases on an individual basis.
+
 - title:        Can I use a game I'm already working on?
   description:  No. The idea behind this event is that you are creating something on the spot under pressure. You would be amazed at what you can do in a short period of time when you put your mind to it. We are not going to limit the inclusion of helper libraries, packages, etc. so long as they do not provide an unfair advantage when creating gameplay mechanics.
 
