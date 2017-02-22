@@ -14,7 +14,7 @@ icon: wpforms
 breadcrumb: blog
 titlebar: title-009.jpg
 ---
-_Peterborough, Ontario – February 17-19, 2017_ – The PTBO Game Jam is a gathering of people from all walks of life; from seasoned game developers and students just entering the industry, to hobbyists and enthusiasts all eager to engage and see what they can produce in a short timeframe.
+_Peterborough, Ontario – _February 17-19, 2017_ – The PTBO Game Jam is a gathering of people from all walks of life; from seasoned game developers and students just entering the industry, to hobbyists and enthusiasts all eager to engage and see what they can produce in a short timeframe.
 
 We’re back! Bigger and better than ever before.
 
