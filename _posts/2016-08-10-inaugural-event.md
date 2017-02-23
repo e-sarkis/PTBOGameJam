@@ -10,6 +10,7 @@ excerpt: "The PTBO Game Jam is a gathering of industry professionals, students, 
 location: "Peterborough, Ontario, Canada"
 pdf: 2016-08-10-Inaugural-Event.pdf
 image: 2016-08-10-inaugural-event.jpg
+social: /content/img/post/2016-08-10-inaugural-event.jpg
 icon: wpforms
 breadcrumb: blog
 titlebar: title-009.jpg
