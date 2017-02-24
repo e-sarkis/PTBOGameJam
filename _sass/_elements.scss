@@ -1251,7 +1251,10 @@ border-top: 1px solid rgba(255,255,255,0.3);
 /*---------------------------------------------------------------
 [11.0 Media Center ]
 ----------------------------------------------------------------*/
-.jx-media-center {}
+.jx-media-center {
+    display: flex;
+    flex-wrap: wrap;
+}
 .jx-media-center .image img {
 	width:100%;
 }
