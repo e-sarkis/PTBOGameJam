@@ -23,7 +23,83 @@ highlight: about
       </div>
   </div>
 </div>
-{% include block-learnmore.html %}
-{% include block-team.html %}
+<div id="about" class="jx-container jx-padding jx-grey-bg">
+  <div class="container">
+    <div class="jx-section-title-1">
+      <div class="jx-pre-title">
+        <div class="jx-title-icon"><i class="icon-gamejam icon-3x"></i></div>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/Game_jam"><div class="jx-title jx-uppercase">What Is A Game Jam?</div></a>
+      <div class="jx-subtitle"><p>A game jam is a gathering of game developers for the purpose of planning, designing, and creating one or more games within a short span of time, usually ranging between 24 and 72 hours. Game developers are generally made up of programmers, game designers, artists, and others in game development-related fields.</p></div>
+    </div>
+    <div class="row"></div>
+    <div class="jx-servicebox-1">
+      <div class="one-third columns jx-service-item">
+        <div class="service-icon"><i class="icon-industry"></i></div>
+        <div class="service-title jx-uppercase"><a href="#">Industry</a></div>
+        <div class="service-title-border"></div>
+        <div class="service-description">
+          <p>We work with industry leaders to create meaningful and impactful events that introduce talented individuals to the video games industry, as well as compliment already existing professionals.</p>
+        </div>
+      </div>
+      <div class="one-third columns jx-service-item">
+        <div class="service-icon"><i class="icon-graduation-cap"></i></div>
+        <div class="service-title jx-uppercase"><a href="#">Education</a></div>
+        <div class="service-title-border"></div>
+        <div class="service-description">
+          <p>We offer a block of time at the start of our events dedicated to learning opportunities, as well as a question and answer period with industry professionals.</p>
+        </div>
+      </div>
+      <div class="one-third columns jx-service-item">
+        <div class="service-icon"><i class="icon-newspaper"></i></div>
+        <div class="service-title jx-uppercase"><a href="#">Exposure</a></div>
+        <div class="service-title-border"></div>
+        <div class="service-description">
+          <p>We provide an outlet for game creators to show off their work and get noticed by media and financial backers.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id='team' class="jx-container container-no-margin jx-padding jx-black-bg ">
+  <div class="container ">
+    <div class="jx-team">
+      <div class="jx-team-item jx-team-box-content">
+        <a name="team"><div class="jx-title jx-uppercase">Meet Our <span>Team</span></div></a>
+        <div class="jx-hr-title"></div>
+        <p>Putting on a <em>world class event</em> takes a dedicated team of individuals in-and-around the industry volunteering their time, collaborating on ideas and innovations, and just "getting it done"; it is the hard work of these individuals that continue to make the PTBO Game Jam a success.</p>
+      </div>
+{% for member in site.data.staff  %}
+      <div class="jx-team-item">
+        <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ member.picture || prepend: site.baseurl }}" class="attachment-team-image" alt="{{ member.name }}" />
+          <div class="jx-team-overlayer"></div>
+          <div class="jx-image-hover-info">
+            <div class="jx-team-name">{{ member.name }}</div>
+            <div class="jx-team-pos">{{ member.position }}</div>
+            <div class="team-social">
+              <ul>
+                {% if member.webpage %}<li><a href="{{ member.webpage }}"><i class="icon-home"></i></a></li>{% endif %}
+                {% if member.twitter %}<li><a href="{{ member.twitter }}"><i class="icon-twitter"></i></a></li>{% endif %}
+                {% if member.linkedin  %}<li><a href="{{ member.linkedin }}"><i class="icon-linkedin"></i></a></li>{% endif %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endfor %}
+      <div class="jx-team-item">
+        <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ "/content/img/team/volunteer.jpg" || prepend: site.baseurl }}" class="attachment-team-image" alt="Volunteer Now!" />
+          <div class="jx-team-overlayer"></div>
+          <div class="jx-image-hover-info">
+            <a href="{{ site.volunteer_email }}">
+              <div class="jx-team-name">Awesome?</div>
+              <div class="jx-team-pos">Volunteer.</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% include block-ticker.html %}
 {% include block-summary.html %}
