@@ -9,7 +9,6 @@ blog: current
     {% for post in paginator.posts %}
     <div id="post-{{ post.code }}" class="jx-blog post type-post hentry">
       <div class="jx-blog-item">
-
         <div class="jx-image-container">
           <a href="{{ site.baseurl }}{{ post.url }}">
           {% if post.image %}
@@ -26,7 +25,7 @@ blog: current
           </a>
           <div class="jx-blog-content clearfix">
             <div class="jx-blog-head">
-                <div class="jx-post-format"><i class="icon-{{post.icon}}"></i></div>
+                <div class="jx-post-format"><a href="{{ site.baseurl }}{{ post.url }}"><i class="icon-{{post.icon}}"></i></a></div>
                 <div class="jx-blog-meta">
                     <div class="jx-event-date">{{ post.date | date_to_string }}</div>
                 </div>
