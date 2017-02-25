@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 titlebar: title-016.jpg
 highlight: about
+script: "about"
 ---
 <div id="section" class="jx-container jx-padding container-no-margin background-001">
   <div class="container">
@@ -23,6 +24,8 @@ highlight: about
       </div>
   </div>
 </div>
+
+<!-- WHAT IS A GAME JAM? -->
 <div id="about" class="jx-container jx-padding jx-grey-bg">
   <div class="container">
     <div class="jx-section-title-1">
@@ -61,6 +64,44 @@ highlight: about
     </div>
   </div>
 </div>
+
+<!-- STATS -->
+<div id='stats' class="jx-container jx-padding container-no-margin background-003">
+  <div class="container">
+    <div class="sixteen columns">
+      <div class="jx-section-title title-light jx-dark">
+        <div class="jx-title jx-uppercase">The <span>Numbers</span></div>
+        <div class="jx-hr-title"></div>
+      </div>
+      <div class="section-content">
+        <div class="jx-subtitle"><p>We keep track of an incredible amount of data across our events, with the hopes of tracking our progress and providing key insights on areas where we can improve, and where we have been successful. Below is just a small sample of some of the data we collect that we have found particularly interesting, especially when put in perspective of how we are impacting local economic growth and development.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="row"></div>
+  <div class="container">
+    <div class="eight columns">
+      <canvas id="attendance-chart"></canvas>
+    </div>
+    <div class="eight columns">
+      <ul class="statpoints statpoints-right">
+        <li><span>{{ site.data.stats.attendees }}</span> Awesome Attendees</li>
+        <li>Average Jammer Age Of <span>{{ site.data.stats.average_age }}</span> Years Old</li>
+        <li><span>{{ site.data.stats.outside_distance }}km</span> Average Out Of Town Travel Distance</li>
+      </ul>
+    </div>
+  </div>
+    <div class="container">
+    <div class="eight columns">
+      Text
+    </div>
+    <div class="eight columns">
+      <canvas id="games-chart"></canvas>
+    </div>
+  </div>
+</div>
+
+<!-- TEAM -->
 <div id='team' class="jx-container container-no-margin jx-padding jx-black-bg ">
   <div class="container ">
     <div class="jx-team">
@@ -101,5 +142,4 @@ highlight: about
     </div>
   </div>
 </div>
-{% include block-ticker.html %}
 {% include block-summary.html %}

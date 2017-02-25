@@ -17,6 +17,10 @@
     <script type="text/javascript">setAPIBase("{{ site.data.api.base }}");</script>
     <script type="text/javascript">setAPIMailer("{{ site.data.api.mailer }}");</script>
 
+    {% if page.title == "About" %}
+    <!-- Charting -->
+    <script src="{{ "/content/vendor/chart/Chart.bundle.min.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
 
     <!-- Legacy Base Script -->
     <script src="{{ "/content/js/theme.js" | prepend: site.baseurl }}"></script>
@@ -24,6 +28,7 @@
     {% if include.script %}
     <script src="{{ "/content/js/view/" | append: include.script | prepend: site.baseurl }}.js"></script>
     {% endif %}
+
 
 
     {%if page.map %}

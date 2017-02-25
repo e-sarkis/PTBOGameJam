@@ -2976,3 +2976,30 @@ ul.brand-color-description {
 {
   background-size: cover;
 }
+
+canvas#attendance-chart,
+canvas#games-chart
+{
+  background-color: #fff;
+}
+
+ul.statpoints {
+  list-style-type: square;
+}
+ul.statpoints li {
+  line-height: 20px;
+}
+
+ul.statpoints-right {
+  margin-left: 19px;
+  margin-top: 40px;
+}
+.statpoints {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.statpoints span {
+  color: $primary-color;
+}
