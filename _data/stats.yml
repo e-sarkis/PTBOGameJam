@@ -5,7 +5,11 @@ games: "44"
 pizza: "594"
 outside_distance: "125"
 
-sleep: "0"
+unity_games: "37"
+unreal_games: "2"
+gamemaker_games: "2"
+scratch_games: "1"
 
+sleep: "0"
 staff: "5"
 volunteers: "2"

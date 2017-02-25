@@ -2978,7 +2978,8 @@ ul.brand-color-description {
 }
 
 canvas#attendance-chart,
-canvas#games-chart
+canvas#games-chart,
+canvas#engine-chart
 {
   background-color: #fff;
 }
@@ -2987,12 +2988,12 @@ ul.statpoints {
   list-style-type: square;
 }
 ul.statpoints li {
-  line-height: 20px;
+  line-height: 35px;
 }
 
 ul.statpoints-right {
-  margin-left: 19px;
-  margin-top: 40px;
+  margin-left: 30px;
+  margin-top: 60px;
 }
 .statpoints {
   font-size: 20px;

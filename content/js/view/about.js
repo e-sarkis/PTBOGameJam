@@ -196,3 +196,39 @@ var chartGames = new Chart($("canvas#games-chart"), {
         }
     } 
 });
+
+var chartEngines = new Chart($("canvas#engine-chart"), { 
+    type: 'pie', 
+    data: {
+        labels: ["Unity", "Unreal", "Game Maker", "Scratch"],
+        datasets: [{
+            data: [37, 2, 2, 1],
+            backgroundColor: [
+                "#00bcd4",
+                "#dda209",
+                "#71b417",
+                "#586cdc"
+            ],
+            hoverBackgroundColor: [
+                "#00bcd4",
+                "#dda209",
+                "#71b417",
+                "#586cdc"
+            ]
+        }]
+    },
+    options: { 
+        title: {
+            display: true,
+            text: 'ENGINE USAGE',
+            position: 'top',
+            fontFamily: 'Raleway',
+            fontStyle: 'bold',
+            fontSize: 26
+        },
+        defaultFontSize: '20',
+        legend: {
+            position: 'bottom'
+        }
+    } 
+});
