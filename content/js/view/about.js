@@ -95,7 +95,9 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
                     fontSize: 16
                 }
             }]
-        }
+        },
+        maintainAspectRatio: false,
+        responsive: true
     } 
 });
 
@@ -196,7 +198,9 @@ var chartGames = new Chart($("canvas#games-chart"), {
                     fontSize: 16
                 }
             }]
-        }
+        },
+        responsive: true,
+        maintainAspectRatio: false
     } 
 });
 
@@ -233,6 +237,7 @@ var chartEngines = new Chart($("canvas#engine-chart"), {
         legend: {
             position: 'bottom'
         },
+        responsive: true,
         maintainAspectRatio: false
     } 
 });

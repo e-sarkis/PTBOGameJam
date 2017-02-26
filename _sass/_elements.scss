@@ -2983,6 +2983,10 @@ canvas#games-chart
   background-color: #fff;
 }
 
+.chart-holder
+{
+  min-height: 400px;
+}
 
 ul.statpoints {
   list-style-type: square;
