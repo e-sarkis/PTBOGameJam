@@ -1,3 +1,6 @@
+Chart.defaults.global.hover.mode = 'nearest';
+Chart.defaults.global.defaultFontFamily = 'Raleway';
+
 var chartAttendance = new Chart($("canvas#attendance-chart"), { 
     type: 'line', 
     data: {
@@ -229,6 +232,7 @@ var chartEngines = new Chart($("canvas#engine-chart"), {
         defaultFontSize: '20',
         legend: {
             position: 'bottom'
-        }
+        },
+        maintainAspectRatio: false
     } 
 });

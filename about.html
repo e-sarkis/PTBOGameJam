@@ -78,7 +78,6 @@ script: "about"
       </div>
     </div>
   </div>
-  <div class="row"></div>
   <div class="container">
     <div class="eight columns">
       <canvas id="attendance-chart"></canvas>
@@ -88,13 +87,16 @@ script: "about"
         <li><span>{{ site.data.stats.attendees }}</span> Awesome Attendees</li>
         <li>Average Jammer Age Of <span>{{ site.data.stats.average_age }}</span> Years Old</li>
         <li><span>{{ site.data.stats.outside_distance }}km</span> Average Out Of Town Travel Distance</li>
+        <li><span>{{ site.data.stats.pizza }}</span> Slices Of Pizza Eaten</li>
+        <li>A Jammer Consumes <span>{{ site.data.stats.pizza_per_jammer }}</span> Slices Of Pizza</li>
       </ul>
     </div>
   </div>
-  <div class="row"></div>
+  
   <div class="container">
+    <hr />
     <div class="eight columns">
-      <canvas id="engine-chart"></canvas>
+      <canvas id="engine-chart" height="300px"></canvas>
     </div>
     <div class="eight columns">
       <canvas id="games-chart"></canvas>
