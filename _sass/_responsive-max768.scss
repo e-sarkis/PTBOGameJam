@@ -75,4 +75,12 @@
 	.chart-spacer {
 		margin-top: 25px !important;
 	}
+
+
+	div#stats .container {
+	margin-bottom: 0px;
+	}
+	div#stats .container:first-child {
+	margin-bottom: 25px;
+	}
 }
