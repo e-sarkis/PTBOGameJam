@@ -41,12 +41,25 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
         {
             label: "Registered",
             fill: false,
+            hidden: true,
             lineTension: 0.1,
             backgroundColor: "rgba(102,102,102,0.8)",
             borderColor: "rgba(102,102,102,0.4)",
             data: [0,27, 162],
             spanGaps: false,
-        }]
+        },
+        {
+            label: "Local",
+            hidden: true,
+            fill: false,
+            lineTension: 0.1,
+            backgroundColor: "rgba(67,133,2,0.8)",
+            borderColor: "rgba(67,133,2,0.4)",
+            data: [0,41, 73],
+            spanGaps: false,
+        },
+        
+        ]
     }, 
     options: { 
         title: {
