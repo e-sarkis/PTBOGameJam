@@ -1387,7 +1387,10 @@ div#showMenu i#showSubMenuIcon {
   font-weight:600;
   float:none;
 }
-
+.hack-crumb {
+  position: relative;
+  bottom: 8px;
+}
 .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb{
   color:#fff;
   background:rgba(0, 0, 0, 0.6);
