@@ -211,6 +211,7 @@ var chartFunding = new Chart($("canvas#funding-chart"), {
                 data: [0, 0, 5, 40, 55]
             },
              {
+                hidden: true,
                 label: "01",
                 backgroundColor: "rgba(179,181,198,0.2)",
                 borderColor: "rgba(179,181,198,1)",
