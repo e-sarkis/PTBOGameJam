@@ -215,6 +215,11 @@ var chartFunding = new Chart($("canvas#funding-chart"), {
             fontStyle: 'bold',
             fontSize: 26
         },
+        scale: {
+            ticks: {
+                    fixedStepSize: 25
+                }
+        },
         defaultFontSize: '20',
         legend: {
             position: 'bottom'
