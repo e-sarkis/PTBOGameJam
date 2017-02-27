@@ -13,10 +13,6 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
             lineTension: 0.1,         
             backgroundColor: "rgba(0,204,255,0.8)",
             borderColor: "rgba(0,204,255,0.4)",
-            // borderCapStyle: 'butt',
-            // borderDash: [],
-            // borderDashOffset: 0.0,
-            // borderJoinStyle: 'miter',
             data: [0,43, 155],
             spanGaps: false,
         },
@@ -32,6 +28,7 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
         {
             label: "No Shows",
             fill: false,
+            hidden: true,
             lineTension: 0.1,
             backgroundColor: "rgba(255,204,0,0.8)",
             borderColor: "rgba(255,204,0,0.4)",
