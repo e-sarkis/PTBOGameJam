@@ -13,17 +13,10 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
             lineTension: 0.1,         
             backgroundColor: "rgba(0,204,255,0.8)",
             borderColor: "rgba(0,204,255,0.4)",
-            borderCapStyle: 'butt',
-            borderDash: [],
-            borderDashOffset: 0.0,
-            borderJoinStyle: 'miter',
-            pointBorderColor: "rgba(0,204,255,1)",
-            pointBackgroundColor: "rgba(0,204,255,1)",
-            pointBorderWidth: 1,
-            pointHoverRadius: 5,
-            pointHoverBorderWidth: 2,
-            pointRadius: 1,
-            pointHitRadius: 10,
+            // borderCapStyle: 'butt',
+            // borderDash: [],
+            // borderDashOffset: 0.0,
+            // borderJoinStyle: 'miter',
             data: [0,43, 155],
             spanGaps: false,
         },
@@ -33,17 +26,6 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
             lineTension: 0.1,
             backgroundColor: "rgba(255,102,0,0.8)",
             borderColor: "rgba(255,102,0,0.4)",
-            borderCapStyle: 'butt',
-            borderDash: [],
-            borderDashOffset: 0.0,
-            borderJoinStyle: 'miter',
-            pointBorderColor: "rgba(255,102,0,1)",
-            pointBackgroundColor: "rgba(255,102,0,1)",
-            pointBorderWidth: 1,
-            pointHoverRadius: 5,
-            pointHoverBorderWidth: 2,
-            pointRadius: 1,
-            pointHitRadius: 10,
             data: [0,17, 80],
             spanGaps: false,
         },
@@ -53,17 +35,6 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
             lineTension: 0.1,
             backgroundColor: "rgba(255,204,0,0.8)",
             borderColor: "rgba(255,204,0,0.4)",
-            borderCapStyle: 'butt',
-            borderDash: [],
-            borderDashOffset: 0.0,
-            borderJoinStyle: 'miter',
-            pointBorderColor: "rgba(255,204,0,1)",
-            pointBackgroundColor: "rgba(255,204,0,1)",
-            pointBorderWidth: 1,
-            pointHoverRadius: 5,
-            pointHoverBorderWidth: 2,
-            pointRadius: 1,
-            pointHitRadius: 10,
             data: [0,5, 41],
             spanGaps: false,
         },
@@ -73,17 +44,6 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
             lineTension: 0.1,
             backgroundColor: "rgba(102,102,102,0.8)",
             borderColor: "rgba(102,102,102,0.4)",
-            borderCapStyle: 'butt',
-            borderDash: [],
-            borderDashOffset: 0.0,
-            borderJoinStyle: 'miter',
-            pointBorderColor: "rgba(102,102,102,1)",
-            pointBackgroundColor: "rgba(102,102,102,1)",
-            pointBorderWidth: 1,
-            pointHoverRadius: 5,
-            pointHoverBorderWidth: 2,
-            pointRadius: 1,
-            pointHitRadius: 10,
             data: [0,27, 162],
             spanGaps: false,
         }]
@@ -132,17 +92,6 @@ var chartGames = new Chart($("canvas#games-chart"), {
             lineTension: 0.1,         
             backgroundColor: "rgba(0,204,255,0.8)",
             borderColor: "rgba(0,204,255,0.4)",
-            borderCapStyle: 'butt',
-            borderDash: [],
-            borderDashOffset: 0.0,
-            borderJoinStyle: 'miter',
-            pointBorderColor: "rgba(0,204,255,1)",
-            pointBackgroundColor: "rgba(0,204,255,1)",
-            pointBorderWidth: 1,
-            pointHoverRadius: 5,
-            pointHoverBorderWidth: 2,
-            pointRadius: 1,
-            pointHitRadius: 10,
             data: [0,11, 33],
             spanGaps: false,
         },
@@ -152,17 +101,6 @@ var chartGames = new Chart($("canvas#games-chart"), {
             lineTension: 0.1,
             backgroundColor: "rgba(255,102,0,0.8)",
             borderColor: "rgba(255,102,0,0.4)",
-            borderCapStyle: 'butt',
-            borderDash: [],
-            borderDashOffset: 0.0,
-            borderJoinStyle: 'miter',
-            pointBorderColor: "rgba(255,102,0,1)",
-            pointBackgroundColor: "rgba(255,102,0,1)",
-            pointBorderWidth: 1,
-            pointHoverRadius: 5,
-            pointHoverBorderWidth: 2,
-            pointRadius: 1,
-            pointHitRadius: 10,
             data: [0,8, 15],
             spanGaps: false,
         },
@@ -172,17 +110,6 @@ var chartGames = new Chart($("canvas#games-chart"), {
             lineTension: 0.1,
             backgroundColor: "rgba(255,204,0,0.8)",
             borderColor: "rgba(255,204,0,0.4)",
-            borderCapStyle: 'butt',
-            borderDash: [],
-            borderDashOffset: 0.0,
-            borderJoinStyle: 'miter',
-            pointBorderColor: "rgba(255,204,0,1)",
-            pointBackgroundColor: "rgba(255,204,0,1)",
-            pointBorderWidth: 1,
-            pointHoverRadius: 5,
-            pointHoverBorderWidth: 2,
-            pointRadius: 1,
-            pointHitRadius: 10,
             data: [0,3, 18],
             spanGaps: false,
         }]
@@ -243,7 +170,7 @@ var chartEngines = new Chart($("canvas#engine-chart"), {
     options: { 
         title: {
             display: true,
-            text: 'ENGINE USAGE',
+            text: 'ENGINE USAGE (PERCENT)',
             position: 'top',
             fontFamily: 'Raleway',
             fontStyle: 'bold',
@@ -258,5 +185,95 @@ var chartEngines = new Chart($("canvas#engine-chart"), {
     } 
 });
 
-// Economic Impact Chart
-// - public funding 
+// Funding Model
+var chartFunding = new Chart($("canvas#funding-chart"), { 
+    type: 'radar', 
+    data: {
+        labels: ["Municipal Grants", "Provincial Grants", "Federal Grants", "Local Sponsorship", "Industry Sponsorship"],
+        datasets: [
+             {
+                label: "02",
+                backgroundColor: "rgba(0,204,255,0.2)",
+                borderColor: "rgba(0,204,255,1)",
+                data: [0, 0, 5, 40, 55]
+            },
+             {
+                label: "01",
+                backgroundColor: "rgba(179,181,198,0.2)",
+                borderColor: "rgba(179,181,198,1)",
+                data: [0, 0, 0, 10, 90]
+            }
+
+        ]
+    },
+     options: { 
+        title: {
+            display: true,
+            text: 'FUNDING MODEL (PERCENT)',
+            position: 'top',
+            fontFamily: 'Raleway',
+            fontStyle: 'bold',
+            fontSize: 26
+        },
+        defaultFontSize: '20',
+        legend: {
+            position: 'bottom'
+        },
+        responsive: true,
+        maintainAspectRatio: false
+    } 
+});
+
+// Age Chart
+var chartAge = new Chart($("canvas#age-chart"), { 
+    type: 'doughnut', 
+    data: {
+        labels: [
+            "0-14",
+            "15-19",
+            "20-24",
+            "25-29",
+            "30-34",
+            "35-39",
+            "40+",
+        ],
+        datasets: [
+        {
+            data: [0, 4, 47,5,17,12,12],
+            backgroundColor: [
+                "rgba(0, 204, 255, .14)",
+                "rgba(0, 204, 255, .28)",
+                "rgba(0, 204, 255, .42)",
+                "rgba(0, 204, 255, .57)",
+                "rgba(0, 204, 255, .71)",
+                "rgba(0, 204, 255, .85)",
+                "rgba(0, 204, 255, 1)"
+            ],
+            hoverBackgroundColor: [
+                "rgba(0, 204, 255, .14)",
+                "rgba(0, 204, 255, .28)",
+                "rgba(0, 204, 255, .42)",
+                "rgba(0, 204, 255, .57)",
+                "rgba(0, 204, 255, .71)",
+                "rgba(0, 204, 255, .85)",
+                "rgba(0, 204, 255, 1)"
+            ]
+        }]
+    },
+    options: { 
+        title: {
+            display: true,
+            text: 'JAMMER AGE DEMOGRAPHICS',
+            position: 'top',
+            fontFamily: 'Raleway',
+            fontStyle: 'bold',
+            fontSize: 26
+        },
+        defaultFontSize: '20',
+        legend: {
+            position: 'right'
+        },
+        responsive: true,
+        maintainAspectRatio: false
+    } 
+});
