@@ -170,7 +170,7 @@ var chartEngines = new Chart($("canvas#engine-chart"), {
     options: { 
         title: {
             display: true,
-            text: 'ENGINE USAGE (PERCENT)',
+            text: 'ENGINE USAGE (GAMES)',
             position: 'top',
             fontFamily: 'Raleway',
             fontStyle: 'bold',
@@ -239,7 +239,12 @@ var chartAge = new Chart($("canvas#age-chart"), {
         ],
         datasets: [
         {
-            data: [0, 4, 47,5,17,12,12],
+
+            // ACTUAL
+            // data: [0, 4, 47,5,17,12,12], / 97
+            // PERCENT
+            data: [0, 4.1237113402062, 48.4536082474227, 5.1546391752577,17.5257731958763,12.3711340206186,12.3711340206186],
+
             backgroundColor: [
                 "rgba(0, 204, 255, .14)",
                 "rgba(0, 204, 255, .28)",
@@ -263,7 +268,7 @@ var chartAge = new Chart($("canvas#age-chart"), {
     options: { 
         title: {
             display: true,
-            text: 'JAMMER AGE DEMOGRAPHICS',
+            text: 'JAMMER AGE (PERCENT)',
             position: 'top',
             fontFamily: 'Raleway',
             fontStyle: 'bold',
