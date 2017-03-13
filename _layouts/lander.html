@@ -6,6 +6,11 @@
     <div id="home" class="jx-main-slider">
       <div class="flexslider">
         <ul class="slides">
+
+         
+
+
+
           {% for slide in site.data.slides %}
           {% if slide.video %}
           <li id="{{slide.name}}" class="jx-parallax-fullwidth">
@@ -80,11 +85,37 @@
             </div>
           </li>
           {% endfor %}
+
+
+          {% for post in site.posts %}
+            {% if post.slide %}
+          <li id="{{post.code}}" class="jx-parallax-fullwidth" style="background-image:url('{{post.slide-image}}');">
+            <div class="jx-event-slide">
+              <div class="jx-slider-content">
+                <div class="container">
+                  <a href="{{ post.url|| prepend: site.baseurl }}">
+                    <div class="jx-event-box video-event-box event-box-no-reset">
+                        <div class="jx-event-play"><i class="icon-{{post.slide-icon}}"></i></div>
+                        <div class="jx-event-title-box">
+                          <div class="jx-event-pretitle">{{post.slide-pretitle}}</div>
+                          <div class="jx-event-title">{{post.slide-title}}</div>
+                         <div class="jx-event-location">{{ post.date | date: "%B %-d, %Y" }}</div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+            {% endif %}
+          {% endfor %}
+
         </ul>
 
-        <a href="{{ site.data.latest.link | prepend: site.baseurl }}" title="{{ site.data.latest.title }}">
+        <!--<a href="{{ site.data.latest.link | prepend: site.baseurl }}" title="{{ site.data.latest.title }}">-->
           <div class="jx-slider-bottom-info">
             <div class="container">
+              <div class="lander-message">We're <strong>working on</strong> all the wonderful details of <strong>#PTBOGameJam03</strong>, you can expect to hear from us soon!</div> 
               <!--<ul>
                 <li class="three columns">
                   <div class="jx-info-icon"><i class="icon-calendar"></i></div>
@@ -118,7 +149,7 @@
               </ul>-->
             </div>
           </div>
-        </a>
+        <!--</a>-->
 
       </div>
     </div>

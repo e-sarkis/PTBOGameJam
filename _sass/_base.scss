@@ -1992,7 +1992,11 @@ select.valid, input.valid {
   text-align: center;
   border-radius:50%;
   font-size:90px;
-  text-indent:6px
+  
+}
+
+.jx-event-play .icon-video {
+  text-indent: -2px;
 }
 
 .jx-event-play i:hover{
@@ -3406,4 +3410,16 @@ position-relative {
 .release-image {
   max-width: 200px;
   margin-bottom: 4px;
+}
+
+
+.lander-message {
+    text-align: center;
+    font-size: 14px;
+    color: #eeeeee;
+    padding-top: 30px;
+}
+
+.lander-message strong {
+  color: #eeeeee;
 }
