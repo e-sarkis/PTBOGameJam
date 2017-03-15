@@ -1,3 +1,13 @@
+- title:          "Alternative Axe"
+  description:    "The year is 2260 and Earth is in trouble! A single generation of uninformed rule, a bad batch of homeopathic medicine and a poorly-timed re-release for Joel Schumacher's Batman movies have annihilated the planet's fail safes. Our defences have been overrun... by Giant Enemy Crabs. It's your job to cull the threat using your laser bullets, battleready ship. Failing that, there is always an alternative... legendary Axe."
+  type:           "Shooter"
+  platforms:      ["Windows"]
+  url:            "https://jodieee.itch.io/alternative-axe"
+  team:           [ "Jodie Eagleson" ]
+  social:         ["https://www.facebook.com/jodie.guacamoleii"]
+  screenshots:    []
+  videos:         []
+
 - title:          "Big Paleo"
   description:    "Congratulations, Doctor. You have worked very hard for this paleontology degree. Now it is time to reveal our secret. For 200 years we have been planting fossils to perpetuate the myth of dinosaurs and corrupt children. You must join our cause and bury as much evidence for evolution as you can. If you want agree... well, if there are no real dinosaurs, how will you work? And who is going to believe you?"
   type:           "Action"
@@ -5,6 +15,17 @@
   url:            "https://uldrendan.itch.io/big-paleo"
   team:           [ "Daniel Clarke", "Iris Fryer" ]
   social:         ["https://twitter.com/Uldrendan", "https://www.facebook.com/IrisFryerArt/"]
+  screenshots:    []
+  videos:         []
+
+- title:          "Catacombs"
+  description:    ""
+  type:           "Adventure"
+  platforms:      ["Windows"]
+  url:            "https://liftlock.itch.io/catacombs-"
+  team:           [ "Arin Blue", "Elisa Cote-Booth", "Emma French", "Robert French" ]
+  team-name:      "Liftlock Studios"
+  social:         ["https://twitter.com/YorBoyBlue", "", "", "https://twitter.com/qcha0s"]
   screenshots:    []
   videos:         []
 
@@ -34,7 +55,7 @@
   type:           "Action"
   platforms:      ["Browser"]
   url:            "https://jamstone.itch.io/fact-fight"
-  team:           [ Kirushanth Aruldas", "Ben Pinto", "Nestor Jr. Sirilan" ]
+  team:           [ "Kirushanth Aruldas", "Ben Pinto", "Nestor Jr. Sirilan" ]
   social:         [ "", "", "https://twitter.com/chryslenne" ]
   screenshots:    []
   videos:         ["https://www.youtube.com/watch?v=3sTK8lxxN1M"]
@@ -59,6 +80,7 @@
   platforms:      [ "Windows", "macOS" ]
   url:            "https://fooish.itch.io/hay-fever"
   team:           ["Brendan Quigley", "Josh Reynolds", "Chris Stretten", "Rob Waite"]
+  team-name:      "The Lumberjacks"
   social:         ["https://twitter.com/quigley_brendan", "", "https://twitter.com/ChrisStretten", "https://twitter.com/ThatRobWaite"]
   screenshots:    []
   videos:         []
