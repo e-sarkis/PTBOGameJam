@@ -142,7 +142,6 @@
   videos:         []
 
 - title:          "Real or Clickbait?"
-  brief:          "Try to see if you can differentiate between clickbait or actual news."
   description:    "The point of the game is to destroy or click on the clickbait and to remove it from the room. You can also destroy the actual world news too. Once all the clickbait has been destroyed, you will be shown the statistics of how many clickbait you destroyed, and how much news you accidently destroyed."
   type:           "Simulation"
   url:            "https://trentgamedevclub.itch.io/real-or-clickbait"
@@ -152,8 +151,17 @@
   screenshots:    []
   videos:         []
 
+- title:          "Sift"
+  description:    "Wander through the internet in search of the truth. During your search you will run into other people on the internet and how you interact with them will determine if you find the TRUTH."
+  type:           "Other"
+  url:            "https://zamdev.itch.io/sift"
+  platforms:      ["Windows"]
+  team:           ["Austin Manning", "John Prentice"]
+  social:         ["", ""]
+  screenshots:    []
+  videos:         []
+
 - title:          "The Drop"
-  brief:          "Escape your tower maze."
   description:    "Your loyal subjects have begun trumpeting for you.<br />Can you make it from your ivory tower to heed their call?<br /><br />Things aren't always as they seem..."
   controls:       [ "WSAD", "Movement",
                     "Mouse", "Look",
