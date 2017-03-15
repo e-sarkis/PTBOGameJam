@@ -61,6 +61,16 @@
   videos:         ["https://www.youtube.com/watch?v=3sTK8lxxN1M"]
   status:         "Solo Over 29"
 
+- title:          "Fake News as a Virus"
+  description:    "Fake New has spread like a virus.<br /><br />Using a Truth Antivirus, you can shoot to eliminate the Fake New Virus.<br /><br />Watch out for the susceptible digital bots that absorb Fake News to spread misinformation, they get bigger and bigger.<br /><br />Get to 20 points before Fake News reaches -20.<br /><br />Good luck Truth Seekers."
+  type:           "Other"
+  platforms:      ["Scratch"]
+  url:            "https://bjamieson.itch.io/fake-news-as-a-virus"
+  team:           [ "Briar Jamieson",]
+  social:         [ "https://twitter.com/mbjamieson"]
+  screenshots:    []
+  videos:         []
+
 - title:          "Future Dilemma"
   description:    "A 2D Local Multiplayer Action Shooter. Bullet bounces off walls, enemies, yourself, and other bullet. You can't kill another player directly, bounce it a few times and then you can kill him/her!"
   controls:       [ "WSAD", "Movement controls",
@@ -74,6 +84,17 @@
   screenshots:    []
   videos:         ["https://www.youtube.com/watch?v=3sTK8lxxN1M"]
 
+- title:          "Gwayakotam"
+  description:    "A platformer, exploring a world with a corporation that presents itself differently than it behaves."
+  type:           "Platformer"
+  platforms:      [ "Browser" ]
+  url:            "https://flopshotqq.itch.io/gwayakotam"
+  team:           ["Matthew Greer", "Natasha Monk"]
+  social:         ["https://twitter.com/FlopshotQQ", ""]
+  screenshots:    []
+  videos:         []
+  status:         "Team Under 30"
+
 - title:          "Hay Fever"
   description:    "The Most Extreme Endless Farm Runner! Collect hay to feed your animals while avoiding hazards in the field. Using the theme \"Alternative Facts\", this endless runner has seemingly simple controls with some surprises."
   type:           "Platformer"
@@ -85,6 +106,16 @@
   screenshots:    []
   videos:         []
   status:         "Team Over 29"
+
+- title:          "Inferior Castle"
+  description:    "Buy the battle field, Winz da money. Two players, one screen. Take turns judging the outcome of a mini-battle. Win by getting the most money out of your opponent."
+  type:           "Other"
+  platforms:      [ "Windows", "macOS" ]
+  url:            "https://wontonimator.itch.io/ptbo-game-jam-inferior-castle"
+  team:           ["Anton Panchishin"]
+  social:         ["https://twitter.com/panchishin"]
+  screenshots:    []
+  videos:         []
 
 - title:          "JamIt"
   description:    "JamIt is a strategy game that that will love by any age group.<br /><br />Get in your desk to accumulate work time and avoid to get distracted by the junior developers! You can use the following help to get them distracted: Click at the tools button to activate Watson, while active you can make contact with it to increase your health."
@@ -127,6 +158,20 @@
   screenshots:    []
   videos:         []
 
+- title:          "Presidential Race"
+  description:    ""
+  controls:       [ "WASD", "Movement",
+                    "Left CTRL", "Fire",
+                    "Space", "Jump",
+                    "Escape", "Pause" ]
+  type:           "Platformer"
+  platforms:      ["Windows", "macOS"]
+  url:            "https://limeonade.itch.io/presidential-race"
+  team:           ["Ben Prins", "Zach Prins", "Randall Romphf", "Andrew Vader Schaaf"]
+  social:         ["", "", "", ""]
+  screenshots:    []
+  videos:         [ "https://www.youtube.com/watch?v=DX6oYLn0T30" ]
+
 - title:          "Press Corps"
   description:    "As the 4th assistant undersecretary to the Deputy Minister of Administrative Policy, ordinarily your life is pretty quiet. But today, there's rumours swirling around of a juicy leak coming from your department, and the place is swarming with journalists!<br /><br />Thankfully, you had the foresight to install secret escape tunnels a few months ago. Use them to escape the office, and don't let the journalists spot you - or, just a good, bean 'em with some heavily redacted documents to take them down."
   controls:       [ "WASD", "Movement",
@@ -161,6 +206,16 @@
   screenshots:    []
   videos:         []
 
+- title:          "Stonehenge Dodgeball"
+  description:    ""
+  type:           "Action"
+  url:            "https://jonnytbone.itch.io/stonehenge-dodgeball-"
+  platforms:      ["Windows"]
+  team:           ["Jonathan Thompson"]
+  social:         [""]
+  screenshots:    []
+  videos:         [ "https://www.youtube.com/watch?v=D9ZC6hPuULY" ]
+
 - title:          "The Drop"
   description:    "Your loyal subjects have begun trumpeting for you.<br />Can you make it from your ivory tower to heed their call?<br /><br />Things aren't always as they seem..."
   controls:       [ "WSAD", "Movement",
@@ -171,5 +226,28 @@
   platforms:      ["Windows", "macOS"]
   team:           ["Shaun McCrumb"]
   social:         ["https://twitter.com/holydragoon"]
+  screenshots:    []
+  videos:         []
+
+- title:          "Tuber Tyrants"
+  description:    "Enjoy this little game of anthropomorphic root vegetables battling it out in a race to the death where the rules constantly change in a world of unexpected possibilities."
+  type:           "Platformer"
+  url:            "https://vaeillun.itch.io/tuber-tyrants"
+  platforms:      ["Windows"]
+  team:           ["Kai Ahmed", "Kwasi Asante", "Kailee Bryant", "Kevin Garland", "Peter Tran"]
+  social:         ["", "", "", "", ""]
+  screenshots:    []
+  videos:         []
+
+- title:          "Yuge Wall"
+  description:    "Fix it with money!"
+  controls:       [ "Left / Right", "Movement", 
+                    "Up / Down", "Aim Turret",
+                    "Space", "Fire Money" ]
+  type:           "Shooter"
+  url:            "https://lazymammal.itch.io/yuge-wall"
+  platforms:      ["Windows", "macOS", "Linux"]
+  team:           ["Dennis Carlstrom"]
+  social:         ["https://twitter.com/LazyMammalGames"]
   screenshots:    []
   videos:         []
