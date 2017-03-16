@@ -22,6 +22,11 @@
     <script src="{{ "/content/vendor/chart/Chart.bundle.min.js" | prepend: site.baseurl }}"></script>
     {% endif %}
 
+    {% if page.title == "Archive" %}
+    <!-- Isotope -->
+    <script src="{{ "/content/vendor/isotope/isotope.pkgd.min.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
+
     <!-- Legacy Base Script -->
     <script src="{{ "/content/js/theme.js" | prepend: site.baseurl }}"></script>
 
