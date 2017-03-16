@@ -1,4 +1,3 @@
-
 - 02_AlternativeAxe:
   - event:          "02"
     title:          "Alternative Axe"
@@ -37,11 +36,11 @@
   - event:          "02"
     title:          "Conway's Game Of Questions"
     description:    "The crafty reporters have created a new weapon: butterfly microphone drones! You play as Kellyanne Conway, professional question avoiding ninja. Avoid the questions for as long as you can."
-    controls:       [ "WASD", "Movement",
-                      "Space", "Jump",
-                      "Left Shift / RMB", "Dash",
-                      "Mouse", "Teleport Location",
-                      "LMB", "Teleport" ]
+    controls:       [ ["WASD", "Movement"],
+                      ["Space", "Jump"],
+                      ["Left Shift / RMB", "Dash"],
+                      ["Mouse", "Teleport Location"],
+                      ["LMB", "Teleport"] ]
     type:           "Platformer"
     platforms:      ["Windows", "macOS", "Browser"]
     url:            "https://ciechroma.itch.io/conways-game-of-questions"
@@ -53,12 +52,12 @@
   - event:          "02"
     title:          "Fact Fight"
     description:    "You are a little journalist armed with an endless supply of factual information. You are being bombarded by alternative facts from all sides. Expose politicians using the truth, then photograph them.<br /><br />Collect 3 snaps of any politician, then get busy on social media to bring them down!"
-    controls:       [ "WSAD", "Move the journalist", 
-                      "Mouse", "Aim",
-                      "RMB", "Throw some facts.",
-                      "Shift + RMB", "Throw a fact bomb. (Bigly. Tremendous.)",
-                      "LMB", "Snap a photo. (Only works on politicians that have exposed facts.)",
-                      "Hold Q", "Social media time! (Hold for 5 seconds)" ]
+    controls:       [ ["WSAD", "Move the journalist"], 
+                      ["Mouse", "Aim"],
+                      ["RMB", "Throw some facts."],
+                      ["Shift + RMB", "Throw a fact bomb. (Bigly. Tremendous.)"],
+                      ["LMB", "Snap a photo. (Only works on politicians that have exposed facts.)"],
+                      ["Hold Q", "Social media time! (Hold for 5 seconds)"] ]
     type:           "Action"
     platforms:      ["Browser"]
     url:            "https://jamstone.itch.io/fact-fight"
@@ -82,9 +81,9 @@
   - event:          "02"
     title:          "Future Dilemma"
     description:    "A 2D Local Multiplayer Action Shooter. Bullet bounces off walls, enemies, yourself, and other bullet. You can't kill another player directly, bounce it a few times and then you can kill him/her!"
-    controls:       [ "WSAD", "Movement controls",
-                      "Mouse", "Aim",
-                      "LMB", "Shoot" ]
+    controls:       [ ["WSAD", "Movement controls"],
+                      ["Mouse", "Aim"],
+                      ["LMB", "Shoot"] ]
     type:           "Shooter"
     platforms:      ["Windows"]
     url:            "https://chryslenne.itch.io/future-dilemma"
@@ -143,10 +142,10 @@
   - event:          "02"
     title:          "Maze Magnitude"
     description:    "Find the exit of the maze as quickly as you can, but be careful because sometimes the exit might not be where you think it is."
-    controls:       [ "WASD", "Movement",
-                      "Space", "Jump",
-                      "LMB", "Shrink",
-                      "RMB", "Grow" ]
+    controls:       [ ["WASD", "Movement"],
+                      ["Space", "Jump"],
+                      ["LMB", "Shrink"],
+                      ["RMB", "Grow"] ]
     type:           "Puzzle"
     platforms:      ["Windows" , "macOS", "Linux"]
     url:            "https://thatgamerguy67.itch.io/maze-magnitude"
@@ -159,11 +158,11 @@
   - event:          "02"
     title:          "News Abuse"
     description:    "In News Abuse the person who decides which 'facts' are published is you."
-    controls:       [ "LMB", "Select Lead / Assign Lead to Writer / Hire Writer",
-                      "RMB", "Fire Writer",
-                      "Space", "Start Game / Begin Daily News Cycle",
-                      "M", "Toggle Music",
-                      "F4", "Toggle Fullscreen" ]
+    controls:       [ ["LMB", "Select Lead / Assign Lead to Writer / Hire Writer"],
+                      ["RMB", "Fire Writer"],
+                      ["Space", "Start Game / Begin Daily News Cycle"],
+                      ["M", "Toggle Music"],
+                      ["F4", "Toggle Fullscreen" ]]
     control-notes:  "Left click and drag articles off-screen to clear them from the site. Dragging the mouse over several articles will cause them to stack. Be careful to not accidentally clear articles that are still pulling in page views!"
     type:           "Simulation"
     platforms:      ["Windows"]
@@ -176,10 +175,10 @@
   - event:          "02"
     title:          "Presidential Race"
     description:    ""
-    controls:       [ "WASD", "Movement",
-                      "Left CTRL", "Fire",
-                      "Space", "Jump",
-                      "Escape", "Pause" ]
+    controls:       [ ["WASD", "Movement"],
+                      ["Left CTRL", "Fire"],
+                      ["Space", "Jump"],
+                      ["Escape", "Pause"] ]
     type:           "Platformer"
     platforms:      ["Windows", "macOS"]
     url:            "https://limeonade.itch.io/presidential-race"
@@ -191,9 +190,9 @@
   - event:          "02"
     title:          "Press Corps"
     description:    "As the 4th assistant undersecretary to the Deputy Minister of Administrative Policy, ordinarily your life is pretty quiet. But today, there's rumours swirling around of a juicy leak coming from your department, and the place is swarming with journalists!<br /><br />Thankfully, you had the foresight to install secret escape tunnels a few months ago. Use them to escape the office, and don't let the journalists spot you - or, just a good, bean 'em with some heavily redacted documents to take them down."
-    controls:       [ "WASD", "Movement",
-                      "Left CTRL, Left Shift, Left ALT, Space", "Fire",
-                      "Space", "Start Game / Begin Daily News Cycle" ]
+    controls:       [ ["WASD", "Movement"],
+                      ["Left CTRL, Left Shift, Left ALT, Space", "Fire"],
+                      ["Space", "Start Game / Begin Daily News Cycle" ]]
     controls-notes: "Gamepad Supported"
     type:           "Shooter"
     platforms:      ["Windows", "Browser"]
@@ -239,9 +238,9 @@
   - event:        "02"
     title:          "The Drop"
     description:    "Your loyal subjects have begun trumpeting for you.<br />Can you make it from your ivory tower to heed their call?<br /><br />Things aren't always as they seem..."
-    controls:       [ "WSAD", "Movement",
-                      "Mouse", "Look",
-                      "Escape", "If you can't take it anymore!" ]
+    controls:       [ ["WSAD", "Movement"], 
+                      ["Mouse", "Look"],
+                      ["Escape", "If you can't take it anymore!"]]
     type:           "Puzzle"
     url:            "https://holydragoon.itch.io/the-drop"
     platforms:      ["Windows", "macOS"]
@@ -264,9 +263,9 @@
   - event:          "02"
     title:          "Yuge Wall"
     description:    "Fix it with money!"
-    controls:       [ "Left / Right", "Movement", 
-                      "Up / Down", "Aim Turret",
-                      "Space", "Fire Money" ]
+    controls:       [ ["Left / Right", "Movement"], 
+                      ["Up / Down", "Aim Turret"],
+                      ["Space", "Fire Money"] ]
     type:           "Shooter"
     url:            "https://lazymammal.itch.io/yuge-wall"
     platforms:      ["Windows", "macOS", "Linux"]
