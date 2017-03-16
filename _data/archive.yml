@@ -1,0 +1,276 @@
+
+- 02_AlternativeAxe:
+  - event:          "02"
+    title:          "Alternative Axe"
+    description:    "The year is 2260 and Earth is in trouble! A single generation of uninformed rule, a bad batch of homeopathic medicine and a poorly-timed re-release for Joel Schumacher's Batman movies have annihilated the planet's fail safes. Our defences have been overrun... by Giant Enemy Crabs. It's your job to cull the threat using your laser bullets, battleready ship. Failing that, there is always an alternative... legendary Axe."
+    type:           "Shooter"
+    platforms:      ["Windows"]
+    url:            "https://jodieee.itch.io/alternative-axe"
+    team:           [ "Jodie Eagleson" ]
+    social:         ["https://www.facebook.com/jodie.guacamoleii"]
+    screenshots:    []
+    videos:         []
+- 02_BigPaleo:
+  - event:          "02"
+    title:          "Big Paleo"
+    description:    "Congratulations, Doctor. You have worked very hard for this paleontology degree. Now it is time to reveal our secret. For 200 years we have been planting fossils to perpetuate the myth of dinosaurs and corrupt children. You must join our cause and bury as much evidence for evolution as you can. If you want agree... well, if there are no real dinosaurs, how will you work? And who is going to believe you?"
+    type:           "Action"
+    platforms:      ["Windows", "macOS"]
+    url:            "https://uldrendan.itch.io/big-paleo"
+    team:           [ "Daniel Clarke", "Iris Fryer" ]
+    social:         ["https://twitter.com/Uldrendan", "https://www.facebook.com/IrisFryerArt/"]
+    screenshots:    []
+    videos:         []
+- 02_Catacombs:
+  - event:          "02"
+    title:          "Catacombs"
+    description:    ""
+    type:           "Adventure"
+    platforms:      ["Windows"]
+    url:            "https://liftlock.itch.io/catacombs-"
+    team:           [ "Arin Blue", "Elisa Cote-Booth", "Emma French", "Robert French" ]
+    team-name:      "Liftlock Studios"
+    social:         ["https://twitter.com/YorBoyBlue", "", "", "https://twitter.com/qcha0s"]
+    screenshots:    []
+    videos:         []
+- 02_GameOfQuestions:
+  - event:          "02"
+    title:          "Conway's Game Of Questions"
+    description:    "The crafty reporters have created a new weapon: butterfly microphone drones! You play as Kellyanne Conway, professional question avoiding ninja. Avoid the questions for as long as you can."
+    controls:       [ "WASD", "Movement",
+                      "Space", "Jump",
+                      "Left Shift / RMB", "Dash",
+                      "Mouse", "Teleport Location",
+                      "LMB", "Teleport" ]
+    type:           "Platformer"
+    platforms:      ["Windows", "macOS", "Browser"]
+    url:            "https://ciechroma.itch.io/conways-game-of-questions"
+    team:           [ "Ben Goodwin", "Yi Fei Xue" ]
+    social:         ["", ""]
+    screenshots:    []
+    videos:         []
+- 02_FactFight:
+  - event:          "02"
+    title:          "Fact Fight"
+    description:    "You are a little journalist armed with an endless supply of factual information. You are being bombarded by alternative facts from all sides. Expose politicians using the truth, then photograph them.<br /><br />Collect 3 snaps of any politician, then get busy on social media to bring them down!"
+    controls:       [ "WSAD", "Move the journalist", 
+                      "Mouse", "Aim",
+                      "RMB", "Throw some facts.",
+                      "Shift + RMB", "Throw a fact bomb. (Bigly. Tremendous.)",
+                      "LMB", "Snap a photo. (Only works on politicians that have exposed facts.)",
+                      "Hold Q", "Social media time! (Hold for 5 seconds)" ]
+    type:           "Action"
+    platforms:      ["Browser"]
+    url:            "https://jamstone.itch.io/fact-fight"
+    team:           [ "Kirushanth Aruldas", "Ben Pinto", "Nestor Jr. Sirilan" ]
+    social:         [ "", "", "https://twitter.com/chryslenne" ]
+    screenshots:    []
+    videos:         ["https://www.youtube.com/watch?v=3sTK8lxxN1M"]
+    status:         "Solo Over 29"
+- 02_FakeNewsAsAVirus:
+  - event:          "02"
+    title:          "Fake News as a Virus"
+    description:    "Fake New has spread like a virus.<br /><br />Using a Truth Antivirus, you can shoot to eliminate the Fake New Virus.<br /><br />Watch out for the susceptible digital bots that absorb Fake News to spread misinformation, they get bigger and bigger.<br /><br />Get to 20 points before Fake News reaches -20.<br /><br />Good luck Truth Seekers."
+    type:           "Other"
+    platforms:      ["Scratch"]
+    url:            "https://bjamieson.itch.io/fake-news-as-a-virus"
+    team:           [ "Briar Jamieson",]
+    social:         [ "https://twitter.com/mbjamieson"]
+    screenshots:    []
+    videos:         []
+- 02_FutureDilemma:
+  - event:          "02"
+    title:          "Future Dilemma"
+    description:    "A 2D Local Multiplayer Action Shooter. Bullet bounces off walls, enemies, yourself, and other bullet. You can't kill another player directly, bounce it a few times and then you can kill him/her!"
+    controls:       [ "WSAD", "Movement controls",
+                      "Mouse", "Aim",
+                      "LMB", "Shoot" ]
+    type:           "Shooter"
+    platforms:      ["Windows"]
+    url:            "https://chryslenne.itch.io/future-dilemma"
+    team:           ["Kirushanth Aruldas", "Ben Pinto","Nestor Jr. Sirilan", ""]
+    social:         ["", "", "https://twitter.com/chryslenne", ""]
+    screenshots:    []
+    videos:         ["https://www.youtube.com/watch?v=3sTK8lxxN1M"]
+- 02_Gwayakotam:
+  - event:          "02"
+    title:          "Gwayakotam"
+    description:    "A platformer, exploring a world with a corporation that presents itself differently than it behaves."
+    type:           "Platformer"
+    platforms:      [ "Browser" ]
+    url:            "https://flopshotqq.itch.io/gwayakotam"
+    team:           ["Matthew Greer", "Natasha Monk"]
+    social:         ["https://twitter.com/FlopshotQQ", ""]
+    screenshots:    []
+    videos:         []
+    status:         "Team Under 30"
+- 02_HayFever:
+  - event:          "02"
+    title:          "Hay Fever"
+    description:    "The Most Extreme Endless Farm Runner! Collect hay to feed your animals while avoiding hazards in the field. Using the theme \"Alternative Facts\", this endless runner has seemingly simple controls with some surprises."
+    type:           "Platformer"
+    platforms:      [ "Windows", "macOS" ]
+    url:            "https://fooish.itch.io/hay-fever"
+    team:           ["Brendan Quigley", "Josh Reynolds", "Chris Stretten", "Rob Waite"]
+    team-name:      "The Lumberjacks"
+    social:         ["https://twitter.com/quigley_brendan", "", "https://twitter.com/ChrisStretten", "https://twitter.com/ThatRobWaite"]
+    screenshots:    []
+    videos:         []
+    status:         "Team Over 29"
+- 02_InferiorCastle:
+  - event:          "02"
+    title:          "Inferior Castle"
+    description:    "Buy the battle field, Winz da money. Two players, one screen. Take turns judging the outcome of a mini-battle. Win by getting the most money out of your opponent."
+    type:           "Other"
+    platforms:      [ "Windows", "macOS" ]
+    url:            "https://wontonimator.itch.io/ptbo-game-jam-inferior-castle"
+    team:           ["Anton Panchishin"]
+    social:         ["https://twitter.com/panchishin"]
+    screenshots:    []
+    videos:         []
+- 02_JamIt:
+  - event:          "02"
+    title:          "JamIt"
+    description:    "JamIt is a strategy game that that will love by any age group.<br /><br />Get in your desk to accumulate work time and avoid to get distracted by the junior developers! You can use the following help to get them distracted: Click at the tools button to activate Watson, while active you can make contact with it to increase your health."
+    type:           "Strategy"
+    platforms:      ["Windows"]
+    url:            "https://lady-ravenscroft.itch.io/jamit" 
+    team:           ["Ricardo Bandala", Catherine Rivera", "Scott Tromley"]
+    social:         ["", "", ""]
+    screenshots:    []
+    videos:         []
+- 02_MazeMagnitude:
+  - event:          "02"
+    title:          "Maze Magnitude"
+    description:    "Find the exit of the maze as quickly as you can, but be careful because sometimes the exit might not be where you think it is."
+    controls:       [ "WASD", "Movement",
+                      "Space", "Jump",
+                      "LMB", "Shrink",
+                      "RMB", "Grow" ]
+    type:           "Puzzle"
+    platforms:      ["Windows" , "macOS", "Linux"]
+    url:            "https://thatgamerguy67.itch.io/maze-magnitude"
+    team:           ["Matthew Kingdon"]
+    social:         ["https://twitter.com/esarkis_96"]
+    screenshots:    []
+    videos:         []
+    status:         "Solo Under 30"
+- 02_NewsAbuse:
+  - event:          "02"
+    title:          "News Abuse"
+    description:    "In News Abuse the person who decides which 'facts' are published is you."
+    controls:       [ "LMB", "Select Lead / Assign Lead to Writer / Hire Writer",
+                      "RMB", "Fire Writer",
+                      "Space", "Start Game / Begin Daily News Cycle",
+                      "M", "Toggle Music",
+                      "F4", "Toggle Fullscreen" ]
+    control-notes:  "Left click and drag articles off-screen to clear them from the site. Dragging the mouse over several articles will cause them to stack. Be careful to not accidentally clear articles that are still pulling in page views!"
+    type:           "Simulation"
+    platforms:      ["Windows"]
+    url:            "https://esarkis.itch.io/news-abuse"
+    team:           ["Elisha Sarkis"]
+    social:         ["https://twitter.com/esarkis_96"]
+    screenshots:    []
+    videos:         []
+- 02_PresidentialRace:
+  - event:          "02"
+    title:          "Presidential Race"
+    description:    ""
+    controls:       [ "WASD", "Movement",
+                      "Left CTRL", "Fire",
+                      "Space", "Jump",
+                      "Escape", "Pause" ]
+    type:           "Platformer"
+    platforms:      ["Windows", "macOS"]
+    url:            "https://limeonade.itch.io/presidential-race"
+    team:           ["Ben Prins", "Zach Prins", "Randall Romphf", "Andrew Vader Schaaf"]
+    social:         ["", "", "", ""]
+    screenshots:    []
+    videos:         [ "https://www.youtube.com/watch?v=DX6oYLn0T30" ]
+- 02_PressCorps:
+  - event:          "02"
+    title:          "Press Corps"
+    description:    "As the 4th assistant undersecretary to the Deputy Minister of Administrative Policy, ordinarily your life is pretty quiet. But today, there's rumours swirling around of a juicy leak coming from your department, and the place is swarming with journalists!<br /><br />Thankfully, you had the foresight to install secret escape tunnels a few months ago. Use them to escape the office, and don't let the journalists spot you - or, just a good, bean 'em with some heavily redacted documents to take them down."
+    controls:       [ "WASD", "Movement",
+                      "Left CTRL, Left Shift, Left ALT, Space", "Fire",
+                      "Space", "Start Game / Begin Daily News Cycle" ]
+    controls-notes: "Gamepad Supported"
+    type:           "Shooter"
+    platforms:      ["Windows", "Browser"]
+    url:            "https://rjhelms.itch.io/press-corps"
+    team:           ["Robert Hailman"]
+    social:         ["https://twitter.com/rjhelms"]
+    screenshots:    []
+    videos:         []
+- 02_RealOrClickbait:
+  - event:          "02"
+    title:          "Real or Clickbait?"
+    description:    "The point of the game is to destroy or click on the clickbait and to remove it from the room. You can also destroy the actual world news too. Once all the clickbait has been destroyed, you will be shown the statistics of how many clickbait you destroyed, and how much news you accidently destroyed."
+    type:           "Simulation"
+    url:            "https://trentgamedevclub.itch.io/real-or-clickbait"
+    platforms:      ["Windows"]
+    team:           ["Ariful Bhuiyan", "Angelica Coculla", "Alexandre Karimov", "Frank Liang", "Paul Schell", "Nicole Yaneza"]
+    social:         ["", "", "", "", "", ""]
+    screenshots:    []
+    videos:         []
+- 02_Sift:
+  - event:          "02"
+    title:          "Sift"
+    description:    "Wander through the internet in search of the truth. During your search you will run into other people on the internet and how you interact with them will determine if you find the TRUTH."
+    type:           "Other"
+    url:            "https://zamdev.itch.io/sift"
+    platforms:      ["Windows"]
+    team:           ["Austin Manning", "John Prentice"]
+    social:         ["", ""]
+    screenshots:    []
+    videos:         []
+- 02_StonehengeDodgeball:
+  - event:          "02"
+    title:          "Stonehenge Dodgeball"
+    description:    ""
+    type:           "Action"
+    url:            "https://jonnytbone.itch.io/stonehenge-dodgeball-"
+    platforms:      ["Windows"]
+    team:           ["Jonathan Thompson"]
+    social:         [""]
+    screenshots:    []
+    videos:         [ "https://www.youtube.com/watch?v=D9ZC6hPuULY" ]
+- 02_TheDrop:
+  - event:        "02"
+    title:          "The Drop"
+    description:    "Your loyal subjects have begun trumpeting for you.<br />Can you make it from your ivory tower to heed their call?<br /><br />Things aren't always as they seem..."
+    controls:       [ "WSAD", "Movement",
+                      "Mouse", "Look",
+                      "Escape", "If you can't take it anymore!" ]
+    type:           "Puzzle"
+    url:            "https://holydragoon.itch.io/the-drop"
+    platforms:      ["Windows", "macOS"]
+    team:           ["Shaun McCrum"]
+    social:         ["https://twitter.com/holydragoon"]
+    screenshots:    []
+    videos:         []
+- 02_TuberTyrants:
+  - event:          "02"
+    title:          "Tuber Tyrants"
+    description:    "Enjoy this little game of anthropomorphic root vegetables battling it out in a race to the death where the rules constantly change in a world of unexpected possibilities."
+    type:           "Platformer"
+    url:            "https://vaeillun.itch.io/tuber-tyrants"
+    platforms:      ["Windows"]
+    team:           ["Kai Ahmed", "Kwasi Asante", "Kailee Bryant", "Kevin Garland", "Peter Tran"]
+    social:         ["", "", "", "", ""]
+    screenshots:    []
+    videos:         []
+- 02_YugeWall:
+  - event:          "02"
+    title:          "Yuge Wall"
+    description:    "Fix it with money!"
+    controls:       [ "Left / Right", "Movement", 
+                      "Up / Down", "Aim Turret",
+                      "Space", "Fire Money" ]
+    type:           "Shooter"
+    url:            "https://lazymammal.itch.io/yuge-wall"
+    platforms:      ["Windows", "macOS", "Linux"]
+    team:           ["Dennis Carlstrom"]
+    social:         ["https://twitter.com/LazyMammalGames"]
+    screenshots:    []
+    videos:         []
