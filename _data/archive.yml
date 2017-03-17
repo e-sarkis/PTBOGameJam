@@ -6,6 +6,7 @@
   url:            "https://jodieee.itch.io/alternative-axe"
   team:           [ "Jodie Eagleson" ]
   social:         ["https://www.facebook.com/jodie.guacamoleii"]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/alternativeaxe-000.jpg", "/content/img/event/02/screenshots/alternativeaxe-000.jpg"],
                     ["/content/img/event/02/screenshots-small/alternativeaxe-001.jpg", "/content/img/event/02/screenshots/alternativeaxe-001.jpg"] ]
   videos:         []
@@ -18,6 +19,7 @@
   url:            "https://uldrendan.itch.io/big-paleo"
   team:           [ "Daniel Clarke", "Iris Fryer" ]
   social:         ["https://twitter.com/Uldrendan", "https://www.facebook.com/IrisFryerArt/"]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/bigpaleo-000.jpg", "/content/img/event/02/screenshots/bigpaleo-000.jpg"],
                     ["/content/img/event/02/screenshots-small/bigpaleo-001.jpg", "/content/img/event/02/screenshots/bigpaleo-001.jpg"],
                     ["/content/img/event/02/screenshots-small/bigpaleo-002.jpg", "/content/img/event/02/screenshots/bigpaleo-002.jpg"] ]
@@ -32,6 +34,7 @@
   team:           [ "Arin Blue", "Elisa Cote-Booth", "Emma French", "Robert French" ]
   team-name:      "Liftlock Studios"
   social:         ["https://twitter.com/YorBoyBlue", "", "", "https://twitter.com/qcha0s"]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/catacombs-000.jpg", "/content/img/event/02/screenshots/catacombs-000.jpg"],
                     ["/content/img/event/02/screenshots-small/catacombs-001.jpg", "/content/img/event/02/screenshots/catacombs-001.jpg"],
                     ["/content/img/event/02/screenshots-small/catacombs-002.jpg", "/content/img/event/02/screenshots/catacombs-002.jpg"] ]
@@ -50,6 +53,7 @@
   url:            "https://ciechroma.itch.io/conways-game-of-questions"
   team:           [ "Ben Goodwin", "Yi Fei Xue" ]
   social:         ["", ""]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/gameofquestions-000.jpg", "/content/img/event/02/screenshots/gameofquestions-000.jpg"],
                     ["/content/img/event/02/screenshots-small/gameofquestions-001.jpg", "/content/img/event/02/screenshots/gameofquestions-001.jpg"] ]
   videos:         []
@@ -68,6 +72,7 @@
   url:            "https://jamstone.itch.io/fact-fight"
   team:           [ "Kirushanth Aruldas", "Ben Pinto", "Nestor Jr. Sirilan" ]
   social:         [ "", "", "https://twitter.com/chryslenne" ]
+  need-title:     true
   screenshots:    [ ["/content/img/event/02/screenshots-small/factfight-000.jpg", "/content/img/event/02/screenshots/factfight-000.jpg"] ]
   videos:         ["https://www.youtube.com/watch?v=3sTK8lxxN1M"]
   status:         "Solo Over 29"
@@ -80,6 +85,7 @@
   url:            "https://bjamieson.itch.io/fake-news-as-a-virus"
   team:           [ "Briar Jamieson",]
   social:         [ "https://twitter.com/mbjamieson"]
+  need-title:     true
   screenshots:    [ ["/content/img/event/02/screenshots-small/fakevirus-000.jpg", "/content/img/event/02/screenshots/fakevirus-000.jpg"],
                     ["/content/img/event/02/screenshots-small/fakevirus-001.jpg", "/content/img/event/02/screenshots/fakevirus-001.jpg"] ]
   videos:         []
@@ -95,6 +101,7 @@
   url:            "https://chryslenne.itch.io/future-dilemma"
   team:           ["Kirushanth Aruldas", "Ben Pinto","Nestor Jr. Sirilan", ""]
   social:         ["", "", "https://twitter.com/chryslenne", ""]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/futuredilemma-000.jpg", "/content/img/event/02/screenshots/futuredilemma-000.jpg"],
                     ["/content/img/event/02/screenshots-small/futuredilemma-001.jpg", "/content/img/event/02/screenshots/futuredilemma-001.jpg"] ]
   videos:         ["https://www.youtube.com/watch?v=3sTK8lxxN1M"]
@@ -107,6 +114,7 @@
   url:            "https://flopshotqq.itch.io/gwayakotam"
   team:           ["Matthew Greer", "Natasha Monk"]
   social:         ["https://twitter.com/FlopshotQQ", ""]
+  need-title:     true
   screenshots:    [ ["/content/img/event/02/screenshots-small/gwayakotam-000.jpg", "/content/img/event/02/screenshots/gwayakotam-000.jpg"],
                     ["/content/img/event/02/screenshots-small/gwayakotam-001.jpg", "/content/img/event/02/screenshots/gwayakotam-001.jpg"],
                     ["/content/img/event/02/screenshots-small/gwayakotam-002.jpg", "/content/img/event/02/screenshots/gwayakotam-002.jpg"] ]
@@ -135,6 +143,7 @@
   url:            "https://wontonimator.itch.io/ptbo-game-jam-inferior-castle"
   team:           ["Anton Panchishin"]
   social:         ["https://twitter.com/panchishin"]
+  need-title:     true
   screenshots:    [ ["/content/img/event/02/screenshots-small/inferiorcastle-000.jpg", "/content/img/event/02/screenshots/inferiorcastle-000.jpg"],
                     ["/content/img/event/02/screenshots-small/inferiorcastle-001.jpg", "/content/img/event/02/screenshots/inferiorcastle-001.jpg"] ]
   videos:         []
@@ -147,6 +156,7 @@
   url:            "https://lady-ravenscroft.itch.io/jamit" 
   team:           ["Ricardo Bandala", Catherine Rivera", "Scott Tromley"]
   social:         ["", "", ""]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/jamit-000.jpg", "/content/img/event/02/screenshots/jamit-000.jpg"],
                     ["/content/img/event/02/screenshots-small/jamit-001.jpg", "/content/img/event/02/screenshots/jamit-001.jpg"] ]
   videos:         []
@@ -163,6 +173,7 @@
   url:            "https://thatgamerguy67.itch.io/maze-magnitude"
   team:           ["Matthew Kingdon"]
   social:         ["https://twitter.com/esarkis_96"]
+  need-title:     true
   screenshots:    [ ["/content/img/event/02/screenshots-small/mazemagnitude-000.jpg", "/content/img/event/02/screenshots/mazemagnitude-000.jpg"],
                     ["/content/img/event/02/screenshots-small/mazemagnitude-001.jpg", "/content/img/event/02/screenshots/mazemagnitude-001.jpg"] ]
   videos:         []
@@ -182,6 +193,7 @@
   url:            "https://esarkis.itch.io/news-abuse"
   team:           ["Elisha Sarkis"]
   social:         ["https://twitter.com/esarkis_96"]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/newsabuse-000.jpg", "/content/img/event/02/screenshots/newsabuse-000.jpg"],
                     ["/content/img/event/02/screenshots-small/newsabuse-001.jpg", "/content/img/event/02/screenshots/newsabuse-001.jpg"],
                     ["/content/img/event/02/screenshots-small/newsabuse-002.jpg", "/content/img/event/02/screenshots/newsabuse-002.jpg"] ]
@@ -199,6 +211,7 @@
   url:            "https://limeonade.itch.io/presidential-race"
   team:           ["Ben Prins", "Zach Prins", "Randall Romphf", "Andrew Vader Schaaf"]
   social:         ["", "", "", ""]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/presidentialrace-000.jpg", "/content/img/event/02/screenshots/presidentialrace-000.jpg"],
                     ["/content/img/event/02/screenshots-small/presidentialrace-001.jpg", "/content/img/event/02/screenshots/presidentialrace-001.jpg"],
                     ["/content/img/event/02/screenshots-small/presidentialrace-002.jpg", "/content/img/event/02/screenshots/presidentialrace-002.jpg"] ]
@@ -216,6 +229,7 @@
   url:            "https://rjhelms.itch.io/press-corps"
   team:           ["Robert Hailman"]
   social:         ["https://twitter.com/rjhelms"]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/presscorps-000.jpg", "/content/img/event/02/screenshots/presscorps-000.jpg"],
                     ["/content/img/event/02/screenshots-small/presscorps-001.jpg", "/content/img/event/02/screenshots/presscorps-001.jpg"],
                     ["/content/img/event/02/screenshots-small/presscorps-002.jpg", "/content/img/event/02/screenshots/presscorps-002.jpg"] ]
@@ -229,6 +243,7 @@
   platforms:      ["Windows"]
   team:           ["Ariful Bhuiyan", "Angelica Coculla", "Alexandre Karimov", "Frank Liang", "Paul Schell", "Nicole Yaneza"]
   social:         ["", "", "", "", "", ""]
+  need-title:     true
   screenshots:    []
   videos:         []
 
@@ -240,6 +255,7 @@
   platforms:      ["Windows"]
   team:           ["Austin Manning", "John Prentice"]
   social:         ["", ""]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/sift-000.jpg", "/content/img/event/02/screenshots/sift-000.jpg"],
                     ["/content/img/event/02/screenshots-small/sift-001.jpg", "/content/img/event/02/screenshots/sift-001.jpg"],
                     ["/content/img/event/02/screenshots-small/sift-002.jpg", "/content/img/event/02/screenshots/sift-002.jpg"] ]
@@ -253,6 +269,7 @@
   platforms:      ["Windows"]
   team:           ["Jonathan Thompson"]
   social:         [""]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/stonehenge-000.jpg", "/content/img/event/02/screenshots/stonehenge-000.jpg"],
                     ["/content/img/event/02/screenshots-small/stonehenge-001.jpg", "/content/img/event/02/screenshots/stonehenge-001.jpg"],
                     ["/content/img/event/02/screenshots-small/stonehenge-002.jpg", "/content/img/event/02/screenshots/stonehenge-002.jpg"] ]
@@ -269,6 +286,7 @@
   platforms:      ["Windows", "macOS"]
   team:           ["Shaun McCrum"]
   social:         ["https://twitter.com/holydragoon"]
+  need-title:     true
   screenshots:    []
   videos:         []
 
@@ -280,6 +298,7 @@
   platforms:      ["Windows"]
   team:           ["Kai Ahmed", "Kwasi Asante", "Kailee Bryant", "Kevin Garland", "Peter Tran"]
   social:         ["", "", "", "", ""]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/tubertyrants-000.jpg", "/content/img/event/02/screenshots/tubertyrants-000.jpg"],
                     ["/content/img/event/02/screenshots-small/tubertyrants-001.jpg", "/content/img/event/02/screenshots/tubertyrants-001.jpg"] ]
   videos:         []
@@ -295,6 +314,7 @@
   platforms:      ["Windows", "macOS", "Linux"]
   team:           ["Dennis Carlstrom"]
   social:         ["https://twitter.com/LazyMammalGames"]
+  need-title:     false
   screenshots:    [ ["/content/img/event/02/screenshots-small/yugewall-000.jpg", "/content/img/event/02/screenshots/yugewall-000.jpg"],
                     ["/content/img/event/02/screenshots-small/yugewall-001.jpg", "/content/img/event/02/screenshots/yugewall-001.jpg"],
                     ["/content/img/event/02/screenshots-small/yugewall-002.jpg", "/content/img/event/02/screenshots/yugewall-002.jpg"] ]
