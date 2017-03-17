@@ -16,13 +16,26 @@ script: "archive"
       </div>
       <div class="jx-title jx-title-light jx-uppercase">PTBO Game Jam 02</div>
       <div class="jx-subtitle"><p>We're just getting started and are looking at how to best archive the games, but for now we'll stick with linking to the itch.io system.</p></div>
-		</div>
-    <div class="eight columns text-center">
+    </div>
+    <div class="grid">
         {% for item in site.data.archive %}
             {% if item.event == "02" %}
-            
-                {{ item.title }}<br />
-
+                <div class="grid-item" id="{{ item.title | slugify }}">
+                    <div class="archive-title">{{ item.title }}</div>
+                    <div class="archive-category">{{ item.type }}</div>
+                    {% if item.screenshots[0] %}
+                        <img src="{{ item.screenshots[0][0] | prepend: site.baseurl }}" alt="{{ item.title }}"/>
+                    {% else %}
+                        <img src="{{ "/content/img/event/game-template.jpg" | prepend: site.baseurl }}" alt="{{ item.title }}"/>
+                    {% endif %}
+<!--                    
+                    {% for screenshot in item.screenshots %}
+                        {{ screenshot[0] }}
+                    {% endfor %}-->
+                </div>
+                <div class="grid-item-details" id="{{ item.title | slugify }}_details">
+                    Details about the item
+                </div>
             {% endif %}
         {% endfor %}
     </div>
