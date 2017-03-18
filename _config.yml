@@ -32,6 +32,23 @@ permalink: /blog/:year/:month/:day/:title/
 # Show Future Posts
 future: true
 
+# Custom Collections
+collections:
+  archive:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post-default"
+  - scope:
+      path: ""
+      type: "archive"
+    values:
+      layout: "default"
+
 # Site settings
 title: PTBO Game Jam
 email: "hello@ptbogamejam.com"
