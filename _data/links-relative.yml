@@ -5,6 +5,7 @@ tags:               "/blog/tags/"
 media:              "/media/"
 brand:              "/brand/"
 legal:              "/legal/"
+archive:            "/archive/"
 
 files-releases:     "/files/releases/"
 
