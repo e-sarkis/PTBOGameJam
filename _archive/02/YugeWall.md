@@ -13,6 +13,7 @@ need-title:     false
 screenshots:    [ ["/content/img/event/02/screenshots-small/yugewall-000.jpg", "/content/img/event/02/screenshots/yugewall-000.jpg"],
                 ["/content/img/event/02/screenshots-small/yugewall-001.jpg", "/content/img/event/02/screenshots/yugewall-001.jpg"],
                 ["/content/img/event/02/screenshots-small/yugewall-002.jpg", "/content/img/event/02/screenshots/yugewall-002.jpg"] ]
+teamshots:      [["/content/img/event/02/release/028.jpg", "/files/events/02/PTBOGameJam02-028.png"]]
 
 submitted:      true
 titlebar:       title-007.jpg

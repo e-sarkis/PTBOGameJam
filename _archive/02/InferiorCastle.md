@@ -9,7 +9,7 @@ social:         ["https://twitter.com/panchishin"]
 need-title:     true
 screenshots:    [ ["/content/img/event/02/screenshots-small/inferiorcastle-000.jpg", "/content/img/event/02/screenshots/inferiorcastle-000.jpg"],
                 ["/content/img/event/02/screenshots-small/inferiorcastle-001.jpg", "/content/img/event/02/screenshots/inferiorcastle-001.jpg"] ]
-
+teamshots:      [["/content/img/event/02/release/027.jpg", "/files/events/02/PTBOGameJam02-027.png"]]
 submitted:      true
 titlebar:       title-007.jpg
 ---

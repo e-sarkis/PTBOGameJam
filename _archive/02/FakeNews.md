@@ -9,7 +9,7 @@ social:         [ "https://twitter.com/mbjamieson"]
 need-title:     true
 screenshots:    [ ["/content/img/event/02/screenshots-small/fakevirus-000.jpg", "/content/img/event/02/screenshots/fakevirus-000.jpg"],
                 ["/content/img/event/02/screenshots-small/fakevirus-001.jpg", "/content/img/event/02/screenshots/fakevirus-001.jpg"] ]
-
+teamshots:      [["/content/img/event/02/release/035.jpg", "/files/events/02/PTBOGameJam02-035.png"]]
 submitted:      true
 titlebar:       title-007.jpg
 ---

@@ -14,7 +14,7 @@ need-title:     false
 screenshots:    [ ["/content/img/event/02/screenshots-small/presscorps-000.jpg", "/content/img/event/02/screenshots/presscorps-000.jpg"],
                 ["/content/img/event/02/screenshots-small/presscorps-001.jpg", "/content/img/event/02/screenshots/presscorps-001.jpg"],
                 ["/content/img/event/02/screenshots-small/presscorps-002.jpg", "/content/img/event/02/screenshots/presscorps-002.jpg"] ]
-
+teamshots:      [["/content/img/event/02/release/030.jpg", "/files/events/02/PTBOGameJam02-030.png"]]
 submitted:      true
 titlebar:       title-007.jpg
 ---

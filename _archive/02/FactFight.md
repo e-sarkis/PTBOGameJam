@@ -14,6 +14,7 @@ team:           [ "Jeffrey Moore" ]
 social:         [ "" ]
 need-title:     true
 screenshots:    [ ["/content/img/event/02/screenshots-small/factfight-000.jpg", "/content/img/event/02/screenshots/factfight-000.jpg"] ]
+teamshots:      [["/content/img/event/02/release/029.jpg", "/files/events/02/PTBOGameJam02-029.png"]]
 status:         "Top Solo Over 29 Entry"
 
 submitted:      true

@@ -16,7 +16,7 @@ screenshots:    [ ["/content/img/event/02/screenshots-small/presidentialrace-000
                 ["/content/img/event/02/screenshots-small/presidentialrace-001.jpg", "/content/img/event/02/screenshots/presidentialrace-001.jpg"],
                 ["/content/img/event/02/screenshots-small/presidentialrace-002.jpg", "/content/img/event/02/screenshots/presidentialrace-002.jpg"] ]
 videos:         [ "https://www.youtube.com/embed/DX6oYLn0T30" ]
-
+teamshots:      [["/content/img/event/02/release/022.jpg", "/files/events/02/PTBOGameJam02-022.png"]]
 submitted:      true
 titlebar:       title-007.jpg
 ---

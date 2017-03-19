@@ -11,6 +11,7 @@ team:           ["Shaun McCrum"]
 social:         ["https://twitter.com/holydragoon"]
 need-title:     true
 screenshots:    []
+teamshots:      [["/content/img/event/02/release/023.jpg", "/files/events/02/PTBOGameJam02-023.png"]]
 
 submitted:      true
 titlebar:       title-007.jpg

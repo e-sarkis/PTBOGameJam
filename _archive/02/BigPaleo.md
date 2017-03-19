@@ -10,7 +10,7 @@ need-title:     false
 screenshots:    [ ["/content/img/event/02/screenshots-small/bigpaleo-000.jpg", "/content/img/event/02/screenshots/bigpaleo-000.jpg"],
                 ["/content/img/event/02/screenshots-small/bigpaleo-001.jpg", "/content/img/event/02/screenshots/bigpaleo-001.jpg"],
                 ["/content/img/event/02/screenshots-small/bigpaleo-002.jpg", "/content/img/event/02/screenshots/bigpaleo-002.jpg"] ]
-
+teamshots:      [["/content/img/event/02/release/033.jpg", "/files/events/02/PTBOGameJam02-033.png"]]
 submitted:      true
 titlebar:       title-007.jpg
 ---

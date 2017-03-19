@@ -9,7 +9,8 @@ social:         ["https://www.facebook.com/jodie.guacamoleii"]
 need-title:     false
 screenshots:    [ ["/content/img/event/02/screenshots-small/alternativeaxe-000.jpg", "/content/img/event/02/screenshots/alternativeaxe-000.jpg"],
                 ["/content/img/event/02/screenshots-small/alternativeaxe-001.jpg", "/content/img/event/02/screenshots/alternativeaxe-001.jpg"] ]
-
+teamshots:      [["/content/img/event/02/release/014.jpg", "/files/events/02/PTBOGameJam02-014.png"],
+                 ["/content/img/event/02/release/032.jpg", "/files/events/02/PTBOGameJam02-032.png"]]
 submitted:      true
 titlebar:       title-007.jpg
 ---

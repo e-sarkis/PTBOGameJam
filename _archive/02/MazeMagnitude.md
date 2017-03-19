@@ -14,7 +14,7 @@ need-title:     true
 screenshots:    [ ["/content/img/event/02/screenshots-small/mazemagnitude-000.jpg", "/content/img/event/02/screenshots/mazemagnitude-000.jpg"],
                 ["/content/img/event/02/screenshots-small/mazemagnitude-001.jpg", "/content/img/event/02/screenshots/mazemagnitude-001.jpg"] ]
 status:         "Top Solo Under 30 Entry"
-
+teamshots:      [["/content/img/event/02/release/018.jpg", "/files/events/02/PTBOGameJam02-018.png"]]
 submitted:      true
 titlebar:       title-007.jpg
 ---
