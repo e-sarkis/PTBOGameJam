@@ -1,0 +1,137 @@
+---
+layout: default
+title: "01"
+permalink: /archive/01/
+highlight: archive
+titlebar: title-005.jpg
+script: "archive"
+breadcrumb: archive
+---
+
+<!-- Header -->
+<div id="section" class="jx-container jx-padding container-no-margin fractal-b-000">
+  <div class="container">
+      <div class="eight columns">
+        <div class="jx-section-title title-light jx-dark">
+          <div class="jx-title jx-uppercase">PTBO Game Jam <span>01</span></div>
+          <div class="jx-hr-title"></div>
+        </div>
+        <div class="section-content">
+          <p>Our inaugural event was held <strong>August 13 to 14, 2016</strong> at the Holiday Inn Peterborough-Waterfront. It was an astounding success, drawing <strong>more than 40 visitors</strong> to the venue, with <strong>17 developers</strong> participating as jammers over the weekend. With 78 slices of pizza being consumed by jammers whilst working on <strong>11 games</strong>, based on our controversial <strong>Cats On Leashes</strong> theme.</p>
+          <p>A special thanks to <strong>dotBunny</strong>, <strong>Epic Games</strong>, <strong>Unity</strong>, <strong>Igniter Tickets</strong>, <strong>GitHub</strong>, <strong>Funky Rustic</strong>, and <strong>ardeeXYZ</strong> for their invaluable support of this event.</p>
+        </div>
+      </div>
+      <div class="eight columns">
+        <div class="content-spacer"><iframe src="https://player.vimeo.com/video/178906574" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+      </div>
+  </div>
+</div>
+
+<!-- 02 Games List -->
+<div id='gallery' class="jx-container container-no-margin jx-padding background-005">
+  <div class="container ">
+    <div class="jx-team-item jx-team-box-content">
+        <a name="team"><div class="jx-title jx-uppercase">Completed <span>Games</span></div></a>
+        <div class="jx-hr-title"></div>
+    </div>
+    {% for item in site.archive %}
+        {% if item.event == "01" and item.submitted == true %}
+        <div class="jx-grid-item ">
+          <div class="jx-image jx-image-wrapper">
+            {% if item.screenshots[0] %}
+            <img class="max-width" src="{{ item.screenshots[0][0] | prepend: site.baseurl }}" alt="{{ item.title }}"/>
+            {% else %}
+            <img class="max-width" src="{{ "/content/img/event/game-template.jpg" | prepend: site.baseurl }}" alt="{{ item.title }}"/>
+            {% endif %}
+            <a href="{{ item.url | prepend: site.baseurl }}">
+              <div class="jx-image-overlayer"></div>
+              <div class="jx-image-hover">
+                <i class="icon-link"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+
+    {% assign unfinished = false %}
+    {% for item in site.archive %}
+        {% if item.event == "01" and item.submitted == false %}
+          {% assign unfinished = true %}
+        {% endif %}
+    {% endfor %}
+  
+    {% if unfinished == true %}
+    <div class="games-row"></div>
+    <div class="jx-team-item jx-team-box-content">
+        <a name="team"><div class="jx-title jx-uppercase">Unfinished <span>Games</span></div></a>
+        <div class="jx-hr-title"></div>
+    </div>
+        {% for item in site.archive %}
+          {% if item.event == "01" and item.submitted == false %}
+        <div class="jx-grid-item ">
+          <div class="jx-image jx-image-wrapper">
+            {% if item.screenshots[0] %}
+            <img class="max-width" src="{{ item.screenshots[0][0] | prepend: site.baseurl }}" alt="{{ item.title }}"/>
+            {% else %}
+            <img class="max-width" src="{{ "/content/img/event/game-template.jpg" | prepend: site.baseurl }}" alt="{{ item.title }}"/>
+            {% endif %}
+            <a href="{{ item.url | prepend: site.baseurl }}">
+              <div class="jx-image-overlayer"></div>
+              <div class="jx-image-hover">
+                <i class="icon-link"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+          {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+
+<!-- Videos -->
+<div id='gallery' class="jx-container container-no-margin jx-padding background-003">
+  <div class="container ">
+      <div class="jx-section-title-1 jx-dark">
+
+          <div class="jx-pre-title jx-short-border">
+          <div class="jx-title-icon-light"><i class="icon-video"></i></div>
+          </div>
+          <div class="jx-title jx-title-light jx-uppercase">Videos</div>
+          <div class="jx-subtitle"><p>We just started getting our feet wet with video production for this event, seeing the value in creating multimedia content to drive marketing for the event. We established a few things at this early stage, including our iconic audio rift.</p></div>
+      </div>
+      {% for video in site.data.media-videos %}
+        {% if video.event == "01" %}
+      <div class="jx-grid-item jx-grid-item-full">
+        <iframe class="release-video" id="{{video.vimeo}}" src="https://player.vimeo.com/video/{{video.vimeo}}?api=1&player_id={{video.vimeo}}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen width="100%"></iframe>
+        <div class="media-video-download"><a href="{{ video.url }}">{{ video.title }}</a></div>
+      </div>
+        {% endif %}
+      {% endfor %}
+  </div>
+</div>
+
+<!-- Gallery -->
+<div id='gallery' class="jx-container container-no-margin jx-padding jx-black-bg background-008">
+  <div class="container ">
+      <div class="jx-section-title-1 jx-dark">
+          <div class="jx-pre-title jx-short-border">
+            <div class="jx-title-icon"><i class="icon-picture color-white"></i></div>
+          </div>
+          <div class="jx-title jx-uppercase">Photos</div>
+          <div class="jx-subtitle"><p>We learned an incredible amount this first event, especially when it came to needing seperate cameras to take shots around the event. We were able to grab some screen grabs from the video, and they do look pretty cool.</p></div>
+      </div>
+      {% for image in site.data.01-gallery %}
+      <div class="jx-grid-item">
+          <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
+            <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}" data-rel="prettyPhoto">
+              <div class="jx-image-overlayer"></div>
+              <div class="jx-image-hover"><i class="icon-zoom-in"></i></div>
+            </a>
+          </div>
+      </div>
+      {% endfor %}
+    </div>
+</div>
+{% include block-summary.html %}
