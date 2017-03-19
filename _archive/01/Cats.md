@@ -1,13 +1,12 @@
 ---
-title:          "Get Off My Lawn"
+title:          "Cats"
 event:          "01"
-controls:       [ ["Mouse", "Aim Sprinkler"], 
-                ["LMB", "Spray"]]
-genre:          ["Shooter"]
-link:           "https://lazymammal.itch.io/cats"
-platforms:      ["Windows", "Android"]
-team:           ["Dennis Carlstrom"]
-social:         ["https://twitter.com/LazyMammalGames"]
+controls:       [ ["Space", "Jump"]]
+genre:          ["Platformer"]
+link:           "https://betajaen.itch.io/cats"
+platforms:      ["Browser"]
+team:           ["Robin Southern"]
+social:         [""]
 need-title:     false
 screenshots:    []
 submitted:      true

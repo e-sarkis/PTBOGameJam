@@ -8,7 +8,7 @@ genre:          ["Shooter"]
 platforms:      ["Windows"]
 link:           "https://chryslenne.itch.io/future-dilemma"
 team:           ["Kirushanth Aruldas", "Ben Pinto","Nestor Jr. Sirilan"]
-social:         ["", "", "https://twitter.com/chryslenne"]
+social:         ["", "https://twitter.com/Pyntow", "https://twitter.com/chryslenne"]
 need-title:     false
 screenshots:    [ ["/content/img/event/02/screenshots-small/futuredilemma-000.jpg", "/content/img/event/02/screenshots/futuredilemma-000.jpg"],
                 ["/content/img/event/02/screenshots-small/futuredilemma-001.jpg", "/content/img/event/02/screenshots/futuredilemma-001.jpg"] ]

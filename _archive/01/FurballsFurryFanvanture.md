@@ -10,7 +10,7 @@ need-title:     false
 controls:       [["WASD", "Shoot Hairballs"], ["Arrow Keys", "Movement"]]
 screenshots:    []
 submitted:      true
-titlebar:       title-007.jpg
+titlebar:       title-005.jpg
 ---
 Cityhall has declared a new law stating that all cats must be on leashes at all times. While the townsfolk go along with this new law, you (Furball the Cat) will not.
 <br /><br />
