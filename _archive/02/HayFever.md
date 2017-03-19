@@ -9,7 +9,7 @@ team-name:      "The Lumberjacks"
 social:         ["https://twitter.com/quigley_brendan", "", "https://twitter.com/ChrisStretten", "https://twitter.com/ThatRobWaite"]
 screenshots:    [ ["/content/img/event/02/screenshots-small/hayfever-000.jpg", "/content/img/event/02/screenshots/hayfever-000.jpg"],
                 ["/content/img/event/02/screenshots-small/hayfever-001.jpg", "/content/img/event/02/screenshots/hayfever-001.jpg"] ]
-status:         "Team Over 29"
+status:         "Top Team Over 29 Entry"
 
 submitted:      true
 titlebar:       title-007.jpg

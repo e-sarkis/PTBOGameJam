@@ -13,7 +13,7 @@ social:         [""]
 need-title:     true
 screenshots:    [ ["/content/img/event/02/screenshots-small/mazemagnitude-000.jpg", "/content/img/event/02/screenshots/mazemagnitude-000.jpg"],
                 ["/content/img/event/02/screenshots-small/mazemagnitude-001.jpg", "/content/img/event/02/screenshots/mazemagnitude-001.jpg"] ]
-status:         "Solo Under 30"
+status:         "Top Solo Under 30 Entry"
 
 submitted:      true
 titlebar:       title-007.jpg

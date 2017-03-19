@@ -31,6 +31,9 @@ layout: default
             <div class="jx-blog-metabox jx-single">
               <span class="meta_categories"><i class="icon-link"></i>
                 <a href="{{ page.link }}" title="{{page.title}}">{{ page.link }}</a>
+                {% if page.status %}
+                <div class="game-status">{{ page.status }}</div>
+                {% endif %}
               </span>
             </div>
             <article>

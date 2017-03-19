@@ -14,7 +14,7 @@ team:           [ "Jeffrey Moore" ]
 social:         [ "" ]
 need-title:     true
 screenshots:    [ ["/content/img/event/02/screenshots-small/factfight-000.jpg", "/content/img/event/02/screenshots/factfight-000.jpg"] ]
-status:         "Solo Over 29"
+status:         "Top Solo Over 29 Entry"
 
 submitted:      true
 titlebar:       title-007.jpg

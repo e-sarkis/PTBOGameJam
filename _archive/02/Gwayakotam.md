@@ -10,7 +10,7 @@ need-title:     true
 screenshots:    [ ["/content/img/event/02/screenshots-small/gwayakotam-000.jpg", "/content/img/event/02/screenshots/gwayakotam-000.jpg"],
                 ["/content/img/event/02/screenshots-small/gwayakotam-001.jpg", "/content/img/event/02/screenshots/gwayakotam-001.jpg"],
                 ["/content/img/event/02/screenshots-small/gwayakotam-002.jpg", "/content/img/event/02/screenshots/gwayakotam-002.jpg"] ]
-status:         "Team Under 30"
+status:         "Top Team Under 30 Entry"
 
 submitted:      true
 titlebar:       title-007.jpg
