@@ -3,13 +3,12 @@ title:          "Alternative Axe"
 event:          "02"
 genre:          ["Shooter"]
 platforms:      ["Windows"]
-url:            "https://jodieee.itch.io/alternative-axe"
+link:           "https://jodieee.itch.io/alternative-axe"
 team:           [ "Jodie Eagleson" ]
 social:         ["https://www.facebook.com/jodie.guacamoleii"]
 need-title:     false
 screenshots:    [ ["/content/img/event/02/screenshots-small/alternativeaxe-000.jpg", "/content/img/event/02/screenshots/alternativeaxe-000.jpg"],
                 ["/content/img/event/02/screenshots-small/alternativeaxe-001.jpg", "/content/img/event/02/screenshots/alternativeaxe-001.jpg"] ]
-videos:         []
 
 submitted:      true
 titlebar:       title-007.jpg

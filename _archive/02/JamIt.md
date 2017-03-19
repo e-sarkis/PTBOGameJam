@@ -3,13 +3,12 @@ title:          "JamIt"
 event:          "02"
 genre:          ["Strategy"]
 platforms:      ["Windows"]
-url:            "https://lady-ravenscroft.itch.io/jamit" 
+link:           "https://lady-ravenscroft.itch.io/jamit" 
 team:           ["Ricardo Bandala", Catherine Rivera", "Scott Tromley"]
 social:         ["", "", ""]
 need-title:     false
 screenshots:    [ ["/content/img/event/02/screenshots-small/jamit-000.jpg", "/content/img/event/02/screenshots/jamit-000.jpg"],
                 ["/content/img/event/02/screenshots-small/jamit-001.jpg", "/content/img/event/02/screenshots/jamit-001.jpg"] ]
-videos:         []
 
 submitted:      true
 titlebar:       title-007.jpg

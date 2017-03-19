@@ -24,6 +24,21 @@
     </div>
   </div>
 
+   <!-- VIDEOS -->
+   {% if page.videos %}
+  <div class="jx-sidebar-widget">
+    <div id="recent-posts-4" class="widget widget_recent_entries">
+      <div class="sub">
+        <h4>Videos</h4>
+        <div class="jx-right-pattern"></div>
+      </div>
+      {% for video in page.videos %}
+      <iframe class="release-video" id="video-{{ forloop.index0 }}" src="{{ video }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen width="100%"></iframe>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
   <!-- GENRE -->
   <div class="jx-sidebar-widget">
     <div id="recent-posts-4" class="widget widget_recent_entries">
@@ -55,6 +70,8 @@
       </ul>
     </div>
   </div>
+
+
 
 
 </div>

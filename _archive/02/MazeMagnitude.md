@@ -7,13 +7,12 @@ controls:       [ ["WASD", "Movement"],
                 ["RMB", "Grow"] ]
 genre:          ["Puzzle", "Platformer"]
 platforms:      ["Windows" , "macOS", "Linux"]
-url:            "https://thatgamerguy67.itch.io/maze-magnitude"
+link:           "https://thatgamerguy67.itch.io/maze-magnitude"
 team:           ["Matthew Kingdon"]
 social:         [""]
 need-title:     true
 screenshots:    [ ["/content/img/event/02/screenshots-small/mazemagnitude-000.jpg", "/content/img/event/02/screenshots/mazemagnitude-000.jpg"],
                 ["/content/img/event/02/screenshots-small/mazemagnitude-001.jpg", "/content/img/event/02/screenshots/mazemagnitude-001.jpg"] ]
-videos:         []
 status:         "Solo Under 30"
 
 submitted:      true

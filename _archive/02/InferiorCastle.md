@@ -3,13 +3,12 @@ title:          "Inferior Castle"
 event:          "02"
 genre:          ["Strategy"]
 platforms:      [ "Windows", "macOS" ]
-url:            "https://wontonimator.itch.io/ptbo-game-jam-inferior-castle"
+link:           "https://wontonimator.itch.io/ptbo-game-jam-inferior-castle"
 team:           ["Anton Panchishin"]
 social:         ["https://twitter.com/panchishin"]
 need-title:     true
 screenshots:    [ ["/content/img/event/02/screenshots-small/inferiorcastle-000.jpg", "/content/img/event/02/screenshots/inferiorcastle-000.jpg"],
                 ["/content/img/event/02/screenshots-small/inferiorcastle-001.jpg", "/content/img/event/02/screenshots/inferiorcastle-001.jpg"] ]
-videos:         []
 
 submitted:      true
 titlebar:       title-007.jpg

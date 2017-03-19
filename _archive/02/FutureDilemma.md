@@ -6,13 +6,13 @@ controls:       [ ["WSAD", "Movement controls"],
                 ["LMB", "Shoot"] ]
 genre:          ["Shooter"]
 platforms:      ["Windows"]
-url:            "https://chryslenne.itch.io/future-dilemma"
-team:           ["Kirushanth Aruldas", "Ben Pinto","Nestor Jr. Sirilan", ""]
-social:         ["", "", "https://twitter.com/chryslenne", ""]
+link:           "https://chryslenne.itch.io/future-dilemma"
+team:           ["Kirushanth Aruldas", "Ben Pinto","Nestor Jr. Sirilan"]
+social:         ["", "", "https://twitter.com/chryslenne"]
 need-title:     false
 screenshots:    [ ["/content/img/event/02/screenshots-small/futuredilemma-000.jpg", "/content/img/event/02/screenshots/futuredilemma-000.jpg"],
                 ["/content/img/event/02/screenshots-small/futuredilemma-001.jpg", "/content/img/event/02/screenshots/futuredilemma-001.jpg"] ]
-videos:         ["https://www.youtube.com/watch?v=3sTK8lxxN1M"]
+videos:         ["https://www.youtube.com/embed/3sTK8lxxN1M"]
 
 submitted:      true
 titlebar:       title-007.jpg

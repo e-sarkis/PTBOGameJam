@@ -5,13 +5,12 @@ controls:       [ ["WSAD", "Movement"],
                 ["Mouse", "Look"],
                 ["Escape", "If you can't take it anymore!"]]
 genre:          ["Puzzle"]
-url:            "https://holydragoon.itch.io/the-drop"
+link:           "https://holydragoon.itch.io/the-drop"
 platforms:      ["Windows", "macOS"]
 team:           ["Shaun McCrum"]
 social:         ["https://twitter.com/holydragoon"]
 need-title:     true
 screenshots:    []
-videos:         []
 
 submitted:      true
 titlebar:       title-007.jpg

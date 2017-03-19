@@ -9,13 +9,12 @@ controls:       [ ["WASD", "Movement"],
                 ["LMB", "Teleport"] ]
 genre:          ["Platformer"]
 platforms:      ["Windows", "macOS", "Browser"]
-url:            "https://ciechroma.itch.io/conways-game-of-questions"
+link:           "https://ciechroma.itch.io/conways-game-of-questions"
 team:           [ "Ben Goodwin", "Yi Fei Xue" ]
 social:         ["", ""]
 need-title:     false
 screenshots:    [ ["/content/img/event/02/screenshots-small/gameofquestions-000.jpg", "/content/img/event/02/screenshots/gameofquestions-000.jpg"],
                 ["/content/img/event/02/screenshots-small/gameofquestions-001.jpg", "/content/img/event/02/screenshots/gameofquestions-001.jpg"] ]
-videos:         []
 
 submitted:      true
 titlebar:       title-007.jpg

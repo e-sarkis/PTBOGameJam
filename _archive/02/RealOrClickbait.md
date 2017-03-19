@@ -2,13 +2,12 @@
 title:          "Real or Clickbait?"
 event:          "02"
 genre:          ["Simulation"]
-url:            "https://trentgamedevclub.itch.io/real-or-clickbait"
+link:           "https://trentgamedevclub.itch.io/real-or-clickbait"
 platforms:      ["Windows"]
 team:           ["Ariful Bhuiyan", "Angelica Coculla", "Alexandre Karimov", "Frank Liang", "Paul Schell", "Nicole Yaneza"]
 social:         ["", "", "", "", "", ""]
 need-title:     true
 screenshots:    []
-videos:         []
 
 submitted:      false
 titlebar:       title-007.jpg

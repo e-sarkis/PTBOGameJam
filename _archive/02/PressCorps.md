@@ -7,14 +7,13 @@ controls:       [ ["WASD", "Movement"],
 controls-notes: "Gamepad Supported"
 genre:          ["Shooter"]
 platforms:      ["Windows", "Browser"]
-url:            "https://rjhelms.itch.io/press-corps"
+link:           "https://rjhelms.itch.io/press-corps"
 team:           ["Robert Hailman"]
 social:         ["https://twitter.com/rjhelms"]
 need-title:     false
 screenshots:    [ ["/content/img/event/02/screenshots-small/presscorps-000.jpg", "/content/img/event/02/screenshots/presscorps-000.jpg"],
                 ["/content/img/event/02/screenshots-small/presscorps-001.jpg", "/content/img/event/02/screenshots/presscorps-001.jpg"],
                 ["/content/img/event/02/screenshots-small/presscorps-002.jpg", "/content/img/event/02/screenshots/presscorps-002.jpg"] ]
-videos:         []
 
 submitted:      true
 titlebar:       title-007.jpg

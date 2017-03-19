@@ -9,12 +9,11 @@ controls:       [ ["WSAD", "Move the journalist"],
                 ["Hold Q", "Social media time! (Hold for 5 seconds)"] ]
 genre:          ["Action"]
 platforms:      ["Browser"]
-url:            "https://jamstone.itch.io/fact-fight"
+link:           "https://jamstone.itch.io/fact-fight"
 team:           [ "Jeffrey Moore" ]
-social:         [ "", "", "https://twitter.com/chryslenne" ]
+social:         [ "" ]
 need-title:     true
 screenshots:    [ ["/content/img/event/02/screenshots-small/factfight-000.jpg", "/content/img/event/02/screenshots/factfight-000.jpg"] ]
-videos:         ["https://www.youtube.com/watch?v=3sTK8lxxN1M"]
 status:         "Solo Over 29"
 
 submitted:      true

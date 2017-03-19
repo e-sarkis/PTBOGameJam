@@ -3,14 +3,13 @@ title:          "Big Paleo"
 event:          "02"
 genre:          ["Action"]
 platforms:      ["Windows", "macOS"]
-url:            "https://uldrendan.itch.io/big-paleo"
+link:           "https://uldrendan.itch.io/big-paleo"
 team:           [ "Daniel Clarke", "Iris Fryer" ]
 social:         ["https://twitter.com/Uldrendan", "https://www.facebook.com/IrisFryerArt/"]
 need-title:     false
 screenshots:    [ ["/content/img/event/02/screenshots-small/bigpaleo-000.jpg", "/content/img/event/02/screenshots/bigpaleo-000.jpg"],
                 ["/content/img/event/02/screenshots-small/bigpaleo-001.jpg", "/content/img/event/02/screenshots/bigpaleo-001.jpg"],
                 ["/content/img/event/02/screenshots-small/bigpaleo-002.jpg", "/content/img/event/02/screenshots/bigpaleo-002.jpg"] ]
-videos:         []
 
 submitted:      true
 titlebar:       title-007.jpg

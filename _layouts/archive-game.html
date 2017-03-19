@@ -27,14 +27,8 @@ layout: default
               <div class="title">{{ page.title }}</div>
             </div>
             <div class="jx-blog-metabox jx-single">
-              <span class="meta_categories"><i class="icon-tags"></i>
-                {% for tag in page.tags %}
-                  {% if forloop.last %}
-                    <a href="{{ site.data.links-relative.tags | prepend: site.baseurl }}#{{ tag | slugify }}">{{ tag }}</a>
-                  {% else %}
-                    <a href="{{ site.data.links-relative.tags | prepend: site.baseurl }}#{{ tag | slugify }}">{{ tag }}</a>,
-                  {% endif %}
-                {% endfor %}
+              <span class="meta_categories"><i class="icon-link"></i>
+                <a href="{{ page.link }}" title="{{page.title}}">{{ page.link }}</a>
               </span>
             </div>
             <article>
