@@ -53,10 +53,52 @@ breadcrumb: archive
         </div>
         {% endif %}
     {% endfor %}
-    
-    DNF
   </div>
 </div>
 
-{% include block-ticker.html %}
+<!-- Videos -->
+<div id='gallery' class="jx-container container-no-margin jx-padding background-003">
+  <div class="container ">
+      <div class="jx-section-title-1 jx-dark">
+
+          <div class="jx-pre-title jx-short-border">
+          <div class="jx-title-icon-light"><i class="icon-video"></i></div>
+          </div>
+          <div class="jx-title jx-title-light jx-uppercase">Videos</div>
+          <div class="jx-subtitle"><p>We might have got a little carried away with the videos for this second event, with more time this time around, we wanted to focus on getting the word out about the event. We built an incredible base of individuals genuinely interested in the event.</p></div>
+      </div>
+      {% for video in site.data.media-videos %}
+        {% if video.event == "02" %}
+      <div class="jx-grid-item jx-grid-item-full">
+        <iframe class="release-video" id="{{video.vimeo}}" src="https://player.vimeo.com/video/{{video.vimeo}}?api=1&player_id={{video.vimeo}}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen width="100%"></iframe>
+        <div class="media-video-download"><a href="{{ video.url }}">{{ video.title }}</a></div>
+      </div>
+        {% endif %}
+      {% endfor %}
+  </div>
+</div>
+
+<!-- Gallery -->
+<div id='gallery' class="jx-container container-no-margin jx-padding jx-black-bg background-008">
+  <div class="container ">
+      <div class="jx-section-title-1 jx-dark">
+          <div class="jx-pre-title jx-short-border">
+            <div class="jx-title-icon"><i class="icon-picture color-white"></i></div>
+          </div>
+          <div class="jx-title jx-uppercase">Photos</div>
+          <div class="jx-subtitle"><p>We were fortunate enough to have three awesome photographers at the event taking pictures throughout the event, using their craft to create some awesome works of art, so shout outs and love to Jon Drew, Randy Nickerson, and J.J. Wyllie.</p></div>
+      </div>
+      {% for image in site.data.02-gallery %}
+      <div class="jx-grid-item">
+          <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
+            <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}" data-rel="prettyPhoto">
+              <div class="jx-image-overlayer"></div>
+              <div class="jx-image-hover"><i class="icon-zoom-in"></i></div>
+            </a>
+          </div>
+      </div>
+      {% endfor %}
+    </div>
+</div>
+
 {% include block-summary.html %}
