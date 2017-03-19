@@ -73,6 +73,9 @@ layout: default
               {% for control in page.controls %}
             <p class="game-control"><span>{{ control[0] }}</span>{{ control[1]}}</p>
               {% endfor %}
+              {% if page.controls-notes %}
+            <p><br /><em>{{ page.controls-notes }}</em></p>
+              {% endif %}
             {% endif %}
             </article>
           </div>
