@@ -14,4 +14,4 @@ status:         "Team Over 29"
 submitted:      true
 titlebar:       title-007.jpg
 ---
-The Most Extreme Endless Farm Runner! Collect hay to feed your animals while avoiding hazards in the field. Using the theme \"Alternative Facts\", this endless runner has seemingly simple controls with some surprises.
+The Most Extreme Endless Farm Runner!<br/><br />Collect hay to feed your animals while avoiding hazards in the field. Using the theme \"Alternative Facts\", this endless runner has seemingly simple controls with some surprises.
