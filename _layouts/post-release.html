@@ -18,7 +18,7 @@ layout: default
               <div class="jx-blog-meta">
                 <div class="jx-event-date">{{ page.date | date_to_string }}</div>
               </div>
-              <div class="title">{{ page.title }}</div>
+              <div class="title"><a href="#{{ page.title | slugify }}">{{ page.title }}</a></div>
             </div>
             <div class="jx-blog-metabox jx-single">
               <span class="meta_categories"><i class="icon-tags"></i>
