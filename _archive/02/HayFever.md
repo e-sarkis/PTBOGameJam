@@ -9,6 +9,7 @@ team-name:      "The Lumberjacks"
 social:         ["https://twitter.com/quigley_brendan", "", "https://twitter.com/ChrisStretten", "https://twitter.com/ThatRobWaite"]
 screenshots:    [ ["/content/img/event/02/screenshots-small/hayfever-000.jpg", "/content/img/event/02/screenshots/hayfever-000.jpg"],
                 ["/content/img/event/02/screenshots-small/hayfever-001.jpg", "/content/img/event/02/screenshots/hayfever-001.jpg"] ]
+teamshots:      [["/content/img/event/02/release/017.jpg", "/files/events/02/PTBOGameJam02-017.png"]]
 status:         "Top Team Over 29 Entry"
 
 submitted:      true

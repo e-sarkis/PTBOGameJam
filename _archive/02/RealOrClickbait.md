@@ -9,6 +9,7 @@ social:         ["", "", "", "", "", ""]
 need-title:     true
 screenshots:    [["/content/img/event/02/screenshots-small/realorclickbait-000.jpg", "/content/img/event/02/screenshots/realorclickbait-000.jpg"]]
 videos:         ["https://www.youtube.com/embed/4Yxl5DVN0SA"]
+teamshots:      [["/content/img/event/02/release/016.jpg", "/files/events/02/PTBOGameJam02-016.png"]]
 
 submitted:      true
 titlebar:       title-007.jpg
