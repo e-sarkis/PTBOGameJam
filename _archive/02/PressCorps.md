@@ -4,7 +4,7 @@ event:          "02"
 controls:       [ ["WASD", "Movement"],
                 ["Left CTRL, Left Shift, Left ALT, Space", "Fire"],
                 ["Space", "Start Game / Begin Daily News Cycle" ]]
-controls-notes: "Gamepad Supported"
+notes:          "Gamepad Supported"
 genre:          ["Shooter"]
 platforms:      ["Windows", "Browser"]
 link:           "https://rjhelms.itch.io/press-corps"

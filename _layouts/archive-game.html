@@ -70,12 +70,14 @@ layout: default
 
             {% if page.controls %}
             <p><strong>Controls</strong></p>
+            <p>
               {% for control in page.controls %}
-            <p class="game-control"><span>{{ control[0] }}</span>{{ control[1]}}</p>
+            <div class="game-control"><span>{{ control[0] }}</span>{{ control[1]}}</div>
               {% endfor %}
-              {% if page.controls-notes %}
-            <p><br /><em>{{ page.controls-notes }}</em></p>
-              {% endif %}
+            </p>
+            {% endif %}
+            {% if page.notes %}
+            <p><em>{{ page.notes }}</em></p>
             {% endif %}
             </article>
           </div>
