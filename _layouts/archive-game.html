@@ -5,18 +5,20 @@ layout: default
     <div class="posts sixteen columns jx-padding alpha jx-blog">
       <div id="post-{{ page.code }}" class="jx-blog post-{{ page.code }} post type-post status-publish format-video has-post-thumbnail hentry">
         <div class="jx-blog-item">
-          {% if page.image %}
           <div class="jx-blog-image">
               <div class="image jx-image-wrapper">
-                <img width="0" height="0" src="/content/img/post/{{page.image}}" class="attachment-blog size-blog " draggable="false" hdpi="true">
+              {% if page.screenshots[0] %}
+                <img alt="{{ item.title }}" width="0" height="0" src="{{ page.screenshots[0][1] | prepend: site.baseurl }}" class="attachment-blog size-blog " draggable="false" hdpi="false">
+              {% else %}
+                <img alt="{{ item.title }}" width="0" height="0" src="{{ "/content/img/event/game-template.jpg" | prepend: site.baseurl }}" class="attachment-blog size-blog " draggable="false" hdpi="false">
+              {% endif %}
               </div>
           </div>
-          {% endif %}
           <div class="jx-blog-content clearfix">
             <div class="jx-blog-head">
               <div class="jx-post-format"><i class="icon-{{ page.icon }}"></i></div>
               <div class="jx-blog-meta">
-                <div class="jx-event-date">{{ page.date | date_to_string }}</div>
+                <div class="jx-event-date">DATE</div>
               </div>
               <div class="title">{{ page.title }}</div>
             </div>
@@ -38,6 +40,6 @@ layout: default
         </div>
     </div>
   </div>
-  {% include sidebar-blog.html %}
+  {% include sidebar-archive.html %}
 </div>
 {% include block-summary.html %}

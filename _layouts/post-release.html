@@ -3,7 +3,7 @@ layout: default
 ---
   <div class="container with-sidebar">
     <div class="posts sixteen columns jx-padding alpha jx-blog">
-      <div id="post-{{ page.code }}" class="jx-blog post-26 post type-post status-publish format-video has-post-thumbnail hentry">
+      <div id="post-{{ page.code }}" class="jx-blog post-{{ page.code }} post type-post status-publish format-video has-post-thumbnail hentry">
         <div class="jx-blog-item">
           {% if page.image %}
           <div class="jx-blog-image">
@@ -44,6 +44,6 @@ layout: default
         </div>
     </div>
   </div>
-  {% include page-sidebar.html %}
+  {% include sidebar-blog.html %}
 </div>
 {% include block-summary.html %}
