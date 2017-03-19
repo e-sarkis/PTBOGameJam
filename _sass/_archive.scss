@@ -12,3 +12,17 @@
 .game-status {
     float: right;
 }
+
+p.game-control {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    vertical-align: top;
+}
+.game-control span
+{
+    font-weight: 700;
+    width: 30%;
+    display: inline-block;
+    color: $grey-color;
+    padding-right: 10px;
+}

@@ -23,9 +23,9 @@ layout: default
               <div class="jx-blog-head">
                 <div class="jx-post-format"><i class="icon-gamepad"></i></div>
                 <div class="jx-blog-meta">
-                  <div class="jx-event-date">PTBO Game Jam {{ page.event }}</div>
+                  <div class="jx-event-date"><a class="black" href="{{ site.data.links-relative.archive | prepend: site.baseurl }}{{page.event}}">PTBO Game Jam {{ page.event }}</a></div>
                 </div>
-                <div class="title">{{ page.title }}</div>
+                <div class="title"><a href="{{ page.link }}">{{ page.title }}</a></div>
               </div>
             </a>
             <div class="jx-blog-metabox jx-single">
@@ -63,10 +63,17 @@ layout: default
             {% endif %}
 
             {% if page.teamshots.size > 0 or page.screenshots.size > 0 %}
-            <div class="clearfix"></div>
+              <div class="clearfix"></div>
             {% endif %}
-
             {{ content }}
+            
+
+            {% if page.controls %}
+            <p><strong>Controls</strong></p>
+              {% for control in page.controls %}
+            <p class="game-control"><span>{{ control[0] }}</span>{{ control[1]}}</p>
+              {% endfor %}
+            {% endif %}
             </article>
           </div>
         </div>
