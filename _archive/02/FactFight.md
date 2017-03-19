@@ -10,7 +10,7 @@ controls:       [ ["WSAD", "Move the journalist"],
 type:           "Action"
 platforms:      ["Browser"]
 url:            "https://jamstone.itch.io/fact-fight"
-team:           [ "Kirushanth Aruldas", "Ben Pinto", "Nestor Jr. Sirilan" ]
+team:           [ "Jeffrey Moore" ]
 social:         [ "", "", "https://twitter.com/chryslenne" ]
 need-title:     true
 screenshots:    [ ["/content/img/event/02/screenshots-small/factfight-000.jpg", "/content/img/event/02/screenshots/factfight-000.jpg"] ]
