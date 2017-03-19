@@ -30,16 +30,10 @@ breadcrumb: archive
 <!-- 02 Games List -->
 <div id='gallery' class="jx-container container-no-margin jx-padding background-005">
   <div class="container ">
-    <div class="jx-section-title-1 jx-dark">
-      <div class="jx-pre-title jx-short-border">
-        <div class="jx-title-icon"><i class="icon-fort-awesome color-white"></i></div>
-      </div>
-      <div class="jx-title jx-uppercase">Games</div>
-      <div class="jx-subtitle">
-        <p>An impressive 33 games were created throughout PTBO Game Jam 02, themed according to <strong class="white">#AlternativeFacts</strong>. The theme definately presented it's own unique challenges in application, but jammers were still able to create a wide variety of titles.</p>
-      </div>
+    <div class="jx-team-item jx-team-box-content">
+        <a name="team"><div class="jx-title jx-uppercase">Completed <span>Games</span></div></a>
+        <div class="jx-hr-title"></div>
     </div>
-
     {% for item in site.archive %}
         {% if item.event == "02" and item.submitted == true %}
         <div class="jx-grid-item ">
@@ -59,6 +53,40 @@ breadcrumb: archive
         </div>
         {% endif %}
     {% endfor %}
+
+    {% assign unfinished = false %}
+    {% for item in site.archive %}
+        {% if item.event == "02" and item.submitted == false %}
+          {% assign unfinished = true %}
+        {% endif %}
+    {% endfor %}
+  
+    {% if unfinished == true %}
+    <div class="games-row"></div>
+    <div class="jx-team-item jx-team-box-content">
+        <a name="team"><div class="jx-title jx-uppercase">Unfinished <span>Games</span></div></a>
+        <div class="jx-hr-title"></div>
+    </div>
+        {% for item in site.archive %}
+          {% if item.event == "02" and item.submitted == false %}
+        <div class="jx-grid-item ">
+          <div class="jx-image jx-image-wrapper">
+            {% if item.screenshots[0] %}
+            <img class="max-width" src="{{ item.screenshots[0][0] | prepend: site.baseurl }}" alt="{{ item.title }}"/>
+            {% else %}
+            <img class="max-width" src="{{ "/content/img/event/game-template.jpg" | prepend: site.baseurl }}" alt="{{ item.title }}"/>
+            {% endif %}
+            <a href="{{ item.url | prepend: site.baseurl }}">
+              <div class="jx-image-overlayer"></div>
+              <div class="jx-image-hover">
+                <i class="icon-link"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+          {% endif %}
+      {% endfor %}
+    {% endif %}
   </div>
 </div>
 
@@ -106,5 +134,4 @@ breadcrumb: archive
       {% endfor %}
     </div>
 </div>
-
 {% include block-summary.html %}

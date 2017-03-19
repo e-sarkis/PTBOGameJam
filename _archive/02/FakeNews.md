@@ -1,5 +1,5 @@
 ---
-title:          "Fake News as a Virus"
+title:          "Fake News As A Virus"
 event:          "02"
 type:           "Other"
 platforms:      ["Scratch"]
