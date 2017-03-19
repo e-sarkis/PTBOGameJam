@@ -17,5 +17,6 @@ screenshots:    [ ["/content/img/event/02/screenshots-small/newsabuse-000.jpg", 
                 ["/content/img/event/02/screenshots-small/newsabuse-001.jpg", "/content/img/event/02/screenshots/newsabuse-001.jpg"],
                 ["/content/img/event/02/screenshots-small/newsabuse-002.jpg", "/content/img/event/02/screenshots/newsabuse-002.jpg"] ]
 videos:         []
+submitted:      true
 ---
 In News Abuse the person who decides which 'facts' are published is you.

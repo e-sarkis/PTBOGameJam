@@ -11,4 +11,5 @@ screenshots:    [ ["/content/img/event/02/screenshots-small/stonehenge-000.jpg",
                 ["/content/img/event/02/screenshots-small/stonehenge-001.jpg", "/content/img/event/02/screenshots/stonehenge-001.jpg"],
                 ["/content/img/event/02/screenshots-small/stonehenge-002.jpg", "/content/img/event/02/screenshots/stonehenge-002.jpg"] ]
 videos:         [ "https://www.youtube.com/watch?v=D9ZC6hPuULY" ]
+submitted:      true
 ---

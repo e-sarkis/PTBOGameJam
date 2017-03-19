@@ -15,5 +15,6 @@ screenshots:    [ ["/content/img/event/02/screenshots-small/mazemagnitude-000.jp
                 ["/content/img/event/02/screenshots-small/mazemagnitude-001.jpg", "/content/img/event/02/screenshots/mazemagnitude-001.jpg"] ]
 videos:         []
 status:         "Solo Under 30"
+submitted:      true
 ---
 Find the exit of the maze as quickly as you can, but be careful because sometimes the exit might not be where you think it is.

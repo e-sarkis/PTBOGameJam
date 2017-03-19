@@ -13,4 +13,5 @@ screenshots:    [ ["/content/img/event/02/screenshots-small/catacombs-000.jpg", 
                 ["/content/img/event/02/screenshots-small/catacombs-001.jpg", "/content/img/event/02/screenshots/catacombs-001.jpg"],
                 ["/content/img/event/02/screenshots-small/catacombs-002.jpg", "/content/img/event/02/screenshots/catacombs-002.jpg"] ]
 videos:         []
+submitted:      true
 ---

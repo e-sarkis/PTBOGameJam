@@ -16,4 +16,5 @@ screenshots:    [ ["/content/img/event/02/screenshots-small/presidentialrace-000
                 ["/content/img/event/02/screenshots-small/presidentialrace-001.jpg", "/content/img/event/02/screenshots/presidentialrace-001.jpg"],
                 ["/content/img/event/02/screenshots-small/presidentialrace-002.jpg", "/content/img/event/02/screenshots/presidentialrace-002.jpg"] ]
 videos:         [ "https://www.youtube.com/watch?v=DX6oYLn0T30" ]
+submitted:      true
 ---
