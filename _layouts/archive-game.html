@@ -3,7 +3,7 @@ layout: default
 ---
   <div class="container with-sidebar">
     <div class="posts sixteen columns jx-padding alpha jx-blog">
-      <div id="post-{{ page.code }}" class="jx-blog post-{{ page.code }} post type-post status-publish format-video has-post-thumbnail hentry">
+      <div id="post-{{ page.title | slugify }}" class="jx-blog post-{{ page.title | slugify }} post type-post status-publish format-video has-post-thumbnail hentry">
         <div class="jx-blog-item">
           <div class="jx-blog-image">
               <div class="image jx-image-wrapper">
@@ -61,7 +61,11 @@ layout: default
                 </div>
               </div>{% endfor %}
             {% endif %}
-            <div class="row"></div>
+
+            {% if page.teamshots.size > 0 or page.screenshots.size > 0 %}
+            <div class="clearfix"></div>
+            {% endif %}
+
             {{ content }}
             </article>
           </div>
