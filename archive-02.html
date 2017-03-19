@@ -41,7 +41,7 @@ breadcrumb: archive
     </div>
 
     {% for item in site.archive %}
-        {% if item.event == "02" %}
+        {% if item.event == "02" and item.submitted == true %}
         <div class="jx-grid-item ">
           <div class="jx-image jx-image-wrapper">
             {% if item.screenshots[0] %}
