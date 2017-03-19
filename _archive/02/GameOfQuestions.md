@@ -15,7 +15,8 @@ social:         ["", ""]
 need-title:     false
 screenshots:    [ ["/content/img/event/02/screenshots-small/gameofquestions-000.jpg", "/content/img/event/02/screenshots/gameofquestions-000.jpg"],
                 ["/content/img/event/02/screenshots-small/gameofquestions-001.jpg", "/content/img/event/02/screenshots/gameofquestions-001.jpg"] ]
-teamshots:      [["/content/img/event/02/release/031.jpg", "/files/events/02/PTBOGameJam02-031.png"]]
+teamshots:      [["/content/img/event/02/release/005.jpg", "/files/events/02/PTBOGameJam02-005.png"], 
+                 ["/content/img/event/02/release/031.jpg", "/files/events/02/PTBOGameJam02-031.png"]]
 submitted:      true
 titlebar:       title-007.jpg
 ---
