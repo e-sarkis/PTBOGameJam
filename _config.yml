@@ -43,11 +43,16 @@ defaults:
       type: "posts"
     values:
       layout: "post-default"
+      breadcrumb: blog
+      author: PTBO Game Jam
+      location: "Peterborough, Ontario, Canada"
+      titlebar: title-018.jpg
   - scope:
       path: ""
       type: "archive"
     values:
       layout: "archive-game"
+      breadcrumb: archive
 
 # Site settings
 title: PTBO Game Jam

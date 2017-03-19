@@ -4,7 +4,7 @@ event:          "02"
 controls:       [ ["Left / Right", "Movement"], 
                 ["Up / Down", "Aim Turret"],
                 ["Space", "Fire Money"] ]
-type:           "Shooter"
+genre:          ["Shooter"]
 url:            "https://lazymammal.itch.io/yuge-wall"
 platforms:      ["Windows", "macOS", "Linux"]
 team:           ["Dennis Carlstrom"]
@@ -14,6 +14,8 @@ screenshots:    [ ["/content/img/event/02/screenshots-small/yugewall-000.jpg", "
                 ["/content/img/event/02/screenshots-small/yugewall-001.jpg", "/content/img/event/02/screenshots/yugewall-001.jpg"],
                 ["/content/img/event/02/screenshots-small/yugewall-002.jpg", "/content/img/event/02/screenshots/yugewall-002.jpg"] ]
 videos:         []
+
 submitted:      true
+titlebar:       title-007.jpg
 ---
 Fix it with money!

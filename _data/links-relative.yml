@@ -2,7 +2,7 @@ rss:                "/feed.xml"
 
 friends:            "/community/friends/"
 tags:               "/blog/tags/"
-media:              "/media/"
+media:              "/media/#releases"
 brand:              "/brand/"
 legal:              "/legal/"
 archive:            "/archive/"

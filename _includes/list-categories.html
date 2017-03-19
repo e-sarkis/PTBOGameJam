@@ -1,7 +1,7 @@
 {% for category in site.categories %}
 	<li>
 		{% if category[0] == "media-releases" %}
-			<a href="{{ site.data.links-relative.media-releases | prepend: site.baseurl }}">Media Releases</a>
+			<a href="{{ site.data.links-relative.media | prepend: site.baseurl }}">Media Releases</a>
 		{% else %}
 			<a href="{{ site.data.links-relative.category | prepend: site.baseurl }}{{ category[0] | slugify }}/">{{ category[0] | capitalize }}</a>
 		{% endif %}

@@ -8,7 +8,49 @@
       </div>
       <ul>
         {% for member in page.team %}
-          <li>{{ member }}</li>
+          <li>
+            {{ member }} 
+            {% if page.social[forloop.index0] %}
+              {% if page.social[forloop.index0] contains 'twitter.com' %}
+              <a class="float-right" href="{{ page.social[forloop.index0] }}"><i class="icon-twitter"></i></a>
+              {% elsif page.social[forloop.index0] contains 'facebook.com' %}
+              <a class="float-right" href="{{ page.social[forloop.index0] }}"><i class="icon-facebook"></i></a>
+              {% endif %}
+            {% endif %}
+          </li>
+          
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <!-- GENRE -->
+  <div class="jx-sidebar-widget">
+    <div id="recent-posts-4" class="widget widget_recent_entries">
+      <div class="sub">
+        <h4>Genre</h4>
+        <div class="jx-right-pattern"></div>
+      </div>
+      <ul>
+        {% assign sorted_genre = page.genre | sort: "value" | reverse %}
+        {% for genre in sorted_genre %}
+          <li>{{ genre }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  
+  <!-- PLATFORMS -->
+  <div class="jx-sidebar-widget">
+    <div id="recent-posts-4" class="widget widget_recent_entries">
+      <div class="sub">
+        <h4>Platforms</h4>
+        <div class="jx-right-pattern"></div>
+      </div>
+      <ul>
+        {% assign sorted_platforms = page.platforms | sort: "value" | reverse %}
+        {% for platform in sorted_platforms %}
+          <li>{{ platform }}</li>
         {% endfor %}
       </ul>
     </div>

@@ -2,7 +2,7 @@
 title:          "Catacombs"
 event:          "02"
 description:    ""
-type:           "Adventure"
+genre:          ["Adventure"]
 platforms:      ["Windows"]
 url:            "https://liftlock.itch.io/catacombs-"
 team:           [ "Arin Blue", "Elisa Cote-Booth", "Emma French", "Robert French" ]
@@ -13,5 +13,7 @@ screenshots:    [ ["/content/img/event/02/screenshots-small/catacombs-000.jpg", 
                 ["/content/img/event/02/screenshots-small/catacombs-001.jpg", "/content/img/event/02/screenshots/catacombs-001.jpg"],
                 ["/content/img/event/02/screenshots-small/catacombs-002.jpg", "/content/img/event/02/screenshots/catacombs-002.jpg"] ]
 videos:         []
+
 submitted:      true
+titlebar:       title-007.jpg
 ---

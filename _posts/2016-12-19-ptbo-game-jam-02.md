@@ -4,16 +4,12 @@ title:  "PTBO Game Jam 02"
 date:   2016-12-19 13:00:00 -0400
 categories: ["media-releases"]
 tags: ["02", "dotbunny", "fleming college", "funky rustic", "github", "ibm", "ptac", "rickys", "acorn30", "aramark", "audiokinetic", "peterborough cfdc", "gotta havva pizza", "inxile entertainment", "kawartha lakes cfdc", "liftlock studios", "pagefolio", "unity"]
-author: PTBO Game Jam
 code: 2016-12-18-ptbo-game-jam-02
 excerpt: "We’re back! Bigger and better than ever before."
-location: "Peterborough, Ontario, Canada"
 image: 2016-12-18-ptbo-game-jam-02.jpg
 social: /content/img/post/2016-12-18-ptbo-game-jam-02.jpg
 pdf: 2016-12-19-PTBO-Game-Jam-02.pdf
 icon: wpforms
-breadcrumb: blog
-titlebar: title-018.jpg
 ---
 _Peterborough, Ontario – _February 17-19, 2017_ – The PTBO Game Jam is a gathering of people from all walks of life; from seasoned game developers and students just entering the industry, to hobbyists and enthusiasts all eager to engage and see what they can produce in a short timeframe.
 

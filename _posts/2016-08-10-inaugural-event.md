@@ -4,16 +4,12 @@ title:  "Inaugural PTBO Game Jam Event"
 date:   2016-08-10 08:00:00 -0400
 categories: ["media-releases"]
 tags: ["01", "announcement", "dotbunny", "epic games", "unity", "igniter tickets", "github", "funky rustic", "ardeeXYZ"]
-author: PTBO Game Jam
 code: 2016-08-10-inaugural-event
 excerpt: "The PTBO Game Jam is a gathering of industry professionals, students, hobbyists and those eager to learn with the common goal of creating video games in a short period of time."
-location: "Peterborough, Ontario, Canada"
 pdf: 2016-08-10-Inaugural-Event.pdf
 image: 2016-08-10-inaugural-event.jpg
 social: /content/img/post/2016-08-10-inaugural-event.jpg
 icon: wpforms
-breadcrumb: blog
-titlebar: title-018.jpg
 ---
 _Peterborough, Ontario – August 13-14, 2016_ - The **PTBO Game Jam** is a gathering of industry professionals, students, hobbyists and those eager to learn with the common goal of creating video games in a short period of time.
 
