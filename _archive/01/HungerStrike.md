@@ -7,7 +7,8 @@ platforms:      ["Browser"]
 team:           ["Jeffrey Moore"]
 social:         [""]
 need-title:     false
-screenshots:    []
+screenshots:    [["/content/img/event/01/screenshots-small/hungerstrike-000.jpg", "/content/img/event/01/screenshots/hungerstrike-000.jpg"],
+                 ["/content/img/event/01/screenshots-small/hungerstrike-001.jpg", "/content/img/event/01/screenshots/hungerstrike-001.jpg"]]
 submitted:      true
 titlebar:       title-005.jpg
 ---
