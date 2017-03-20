@@ -24,12 +24,12 @@
           {% include menu-sub-community.html %}
         </div>
         {% endif %}
-        {% if page.highlight == "games" %}
+        {% if page.highlight == "archive" %}
         <div id="mobile-sub-menu" class="display-none">
-          {% include menu-sub-games.html %}
+          {% include menu-sub-archive.html %}
         </div>
         {% endif %}
-        <div id="showMenu">{% if page.highlight == "event" or page.highlight == "games" or page.highlight == "community" %}<i id="showSubMenuIcon" class="icon-angle-down"></i>{% endif %}<i id="showMenuIcon" class="icon-menu"></i></div>
+        <div id="showMenu">{% if page.highlight == "event" or page.highlight == "archive" or page.highlight == "community" %}<i id="showSubMenuIcon" class="icon-angle-down"></i>{% endif %}<i id="showMenuIcon" class="icon-menu"></i></div>
       </header>
       <div id="perspective" class="perspective effect-airbnb">
         <div class="perspective-container">

@@ -7,7 +7,12 @@
       {% include menu-sub-event.html %}
     {% endif %}
   </li>
-  <li class="{% if page.highlight == "archive" %}current{% endif %}"><a {% if include.icons == "true" %}class="icon-gamepad" {% endif %}title="Archive" href="{{ "/archive/" | prepend: site.baseurl }}">Archive</a></li>
+  <li class="{% if page.highlight == "archive" %}current{% endif %}">
+    <a {% if include.icons == "true" %}class="icon-gamepad" {% endif %}title="Archive" href="{{ "/archive/" | prepend: site.baseurl }}">Archive</a>
+    {% if include.icons != "true" %}
+      {% include menu-sub-archive.html %}
+    {% endif %}
+  </li>
   <li class="{% if page.highlight == "community" %}current{% endif %}">
     <a {% if include.icons == "true" %}class="icon-users" {% endif %}href="{{ "/community/" | prepend: site.baseurl }}">Community</a>
     {% if include.icons != "true" %}
