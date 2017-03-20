@@ -8,7 +8,9 @@ platforms:      ["Browser"]
 team:           ["Robin Southern"]
 social:         [""]
 need-title:     false
-screenshots:    []
+screenshots:    [["/content/img/event/01/screenshots-small/cats-000.jpg", "/content/img/event/01/screenshots/cats-000.jpg"],
+                 ["/content/img/event/01/screenshots-small/cats-001.jpg", "/content/img/event/01/screenshots/cats-001.jpg"],
+                 ["/content/img/event/01/screenshots-small/cats-002.jpg", "/content/img/event/01/screenshots/cats-002.jpg"]]
 submitted:      true
 titlebar:       title-005.jpg
 ---

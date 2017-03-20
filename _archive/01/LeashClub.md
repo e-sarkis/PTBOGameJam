@@ -9,6 +9,7 @@ team:           ["Phil Laliberte", "Josh Reynolds"]
 social:         [""]
 need-title:     false
 screenshots:    [["/content/img/event/01/screenshots-small/leashclub-000.jpg", "/content/img/event/01/screenshots/leashclub-000.jpg"]]
+teamshots:      [["/content/img/event/01/004.jpg", "/files/events/02/PTBOGameJam01-004.png"]]
 submitted:      true
 titlebar:       title-005.jpg
 notes:          "Gamepad Support"
