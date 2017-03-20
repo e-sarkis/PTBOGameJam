@@ -294,7 +294,7 @@ Version: 		1.0
 
 			var prettyPhoto_parameters = {
 					animation_speed: 'fast',
-					slideshow: true, /* false OR interval time in ms */
+					slideshow: false, /* false OR interval time in ms */
 					theme:'dark_square',
 					opacity: 1,
 					show_title:true, /* true/false */
