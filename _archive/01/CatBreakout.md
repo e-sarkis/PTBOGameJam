@@ -7,7 +7,7 @@ platforms:      ["macOS"]
 team:           ["Scott Tromley"]
 social:         [""]
 need-title:     false
-screenshots:    []
+screenshots:    [["/content/img/event/01/screenshots-small/catbreakout-000.jpg", "/content/img/event/01/screenshots/catbreakout-000.jpg"]]
 submitted:      true
 titlebar:       title-005.jpg
 ---
