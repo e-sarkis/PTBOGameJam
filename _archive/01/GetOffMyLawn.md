@@ -8,8 +8,11 @@ link:           "https://lazymammal.itch.io/cats"
 platforms:      ["Windows", "Android"]
 team:           ["Dennis Carlstrom"]
 social:         ["https://twitter.com/LazyMammalGames"]
+screenshots:    [["/content/img/event/01/screenshots-small/getoffmylawn-000.jpg", "/content/img/event/01/screenshots/getoffmylawn-000.jpg"],
+                 ["/content/img/event/01/screenshots-small/getoffmylawn-001.jpg", "/content/img/event/01/screenshots/getoffmylawn-001.jpg"],
+                 ["/content/img/event/01/screenshots-small/getoffmylawn-002.jpg", "/content/img/event/01/screenshots/getoffmylawn-002.jpg"],
+                 ["/content/img/event/01/screenshots-small/getoffmylawn-003.jpg", "/content/img/event/01/screenshots/getoffmylawn-003.jpg"]]
 need-title:     false
-screenshots:    []
 submitted:      true
 titlebar:       title-005.jpg
 ---
