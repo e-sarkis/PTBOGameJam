@@ -8,7 +8,9 @@ team:           ["Ariful Bhuiyan", "Alexandre Karimov", "Frank Liang", "Paul Sch
 social:         ["", "", "", ""]
 need-title:     false
 controls:       [["WASD", "Shoot Hairballs"], ["Arrow Keys", "Movement"]]
-screenshots:    []
+screenshots:    [["/content/img/event/01/screenshots-small/furball-000.jpg", "/content/img/event/01/screenshots/furball-000.jpg"],
+                 ["/content/img/event/01/screenshots-small/furball-001.jpg", "/content/img/event/01/screenshots/furball-001.jpg"]]
+teamshots:      [["/content/img/event/01/005.jpg", "/files/events/02/PTBOGameJam01-005.png"],["/content/img/event/01/006.jpg", "/files/events/02/PTBOGameJam01-006.png"]]
 submitted:      true
 titlebar:       title-005.jpg
 ---
