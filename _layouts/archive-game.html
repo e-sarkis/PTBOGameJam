@@ -63,7 +63,7 @@ layout: default
             {% endif %}
 
             {% if page.teamshots.size > 0 or page.screenshots.size > 0 %}
-              <div class="clearfix"></div>
+              <div class="clearfix archive-text-space"></div>
             {% endif %}
             {{ content }}
             
@@ -86,6 +86,9 @@ layout: default
             <p><em>{{ page.notes }}</em></p>
             {% endif %}
             </article>
+            <div class="archive-buttons">
+              <a class="jx-btn-default" href="{{page.link}}">Play Now</a>
+            </div>
           </div>
         </div>
     </div>
