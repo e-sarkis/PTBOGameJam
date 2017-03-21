@@ -13,7 +13,7 @@ $(window).load(function()
     animation: "slide",
     controlNav: false,
     directionNav:true,
-    slideshowSpeed:"11000",
+    slideshowSpeed:"15000",
     minItems: 1,
     maxItems: 1,
     prevText:'',
