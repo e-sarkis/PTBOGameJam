@@ -1,14 +1,7 @@
-# - name:       "event02-announce"
-#   type:       "countdown"
-#   post_date:  "December 1, 2016"
-#   video:      "193577058"
-#   image:      "/content/img/event/02/fallback.jpg"
-#   link:       "/event/"
-
-#   pretitle:   "PTBO Game Jam 02"
-#   title:      "Bigger and Better"
-#   day:        "17<span>-19</span>"
-#   month:      "Feb 2017"
+- name:           "lander"
+  type:           "empty"
+  video:          "193577058"
+  image:          "/content/img/event/02/fallback.jpg"
 
 # - name:       "event01-wrap"
 #   type:       "default"
