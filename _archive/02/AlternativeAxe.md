@@ -11,6 +11,7 @@ screenshots:    [ ["/content/img/event/02/screenshots-small/alternativeaxe-000.j
                 ["/content/img/event/02/screenshots-small/alternativeaxe-001.jpg", "/content/img/event/02/screenshots/alternativeaxe-001.jpg"] ]
 teamshots:      [["/content/img/event/02/release/014.jpg", "/files/events/02/PTBOGameJam02-014.png"],
                  ["/content/img/event/02/release/032.jpg", "/files/events/02/PTBOGameJam02-032.png"]]
+videos:         ["https://www.youtube.com/embed/lyo_FBJSbvg"]
 submitted:      true
 titlebar:       title-007.jpg
 ---
