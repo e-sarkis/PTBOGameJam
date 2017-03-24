@@ -10,6 +10,9 @@ kramdown:
 
 excerpt_separator: "<!-- more -->"
 
+# Strip CSS Comments
+sass:
+    style: compressed
 
 # Exclude Files
 exclude:
