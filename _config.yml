@@ -14,6 +14,10 @@ excerpt_separator: "<!-- more -->"
 sass:
     style: compressed
 
+# Compression
+compress_html:
+  comments: ["<!-- ", " -->"]
+
 # Exclude Files
 exclude:
   - google4535fa0e277ccf45.html
