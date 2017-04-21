@@ -25,6 +25,7 @@ exclude:
   - content/vendor/fontello/README.txt
   - content/vendor/form-validator/form-test.html
   - content/vendor/form-validator/qunit.html
+  - start.command
 
 
 # Number of blog posts per page
