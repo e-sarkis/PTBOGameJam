@@ -1,38 +1,4 @@
 
-// Base URL Provided by Page
-var baseURL = "";
-function setBaseURL(path)
-{
-  baseURL = path;
-}
-
-var currentTime = "";
-function setCurrentTime(time)
-{
-  currentTime = time;
-}
-
-var eventTime = "";
-function setEventTime(time)
-{
-  eventTime = time;
-}
-var apiKey = "";
-function setAPIKey(key)
-{
-  apiKey = key;
-}
-var apiBase = "";
-function setAPIBase(base)
-{
-  apiBase = base;
-}
-var apiMailer = "";
-function setAPIMailer(mailer)
-{
-  apiMailer = mailer;
-}
-
 // References
 var siteHeader;
 siteHeader = $('div#header');
@@ -259,8 +225,9 @@ function onReadySite()
   // Find all countdowns and setup
   if ($(".countdown").length > 0)
   {
-    $(".countdown").jCounter({
-      date: eventTime,
+    var cache = $(".countdown");
+    cache.jCounter({
+      date: cache.data("countdown"),
       timezone: "America/Toronto",
       format: "dd:hh:mm:ss",
       twoDigits: 'on',

@@ -1,7 +1,14 @@
 - name:       "Dave Bowen"
   picture:    "/content/img/team/dave-bowen.jpg"
-  position:   "Volunteer Lead"
+  position:   "Operations"
   twitter:    "http://twitter.com/Canadave41"
+
+- name:       "Arin Blue"
+  picture:    "/content/img/team/arin-blue.jpg"
+  position:   "Operations"
+  linkedin:   "https://www.linkedin.com/in/arin-blue-7595b58b/"
+  twitter:    "https://twitter.com/YorBoyBlue"
+  webpage:    "http://triosdevelopers.com/A.Blue/"
 
 - name:       "Matthew Davey"
   picture:    "/content/img/team/matthew-davey.jpg"
@@ -26,10 +33,16 @@
 
 - name:       "Phil Laliberte"
   picture:    "/content/img/team/phil-laliberte.jpg"
-  position:   "Sponsor Liason"
+  position:   "Sponsor Liaison"
   linkedin:   "http://www.linkedin.com/in/laliberte"
 
 - name:       "Amanda Rochon"
   picture:    "/content/img/team/amanda-rochon.jpg"
-  position:   "Event Lead"
+  position:   "Operations"
   linkedin:   "http://www.linkedin.com/in/amanda-rochon-ph-d-59344848"
+
+- name:       "Elisha Sarkis"
+  picture:    "/content/img/team/elisha-sarkis.jpg"
+  position:   "Social Media"
+  linkedin:   "https://www.linkedin.com/in/elisha-sarkis-48429b120/"
+  webpage:    "http://esarkis.itch.io"

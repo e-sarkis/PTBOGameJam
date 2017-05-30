@@ -18,24 +18,8 @@ $(window).load(function()
     maxItems: 1,
     prevText:'',
     nextText:'',
-    after: function() { checkVisibleVideos(); }
   });
 });
-
-function checkVisibleVideos()
-{
-  $(landerVideosContainers).each(function(index, container){
-    var frooga = container[0];
-    var vimeo = $f(frooga);
-
-    if ( $(container).visible(true) ) {
-      vimeo.api("play");
-
-    } else {
-      vimeo.api("pause");
-    }
-  });
-}
 
 // Handle Video Event Boxes (So Annoying)
 function fixVideoEventBox()

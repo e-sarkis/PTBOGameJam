@@ -10,26 +10,27 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    
     <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,500,300' rel='stylesheet' type='text/css'>
-
+    <link href='http://fonts.googleapis.com/css?family=Raleway%7COswald%7COpen+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ "/content/vendor/fontello/css/fontello.css" | prepend: site.baseurl }}">
 
-    <!-- <link rel="stylesheet" href="{{ "/content/vendor/font-awesome/font-awesome.css" | prepend: site.baseurl }}"> -->
-    <link rel="stylesheet" href="{{ "/content/vendor/flexslider/flexslider.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/content/vendor/prettyPhoto/prettyPhoto.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/css/prettyPhoto.min.css">
     <link rel="stylesheet" href="{{ "/content/css/main.css" | prepend: site.baseurl }}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-    <script src="{{ "/content/vendor/modernizr.js" | prepend: site.baseurl }}"></script>
-    {% if page.map %}
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key={{ site.google_api_key }}"></script>
-    {% endif %}
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
     <!--[if lte IE 8]>
     <script src="{{ "/content/vendor/respond.js" | prepend: site.baseurl }}"></script>
@@ -48,7 +49,7 @@
     <link rel="shortcut icon" href="{{ "/content/icon/favicon.ico" | prepend: site.baseurl }}">
     <meta name="msapplication-config" content="{{ "/content/icon/browserconfig.xml" | prepend: site.baseurl }}">
     <meta name="theme-color" content="#ffffff">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
     <!-- Social Media -->

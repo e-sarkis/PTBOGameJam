@@ -1,7 +1,7 @@
 /* Contact Form Submit */
 $(document).on('submit', '#contactForm', function()
 {
-  $.post(apiBase + apiMailer + "/", $(this).serialize(), function(data)
+  $.post("https://api.dotbunny.com/v1/PTBOGameJam/SendMail/", $(this).serialize(), function(data)
   {
     var result = document.getElementById( 'form-result' );
     if ( data.success == true ) {
