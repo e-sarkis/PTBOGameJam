@@ -9,15 +9,15 @@ layout: compress
     <div id="home" class="jx-main-slider">
       <div class="flexslider">
         <ul class="slides">
-
           {% for slide in site.data.slides %}
           {% if slide.video %}
           <li id="{{slide.name}}" class="jx-parallax-fullwidth">
             <div class="lander-video-container">
-            <iframe class="lander-video" id="{{slide.name}}-video"
-              src="https://player.vimeo.com/video/{{slide.video}}?api=1&player_id={{slide.name}}-video&background=1"
-              mobile-src="https://player.vimeo.com/video/{{slide.video}}?api=1&player_id={{slide.name}}-video&background=0"
-              frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+              <!--[if lt IE 9]> <script> document.createElement('video'); </script> <![endif]-->
+              <video id="lander-video-{{slide.name}}"playsinline autoplay muted loop class="lander-video" poster="{{ slide.fallback }}"> 
+                <source src="{{slide.video}}" type="video/mp4">
+              </video>
+            </div>
           {% elsif slide.image %}
           <li id="{{slide.name}}" class="jx-parallax-fullwidth" style="background-image:url('{{slide.image}}');">
           {% endif %}

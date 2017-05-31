@@ -5,6 +5,12 @@ var landerVideosContainers = $('.lander-video-container');
 
 
 
+// $(window).on("ready", function() {
+
+//   $('video').each(function() {
+//     $(this).play();
+//   });
+// });
 // Handle OnLoad Events
 $(window).load(function()
 {
@@ -18,6 +24,22 @@ $(window).load(function()
     maxItems: 1,
     prevText:'',
     nextText:'',
+    video: true,
+    start: function()
+    {
+      var active_id = $('.flex-active-slide').attr('id');
+      var video = $("#" + active_id).find("video");
+      if ( video.length > 0 ) {
+        video.get(0).play();
+      }
+    },
+    after: function(slider){
+        var active_id = $('.flex-active-slide').attr('id');
+        var video = $("#" + active_id).find('video');
+        if ( video.length > 0 ) {
+          video.get(0).play();
+        }
+    }
   });
 });
 

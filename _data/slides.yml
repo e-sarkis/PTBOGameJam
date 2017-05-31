@@ -1,7 +1,7 @@
 - name:           "lander"
   type:           "empty"
-  video:          "193577058"
-  image:          "/content/img/event/02/fallback.jpg"
+  video:          "https://player.vimeo.com/external/193577058.sd.mp4?s=58fd6b9989396a867d3e83f29f14b338def450dd&profile_id=165"
+  image:          "/content/img/event/03/fallback.jpg"
 
 # - name:       "event01-wrap"
 #   type:       "default"
