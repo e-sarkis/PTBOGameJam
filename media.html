@@ -41,7 +41,7 @@ redirect_from: "/press/"
                     <div class="one-third columns">
                       <a href="{{ post.url | prepend: site.baseurl }}">
                         <div class="image jx-image-wrapper">
-                          <img src="{{ "/content/img/post/" | prepend: site.baseurl }}{{ post.code }}.jpg" hdpi="true" alt="{{ post.title }}">
+                          <img src="{{ "/content/img/post/" | prepend: site.baseurl }}{{ post.code }}.jpg" srcset="{{ "/content/img/post/" | prepend: site.baseurl }}{{ post.code }}.jpg 1x, {{ "/content/img/post/" | prepend: site.baseurl }}{{ post.code }}@2x.jpg 2x" alt="{{ post.title }}">
                           <div class="jx-image-overlay"></div>
                             <div class="jx-image-hover">
                               <a href="{{ post.url | prepend: site.baseurl }}" class="jx-blog-more"><i class="icon-doc"></i></a>
