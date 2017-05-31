@@ -15,70 +15,14 @@
   url:    "http://www.funkyrustic.net/"
   img:    "/content/img/event/02/sponsors/funkyrustic.jpg"
 
-- name:   "GitHub"
-  tier:   "silver"
-  url:    "https://github.com"
-  img:    "/content/img/event/02/sponsors/github.jpg"
-
-- name:   "IBM"
-  tier:   "silver"
-  url:    "http://www.ibm.com/ca-en/"
-  img:    "/content/img/event/02/sponsors/ibm.jpg"
-
-- name:   "Peterborough Tech Advisory Council"
-  tier:   "silver"
-  url:    "http://ptbotac.org"
-  img:    "/content/img/event/02/sponsors/ptac.jpg"
-
-- name:   "Ricky's All Day Grill"
-  tier:   "silver"
-  url:    "https://twitter.com/RickysPtbo"
-  img:    "/content/img/event/02/sponsors/rickys.jpg"
-
-- name:   "acorn30"
-  tier:   "bronze"
-  url:    "http://acorn30.com"
-  img:    "/content/img/event/02/sponsors/acorn30.jpg"
-
-- name:   "Aramark"
-  tier:   "bronze"
-  url:    "http://aramark.com"
-  img:    "/content/img/event/02/sponsors/aramark.jpg"
-
-- name:   "Audio Kinetic"
-  tier:   "bronze"
-  url:    "https://www.audiokinetic.com/"
-  img:    "/content/img/event/02/sponsors/audiokinetic.jpg"
-
-- name:   "Community Futures Peterborough"
-  tier:   "bronze"
-  url:    "http://communityfuturespeterborough.ca/"
-  img:    "/content/img/event/02/sponsors/cfpeterborough.jpg"
-
-- name:   "Gotta Havva Pizza"
-  tier:   "bronze"
-  url:    "http://gottahavvapizza.com/"
-  img:    "/content/img/event/02/sponsors/gottahavvapizza.jpg"
-
-- name:   "inXile Entertainment"
-  tier:   "bronze"
-  url:    "http://inxile.net/"
-  img:    "/content/img/event/02/sponsors/inxile.jpg"
-
-- name:   "Kawartha Lakes Community Futures Development Corporation"
-  tier:   "bronze"
-  url:    "http://klcfdc.com/"
-  img:    "/content/img/event/02/sponsors/cfkawarthalakes.jpg"
-
 - name:   "Liftlock Studios"
   tier:   "bronze"
   url:    "http://liftlockstudios.com/"
   img:    "/content/img/event/02/sponsors/liftlock.jpg"
 
-- name:   "Pagefolio"
+- name:   "Prima IP"
   tier:   "bronze"
-  url:    "http://pagefolio.com"
-  img:    "/content/img/event/02/sponsors/pagefolio.jpg"
+  url:    "http://www.primaip.com/"
 
 - name:   "Unity"
   tier:   "bronze"
