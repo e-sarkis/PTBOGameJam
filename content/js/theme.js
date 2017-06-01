@@ -33,9 +33,6 @@ Version: 		1.0
 			// Animation
 			this.animation();
 
-			// Toggle
-			this.toggle();
-
 			// Tabs
 			this.tabs();
 
@@ -44,9 +41,6 @@ Version: 		1.0
 
 			// Parallax
 			this.parallax();
-
-			//Counter
-			this.counter();
 
 			//Bouncy
 			this.bouncy();
@@ -62,25 +56,6 @@ Version: 		1.0
 
 		//Items on Ready
 		onReady: function(){
-
-
-			jQuery(document).ready(function(){
-
-
-
-				jQuery('#jx-counter-1').circliful();
-				jQuery('#jx-counter-2').circliful();
-				jQuery('#jx-counter-3').circliful();
-				jQuery('#jx-counter-4').circliful();
-
-
-
-
-
-				if (jQuery(".select-box").length > 0){
-					jQuery(".select-box").selectbox();
-				}
-			});
 
 			// Menu Active
 			var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
@@ -100,79 +75,13 @@ Version: 		1.0
 				jQuery.validate({
 					modules : 'date, security'
 				});
+				jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
+			});
 
-				getWidthAndHeight();
-
-
-
-
-				//Portfolio Slider
-				jQuery('.jx-protfolio.jx-flexslider').flexslider({
-					animation: "slide",
-					controlNav: true,
-					directionNav:true,
-					slideshowSpeed:"8000",
-					manualControls: ".flex-custom-control-nav li"
-				});
-
-
-
-				//Testimonial #1
-				jQuery('.jx-testimonial .flexslider').flexslider({
-					animation: "slide",
-					controlNav: true,
-					directionNav:false,
-					slideshowSpeed:"8000",
-					prevText:'',
-					nextText:''
-				});
-
-
+			jQuery(window).resize(function(){ // On resize
 				jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
 
-
-				getWidthAndHeight();
-
-				function getWidthAndHeight (){
-					var winWidth = jQuery(window).width();
-					var winHeight = jQuery(window).height();
-					jQuery('.jx-middle').css({'height': winHeight});
-
-					jQuery('.jx-middle').each(function(){
-						  var $pa = jQuery(this);
-						  var $ch = $pa.find('.jx-counting-down');
-						  var paH = $pa.innerHeight();
-						  var chH = $ch.innerHeight();
-
-						  $ch.css({marginTop: (paH-chH)/2});
-
-						});
-				}
-
-				});
-
-				jQuery(window).resize(function(){ // On resize
-					jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
-
-					getWidthAndHeight();
-
-					function getWidthAndHeight (){
-					var winWidth = jQuery(window).width();
-					var winHeight = jQuery(window).height();
-					jQuery('.jx-middle').css({'height': winHeight});
-
-					jQuery('.jx-middle').each(function(){
-						  var $pa = jQuery(this);
-						  var $ch = $pa.find('.jx-counting-down');
-						  var paH = $pa.innerHeight();
-						  var chH = $ch.innerHeight();
-
-						  $ch.css({marginTop: (paH-chH)/2});
-
-						});
-					}
-
-				});
+			});
 
 		},
 
@@ -243,14 +152,6 @@ Version: 		1.0
 
 		},
 
-		toggle: function(){
-
-
-			jQuery('#accordion-1 [data-accordion],#accordion-2 [data-accordion],#accordion-3 [data-accordion],#accordion-4 [data-accordion],#accordion-5 [data-accordion],#accordion-6 [data-accordion],#accordion-7 [data-accordion],#accordion-8 [data-accordion],#accordion-9 [data-accordion],#accordion-10 [data-accordion],#accordion-11 [data-accordion],#accordion-12 [data-accordion],#accordion-13 [data-accordion]').accordion({
-			  singleOpen: false
-			});
-
-		},
 		tabs:function(){
 
 
@@ -317,15 +218,6 @@ Version: 		1.0
 		parallax: function(){
 
 		jQuery('.parallax,.jx-page-header-parallax').scrolly({bgParallax: true});
-
-		},
-
-		counter: function(){
-
-		jQuery(".jx-count-up").counterUp({
-                delay: 10,
-                time: 1000
-            });
 
 		},
 
