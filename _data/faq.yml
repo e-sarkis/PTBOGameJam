@@ -2,7 +2,7 @@
   description:  A game jam is an event where people gather to make relatively small games in short fixed duration. Some game jams can last a week, others are much shorter, often 24-48 hours straight to produce something playable. It presents a great opportunity for individuals to test new ideas and develop themselves professionally.
 
 - title:        Can I just watch?
-  description:  We have created the "Educational Block ONLY" ticket type during registration for this purpose. It will get you access to the educational component, as well as you are invited back on the Sunday after 6PM to see the results of all of the hard work. You still are required to sign a liability waiver, which can be done online or on-site.
+  description:  We have created the "Educational Block" ticket type during registration for this purpose. It will get you access to the educational component, as well as you are invited back on the Sunday after 5PM to see the results of all of the hard work. You still are required to sign a liability waiver, which can be done online or on-site.
 
 - title:        When should I show up?
   description:  On the <a href="/event/schedule/">schedule</a> there is a dedicated sign-in block of time; but showing up at the start of that would be perfect. Don't forget you can show up early during the Game Development Seminar block as well to get settled. If you are going to be late, please <a href="/contact/">contact us</a> ahead of time so that we can make arrangements for you.
@@ -40,11 +40,11 @@
 - title:        Deliverables?
   description:  At the end of the game jam block, games will be shown to other participants and observers. So, whatever platform / technology you built your game on needs to be demonstrated to others. So, if you want to bring a full VR rig that is perfectly OK!
 
-- title:        What's this about cash prizes?
-  description:  We’ve received some cash prize money from the government’s FastStart program. However, the government likes to limit that to people under 29. In the spirit of not supporting ageism, dotBunny has decided to match all cash prizes in that category, by creating a 30 and over prize bracket.
+# - title:        What's this about cash prizes?
+#   description:  We’ve received some cash prize money from the government’s FastStart program. However, the government likes to limit that to people under 29. In the spirit of not supporting ageism, dotBunny has decided to match all cash prizes in that category, by creating a 30 and over prize bracket.
 
-- title:        When and how will the prizes be awarded?
-  description:  On the Sunday at 6:00 PM, games will be evaluated by a panel including sponsors, organizers and a select few. The games will be judged on their ingenuity, creativity, use of the theme, and over all fun factor. By 7:30 PM prizes will be awarded to those select individuals and teams.
+# - title:        When and how will the prizes be awarded?
+#   description:  On the Sunday at 6:00 PM, games will be evaluated by a panel including sponsors, organizers and a select few. The games will be judged on their ingenuity, creativity, use of the theme, and over all fun factor. By 7:30 PM prizes will be awarded to those select individuals and teams.
 
 - title:        Final Submission? What?
   description:  At the end of the game jam work block, attendees will be given the opportunity to polish their game for 5 days afterwards. Submissions of the final game will be done on <a href="https://itch.io/">itch.io</a>, with a link provided to participants at the end of the game jam. Once all submissions are completed an email will be sent out across the established mailing list with instructions on how to play each game. Images and a brief write up will also be requested of participants allowing for an archive of games to be created for future posterity.

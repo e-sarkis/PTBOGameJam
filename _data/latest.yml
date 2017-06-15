@@ -6,13 +6,13 @@ ics:              "#notarget"
 date_long:        "August 4-6 2017"
 #date_short:       "August 2017"
 date_short:       "4-6 Aug 2017"
-date_countdown:   "5 Aug 2017 08:00"
+date_countdown:   "5 Aug 2017 09:00"
 
-countdown:        "5 august 2017 08:00:00"
+countdown:        "5 august 2017 09:00:00"
 
-hours_work:       "45"
-hours_edu:        "3"
-prizes:           "3"
+hours_work:       "32"
+hours_edu:        "5"
+prizes:           "1"
 message:          "Kawartha Trades &amp; Technology Centre"
 map-lat:          44.267328168782846
 map-long:         -78.37285491793824
@@ -27,7 +27,7 @@ address-2:        "Peterborough, Ontario K9J 7B1"
 address-3:        ""
 
 registration:     "http://ptbogamejam03.eventbrite.ca"
-spots:            "???"
+spots:            "120"
 
 
 latest_video:     "https://player.vimeo.com/video/206754059"
