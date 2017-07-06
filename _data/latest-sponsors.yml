@@ -15,6 +15,11 @@
   url:    "http://www.funkyrustic.net/"
   img:    "/content/img/event/02/sponsors/funkyrustic.jpg"
 
+- name:   "Community Futures Peterborough"
+  tier:   "bronze"
+  url:    "http://communityfuturespeterborough.ca/"
+  img:    "/content/img/event/02/sponsors/cfpeterborough.jpg"
+
 - name:   "Liftlock Studios"
   tier:   "bronze"
   url:    "http://liftlockstudios.com/"
@@ -23,6 +28,7 @@
 - name:   "Prima IP"
   tier:   "bronze"
   url:    "http://www.primaip.com/"
+  img:    "/content/img/event/03/sponsors/primaip.jpg"
 
 - name:   "Unity"
   tier:   "bronze"
