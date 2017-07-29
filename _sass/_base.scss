@@ -3467,3 +3467,34 @@ position-relative {
 {
   padding-top:100px;
 }
+
+
+
+
+.live-bypass
+{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+.live-link
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #0cf;
+  vertical-align: middle;
+  color: #fff;
+  font-family: "Raleway",Arial,Helvetica;
+  font-size: xx-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 33px;
+}
+
+.live-link:hover {
+  background-color: #333;
+  color: #fff;
+}
