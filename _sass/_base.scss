@@ -120,7 +120,7 @@ body {
   font-weight: $base-font-weight;
   font-family: $base-font-family;
   color: #666;
-  // -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 		/* Fix for webkit rendering */
   -webkit-text-size-adjust: 100%;
   overflow-x: hidden !important;
