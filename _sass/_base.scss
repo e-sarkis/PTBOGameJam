@@ -3498,3 +3498,25 @@ position-relative {
   background-color: #333;
   color: #fff;
 }
+a.lander-link {
+  color: #fff !important;
+}
+a.lander-link:hover {
+  color: #fff !important;
+}
+
+div.media-founder {
+  padding-bottom: 35px;
+}
+div.media-founder .photo {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.media-founder span {
+  display: block;
+}
+
+div.media-founder a:hover {
+  color: #00CCFF !important;
+}

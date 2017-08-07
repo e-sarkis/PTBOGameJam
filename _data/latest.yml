@@ -1,13 +1,12 @@
-title:            "PTBO Game Jam 03"
+title:            "PTBO Game Jam 04"
 link:             "/event/"
 ics:              "#notarget"
 #ics:              "/content/ics/PTBOGameJam02.ics"
-#date_long:        "August 2017"
-date_long:        "August 4-6 2017"
-#date_short:       "August 2017"
-date_short:       "4-6 Aug 2017"
+date_long:        "February 2018"
+#date_long:        "August 4-6 2017"
+date_short:       "February 2018"
+#date_short:       "4-6 Feb 2017"
 date_countdown:   "5 Aug 2017 09:00"
-
 countdown:        "5 august 2017 09:00:00"
 
 hours_work:       "32"
@@ -26,7 +25,7 @@ address-1:        "599 Brealey Drive"
 address-2:        "Peterborough, Ontario K9J 7B1"
 address-3:        ""
 
-registration:     "http://ptbogamejam03.eventbrite.ca"
+registration:     "https://ptbogamejam04.eventbrite.ca"
 spots:            "120"
 
 

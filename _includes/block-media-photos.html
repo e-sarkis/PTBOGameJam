@@ -16,6 +16,22 @@
                     <!-- Section Title -->
 
                 </div>
+                <div class="media-founder">
+                    <div class="photo">
+                        <a href="{{ "/files/events/03/PTBOGameJam03-MD.png" | prepend: site.baseurl }}" title="Event Founder &amp; Organizer, Matthew Davey"><img width="200" src="{{ "/content/img/event/03/release/MD.jpg" | prepend: site.baseurl }}" alt="Event Founder &amp; Organizer, Matthew Davey" hdpi="true"/></a>
+                        <span><a href="http://reapazor.com">Matthew Davey</a><br />Founder &amp; Organizer</span>
+                    </div>
+                </div>
+                {% for image in site.data.03-gallery %}
+                <div class="jx-grid-item">
+                    <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
+                      <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}">
+                        <div class="jx-image-overlayer"></div>
+                        <div class="jx-image-hover"><i class="icon-link"></i></div>
+                      </a>
+                    </div>
+                </div>
+                {% endfor %}
                 {% for image in site.data.02-gallery %}
                 <div class="jx-grid-item">
                     <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
