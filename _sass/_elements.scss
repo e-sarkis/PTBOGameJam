@@ -156,7 +156,7 @@ FRIENDS
 .jx-servicebox-1 .jx-service-item .service-title a{
   color:#000;
   font-size:20px;
-  font-weight:600
+  font-weight:500
 }
 .jx-servicebox-1 .jx-service-item .service-title a:hover{
   color:$primary-color;
@@ -218,7 +218,7 @@ FRIENDS
 .jx-servicebox-2 .jx-service-item .service-title a{
   color:#000;
   font-size:20px;
-  font-weight:600
+  font-weight:500
 }
 .jx-servicebox-2 .jx-service-item .service-title a:hover{
   color:$primary-color;
@@ -304,7 +304,7 @@ FRIENDS
 
 	.jx-team-item.jx-team-box-content .jx-title span{
 	  font-size:31px;
-	  font-weight:600;
+	  font-weight:500;
 	  color:$primary-color
 	}
 	.jx-hr-title{
@@ -448,6 +448,11 @@ FRIENDS
 
   .jx-team-item .team-social li .icon-home:hover {
     background: #32c24d;
+    //color: #fff;
+  }
+
+    .jx-team-item .team-social li .icon-volume-up:hover {
+    background: #fd8324;
     //color: #fff;
   }
 
@@ -885,7 +890,7 @@ FRIENDS
   width:100%;
   background:$primary-color;
   color:#fff !important;
-  font-family:raleway;
+  font-family:"Raleway";
   text-transform:uppercase;
   font-size:20px;
   font-weight:500;
@@ -1019,7 +1024,7 @@ line-height: 1.5;
 	width: 700px;
 	font-size: 19px;
 	font-weight: 400;
-	font-family: raleway;
+	font-family: "Raleway";
 }
 
 .jx-testimonial-item{
@@ -1068,7 +1073,7 @@ line-height: 1.5;
 }
 .jx-price-table .jx-price-item .jx-package-name{
 	font-size: 40px;
-	font-weight: 600;
+	font-weight: 500;
 	text-align: center;
 	margin-bottom: 18px;
 	height: 68px;
@@ -1129,7 +1134,7 @@ border-top: 1px solid rgba(255,255,255,0.3);
 }
 .jx-ticket-form h1{
   color:#fff;
-  font-family:raleway
+  font-family:"Raleway"
 }
 .jx-ticket-form input{
   border-radius:0;
@@ -1282,7 +1287,7 @@ border-top: 1px solid rgba(255,255,255,0.3);
 .jx-media-center .title a{
 	color:#000;
 	font-size:20px;
-	font-weight:600;
+	font-weight:500;
 	padding: 15px 0px 10px 0px;
 }
 
@@ -1292,7 +1297,7 @@ border-top: 1px solid rgba(255,255,255,0.3);
 
 .jx-media-center .date {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 	padding: 0px 20px;
 }
 .jx-media-center .date i {
@@ -1425,13 +1430,13 @@ border-top: 1px solid rgba(255,255,255,0.3);
 .jx-event-schedule .title {
 	color:#000000;
 	font-size:18px;
-	font-weight:600;
+	font-weight:500;
 	padding: 3px 0px 10px 0px;
 	cursor:pointer;
 }
 .jx-event-schedule .date {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 	color:$primary-color;
 }
 .jx-event-schedule .date i {
@@ -2661,7 +2666,7 @@ xkeyframes
   width:90px;
   border-radius:0;
   color:#fff;
-  font-family:raleway;
+  font-family:"Raleway";
   font-size:16px;
   font-weight:400;
   border:0;
