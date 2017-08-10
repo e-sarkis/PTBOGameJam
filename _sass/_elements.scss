@@ -3006,8 +3006,16 @@ div#stats .container:last-child {
 //   display: none;
 // }
 
+
 .sprd-info-footer {
-  display: none;
+  display: none !important;
+}
+
+div#swag-notice {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .community-item {
