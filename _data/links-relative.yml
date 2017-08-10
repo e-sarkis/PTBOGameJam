@@ -10,6 +10,7 @@ archive:            "/archive/"
 files-releases:     "/files/releases/"
 
 category:           "/blog/category/"
+swag:               "/community/swag/"
 
 
 logo-light-ai:      "/files/branding/PTBOGameJam-Light.ai"
