@@ -162,7 +162,7 @@ var chartEngines = new Chart($("canvas#engine-chart"), {
     data: {
         labels: ["Unity", "Unreal", "Game Maker", "Scratch"],
         datasets: [{
-            data: [58, 2, 2, 3],
+            data: [55, 5, 2, 3],
             backgroundColor: [
                 "#00bcd4",
                 "#dda209",

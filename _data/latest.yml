@@ -20,13 +20,15 @@ marker-lat:       44.267328168782846
 marker-long:      -78.37285491793824
 
 
-location:         "Kawartha Trades &amp; Technology Centre"
+#location:         "Kawartha Trades &amp; Technology Centre"
+location:         "Comming Soon"
 address-1:        "599 Brealey Drive"
 address-2:        "Peterborough, Ontario K9J 7B1"
 address-3:        ""
 
 registration:     "https://ptbogamejam04.eventbrite.ca"
-spots:            "120"
+#spots:            "120"
+spots:            "100+"
 
 
 latest_video:     "https://player.vimeo.com/video/226385153"
