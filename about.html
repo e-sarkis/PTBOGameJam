@@ -125,7 +125,8 @@ script: "about"
         <div class="jx-hr-title"></div>
         <p>Putting on a <em>world class event</em> takes a dedicated team of individuals in-and-around the industry volunteering their time, collaborating on ideas and innovations, and just "getting it done"; it is the hard work of these individuals that continue to make the PTBO Game Jam a success.</p>
       </div>
-{% for member in site.data.staff  %}
+{% for member in site.data.staff %}
+{% if member.status %}
       <div class="jx-team-item">
         <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ member.picture || prepend: site.baseurl }}" class="attachment-team-image" alt="{{ member.name }}" />
           <div class="jx-team-overlayer"></div>
@@ -143,6 +144,42 @@ script: "about"
           </div>
         </div>
       </div>
+{% endif %}
+{% endfor %}
+    </div>
+  </div>
+</div>
+
+<!-- ALUMNI -->
+<div id='alumni' class="jx-container container-no-margin jx-padding jx-light background-002">
+  <div class="container ">
+    <div class="jx-team">
+      <div class="jx-team-item jx-team-box-content">
+        <a name="team"><div class="jx-title jx-uppercase">The <span>Alumni</span></div></a>
+        <div class="jx-hr-title"></div>
+        <p>As we grow and develop, so do our volunteers. While it makes us sad to see them go, we are understanding and thankful for their contributions to the PTBO Game Jam. We recognize their <em>contributions to cause</em>, and wish them the very best in their future endeavours.</p>
+      </div>
+{% for member in site.data.staff %}
+{% if member.status %}
+{% else %}
+      <div class="jx-team-item">
+        <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ member.picture || prepend: site.baseurl }}" class="attachment-team-image" alt="{{ member.name }}" />
+          <div class="jx-team-overlayer"></div>
+          <div class="jx-image-hover-info">
+            <div class="jx-team-name">{{ member.name }}</div>
+            <div class="jx-team-pos">{{ member.position }}</div>
+            <div class="team-social">
+              <ul>
+                {% if member.webpage %}<li><a href="{{ member.webpage }}"><i class="icon-home"></i></a></li>{% endif %}
+                {% if member.twitter %}<li><a href="{{ member.twitter }}"><i class="icon-twitter"></i></a></li>{% endif %}
+                {% if member.linkedin  %}<li><a href="{{ member.linkedin }}"><i class="icon-linkedin"></i></a></li>{% endif %}
+                {% if member.soundcloud  %}<li><a href="{{ member.soundcloud }}"><i class="icon-volume-up"></i></a></li>{% endif %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endif %}
 {% endfor %}
     </div>
   </div>

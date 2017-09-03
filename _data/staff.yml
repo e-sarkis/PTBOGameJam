@@ -2,6 +2,7 @@
   picture:    "/content/img/team/dave-bowen.jpg"
   position:   "Operations"
   twitter:    "http://twitter.com/Canadave41"
+  status:     true
 
 - name:       "Arin Blue"
   picture:    "/content/img/team/03/arin-blue.jpg"
@@ -9,6 +10,7 @@
   linkedin:   "https://www.linkedin.com/in/arin-blue-7595b58b/"
   twitter:    "https://twitter.com/YorBoyBlue"
   webpage:    "http://triosdevelopers.com/A.Blue/"
+  status:     true
 
 - name:       "Matthew Davey"
   picture:    "/content/img/team/03/matthew-davey.jpg"
@@ -16,6 +18,7 @@
   webpage:    "http://reapazor.com"
   twitter:    "http://www.twitter.com/reapazor"
   linkedin:   "http://www.linkedin.com/in/matthewdavey"
+  status:     true
   
 - name:       "Robert French"
   picture:    "/content/img/team/03/robert-french.jpg"
@@ -23,6 +26,7 @@
   webpage:    "http://robertfrench.ca"
   twitter:    "http://twitter.com/qcha0s"
   linkedin:   "http://www.linkedin.com/in/robertjfrench"
+  status:     true
 
 - name:       "Briar Jamieson"
   picture:    "/content/img/team/03/briar-jamieson.jpg"
@@ -30,22 +34,26 @@
   webpage:    "http://brijam.com/"
   twitter:    "https://twitter.com/mbjamieson"
   linkedin:   "https://www.linkedin.com/in/briar-jamieson-18708459/"
+  status:     true
 
 - name:       "Phil Laliberte"
   picture:    "/content/img/team/phil-laliberte.jpg"
   position:   "Sponsor Liaison"
   linkedin:   "http://www.linkedin.com/in/laliberte"
+  status:     false
 
 - name:       "Amanda Rochon"
   picture:    "/content/img/team/03/amanda-rochon.jpg"
   position:   "Operations Lead"
   linkedin:   "http://www.linkedin.com/in/amanda-rochon-ph-d-59344848"
+  status:     true
 
 - name:       "Elisha Sarkis"
   picture:    "/content/img/team/03/elisha-sarkis.jpg"
   position:   "Social Media"
   linkedin:   "https://www.linkedin.com/in/elisha-sarkis-48429b120/"
   webpage:    "http://esarkis.itch.io"
+  status:     true
 
 - name:       "Rob Waite"
   picture:    "/content/img/team/03/rob-waite.jpg"
@@ -53,3 +61,4 @@
   twitter:    "https://twitter.com/ThatRobWaite"
   linkedin:   "https://www.linkedin.com/in/rob-waite-8481b48a/"
   soundcloud:  "https://soundcloud.com/fooish"
+  status:     true

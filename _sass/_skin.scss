@@ -64,11 +64,14 @@ body {
     background-color: $grey-color-dark-more !important;
 }
 
-
+.jx-light .jx-team-item.jx-team-box-content .jx-title {
+	color: #111 !important;
+}
 
 .jx-team-item.jx-team-box-content .jx-title {
 	color:#FFFFFF !important;
 }
+
 
 .jx-footer-widget {
 	background: $grey-color-dark-more !important;
