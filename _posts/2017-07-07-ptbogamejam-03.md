@@ -3,7 +3,7 @@ layout: post-release
 title:  "PTBO Game Jam 03"
 date:   2017-07-07 09:00:00 -0400
 categories: ["media-releases"]
-tags: ["03", "dotbunny", "fleming-college", "funky-rustic", "peterborough-cfdc", "liftlock-studios", "prima-ip","unity", "igda"]
+tags: ["03", "dotbunny", "fleming college", "funky rustic", "peterborough cfdc", "liftlock studios", "prima ip", "unity", "igda"]
 code: 2017-07-07-ptbogamejam-03
 excerpt: "It's About Time!"
 image: 2017-07-07-ptbogamejam-03.jpg
