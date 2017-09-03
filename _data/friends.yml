@@ -1,36 +1,85 @@
 - name:   "AudioKinetic"
   url:    "http://audiokinetic.com"
   img:    "/content/img/friends/audiokinetic.jpg"
+  type:   "industry"
 
-- name:   "dotBunny"
-  url:    "http://dotbunny.com"
-  img:    "/content/img/friends/dotbunny.jpg"
+# - name:   "dotBunny"
+#   url:    "http://dotbunny.com"
+#   img:    "/content/img/friends/dotbunny.jpg"
 
 - name:   "Epic Games"
   url:    "http://epicgames.com/"
   img:    "/content/img/friends/epic.jpg"
+  type:   "industry"
 
 - name:   "Funky Rustic"
   url:    "http://www.funkyrustic.net"
   img:    "/content/img/friends/funkyrustic.jpg"
+  type:   "industry"
+
+
+- name:   "Internation Game Developers Association"
+  url:    "http://www.igda.org/"
+  img:    "/content/img/friends/igda.jpg"
+  type:   "industry"
+
+- name:   "IBM"
+  url:    "https://www.ibm.com/ca-en/"
+  img:    "/content/img/friends/ibm.jpg"
+  type:   "industry"
 
 - name:   "inXile Entertainment"
   url:    "http://inxile-entertainment.com/"
   img:    "/content/img/friends/inxile.jpg"
+  type:   "industry"
 
-- name:   "Liftlock Studios"
-  url:    "http://liftlockstudios.com"
-  img:    "/content/img/friends/liftlock.jpg"
+# - name:   "Liftlock Studios"
+#   url:    "http://liftlockstudios.com"
+#   img:    "/content/img/friends/liftlock.jpg"
+#   type:   "industry"
 
 # Cough ..get the podcast out
 # - name:   "The Indie Game Scene"
 #   url:    "http://theindiegamescene.com/"
 #   img:    "/content/img/friends/tigs.jpg"
+#   type:   "industry"
 
 - name:   "TOJam"
   url:    "http://tojam.ca"
   img:    "/content/img/friends/tojam.jpg"
+  type:   "industry"
 
 - name:   "Unity"
   url:    "http://unity3d.com"
   img:    "/content/img/friends/unity.jpg"
+  type:   "industry"
+
+- name:   "Gotta Havva Pizza"
+  url:    "http://www.gottahavvapizza.com/"
+  img:    "/content/img/friends/gottahavva.jpg"
+  type:   "local"
+
+- name:   "Igniter Ticket"
+  url:    "http://ignitertickets.com/"
+  img:    "/content/img/friends/igniter-tickets.jpg"
+  type:   "local"
+
+- name:   "Pagefolio"
+  url:    "http://pagefolio.com/"
+  img:    "/content/img/friends/pagefolio.jpg"
+  type:   "local"
+
+- name:   "Peterborough Tech Advisory Council"
+  url:    "http://ptbotac.org/"
+  img:    "/content/img/friends/ptac.jpg"
+  type:   "local"
+
+- name:   "Prima IP"
+  url:    "http://www.primaip.com/"
+  img:    "/content/img/friends/primaip.jpg"
+  type:   "local"
+
+- name:   "Ricky's"
+  url:    "https://twitter.com/RickysPtbo"
+  img:    "/content/img/friends/rickys.jpg"
+  type:   "local"
