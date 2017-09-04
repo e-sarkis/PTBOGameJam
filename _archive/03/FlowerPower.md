@@ -2,6 +2,7 @@
 title:          "Flower Power" # title of project
 event:          "03" # Event this is with
 genre:          ["Shooter"] # Genre is available on the itch page under more information
+controls:       [ ["WSAD", "Move Van"]]
 platforms:      ["Windows", "Browser"] # Platforms available on
 link:           "https://rjhelms.itch.io/flower-power" # Link to ITCH page
 team:           ["Robert Hailman"]

@@ -2,6 +2,8 @@
 title:          "Retro League" # title of project
 event:          "03" # Event this is with
 genre:          ["Shooter"] # Genre is available on the itch page under more information
+controls:       [ ["WSAD", "Drive"], 
+                ["P", "Demo Mode"]]
 platforms:      ["Windows", "macOS", "Browser"] # Platforms available on
 link:           "https://betajaen.itch.io/retroleague" # Link to ITCH page
 team:           [ "Robin Southern" ] # team member array, first and last name only, will auto match against previous entries eventually
