@@ -1332,6 +1332,9 @@ div#showMenu i#showSubMenuIcon {
 ul.sub-menu li a strong {
   color: $blue;
 }
+ul.sub-menu li a:hover strong {
+  color: $grey-color-dark-more;
+}
 
 // .jx-menu .main-menu li .sub-menu li a:before {
 //     content:'\f105';
