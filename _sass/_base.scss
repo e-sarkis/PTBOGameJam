@@ -1329,6 +1329,10 @@ div#showMenu i#showSubMenuIcon {
     background-color: rgba(0,0,0,0.75);
 }
 
+ul.sub-menu li a strong {
+  color: $blue;
+}
+
 // .jx-menu .main-menu li .sub-menu li a:before {
 //     content:'\f105';
 //   font-family:fontawesome;
