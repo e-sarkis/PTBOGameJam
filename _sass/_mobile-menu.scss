@@ -40,6 +40,12 @@ html, body, .perspective {
 	position: relative;
 }
 
+.justify
+{
+	text-align: justify !important;
+	max-width: unset !important;
+}
+
 .component {
 	margin: 0 auto;
 	width: 60%;

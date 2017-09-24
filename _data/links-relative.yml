@@ -11,6 +11,7 @@ files-releases:     "/files/releases/"
 
 category:           "/blog/category/"
 
+community-guidelines: "/community/guidelines/"
 
 logo-light-ai:      "/files/branding/PTBOGameJam-Light.ai"
 logo-light-eps:     "/files/branding/PTBOGameJam-Light.eps"
