@@ -2,12 +2,10 @@ title:            "PTBO Game Jam 04"
 link:             "/event/"
 ics:              "#notarget"
 #ics:              "/content/ics/PTBOGameJam02.ics"
-date_long:        "February 2018"
-#date_long:        "August 4-6 2017"
-date_short:       "February 2018"
-#date_short:       "4-6 Feb 2017"
-date_countdown:   "5 Aug 2017 09:00"
-countdown:        "5 august 2017 09:00:00"
+date_long:        "February 23-25 2018"
+date_short:       "23-25 Feb 2018"
+date_countdown:   "24 Feb 2018 09:00"
+countdown:        "24 february 2018 09:00:00"
 
 hours_work:       "32"
 hours_edu:        "5"
@@ -20,8 +18,8 @@ marker-lat:       44.267328168782846
 marker-long:      -78.37285491793824
 
 
-#location:         "Kawartha Trades &amp; Technology Centre"
-location:         "Coming Soon"
+location:         "Kawartha Trades &amp; Technology Centre"
+#location:         "Coming Soon"
 address-1:        "599 Brealey Drive"
 address-2:        "Peterborough, Ontario K9J 7B1"
 address-3:        ""
