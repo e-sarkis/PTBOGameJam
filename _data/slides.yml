@@ -1,7 +1,17 @@
-- name:           "lander"
+- name:           "wrap03"
   type:           "empty"
-  video:          "https://player.vimeo.com/external/193577058.sd.mp4?s=58fd6b9989396a867d3e83f29f14b338def450dd&profile_id=165"
-  image:          "/content/img/event/03/fallback.jpg"
+  video:          "https://player.vimeo.com/external/230401383.sd.mp4?s=b4f5e7aa2f93865bb33f71f770b862f5ab91da56&profile_id=165"
+  image:          "/content/img/slides/slide-wrap-03.jpg"
+
+# - name:           "wrap02"
+#   type:           "empty"
+#   video:          "https://player.vimeo.com/external/206754059.sd.mp4?s=2b671eb105c78b4b18c3da98836566944811ed97&profile_id=165"
+#   image:          "/content/img/slides/slide-wrap-02.jpg"
+
+# - name:           "wrap01"
+#   type:           "empty"
+#   video:          "https://player.vimeo.com/external/178906574.sd.mp4?s=1bd54b756a85cdcc4845885c6f71a62fd0093690&profile_id=165"
+#   image:          "/content/img/hero/slide-004.jpg"
 
 # - name:       "event01-wrap"
 #   type:       "default"
