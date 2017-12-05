@@ -222,6 +222,15 @@ function onResizeSite()
 {
     // Make all our fullwidth guys proper
     $('.jx-parallax-fullwidth').css('height', window.innerHeight + 'px');
+
+    var videos = $("video");
+    $.each(videos, function( index, value ) {
+      try
+      {
+        value.play();
+      }
+      catch(err){}
+    });
 }
 onResizeSite();
 
