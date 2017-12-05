@@ -1895,8 +1895,8 @@ border-top: 1px solid rgba(255,255,255,0.3);
   background: $primary-color;
 }
 
-.grid-item-width2 { width: 400px; }
-.grid-item-height2 { height: 400px; }
+.grid-item-width-double { width: 400px; }
+.grid-item-height-double { height: 400px; }
 
 .jx-portfolio-grid img{
   width:100%;
@@ -2075,22 +2075,22 @@ position:relative
   margin-bottom: 12px;
 }
 
-.grid-item-width2 {
-    width: 39%;
+.grid-item-width-double {
+    width: 37%;
 }
 
-.jx-grid-item.grid-item-width2-only{
-  width:39%;
+.jx-grid-item.grid-item-width-double-only{
+  width:37%;
   height:228px;
   overflow: hidden
 
 }
 
-.jx-grid-item.grid-item-width2-only .jx-image-overlayer{
+.jx-grid-item.grid-item-width-double-only .jx-image-overlayer{
   height:228px;
 }
 
-.jx-grid-item.grid-item-width2-only:hover i{
+.jx-grid-item.grid-item-width-double-only:hover i{
  top:25%
 }
 
