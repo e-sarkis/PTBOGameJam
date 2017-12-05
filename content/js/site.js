@@ -6,6 +6,10 @@ $( document ).ready(function() {
   siteHeader = $('div#header');
 });
 
+
+var titlebarVideo = $('video#titlebar-video');
+var titlebarContainer = $('div#titlebar-container');
+
 var page = window.document.documentElement;
 var pageSupportedTransitions = Modernizr.csstransitions;
 var pageScrollAmount = 0;
@@ -210,12 +214,58 @@ function onScrollSite()
   var top = siteHeader.css('top');
 }
 
+
+
 // Handle Site Wide Resize Events
 $(window).resize(function() { onResizeSite(); });
 function onResizeSite()
 {
     // Make all our fullwidth guys proper
     $('.jx-parallax-fullwidth').css('height', window.innerHeight + 'px');
+
+    if ( titlebarVideo.length != 0 )
+    {
+
+        // Make sure the base container is a fullscreen height
+        titlebarContainer.css('height', window.innerHeight + 'px');
+
+
+        var widthOfMovie = (window.innerHeight * 1.77);
+        var heightOfMovie = window.innerHeight;
+
+
+        if ( widthOfMovie >= window.innerWidth )
+        {
+            // Calculate the offset to center it horizontally
+            var marginLeft = (((widthOfMovie - window.innerWidth) / 2) * -1);
+            var marginTop = (((heightOfMovie - window.innerHeight) / 2) * -1);
+
+            // Update CSS
+            titlebarVideo.css({
+              width: '',
+              height: heightOfMovie + 'px',
+              marginLeft: marginLeft + 'px',
+              marginTop: marginTop + 'px',
+            });
+        }
+        else 
+        {
+          widthOfMovie = window.innerWidth;
+          heightOfMovie =  ((widthOfMovie/ 100) * 56.25);
+ 
+          // Calculate the offset to center it horizontally
+          var marginLeft = (((widthOfMovie - window.innerWidth) / 2) * -1);
+          var marginTop = (((heightOfMovie - window.innerHeight) / 2) * -1);
+
+          // Update CSS
+          titlebarVideo.css({
+            width: widthOfMovie + 'px',
+            height: '',
+            marginLeft: marginLeft + 'px',
+            marginTop: marginTop + 'px',
+          });
+        }
+    }
 }
 onResizeSite();
 
