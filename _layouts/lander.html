@@ -14,9 +14,11 @@ layout: compress
           <li id="{{slide.name}}" class="jx-parallax-fullwidth">
             <div class="lander-video-container">
               <!--[if lt IE 9]> <script> document.createElement('video'); </script> <![endif]-->
+              {% if slide.link %}<a href="{{ slide.link }}">{% endif %}
               <video id="lander-video-{{slide.name}}"playsinline autoplay muted loop class="lander-video" poster="{{ slide.image }}"> 
                 <source src="{{slide.video}}" type="video/mp4">
               </video>
+              {% if slide.link %}</a>{% endif %}
             </div>
           {% elsif slide.image %}
           <li id="{{slide.name}}" class="jx-parallax-fullwidth" style="background-image:url('{{slide.image}}');">

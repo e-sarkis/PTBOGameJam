@@ -2,6 +2,7 @@
   type:           "empty"
   video:          "https://player.vimeo.com/external/230401383.sd.mp4?s=b4f5e7aa2f93865bb33f71f770b862f5ab91da56&profile_id=165"
   image:          "/content/img/slides/slide-wrap-03.jpg"
+  link:           "/event/"
 
 # - name:           "wrap02"
 #   type:           "empty"
