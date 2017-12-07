@@ -13,7 +13,7 @@ icon: wpforms
 ---
 _Peterborough, Ontario – December 7, 2017_ – The old adage "too much of a good thing" simply does not apply when it comes to the **PTBO Game Jam**. Participants simply can’t get enough of this innovative tech event!
   
-**PTBO Game Jam 03** will be staged **Friday, February 23 to Sunday, February 24**, once again returning to the conference space at Fleming College’s Kawartha Trades and Technology Centre, 559 Brealey Drive in Peterborough.
+**PTBO Game Jam 03** will be staged **Friday, February 23 to Sunday, February 25**, once again returning to the conference space at Fleming College’s Kawartha Trades and Technology Centre, 559 Brealey Drive in Peterborough.
   
 Hosted by Peterborough-based game development studio [dotBunny](http://dotbunny.com), **PTBO Game Jam 04** will see game programmers, designers, artists and others involved in game-development disciplines gather to plan, design and create games in a 32-hour time frame.
   
