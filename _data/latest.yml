@@ -25,8 +25,7 @@ address-2:        "Peterborough, Ontario K9J 7B1"
 address-3:        ""
 
 registration:     "https://ptbogamejam04.eventbrite.ca"
-#spots:            "120"
-spots:            "100+"
+spots:            "100"
 
 
 latest_video:     "https://player.vimeo.com/video/230401383"
