@@ -3263,3 +3263,19 @@ div.media-founder a:hover {
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
+
+div#schedule a:hover {
+  color: #fff !important;
+}
+div#schedule strong {
+  color: #00ccff !important;
+}
+
+div#schedule span.open {
+  text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    left: -16px;
+    color: #ccc;
+}
