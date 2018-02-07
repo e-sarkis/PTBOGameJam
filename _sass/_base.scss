@@ -3279,3 +3279,19 @@ div#schedule span.open {
     left: -16px;
     color: #ccc;
 }
+
+
+div#schedule div.schedule-lead
+{
+  float: right;
+
+}
+
+div#schedule div.schedule-lead img
+{
+  max-height: 55px;
+  margin-top: 15px;  
+  border-color: #ccc;
+  border-width: 1px;
+  border-style: solid;
+}
