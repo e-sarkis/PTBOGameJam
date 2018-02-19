@@ -3295,3 +3295,19 @@ div#schedule div.schedule-lead img
   border-width: 1px;
   border-style: solid;
 }
+
+article.release h2
+{
+  margin-top: 20px;
+  margin-bottom: 2px;
+  font-size: 28px;
+}
+article.release h3
+{
+  margin-top: 20px;
+  margin-bottom: 2px;
+  font-size: 24px;
+}
+article.release em {
+  font-size: small;
+}
