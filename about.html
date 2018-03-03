@@ -128,7 +128,7 @@ script: "about"
 {% for member in site.data.staff %}
 {% if member.status %}
       <div class="jx-team-item">
-        <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ member.picture || prepend: site.baseurl }}" class="attachment-team-image" alt="{{ member.name }}" />
+        <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ member.picture | prepend: site.baseurl }}" class="attachment-team-image" alt="{{ member.name }}" />
           <div class="jx-team-overlayer"></div>
           <div class="jx-image-hover-info">
             <div class="jx-team-name">{{ member.name }}</div>
@@ -163,7 +163,7 @@ script: "about"
 {% if member.status %}
 {% else %}
       <div class="jx-team-item">
-        <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ member.picture || prepend: site.baseurl }}" class="attachment-team-image" alt="{{ member.name }}" />
+        <div class="jx-team-photo jx-image-wrapper"><img width="234" height="189" src="{{ member.picture | prepend: site.baseurl }}" class="attachment-team-image" alt="{{ member.name }}" />
           <div class="jx-team-overlayer"></div>
           <div class="jx-image-hover-info">
             <div class="jx-team-name">{{ member.name }}</div>
