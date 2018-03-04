@@ -129,7 +129,6 @@ breadcrumb: archive
   </div>
 </div>
 
-<!-- Gallery -->
 <div id='gallery' class="jx-container container-no-margin jx-padding jx-black-bg background-010">
   <div class="container ">
       <div class="jx-section-title-1 jx-dark">
@@ -139,7 +138,7 @@ breadcrumb: archive
           <div class="jx-title jx-uppercase">Photos</div>
           <div class="jx-subtitle"><p>We learned an incredible amount this first event, especially when it came to needing seperate cameras to take shots around the event. We were able to grab some screen grabs from the video, and they do look pretty cool.</p></div>
       </div>
-      {% for image in site.data.01-gallery %}
+      {% for image in site.data.gallery-01 %}
       <div class="jx-grid-item">
           <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
             <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}" data-rel="prettyPhoto[event]">

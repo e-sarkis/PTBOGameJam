@@ -138,7 +138,6 @@ breadcrumb: archive
   </div>
 </div>
 
-<!-- Gallery -->
 <div id='gallery' class="jx-container container-no-margin jx-padding jx-black-bg background-008">
   <div class="container ">
       <div class="jx-section-title-1 jx-dark">
@@ -148,7 +147,7 @@ breadcrumb: archive
           <div class="jx-title jx-uppercase">Photos</div>
           <div class="jx-subtitle"><p>We were fortunate enough to have three awesome photographers at the event taking pictures throughout the event, using their craft to create some awesome works of art, so shout outs and love to Jon Drew, Randy Nickerson, and J.J. Wyllie.</p></div>
       </div>
-      {% for image in site.data.02-gallery %}
+      {% for image in site.data.gallery-02 %}
       <div class="jx-grid-item">
           <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
             <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}" data-rel="prettyPhoto[event]">
